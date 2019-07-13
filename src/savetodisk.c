@@ -21,8 +21,8 @@ static int timedsave;
 int savetodisk(char *filename)
   {
   char tmpmsg[41]; /* before openfile in case of overrun */
-  char openfile[80], openfiletype[10];
-  char tmpfile[80];
+  char openfile[256], openfiletype[256];
+  char tmpfile[256];
   int newfile;
   int i, j, outcolor1, outcolor2, interrupted;
 
@@ -46,9 +46,10 @@ restart:
     strcpy(openfiletype,&openfile[i]);
     openfile[i] = 0;
     }
-
+  /* The string openfiletype now contains the string that is at the right of the leftmost '.' character. This is wrong: the file extension is the string at the right of the rightmost '.' . There will be no problem if there is no '.' in the directory name. To mitigate this bug openfiletype is dimensioned at the same size as openfile. */ 
   if (resave_flag != 1)
     updatesavename(filename); /* for next time */
+
 
   strcat(openfile,openfiletype);
 
@@ -78,7 +79,7 @@ restart:
     newfile = 0;
     i = strlen(tmpfile);
     while (--i >= 0 && tmpfile[i] != SLASHC)
-      tmpfile[i] = 0;
+      tmpfile[i] = '\0';
     strcat(tmpfile,"fractint.tmp");
     }
 
