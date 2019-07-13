@@ -1,0 +1,27 @@
+
+diffusion
+
+    Diffusion Limited Aggregation. Randomly moving points accumulate.
+    Two parameters: border width (default 10), type
+
+
+This type begins with a single point in the center of the screen.
+Subsequent points move around randomly until coming into contact with the
+first point, at which time their locations are fixed and they are colored
+randomly. This process repeats until the fractals reaches the edge of the
+screen. Use the show orbits function to see the points' random motion.
+
+One unfortunate problem is that on a large screen, this process will tend
+to take eons. To speed things up, the points are restricted to a box
+around the initial point. The first and only parameter to diffusion
+contains the size of the border between the fractal and the edge of the
+box. If you make this number small, the fractal will look more solid and
+will be generated more quickly.
+
+Diffusion was inspired by a Scientific American article a couple of years
+back which includes actual pictures of real physical phenomena that behave
+like this.
+
+Thanks to Adrian Mariano for providing the diffusion code and
+documentation. Juan J. Buhler added the additional options.
+

@@ -1,0 +1,35 @@
+
+barnsleym2
+
+    z(0) = c = pixel
+
+    if real(z)*imag(c) + real(c)*imag(z) >= 0
+      z(n+1) = (z-1)*c
+    else
+      z(n+1) = (z+1)*c
+
+    Parameters are perturbations of z(0)
+
+
+Barnsley Mandelbrot/Julia Sets
+
+(type=barnsleym1/.../j3)
+
+Michael Barnsley has written a fascinating college-level text,
+"Fractals Everywhere," on fractal geometry and its graphic applications.
+In it, he applies the principle of the M and J sets to more general
+functions of two complex variables.
+
+We have incorporated three of Barnsley's examples in xmfract. Their
+appearance suggests polarized-light microphotographs of minerals, with
+patterns that are less organic and more crystalline than those of the M/J
+sets. Each example has both a "Mandelbrot" and a "Julia" type. Toggle
+between them using the spacebar.
+
+The parameters have the same meaning as they do for the "regular"
+Mandelbrot and Julia. For types M1, M2, and M3, they are used to "warp"
+the image by setting the initial value of Z. For the types J1 through J3,
+they are the values of C in the generating formulas.
+
+Be sure to try the <O>rbit function while plotting these types.
+

@@ -1,0 +1,23 @@
+
+Orbits Window Mode
+
+The <o> key turns on the orbit mode. In this mode a cursor appears
+over the fractal. A window appears showing the orbit used in the
+calculation of the color at the point where the cursor is. Move the
+cursor around the fractal using the arrow keys or the mouse and watch
+the orbits change. Try entering the orbits mode with View Windows (<v>)
+turned on.
+
+The following keys take effect in orbits mode.
+
+Upper case 'C'   Circle toggle - makes little circles with radii inversely
+                 proportional to the iteration. Press <C> again to toggle
+                 back to point-by-point or line mode display of orbits.
+
+Upper case 'L'   Line toggle - connects orbits with lines. Press <L> again
+                 to toggle back to point-by-point or circle mode display
+                 of orbits.
+
+
+The circle toggle and line toggle orbit modes may be used simultaneously.
+

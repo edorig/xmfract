@@ -1,0 +1,30 @@
+
+sah001             { ; Julia necessary for next 2 3D's
+                     ; (c) 1993 Richard H. Sherry CIS:76264,752
+  reset=1732 type=julia corners=-1.496/1.496/-1.122/1.122
+  params=-0.64542768150568/0.439879689365625 maxiter=256 inside=0
+  logmap=yes periodicity=0
+  colors=000WWW<18>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<14>0A0<15>Zc0<15>0\
+  A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<29>ppp<11>YYY
+  }
+
+sah002             { ; Spherical 3D - light source
+                     ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; use sah001.gif from above
+  3d=yes filename=sah001.gif sphere=y latitude=-90/90 longitude=180/0
+  radius=100 scalexyz=90/100 roughness=10 waterline=0 filltype=5
+  lightsource=-2/1/2 ambient=20 perspective=0 xyshift=0/0
+  colors=000WWW<18>000PFF<29>xeDZfCyfC<30>PFF0A0<15>Zc0<14>0A0<15>Zc0<15>0\
+  A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<29>ppp<11>YYY
+  }
+
+sah003             { ; Spherical 3D - Surface fill
+                     ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; use sah001.gif from above
+  3d=yes filename=sah001.gif sphere=y latitude=-90/90 longitude=180/0
+  radius=100 scalexyz=90/100 roughness=10 waterline=0 filltype=2
+  ambient=20 perspective=0 xyshift=0/0
+  colors=000WWW<18>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<14>0A0<15>Zc0<15>0\
+  A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<29>ppp<11>YYY
+  }
+

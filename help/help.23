@@ -1,0 +1,214 @@
+
+Basic Options Screen
+
+The "passes option" (<x> options screen or "passes=" parameter)
+selects single-pass, dual-pass, or solid-guessing
+(default) mode. This option applies to most fractal types.
+
+Single-pass mode ("1") draws the screen pixel by pixel.
+
+Dual-pass ("2") generates a "coarse" screen first as a preview
+using 2x2-pixel boxes, and then generates the rest of the dots with a
+second pass.
+
+Solid-guessing ("g") is the default. It performs from two to four
+visible passes - more in higher resolution modes. Its first visible pass is
+actually two passes - one pixel per 4x4, 8x8, or 16x16 pixel box is generated,
+and the guessing logic is applied to fill in the blocks at the next level
+(2x2, 4x4, or 8x8). Subsequent passes fill in the display at the next finer
+resolution, skipping blocks which are surrounded by the same color.
+Solid-guessing can guess wrong, but it sure guesses quickly!
+
+Boundary Tracing ("b"), which only works with fractal types (such as the
+Mandelbrot set, but not the Newton type) that do not contain "islands" of
+colors, finds a color "boundary", traces it around the screen, and then
+"blits" in the color over the enclosed area.
+
+Tesseral ("t") is a sort of "super-solid-guessing" option that successively
+divides the image into subsections. It's actually slower than the
+solid-guessing algorithm, but it looks neat, so we left it in.
+
+The "fillcolor=" option in the <x> screen or on the command line sets a
+fixed color to be used by the Boundary Tracing and Tesseral calculations
+for filling in defined regions. The effect of this is to show off the
+boundaries of the areas delimited by these two methods.
+
+Floating Point Algorithm - the original FRACTINT on a PC uses assembly
+language integer math routines that are not required in xmfract.
+
+Iterations - Reset the iteration maximum (the number of iterations at which
+the program gives up and says 'OK, this point seems to be part of the set
+in question and should be colored [insidecolor]') from the default 127.
+Values range from 10 to 32767 (super-high iteration limits like 30000 are
+useful when using logarithmic palettes). See "The Mandelbrot Set" for a
+description of the iteration method of calculating fractals.
+
+"maxiter=" can also be used to adjust the number of orbits plotted for
+3D "attractor" fractal types such as lorenz3d and kamtorus.
+
+inside=nnn|bof60|bof61|zmag|attractor|epscross|startrail|period
+Set the color of the interior: for example, "inside=0" makes the M-set
+"lake" a stylish basic black. A setting of -1 makes inside=maxiter.
+Three more options reveal hidden structure inside the lake. Inside=bof60
+and inside=bof61, are named after the figures on pages 60 and 61 of
+"Beauty of Fractals". See "Inside=bof60|bof61|zmag|period" for a
+brilliant explanation of what these do!
+
+Inside=zmag is a method of coloring based on the magnitude of Z after the
+maximum iterations have been reached. The affect along the edges of the
+Mandelbrot is like thin-metal welded sculpture.
+
+Inside=epscross colors pixels green or yellow according to whether their
+orbits swing close to the Y-axis or X-axis, respectively. Inside=starcross
+has a coloring scheme based on clusters of points in the orbits. Best with
+outside=<nnn>. For more information, see "Inside=epscross|startrail".
+
+Inside=period colors pixels according to the period of their eventual orbit.
+
+Note that the "Look for finite attractor" option on the <y> options screen
+will override the selected inside option if an attractor is found - see
+"Finite Attractors".
+
+outside=nnn|iter|real|imag|summ|mult
+The classic method of coloring outside the fractal is to color according
+to how many iterations were required before Z reached the bailout value,
+usually 4. This is the method used when outside=iter.
+
+However, when Z reaches bailout the real and imaginary components can be at
+very diferent values. outside=real and outside=imag color using the iteration
+value plus the real or imaginary values. outside=summ uses the sum of all
+these values. These options can give a startling 3d quality to otherwise flat
+images and can change some boring images to wonderful ones. outside=mult
+colors by multiplying the iteration by real divided by imaginary. There was no
+mathematical reason for this, it just seemed like a good idea.
+
+Outside=nnn sets the color of the exterior to some number of your choosing:
+for example, "outside=1" makes all points not inside the fractal set to color
+1 (blue). Note that defining an outside color forces any image to be a
+two-color one: either a point is inside the set, or it's outside it.
+
+Orbit delay - Slows up the display of orbits using the <O> command
+for folks with hot new computers. Units are in 1/10000 seconds per
+orbit point.  Orbit delay=100 therefore allows you to see each pixel's
+orbit point for about one millisecond. For best display of orbits,
+try passes=1 and a moderate resolution such as 320x200.
+
+Logarithmic Palettes and Color Ranges - By default, xmfract maps iterations
+to colors 1:1. I.e. if the calculation for a fractal "escapes" (exceeds the
+bailout value) after N iterations, the pixel is colored as color number N.
+If N is greater than the number of colors available, it wraps around. So, if
+you are using a 16-color display, and you are using the default maximum
+iteration count of 127, your image will run through the 16-color palette
+127/16 = 7.94 times.
+
+When you use Logarithmic palettes, the entire range of iteration values is
+compressed to map to one span of the color range. This results in
+spectacularly different images if you are using a high iteration limit
+near the current iteration maximum of 32000 and are zooming in on an area
+near a "lakelet".
+
+When using a compressed palette in a 256 color mode, we suggest changing
+your colors from the usual defaults. The last few colors in the default
+IBM VGA color map are black. This results in points nearest the "lake"
+smearing into a single dark band, with little contrast from the blue (by
+default) lake.
+
+xmfract has a number of types of compressed palette, selected by the "Log
+Palette" line on the <x> screen, or by the "logmap=" command line
+parameter:
+
+  logmap=1: for standard logarithmic palette.
+
+  logmap=-1: "old" logarithmic palette. This variant was the only one used
+  before Fractint 14.0. It differs from logmap=1 in that some colors are
+  not used - logmap=1 "spreads" low color numbers which are unused by
+  logmap=-1's pure logarithmic mapping so that all colors are assigned.
+
+  logmap=N (>1): Same as logmap=1, but starting from iteration count N.
+  Pixels with iteration counts less than N are mapped to color 1. This is
+  useful when zooming in an area near the lake where no points in the
+  image have low iteration counts - it makes use of the low colors which
+  would otherwise be unused.
+
+  logmap=-N (<-1): Similar to logmap=N, but uses a square root
+  distribution of the colors instead of a logarithmic one.
+
+  logmap=2 or -2: Auto calculates the logmap value for maximum effect.
+
+Another way to change the 1:1 mapping of iteration counts to colors is to
+use the "ranges=" parameter. It has the format:
+   ranges=aa/bb/cc/dd/...
+
+Iteration counts up to and including the first value are mapped to color
+number 0, up to and including the second value to color number 1, and so
+on. The values must be in ascending order.
+
+A negative value can be specified for "striping". The negative value
+specifies a stripe width, the value following it specifies the limit of
+the striped range. Two alternating colors are used within the striped
+range.
+
+Example:
+   ranges=0/10/30/-5/65/79/32000
+This example maps iteration counts to colors as follows:
+
+    color    iterations
+    -------------------
+      0      unused (formula always iterates at least once)
+      1       1 to 10
+      2      11 to 30
+      3      31 to 35, 41 to 45, 51 to 55, and 61 to 65
+      4      36 to 40, 46 to 50, and 56 to 60
+      5      66 to 79
+      6      80 and greater
+
+Note that the maximum value in a ranges parameter is 32767.
+
+Related to "Decomposition" are the "biomorphs" invented by Clifford
+Pickover, and discussed by A. K. Dewdney in the July 1989 "Scientific
+American", page 110. These are so-named because this coloring scheme
+makes many fractals look like one-celled animals. The idea is simple.
+The escape-time algorithm terminates an iterating formula when the size of
+the orbit value exceeds a predetermined bailout value. Normally the pixel
+corresponding to that orbit is colored according to the iteration when
+bailout happened. To create biomorphs, this is modified so that if EITHER
+the real OR the imaginary component is LESS than the bailout, then the
+pixel is set to the "biomorph" color. The effect is a bit better with
+higher bailout values: the bailout is automatically set to 100 when this
+option is in effect. You can try other values with the "bailout=" option.
+
+The biomorph option is turned on via the "biomorph=nnn" command-line
+option (where "nnn" is the color to use on the affected pixels). When
+toggling to Julia sets, the default corners are three times bigger than
+normal to allow seeing the biomorph appendages. Does not work with all
+types - in particular it fails with any of the mandelsine family. However,
+if you are stuck with monochrome graphics, try it - works great in two-
+color modes. Try it with the marksmandel and marksjulia types.
+
+You'll remember that most fractal types are calculated by iterating a
+simple function of a complex number, producing another complex number,
+until either the number exceeds some pre-defined "bailout" value, or the
+iteration limit is reached. The pixel corresponding to the starting point
+is then colored based on the result of that calculation.
+
+The decomposition option ("decomp=", on the <x> screen) toggles to another
+coloring protocol. Here the points are colored according to which
+quadrant of the complex plane (negative real/positive imaginary, positive
+real/positive imaginary, etc.) the final value is in. If you use 4 as the
+parameter, points ending up in each quadrant are given their own color; if
+2 (binary decomposition), points in alternating quadrants are given 2
+alternating colors.
+
+The result is a kind of warped checkerboard coloring, even in areas that
+would ordinarily be part of a single contour. Remember, for the M-set all
+points whose final values exceed 2 (by any amount) after, say, 80
+iterations are normally the same color; under decomposition, xmfract runs
+[bailout-value] iterations and then colors according to where the actual
+final value falls on the complex plane.
+
+When using decomposition, a higher bailout value will give a more accurate
+plot, at some expense in speed. You might want to set the bailout value
+(in the parameters prompt following selection of a new fractal type
+present for most but not all types) to a higher value than the default. A
+value of about 50 is a good compromise for M/J sets.
+

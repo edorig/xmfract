@@ -1,0 +1,113 @@
+
+BOB5.PAR
+Parameter file for FRACTINT 17.1
+October 1992
+All images created by Bob G. Dodson
+3295 Brenna Ave NE
+Salem OR  97303
+I hope you enjoy them as much as I did.
+==========================================================================
+
+
+Ballooned_Sier     { ; Sierpinski Set in "balloon mode"
+                     ; BG Dodson 1992 71636,1075
+  reset type=sierpinski passes=t corners=-0.9/1.699996/-0.899991/1.7
+  float=y maxiter=32767 bailout=525 inside=bof60 outside=mult decomp=64
+  distest=256/71 periodicity=0
+  colors=000006<3>007017037<13>4S4<13>2A2292171151131000<15>rAr<15>000<15>hh0<\
+  14>330000003<14>00r<15>000<15>r00<15>000<15>0pp<14>044000222<14>hhh<14>33300\
+  0000<21>006
+  }
+
+Time_Tunnel_Rerun  { ; Remember the old "Time Tunnel" TV Show?  It lives!
+                     ; BG Dodson 1992 71636,1075
+  reset type=sierpinski
+  corners=-0.06868714/-0.06253256/-0.00277122/0.00338335 float=y
+  maxiter=32767 bailout=525 inside=bof60 outside=mult
+  invert=0.00102576/0/0 decomp=64 distest=256/71 periodicity=0
+  colors=000_2t<19>m0hn0gn0fo0ep0e<11>v3Wv4Wv4Vw5Uw5T<9>zAMzBLzBKzCJzDJzDI<17>\
+  xQ7xR6xS6wT5wT5wU5<5>tZ2t_2s_2s`2ra1<16>hm0gn0fn0eo0ep0<11>Wv3Wv4Vv4Uw5Tw5<9\
+  >MzALzBKzBJzCJzDIzD<17>7xQ6xR6xS5wT5wT5wU<5>2tZ2t_2s_2s`1ra<16>0hm0gn0fn0eo0\
+  ep<11>3Wv4Wv4Vv5Uw5Tw<9>AMzBLzBKzCJzDJzDIz<17>Q7xR6xS6xT5wT5wU5w<5>Z2t
+  }
+
+Newton_feathers?   { ; An interesting Sierpinski twist
+                     ; BG Dodson 1992 71636,1075
+  reset type=sierpinski passes=b
+  corners=0.218141/0.507838/0.014572/0.30427 float=y maxiter=32000
+  fillcolor=20 inside=bof60 outside=mult invert=0.433333/0/0 periodicity=0
+  colors=000151131000<15>rAr<15>000<15>hh0<15>000<15>00r<15>000<15>r00<15>000<\
+  15>0pp<12>0BB077044000222<14>hhh<15>000<27>007017037<13>4S4<15>171
+  }
+
+Horns_and_Flutes   { ; This particular type of plotting always reminds me of
+                     ; music (?)  BG Dodson 1992 71636,1075
+  reset type=formula formulafile=fractint.frm formulaname=jm_25
+  function=sin/sqr passes=b corners=-2.0/2.0/-1.5/1.5 float=y
+  fillcolor=200 logmap=4 decomp=128
+  colors=000151131000<15>rAr<15>000<15>hh0<15>000<15>00r<15>000<15>r00<15>000<\
+  15>0pp<2>0ff
+  }
+
+Sierpinski_Burst   { ; Interesting for technical reasons
+                     ; BG Dodson 1992 71636,1075
+  reset type=sierpinski passes=b
+  corners=-0.814151/1.69224/-0.827169/1.679243 maxiter=1000 fillcolor=200
+  inside=bof60 outside=mult potential=254/255/16 invert=0.433332/0/0
+  decomp=64 periodicity=0
+  colors=0003Q54S4<13>2A2292171151131000<15>rAr<15>000<15>hh0<14>330000003<14>\
+  00r<15>000<15>r00<15>000<15>0pp<14>044000222<14>hhh<14>333000000<26>00701703\
+  7<11>3O5
+  }
+
+Sier_3             { ; Continuous potential Sierpinski
+                     ; BG Dodson 1992 71636,1075
+  reset type=sierpinski
+  corners=0.518342/0.052506/1.688624/-0.53146/1.149868/0.56591
+  maxiter=1000 outside=summ potential=254/255/1
+  invert=0.145939/0.624509/0.731115 finattract=y periodicity=0
+  colors=000UUU<31>yyyzzzzzzzzzzzzzzzzg3<44>v31v21u00<4>t00t00t00s00s00s00<34>\
+  g00g00f00e00<5>d00c00c00b00b00<82>644644544444<24>TTT
+  }
+
+Sier_4             { ; Continuous potential Sierpinski
+                     ; BG Dodson 1992 71636,1075
+  reset type=sierpinski corners=-0.323428/1.751322/-0.178399/1.896334
+  maxiter=5000 outside=real potential=254/255/1 invert=0.279465/0/0
+  finattract=y periodicity=0
+  colors=000XXX<28>yyyzzzzzzzzzzzzzzzzg3<44>v31v21u00<4>t00t00t00s00s00s00<34>\
+  g00g00f00e00<5>d00c00c00b00b00<82>644644544444<27>WWW
+  }
+
+Alien_hive         { ; Dark and moody
+                     ; BG Dodson 1992 71636,1075
+  reset type=spider passes=b
+  corners=-0.511078/0.86892/0.948813/-0.891174/0.86892/-0.891174
+  maxiter=1000 fillcolor=200 inside=bof60 outside=mult invert=0.229998/0/0
+  decomp=64 periodicity=4
+  colors=000KK0<6>000<15>00r<15>000<15>r00<15>000<15>0pp<12>0BB077044000222<14\
+  >hhh<15>000<27>007017037<13>4S4<13>2A2292171151131000<15>rAr<15>000<15>hh0<7\
+  >NN0
+  }
+
+Manowarj           { ; Kinda purty ain't it?
+                     ; BG Dodson 1992 71636,1075
+;  reset type=manowarj passes=b corners=-2.5/1.5/-1.5/1.5 float=y
+  reset type=manowarj passes=g corners=-2.5/1.5/-1.5/1.5 float=y
+  maxiter=32000 fillcolor=200 inside=bof60 outside=mult decomp=64
+  distest=1/10000 periodicity=4
+  colors=000151131000<15>rAr<15>000<15>hh0<14>330000003<14>00r<15>000<15>r00<1\
+  5>000<15>0pp<14>044000222<14>hhh<14>333000000<26>007017037<13>4S4<15>171
+  }
+
+Popcorn_Swirl      { ; Kinda nifty, kinda keen
+                     ; BG Dodson 71636,1075
+  reset type=popcornjul corners=-3.0/2.994141/-2.200516/2.199997
+  params=0.05 float=y maxiter=1000 fillcolor=0 inside=bof60 outside=mult
+  invert=0.733419/0/0 decomp=64 distest=256/71 periodicity=4
+  colors=00000R<7>00r<15>000<15>r00<15>000<15>0pp<14>044000222<14>hhh<14>33300\
+  0000<26>007017037<13>4S4<13>2A2292171151131000<15>rAr<15>000<15>hh0<14>33000\
+  0003<5>00O
+  }
+
+

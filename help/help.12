@@ -1,0 +1,20 @@
+
+Color Cycling Commands
+
+Color-cycling mode is entered with the 'c', '+', or '-' keys.
+
+Color cycling applies to the color numbers selected by the "cyclerange="
+command line parameter (also changeable via the <y> options screen and via
+the palette editor). By default, color numbers 1 to 255 inclusive are
+cycled. On some images you might want to set "inside=0" (<x> options or
+command line parameter) to exclude the "lake" from color cycling.
+
+The cursor up/down arrow keys and/or the keypad up/down keys will increase
+and decrease the cycle speed.
+
+Pressing the left or right arrow keys will cause the palette to rotate
+one step in the indicated direction. Holding down either of these keys
+will cause the palette to rotate continuously in the desired direction
+until the key is released. Select "Reset color" from the "Reset" menu
+to cause the palette to rotate to the "beginning" of the range.
+

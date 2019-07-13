@@ -1,0 +1,130 @@
+
+Maelstrom          { ; Stormy weather, makes a good spherical projection.
+  reset type=fn(z)+fn(pix) function=cosxx/recip
+  corners=0.965937/0.9525483/-0.9490023/-0.9311433/0.9525483/-0.9311433
+  params=2.654/3.6/1.9/0.8
+  colors=00000e0e00eee00e0eeL0eeeLLLLLzLzLLzzzLLzLzzzLzzz000555<3>HHHKKKOOOSSS\
+  WWW___ccchhhmmmssszzz00z<3>z0z<3>z00<3>zz0<3>0z0<3>0zz<2>0GzVVz<3>zVz<3>zVV<\
+  3>zzV<3>VzV<3>Vzz<2>Vbzhhz<3>zhz<3>zhh<3>zzh<3>hzh<3>hzz<2>hlz00S<3>S0S<3>S0\
+  0<3>SS0<3>0S0<3>0SS<2>07SEES<3>SES<3>SEE<3>SSE<3>ESE<3>ESSEOSELS
+  }
+
+Alienesque         { ; Structures that would look at home in the films!
+                     ;
+  reset type=mandel
+  corners=-0.83952538/-0.82181551/-0.18884368/-0.19216813/-0.83155464/-0.19947\
+  278 maxiter=32767
+  }
+
+Angel              { ; Lots of zooms and palette changing fun, very fast!
+  reset type=manowar corners=-0.135828/0.096435/-0.083032/0.091128
+  maxiter=32767
+  colors=000wnXxmY<26>lTZXHEXLG<73>3rt2su4rs<54>y32pGA<4>XzWapT<5>jud`pR<78>wn\
+  X
+  }
+
+Spiral             { ; Luminescent jelly fish?
+  reset type=fn(z)+fn(pix) function=cosxx/recip
+  corners=-1.5307452/-1.5012275/1.5256773/1.554216 params=0/0/1
+  colors=000c7C<101>Ob9Ob9Ob9Ob9Ob9Ob9<41>TS9
+  }
+
+Jewelry            { ; Silverwork by Mandel...
+  reset type=mandel
+  corners=-0.83044169/-0.82933639/-0.19716731/-0.19127903/-0.83286951/-0.19392\
+  887 maxiter=32767 colors=000zk0<253>000
+  }
+
+Julias Jewels      { ; These would be *very* nice to own!
+  reset type=julia4 corners=0.43594/0.565764/-0.4706169/-0.3732543
+  params=0.6/0.55
+  colors=000exG<2>dyD<3>qd`<6>jdYmG8<3>pAA<16>3BN0CO0CO<36>MYsNZtNZtOZt<34>phq\
+  qipphp<33>ABM
+  }
+
+Transmitter        { ; More fun, ready to zoom.
+  reset type=marksmandel corners=-1.236413/-1.466042/0.088695/-0.083512
+  params=0.8/0/-1
+  colors=000Oaq<5>XQlYOkYKj<21>ejpekpfor<14>`Wd_UcX8BX8AW89Z54<26>5fjNO0DYO1yq\
+  3pn4gk5Zh5Sg<38>D7ZD6ZC4a<19>EHACG7EH9
+  }
+
+
+
+Orc_Insignia       { ; hmmmm..... better name please!
+  reset type=mandelfn function=sin
+  corners=-0.0362244/0.0369263/1.7957306/1.8505707 maxiter=32767
+  colors=000GNPEPWCRbNKL<2>_NlTLMcOWnRetVAKxPCBL42UHTI<2>Bv_MJAPJ7HJG<2>AHVPCJ\
+  ONFURI_WLQ4RPbLVwUXLXHNCERCBVDVStNGD<2>`6GZYYnmsd_SzpgTTJ<2>vyeRML<2>nYlS`Ga\
+  rKMF8QB3JIQKGcLEqIZNGnYXWJjhQxuYWE8h94u40JVCJfCKrBLLF<2>RRPHMJ<2>8VfTcHcyNd`\
+  Ozr_Xa`kuzKTrAQO0X`PML<2>iYnLyYGEZD9vLQKNYTRSB_`Ahj8LNDNSFPXHSaJTO_cTwUGTeCi\
+  PXRVje`xtIHGHFKGCPGc_CywbERw9fCMB4QALPC<2>ShEs7R6gnPIFVHIaFLXXDjkESIB`H9jG7S\
+  mPv_oVXLfkULUINdOPoULJCXVOkf_5zIYNImRPTE8b94l40KGL<2>Q4mprqXBVj3mFXFAkI5zLMf\
+  YL`YOss_6EZFxbbFvvJM`CQsCTNKbSSlX`wLdTRK<2>vqhMGE<2>V4MNFI<2>_0bFGhGJ9CI6UHG\
+  eFKOFJ<2>b2cIPLGVVEadJbAJw8FU9Ad65p3_44CVU4glHMG<2>AWUc58SPC`VCi`DFPM<2>1gpb\
+  oMREI_9OQJMXKWdLeFQJ<2>1mdFDCB7D61EHIH<2>8CXTJBbJAmK8HCjMSO<2>HZQF`QB`l9Kr72\
+  yuRv<3>YWh<3>mzTlYm
+  }
+
+Autumn             { ; You guessed it!
+  reset type=ifs ifsfile=fractint.ifs ifs=fern
+  corners=-8.0/8.000351/-0.999954/11.0
+  colors=000DGT<4>jQ1<2>bgO`lVWmZ<5>5np<3>pky<2>Avk<5>l7KhGaeOrPKq9Hp<5>Mjy<4>\
+  11`1cR<6>GlJ<2>_J8OSFC`M<7>J7XOFWSNWXVVbXb`bVUor_lfGKp<4>`fYwL6<6>fgSdeQdhTf\
+  Se<5>dhWWcBAHB<6>agTQB8<3>acRa0pMC9J`APcGUeL_hQgYifbdef_G3xPInXXdFny<2>Zkalc\
+  E`Vg<4>dhXJEP<3>`dUK5XRJWYXVKlWQkVVkV_jVcWL<3>deS
+  }
+
+The_Eye            { ; Kamtora is watching you!
+  reset type=kamtorus corners=-0.282135/0.424988/-0.237793/0.292328
+  params=0.3/0.005/5/500
+  colors=000mme<12>hBAnph000555<3>HHHKKKOOOSSSWWW___ccchhhmmmssszzz00z<3>z0z<3\
+  >z00<3>zz0<3>0z0<3>0zz<2>0GzVVz<3>zVz<3>zVV<3>zzV<3>VzV<3>Vzz<2>Vbzhhz<3>zhz\
+  <3>zhh<3>zzh<3>hzh<3>hzz<2>hlz00S<3>S0S<3>S00<3>SS0<3>0S0<3>0SS<2>07SEES<3>S\
+  ES<3>SEE<3>SSE<3>ESE<3>ESSEOSELS
+  }
+
+Lens               { ; Lens on metallic foil
+  reset type=julfn+zsqrd function=sin passes=b
+  corners=-0.8901396/-0.8704027/0.2998027/0.3145977
+  params=-0.809364318847656/0.0420150756835938 maxiter=2250 bailout=30000
+  invert=0.5/-0.808212/0.0704803 decomp=256
+  colors=00000e0e00eee00e0eeL0eeeLLLLLzLzLLzzzLLzLzzzLzzz000555<3>HHHKKKOOOSSS\
+  WWW___ccchhhmmmssszzz00z<3>z0z<3>z00<3>zz0<3>0z0<3>0zz<2>0GzVVz<3>zVz<3>zVV<\
+  3>zzV<3>VzV<3>Vzz<2>Vbzhhz<3>zhz<3>zhh<3>zzh<3>hzh<3>hzz<2>hlz00S<3>S0S<3>S0\
+  0<3>SS0<3>0S0<3>0SS<2>07SEES<3>SES<3>SEE<3>SSE<3>ESE<3>ESS<2>EHSKKS<2>QKSSKS\
+  SKQSKOSKMSKK<2>SQKSSKQSKOSKMSKKSK<2>KSQKSSKQSKOSKMS00G<3>G0G<3>G00<3>GG0<3>0\
+  G0<3>0GG<2>04G88G<2>E8GG8GG8EG8CG8AG88<2>GE8GG8EG8CG8AG88G8<2>8GE8GG8EG8CG8A\
+  GBBG<2>FBGGBGGBFGBDGBCGBB<2>GFBGGBFGBDGBCGBBGB<2>BGFBGGBFGBDGBCG000<6>000
+  }
+
+Blue               { ; I like it, no more to say...
+  reset type=julfn+zsqrd function=cosxx passes=b
+  corners=-2.0/1.99765/-1.501511/1.5 params=-0.5/0.5 maxiter=2250
+  bailout=30 decomp=256 biomorph=0
+  colors=000Iaf<27>PtVQuUPrT<5>DZIBVGBVG<15>B_KCOj<27>02FDQm<38>V`bDQl<33>Vt5H\
+  Ti<8>sxADQm<62>VelMT_VWLdZ6DQm<6>FVjFRmFWj<8>Haf
+  }
+
+Lens_minus_one     { ; An outward zoom from lens...
+  reset type=julfn+zsqrd function=sin passes=b
+  corners=-0.963508/-0.818383/0.254443/0.363229
+  params=-0.809364318847656/0.0420150756835938 maxiter=2250 bailout=30000
+  invert=0.5/-0.808212/0.0704803 decomp=256
+  colors=00000e0e00eee00e0eeL0eeeLLLLLzLzLLzzzLLzLzzzLzzz000555<3>HHHKKKOOOSSS\
+  WWW___ccchhhmmmssszzz00z<3>z0z<3>z00<3>zz0<3>0z0<3>0zz<2>0GzVVz<3>zVz<3>zVV<\
+  3>zzV<3>VzV<3>Vzz<2>Vbzhhz<3>zhz<3>zhh<3>zzh<3>hzh<3>hzz<2>hlz00S<3>S0S<3>S0\
+  0<3>SS0<3>0S0<3>0SS<2>07SEES<3>SES<3>SEE<3>SSE<3>ESE<3>ESS<2>EHSKKS<2>QKSSKS\
+  SKQSKOSKMSKK<2>SQKSSKQSKOSKMSKKSK<2>KSQKSSKQSKOSKMS00G<3>G0G<3>G00<3>GG0<3>0\
+  G0<3>0GG<2>04G88G<2>E8GG8GG8EG8CG8AG88<2>GE8GG8EG8CG8AG88G8<2>8GE8GG8EG8CG8A\
+  GBBG<2>FBGGBGGBFGBDGBCGBB<2>GFBGGBFGBDGBCGBBGB<2>BGFBGGBFGBDGBCG000<6>000
+  }
+
+Synapse_Sunset     { ; As uploaded to forum, pretty and relaxing...
+  reset type=julia
+  corners=0.17585159/0.16761272/-0.09804688/-0.08907049/0.16581342/-0.09356128
+  params=0.3/0.6
+  colors=0001MuL7o<22>9GbV0z<19>fFofGngHngHn<2>iKkjKkjLjkMjkMi<20>xaYxbYycXycX\
+  ybXyaX<67>Y3x
+  }
+

@@ -1,0 +1,55 @@
+
+View Windows Mode
+
+The <v> command is used to set the view window parameters described below.
+
+These parameters can be used to:
+
+ o Define a small window on the screen which is to contain the generated
+   images. Using a small window speeds up calculation time (there are
+   fewer pixels to generate). You can use a small window to explore
+   quickly, then turn the view window off to recalculate the image at
+   full screen size.
+
+ o Generate an image with a different "aspect ratio"; e.g. in a square
+   window or in a tall skinny rectangle.
+
+ o View saved GIF images which have pixel dimensions different from any
+   mode supported by your hardware. This use of view windows occurs
+   automatically when you restore such an image.
+
+"Preview display"
+
+Set this to "yes" to turn on view window, "no" for full screen display.
+While this is "no", the only view parameter which has any affect is "final
+media aspect ratio". When a view window is being used, all other xmfract
+functions continue to operate normally - you can zoom, color-cycle, and
+all the rest.
+
+"Reduction factor"
+
+When an explicit size is not given, this determines the view window size,
+as a factor of the screen size. E.g. a reduction factor of 2 makes the
+window 1/2 as big as the screen in both dimensions.
+
+"Final media aspect ratio"
+
+This is the height of the final image you want, divided by the width. The
+default is 0.75 because standard PC monitors have a height:width ratio of
+3:4. E.g. set this to 2.0 for an image twice as high as it is wide. The
+effect of this parameter is visible only when "preview display" is
+enabled.
+
+"Crop starting coordinates"
+
+This parameter affects what happens when you change the aspect ratio. If
+set to "no", then when you change aspect ratio, the prior image will be
+squeezed or stretched to fit into the new shape. If set to "yes", the
+prior image is "cropped" to avoid squeezing or stretching.
+
+"Explicit size"
+
+Setting these to non-zero values over-rides the "reduction factor" with
+explicit sizes in pixels. If only the "x pixels" size is specified, the "y
+pixels" size is calculated automatically based on x and the aspect ratio.
+

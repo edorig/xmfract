@@ -1,0 +1,104 @@
+Comments:
+
+The idea behind this series is that the Mandelbrot Set (as a whole) is
+considered rather blase these days.  I decided to see just how many
+interesting variations I could make using the "Set" and the NEON color map
+(except for one image that uses a map of my own devising).  I think these
+parameters point out that it's rather hard to reach the point of saturation
+(or fractal worldliness if you will) using Fractint.
+
+I'd strongly suggest using the 1024x768x256 mode to generate these files -
+other resolutions may work, but all these were created using SVGA
+1024x768x256.  Some of these take up to 15 minutes on my 33Mhz 386 w/Cyrix
+387, so figure accordingly.
+
+Enjoy these parameters...  BG Dodson
+
+
+Neon_Brot_I        { ; The "Set" as a neon creation
+                     ;  BG Dodson June 10 1992 71636,1075
+  reset type=mandel corners=-2.742152/1.742152/-1.681614/1.681614 float=y
+  maxiter=1000 inside=0 outside=summ potential=200/300/0
+  colors=000000<30>zKU<30>211000000<14>000010030<29>0z0<30>020000000<14>000110\
+  330<29>zz0<30>220000000<29>000
+  }
+
+Neon_Brot_II      { ; The "SET" again...with red tracers
+                     ;  BG Dodson June 10 1992 71636,1075
+  reset type=mandel corners=-2.742152/1.742152/-1.681614/1.681614 float=y
+  maxiter=1000 inside=0 outside=summ potential=200/300/0
+  colors=000000<30>zKU<27>834Q23422R11000P00000P00000000U00000000U00000P000000\
+  00U00000P00010U30050<28>0z0<27>080P60040020U00000000000U00000000Z00000000a00\
+  000000Z00000000h00110330550`70990<26>zz0<30>220000000<29>000
+  }
+
+Eh?_What?          { ; Damn Nuclear Scientists Anyway...
+                     ;  BG Dodson June 10 1992 71636,1075
+  reset type=mandel passes=t corners=-2.5/1.5/-1.5/1.5 float=y
+  maxiter=20000 bailout=16959 fillcolor=12 inside=bof60 outside=summ
+  logmap=old decomp=256 biomorph=10
+  colors=000000<30>zKU<30>211000000<14>000010030<29>0z0<30>020000000<14>000110\
+  330<29>zz0<30>220000000<29>000
+  }
+
+'Brot_Overload     { ; "Captain, she canna take much more!"
+                     ;  BG Dodson June 10 1992| 71636,1075
+  reset type=mandel passes=b corners=-2.5/1.5/-1.5/1.5 float=y
+  maxiter=20000 bailout=16959 fillcolor=200 inside=bof60 outside=summ
+  logmap=old decomp=256 biomorph=10
+  colors=000000<30>zKU<30>211000000<14>000010030<29>0z0<30>020000000<14>000110\
+  330<29>zz0<30>220000000<29>000
+  }
+
+'Brot_IV           { ; Well, well, well...
+                     ;  BG Dodson June 10 1992| 71636,1075
+  reset type=mandel passes=b corners=-2.5/1.5/-1.5/1.5 float=y maxiter=75
+  bailout=16959 fillcolor=16 inside=bof60 outside=summ logmap=old
+  decomp=256 biomorph=10
+  colors=000000<30>zKU<30>211000000<14>000010030<29>0z0<30>020000000<14>000110\
+  330<29>zz0<30>220000000<29>000
+  }
+
+'Son_of_Brot       { ; "*GASP* I didn't know you could do that!"
+                     ;  BG Dodson June 11 1992| 71636,1075
+  reset type=mandel passes=t corners=-2.5/1.499996/-1.49998/1.5 float=y
+  maxiter=500 bailout=16959 fillcolor=1 inside=bof61 outside=summ logmap=8
+  decomp=128 distest=256/100
+  colors=000000<30>zKU<30>211000000<14>000010030<29>0z0<30>020000000<14>000110\
+  330<29>zz0<30>220000000<29>000
+  }
+
+Nuclear_Mutatation { ; Must be them stray Gamma waves...I dunno...
+                     ;  BG Dodson June 11 1992| 71636,1075
+  reset type=mandel passes=t corners=-2.5/1.499996/-1.49998/1.5
+  maxiter=2000 bailout=16959 fillcolor=12 inside=bof60 outside=summ
+  logmap=old decomp=256 biomorph=10
+  colors=000000<30>zKU<30>211000000<14>000010030<29>0z0<30>020000000<14>000110\
+  330<29>zz0<30>220000000<29>000
+  }
+
+Chaos_Blueprint    { ; Diagram for finding the area under a Mandelbrot??
+                     ;  BG Dodson June 10 1992| 71636,1075
+  reset type=mandel passes=t corners=-2.5/1.5/-1.5/1.5 float=y
+  maxiter=32000 bailout=16959 fillcolor=32 outside=summ logmap=110
+  potential=256/257/0 decomp=32 biomorph=1
+  colors=0000jf<13>AAIzzzP50020<15>z20n20<3>z10j10<6>z00e10<14>z00`a`<30>zzzhh\
+  h<30>zzzTUT<93>qqqccc<31>ccc
+  }
+
+Another_Neon       { ; Another balloon wrapped Neon Mandelbrot
+                     ;  BG Dodson June 10 1992  71636,1075|
+  reset type=mandel corners=-2.5/1.499996/-1.49998/1.5 potential=300/500/0
+  colors=00000z0K0<8>020000000<14>000110330<29>zz0<30>220000000<29>000000200<2\
+  9>zKU<30>211000000<14>000010030<29>0z0<17>0S0000000
+  }
+
+'Brot_As_Insect    { ; Da bug in da program?
+                     ;  BG Dodson June 11 1992| 71636,1075
+  reset type=mandel passes=t corners=-2.5/1.5/-1.5/1.5 float=y
+  maxiter=20000 bailout=16959 fillcolor=12 inside=-100 outside=summ
+  logmap=old decomp=256 biomorph=10
+  colors=000000<30>zKU<30>211000000<14>000010030<29>0z0<30>020000000<14>000110\
+  330<29>zz0<30>220000000<29>000
+  }
+

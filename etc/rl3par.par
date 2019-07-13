@@ -1,0 +1,133 @@
+Urchin             { ; Sea Urchin
+                     ; Ronald C. Lewen, 76376,2567
+                     ; Derived from Peter Moreland's "*GONZO*"
+  reset type=mandel
+  corners=-1.860573960192692/-1.860573959920093/-0.0000009344666941/-0.0000009\
+  34243118/-1.86057396020188/-0.0000009344543947 float=y maxiter=1500
+  inside=0
+  colors=000FWK<13>Py`8D8<19>8b89d88C8<33>VMXAC9<13>kLSDDB<5>hJW9C8<38>rL28C8<\
+  9>B318HD8MJ8RP9WV8D9<31>Gpd9C8<33>vX59C8<2>DD88C8FE8<24>mOCAIB<5>EUI
+  }
+
+Luna               { ; A Fractal Harvest Moon
+                     ; Ronald C. Lewen, 76376,2576
+                     ; Derived from Peter Moreland's "Bio"
+  reset type=formula formulafile=fractint.frm formulaname=Richard1
+  corners=1.776063843383/1.776063468122/-0.000001250793/-0.000000840507/1.7760\
+  63468122/-0.000000840507 params=1.78/0.345 float=y maxiter=10000
+  inside=6 potential=255/600/500
+  colors=000efdeffgegfffffheggfgfggeggfgghfhgghfiggghihhhgigihhhighiijhjiiihjh\
+  jiijikijjkikjjjikikjjkjljkkljlkkkjljlkkkljmkkklmlllllmkmlmlmlmlnlmmmlmmnmmol\
+  nnnmomnnomonnnnnomononononpnooonoooponpooopnqooppnppoppqpproqqqprpqqpqrqqqqq\
+  rqqsprrrqsqrrqrsrrrrrsrrtqsssrtrssssq<2>ssutssstrussttrttstttsusuttutututvtu\
+  vtvuuuuuvuuwtvvvuwwuuvvtvvuvvvuwuwvvwvwvwvvwwxvxwwwwwxwwyxwwwxvywwywxxxwxxxx\
+  xyxxzwyyxywzxxyywyyxyyyyyzxzyxzzyzxyzyzzxzzyzzz53565767888789AB999BBBBCBCDCD\
+  BDDEFDDDFDGEFGFFGGEGGIIGHIHGJHHIIJIJHJJIIKJLJKKKLKLJLLKLLNNLLMMMLNMMNNNNNMON\
+  NOOOOONPOQOOPPPPPRPQPQQPRQPQRPRRPRRSSRRTRRSSRRTRSTRUSTTTTTTVUTVUUSUUUVUUVUWU\
+  VWVVWWVVWVXVWXWWWVXWXWYXXVXXXXXZXYWXYYYYXXZXXZZ_YY_Y_ZZ_Y_Z_Z``Z___ZZ`ZZ``_`\
+  _``Z`````ba`ab``b`baaaaacab`caacacbbbbbdbcadbbdbdcccccedcdecccdedddedcceeded\
+  eeceedeeffee
+  }
+
+Oz                 { ; "Somewhere... Over the rainbow..."
+                     ; Ronald C. Lewen, 76376,2576
+                     ; Derived from Peter Moreland's "Bio"
+  reset type=formula formulafile=fractint.frm formulaname=richard1
+  corners=-0.6869366011/-0.6869603858/0.74403923/0.7496943/-0.6897774489/0.746\
+  85528 params=1.78/0.345 float=y maxiter=10000 inside=6
+  potential=255/600/500
+  colors=0009ZY<6>4WU<9>QJf<42>6fX6fX7eY<31>9Do9DoBCn<34>w1ix1iw6j<8>vep<29>tm\
+  KtmJslIVWErlI<37>TWELIv<3>SUNG_b<19>TWFsPJ<2>bUGIcd<8>A_Z
+  }
+
+Over_easy          { ; Good Morning!
+                     ; Ronald C. Lewen, 76376,2567
+                     ; Derived from Peter Moreland's "Close Encounter"
+  reset type=manowarj corners=1.04749/1.156194/-1.1901697/-1.1086417
+  params=-0.67813301/2.7686765 float=y maxiter=256 inside=0 outside=1
+  potential=255/1500/500
+  colors=000000www<30>bxkld0<171>zs0bxp<45>wwwEOqOVg
+  }
+
+Neon_Lights        { ; A Study In Neon
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=formula formulafile=fractint.frm formulaname=AltJTet
+  corners=-1.565759/-1.6162418/-0.0336552/0.0336552/-1.6162418/0.0336552
+  float=y maxiter=256 inside=0 outside=1 potential=255/20000/1
+  colors=000000GG0<6>220000000000000C35<7>yKU000<17>000000200<29>zKU<30>211000\
+  000<14>000010030<29>0z0<30>020000000<14>000110330<29>zz0<21>KK0
+  }
+
+Tsunami            { ; A fractal tidal wave
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=formula formulafile=select.frm
+  formulaname=BirdOfPrey function=sqr/cosxx
+  corners=-0.9809618/-1.2538546/0.4627189/0.741681/-1.213105/0.7722432
+  params=0/0/4 float=y inside=0
+  colors=000000<29>00k00m01m<29>0ky0mz1mz<30>zzz<46>2zz0zz0yz<4>0sz
+  }
+
+Twister            { ; Gosh, Toto... I don't think we're in Kansas anymore
+                     ; Ronald C. Lewen, 76376,2567
+                     ; Derived from Peter Moreland's mutation of my original
+                     ; "Chaos Gate"
+  reset type=fn*z+z function=sqr
+  corners=0.43230671/0.43629479/0.0522262/-0.0597079/0.47179222/0.0039314
+  params=2.6/0/0/2.66 maxiter=20000 inside=255 potential=255/128/0
+  colors=000L_S<6>Li`xEScj5<5>NjYnUD<8>Oi_t6`vVX<12>Nia9QF<5>KgZXPl<28>LjaXl6<\
+  29>Lj`GZt<15>LicLjbNIO<11>LbYLdZIKx<9>dcy<16>ws0<19>oYKoXKmYL<5>g`PMWO<3>NNF\
+  `cT<5>VeWUfXUhXSgYuxdQhZuxdOi`uxdMjauxdvyd<24>NkaMjaNNF<7>MZQ
+  }
+
+Balloons           { ; At the balloon factory
+                     ; Ronald C. Lewen, 76376,2567
+                     ; Derived from Peter Moreland's mutation of my original
+                     ; "Cut me"
+  reset type=fn*z+z function=cotan
+  corners=-2.424178/-1.255653/-0.387032/-0.752695/-1.97113/-1.167838
+  params=2.1414/0.875/1/1.863 float=y maxiter=20000 bailout=2000
+  inside=255 potential=255/128/0
+  colors=000BWS3cW<24>mYGoXFnXF<17>SWOHNQG3I<39>mnyZIYrYoG3I<20>ZdfG2I<22>DFpG\
+  3H<4>GBIFDIFDI<32>G3HG3HG4G<23>DCCnw`EAH<2>8_IYRPppXN6G<3>pQAI5H<13>mvRH2H<1\
+  0>V1EG2HW1E<6>e0C<2>JOO
+  }
+
+Peachy-Green       { ; I don't know what to call this one, but I like to colors
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=magnet1m
+  corners=2.367323/3.059827/2.1751/1.795016/2.586546/1.611066
+  params=1.76/4 float=y maxiter=32000 bailout=500 inside=0 logmap=2
+  decomp=256
+  colors=000zzz<70>BfTzzz<62>sWKzzz<59>DMXyzz<27>Ug_xyzTfZ<14>CXLAWKAWK<9>AXO
+  }
+
+Rainbow            { ; All the colors of the rainbow
+                     ; Ronald C. Lewen, 76376,2567
+                     ; Derived from Peter Moreland's "Close Encounter"
+  reset type=manowarj corners=-11.753897/10.767063/-8.44536/8.44536
+  params=-0.67813301/2.7686765 float=y maxiter=256 inside=0 decomp=256
+  biomorph=0
+  colors=000703<14>z0X<15>000<15>p0w<15>000<15>zzz<15>000L00<13>z00w00<15>000<\
+  15>zX0<15>000<15>ut0<15>000GA4<12>2v10z00w0<14>000<15>00z<14>000301
+  }
+
+Broken_Glass       { ; Broken panes of glass
+                     ; Ronald C. Lewen, 76376,2567
+                     ; Derived from Peter Moreland's "Alien Eyes"
+  reset type=lambda corners=-0.770205/1.770222/-1.032945/1.032921
+  params=8/0.777 maxiter=256 inside=255 outside=summ biomorph=255
+  colors=000CKU<3>9MQ8MP6KM<4>9NP000BOQ<24>S`e000Taf<24>inujovinu<165>KQUJQUJQ\
+  UJPUJPUIPU<11>FMUFLUFLUEKUEKU cyclerange=0/255
+  }
+
+Black_hole         { ; A sun on the verge of being sucked into a black hole
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=manfn+zsqrd function=tan
+  corners=-0.070955/1.049045/-1.177829/-0.337829 params=1.3/0.75443
+  float=y maxiter=32000 inside=0 potential=255/300/150 decomp=256
+  biomorph=0
+  colors=000wwcF3tvudH5tuseJ6ttqfL8tsngN9trlhPBsqjiRDsphjTEsoekVGsnclXHsmamZJr\
+  l_n`LrkXobMrjVpdOriTqfPr<12>s_qu`pu`o<35>Ou3Nv1Ov4<8>du_ftcftc<51>N7OM6NM6NM\
+  6N<54>ZEn<20>bT3cU0cU0<12>`d3C1y<13>D1t
+  }
+

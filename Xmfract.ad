@@ -1,0 +1,59 @@
+
+! Change any of these values to suit your preferences.
+!
+! The marginxxx values change the size of the buttons and other
+!    widgets that contain text.
+!
+! The xxxOffset values change the distance between widgets and
+!    the distance that widgets are placed from the edges of
+!    dialogs and screens.
+!
+! The highlightThickness resource controls the thickness of the
+!    border around labels and other widgets.
+!
+! The menuCursor may be changed (see an X-windows manual for
+!    other available shapes)
+!
+! The tearOffModel resource controls whether tear-off menus
+!    are enabled (TEAR_OFF_ENABLED) or disabled (TEAR_OFF_DISABLED)
+!
+! The cursorPositionVisible resource controls whether the "I"
+!    cursor is visible or invisible in textfields.
+!
+! The scrollHorizontal resource controls whether a horizontal
+!    scroll bar is visible in the help dialogs.
+!
+! The rows/columns resources set the number of lines of text and
+!   the number of characters per line that may be visible in
+!   the help dialogs.
+!
+! See an X-Windows user's guide or an XLib programmer's manual
+!    for information about the many other resources that may
+!    be set using this file. In particular, color is one of the
+!    many attributes that are commonly set using resource files.
+
+Xmfract*title: xmfract
+Xmfract*marginTop: 2
+Xmfract*marginLeft: 2
+Xmfract*marginRight: 2
+Xmfract*marginBottom: 2
+Xmfract*topOffset: 2
+Xmfract*leftOffset: 2
+Xmfract*rightOffset: 2
+Xmfract"*bottomOffset: 2
+Xmfract*highlightThickness: 2
+Xmfract*XmLabel*marginTop: 0
+Xmfract*XmLabel*marginBottom: 0
+Xmfract*XmLabel*marginWidth: 0
+Xmfract*XmLabel*marginHeight: 0
+Xmfract*XmLabel*topOffset: 0
+Xmfract*XmLabel*bottomOffset: 0
+Xmfract*menu_bar*marginLeft: 7
+Xmfract*menu_bar*marginRight: 7
+Xmfract*menu_bar*marginHeight: 2
+Xmfract*menuCursor: top_left_arrow
+Xmfract*tearOffModel: TEAR_OFF_ENABLED
+Xmfract*XmTextField*cursorPositionVisible: True
+Xmfract*read_help_dialog*text_window*scrollHorizontal: False
+Xmfract*read_help_dialog*help_window*text_window*rows: 30
+Xmfract*read_help_dialog*help_window*text_window*columns: 80

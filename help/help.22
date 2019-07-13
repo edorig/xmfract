@@ -1,0 +1,117 @@
+
+Color Editor Commands
+
+To use the editor, select "Edit current color palette" from the "File"
+menu, or press the "e" key. Two color registers are displayed at the
+top of the dialog, and the color palette will be displayed below.
+Only the color in the active register may be edited. Colors in the
+inactive register will follow the mouse (until a range is selected,
+see below). The inactive register will display the color that is under
+the mouse pointer if the pointer is in the editor dialog or in the image
+window. You may select a color to edit by clicking the left mouse button
+in the desired color in either window. If you click in the image window,
+a small circle is drawn on the image to remind you where you clicked.
+A white dashed line is drawn around the selected color box in the
+editor palette, and the selected color plus it's red, green, and blue
+component values are displayed in the active register scale widgets.
+Moving the bars on the scales will change the color.
+
+For range selection, the palette rectangles are numbered from left
+to right, and top to bottom. That is, the upper left corner is the
+lowest numbered rectangle and the bottom right is the highest.
+To select a range of colors to operate upon, select the start of the
+range with the left mouse button. Again, a white dashed line is drawn
+around the selected color box in the editor palette. Select the end of
+the range by pressing the center mouse button down in the desired
+color. This time, a solid white line will be drawn around the selected
+box, and the range operation menu items will be enabled (not greyed
+out). The inactive register will no longer follow the mouse. Select the
+desired range operation from the menu. You may get the inactive register
+color to follow the mouse again by cancelling the range selection from
+the range sub-menu.
+
+Changes made in the palette will be immediately reflected in the image,
+and you may save the image or the palette at any time.
+
+Palette edit commands are saved in a history file, and may be undone
+(and undo's may be redone) if the command-line or initialization file
+parameter undo= value is greater than zero. This value defaults to
+8192, giving you that many commands that may be undone. Pressing the
+Apply or Done button will cause the undo memory to be reset to zero.
+On machines with a limited memory, this feature may be disabled with
+an undo=0 entry on the command line or in an initialization file.
+
+Experiment with the palette editor to become familiar with these
+operations. Hands-on experimentation will make these operation much
+more clear because you can see the colors change, rather than just
+numbers in these crude boxes...
+
+The freestyle mode works on a variable range of colour palette
+indices and is activated from the colour palette editor main menu bar.
+It controls a moving window within the full palette by attaching the
+center index of the freestyle range to the mouse position. Moving
+the mouse across the canvas or the colour palette causes the freestyle
+window to track with it. Colours within the window spontaineously change
+as the effected range is shifted but are restored to the original
+colours as the window moves on. Colour changes are committed to the
+palette by a click on the left mouse button.
+
+A gamma value is applied to transform the color through the
+selected width to the selected end color. The resulting "bar" of
+colors may applied to the image and the palette by clicking the
+left mouse button in the desired location on the image or the
+palette colorbox. Selecting a higher gamma value will result in
+a sharper contrast and a lower value results in a smoother,
+softer transition of colors from the center of the bar to the
+edges.
+
+This gamma value also effects the transition of colors selected
+for the endpoints of any smooth or striped range of colors.
+Again, selecting a higher gamma value will result in a sharper
+transition of color and a lower value results in a smoother,
+softer transition of colors from the beginning of the selected
+range to the end of the selected range.
+
+You may also edit the color that is used as the center color for
+the freestyle option. The selected index for the center color
+defaults to the highest index available, but you may set this
+to be any available index.
+
+Also in the freestyle option dialog, you may set the endpoint
+colors that are used to transform the center color to the endpoint
+color in the freestyle editing range. If you set the endpoint color
+selector to -1 for either, or both, of the endpoints, the color under
+the end of the "bar" of colors that is selected will become the
+endpoint color to which the center color is transformed.
+
+The transparency of the overlayed color bar in the freestyle
+mode is selected by a scale at the bottom of the freestyle
+options dialog. If the transparency is set to 0, the overlayed
+colors are opaque and the underlying colors are not visible. If
+the transparency is set to 100, the overlying colors are invisible.
+The transparency of the overlayed colors is continuously variable
+from opaque to transparent.
+
+The freestyle wraparound mode will cause the bar of colors to wrap
+around the beginning or end of the palette if the range extends
+beyond the first or last color in the palette.
+
+In addition, the color cycling operations are available.
+
+Start or stop the color cycling by pressing the "c" key while the
+main window has the input focus. Colors may be cycled if you have
+completed or partially completed the creation of an image and/or
+if the palette editor is displayed.
+
+You may change the speed of the color cycling by pressing the keypad
+up and down arrow keys or the cursor up and down arrow keys, whichever
+is appropriate for your keyboard. The keypad "+" and "-" keys and the
+alphabetic "+" and "-" keys will cause the palette cycle to change
+direction. Pressing the "+" and "-" key when not color cycling will
+cause the palette to rotate one step in the indicated direction.
+
+The keypad "Enter" key will randomize the palette.
+
+See "Color Cycling Commands" for more information about rotating
+the color palette.
+

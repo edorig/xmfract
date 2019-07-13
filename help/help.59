@@ -1,0 +1,40 @@
+
+icon
+
+    Orbit in three dimensions defined by:
+
+      p = lambda + alpha * magnitude + beta * (x(n)*zreal - y(n)*zimag)
+      x(n+1) = p * x(n) + gamma * zreal - omega * y(n)
+      y(n+1) = p * y(n) - gamma * zimag + omega * x(n)
+
+      (3D version uses magnitude for z)
+
+    Parameters:  Lambda, Alpha, Beta, Gamma, Omega, and Degree
+
+
+This fractal type was inspired by the book "Symmetry in Chaos"
+by Michael Field and Martin Golubitsky (ISBN 0-19-853689-5, Oxford Press)
+
+To quote from the book's jacket,
+
+  "Field and Golubitsky describe how a chaotic process eventually can
+  lead to symmetric patterns (in a river, for instance, photographs of
+  the turbulent movement of eddies, taken over time, often reveal
+  patterns on the average."
+
+The Icon type implemented here maps the classic population logistic
+map of bifurcation fractals onto the complex plane in Dn symmetry.
+
+The initial points plotted are the more chaotic initial orbits, but
+as you wait, delicate webs will begin to form as the orbits settle
+into a more periodic pattern. Since pixels are colored by the number
+of times they are hit, the more periodic paths will become clarified
+with time. These fractals run continuously.
+
+There are 6 parameters:  Lambda, Alpha, Beta, Gamma, Omega, and Degree
+
+    Omega  0 = Dn, or dihedral (rotation + reflectional) symmetry
+          !0 = Zn, or cyclic (rotational) symmetry
+
+    Degree = n, or Degree of symmetry
+

@@ -1,0 +1,86 @@
+Orbit_Achieved.... { ; (c)1992 Peter Moreland 100012,3213
+  reset type=fn(z)+fn(pix) function=sqr/sqr
+  corners=11.941643/-10.52597/-0.280453/-2.98738/5.152612/8.771611
+  params=100/-8/100/100 maxiter=32000 inside=0 potential=255/200/32000
+  colors=000gVP<7>nYKt`GnYJ<5>s`Gt`FsRh<5>t_JaAb<6>fGYfHXgIWhJVhJViKU<10>oTNpU\
+  MpULqVKqWK<5>t`Foac<74>t`Ft`Ft`Ft_Ft_FtZF<25>rVFrVFrWF<9>s_Fs_FsZL<4>tWo<54>\
+  t`FnLd<9>qSUqTTpTR000gUQ
+  }
+
+Dimension_X        { ; (c)1992 Peter Moreland 100012,3213
+  reset type=fn*z+z function=cosxx
+  corners=-8.107376/8.200413/-7.014127/7.264315 params=17/16/15/100
+  maxiter=32000 inside=0 potential=255/200/32000
+  colors=000www<23>zzz333<5>AAABBBBBB<10>HHHIIIIIIIII<15>PPPPPPPPPPPPPPP<2>RRR\
+  RRRRRRRRRSSS<179>vvv
+  }
+
+Formula_ZZA!       { ; (c)1992 Peter Moreland 100012,3213
+  reset type=formula formulafile=fractint.frm formulaname=zza
+  corners=0.248588/-0.509579/-0.492205/0.518709/-0.509579/0.518709
+  params=2/4/5/7 maxiter=32000 inside=0 potential=255/200/32000
+  colors=000Q0Z<10>T0aT0bT0bU0cU0c<62>zzzzzzzzy<60>zz1zz0zy0yx0<56>I4IH3JG2JF0\
+  KF0K<9>H0MH0MH0NI0NI0NI0O<33>Q0Z
+  }
+
+Incoming_Photon!   { ; (c)1992 Peter Moreland 100012,3213
+  reset type=fn(z)+fn(pix) function=sqr/sqr
+  corners=0.217226/-4.462112/17.971825/-6.959692/10.499703/4.261716
+  params=100/-8/100/5.8989 maxiter=32000 inside=0 potential=255/200/32000
+  colors=000gVP<7>nYKt`GnYJ<5>s`Gt`FsRh<5>t_JaAb<4>eEZeFZfGYfHXgIW<12>nSOoTNpU\
+  MpULqVK<6>t`Foac<74>t`Ft`Ft`Ft_Ft_FtZF<25>rVFrVFrWF<9>s_Fs_FsZL<4>tWo<54>t`F\
+  nLd<9>qSUqTTpTRsZFgUQ
+  }
+
+Jump_Drive_Engaged { ; (c)1992 Peter Moreland 100012,3213
+  reset type=fn(z)+fn(pix) function=sqr/sqr
+  corners=7.547096/-7.82599/11.16906/-12.387074/13.319844/3.472848
+  params=0/0/345/832 maxiter=32000 inside=0 potential=255/200/32000
+  colors=N0Ujei<15>idhG0L<29>N0VN0VO0WP0X<4>V4bT3`Q1YQ1Y<2>S3_T4`U6a<5>`EhY9eU\
+  4aU4bU4b<10>l`p<2>_Cg`Dh`Eh<10>l`pjWogRm<33>xxyyyyyyyyyy<41>jeijeijeijeijei<\
+  68>jei
+  }
+
+Meta_Hot!          { ; (c)1992 Peter Moreland 100012,3213
+  reset type=fn*z+z function=tan
+  corners=21.315763/-31.989983/-22.868427/22.868451/-19.828226/31.989997
+  params=5/5/5/100 maxiter=32000 inside=0 potential=255/200/32000
+  colors=000gVP<7>nYKt`GnYJ<5>s`Gt`FsRh<5>t_JaAb<6>fGYfHXgIWhJVhKViKU<20>t`Foa\
+  c<74>t`Ft`Ft`Ft_Ft_FtZF<25>rVFrVFrWF<9>s_Fs_FsZL<4>tWo<54>t`FnLd<9>qSUqTTpTR\
+  rXFgUQ
+  }
+
+Meta_Cold!         { ; (c)1992 Peter Moreland 100012,3213
+  reset type=fn*z+z function=tan
+  corners=21.315763/-31.989983/-22.868427/22.868451/-19.828226/31.989997
+  params=5/5/5/100 maxiter=32000 inside=0 potential=255/200/32000
+  colors=LSUJPU<11>GMUFMUFMUFLUFLUEKUEKUDJV<2>BLSAMR9MQ8MP6KM<58>inujovinu<164\
+  >JQUQW`JQU
+  }
+
+Vulcan_Towers      { ; (c)1992 Peter Moreland 100012,3213
+  reset type=fn*z+z function=exp
+  corners=5.384155/2.190108/-23.701432/-18.729729/2.190108/-18.729729
+  params=5/5/5/100 maxiter=32000 inside=0 potential=255/200/32000
+  colors=000nYKt`GnYJ<5>s`Gt`FsRh<5>t_JaAb<6>fGYfHXgIWhJVhKViKU<16>rXHrYHsZGs_\
+  Gt`F<17>q`Uq`Vq`WpaXpaXpaX<51>t`Ft`Ft`Ft`Ft_F<3>sYFsYFsYFsYFsYF<19>rVFrVFrWF\
+  <9>s_Fs_FsZL<4>tWo<54>t`FnLd<9>qSUqTTpTRlTRgUQ<7>mYL
+  }
+
+Cellular           { ; (c)1992 Peter Moreland 100012,3213
+  reset type=popcorn
+  corners=5.335739/5.043655/3.106827/6.645966/3.498291/5.510727
+  params=0.078
+  colors=000gVP<7>nYKt`GnYJ<5>s`Gt`FsRh<5>t_JaAb<4>eFZeGZfGYfHXgIW<23>t`Foac<7\
+  4>t`Ft`Ft`Ft_Ft_FtZFtZFsYF<7>sXF
+  }
+
+TheyWentThat_A_Way { ; (c)1992 Peter Moreland 100012,3213
+  reset type=manzpower
+  corners=6.13366561/6.13069422/21.2647339/21.2103975/6.15867736/21.2313848
+  params=11/6/4.555/12.666 float=y maxiter=32000 bailout=100 inside=255
+  potential=255/128/0 decomp=256 biomorph=0
+  colors=LSUcio<128>KQUJQUJQUJPUJPUIPU<11>FMUFLUFLUEKUEKUDJV<2>BLSAMR9MQ8MP6KM\
+  <58>inujovinu<34>cio
+  }
+

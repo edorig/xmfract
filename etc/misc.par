@@ -1,0 +1,95 @@
+rhs-201               {
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=popcorn
+  corners=0.898239/1.146347/0.127975/1.801926/0.16156/1.083511
+  params=0.025 maxiter=15000
+  colors=0000R6<2>1aA<7>1F0KF1<6>hZ0<6>OI0KF0F0F<6>Z0U<7>F0FKF0<6>hZ0<7>KF000A\
+  <6>00k<7>00AA00<6>z00<7>A00<6>2r00z00u0<7>0A0<6>eXU<7>0A0AKK<6>mmK<7>AKMFF0<\
+  6>zz0<7>FF0F00<6>z0A<7>F00FFF<6>zzz<7>FFF0FK<6>0Um<7>0FKPF0<6>mK0<7>PF0FKA<5\
+  >NSIPUKOTJ<6>FKA00K<4>57j79p78l<6>00K0D1<2>0N4
+  }
+
+rhs-202               { ; Pickover
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=pickover
+  corners=-0.748307/0.796276/0.581962/-0.690524/-0.499814/-0.889105
+  params=0.001/0.001/-0.001/-65575 maxiter=32000 inside=0
+  colors=000hzuhzz<2>hlz00S<3>S0S<3>S00<3>SS0<3>0S0<3>0SS<2>07SEES<3>SES<3>SEE\
+  <3>SSE<3>ESE<3>ESS<2>EHSKKS<2>QKSSKSSKQSKOSKMSKK<2>SQKSSKQSKOSKMSKKSK<2>KSQK\
+  SSKQSKOSKMS00G<3>G0G<3>G00<3>GG0<3>0G0<3>0GG<2>04G88G<2>E8GG8GG8EG8CG8AG88<2\
+  >GE8GG8EG8CG8AG88G8<2>8GE8GG8EG8CG8AGBBG<2>FBGGBGGBFGBDGBCGBB<2>GFBGGBFGBDGB\
+  CGBBGB<2>BGFBGGBFGBDGBCG000<6>00000e0e00eee00e0eeL0eeeLLLLLzLzLLzzzLLzLzzzLz\
+  zz000555<3>HHHKKKOOOSSSWWW___ccchhhmmmssszzz00z<3>z0z<3>z00<3>zz0<3>0z0<3>0z\
+  z<2>0GzVVz<3>zVz<3>zVV<3>zzV<3>VzV<3>Vzz<2>Vbzhhz<3>zhz<3>zhh<3>zzh<3>hzhhzl\
+  hzq
+  }
+
+rhs-203               { ; Pickover
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=pickover corners=-2.0944/2.0944/-1.074947/1.074947
+  params=300000/0.0015/-0.0015/-0.0015 maxiter=32000 inside=0
+  colors=00000e0e00eee00e0eeL0eeeLLLLLzLzLLzzzLLzLzzzLzzz000555<3>HHHKKKOOOSSS\
+  WWW___ccchhhmmmssszzz00z<3>z0z<3>z00<3>zz0<3>0z0<3>0zz<2>0GzVVz<3>zVz<3>zVV<\
+  3>zzV<3>VzV<3>Vzz<2>Vbzhhz<3>zhz<3>zhh<3>zzh<3>hzh<3>hzz<2>hlz00S<3>S0S<3>S0\
+  0<3>SS0<3>0S0<3>0SS<2>07SEES<3>SES<3>SEE<3>SSE<3>ESE<3>ESS<2>EHSKKS<2>QKSSKS\
+  SKQSKOSKMSKK<2>SQKSSKQSKOSKMSKKSK<2>KSQKSSKQSKOSKMS00G<3>G0G<3>G00<3>GG0<3>0\
+  G0<3>0GG<2>04G88G<2>E8GG8GG8EG8CG8AG88<2>GE8GG8EG8CG8AG88G8<2>8GE8GG8EG8CG8A\
+  GBBG<2>FBGGBGGBFGBDGBCGBB<2>GFBGGBFGBDGBCGBBGB<2>BGFBGGBFGBDGBCGzuhzzh<3>hzh\
+  hzlhzq
+  }
+
+rhs-204               { ; Pickover
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=pickover
+  corners=0.184459/-0.038981/-0.304273/-0.020539/-0.038981/-0.020539
+  params=0.0015/15/-15.5/-0.15 inside=0
+  colors=00000e0e00eee00e0eeL0eeeLLLLLzLzLLzzzLLzLzzzLzzz000555<3>HHHKKKOOOSSS\
+  WWW___ccchhhmmmssszzz00z<3>z0z<3>z00<3>zz0<3>0z0<3>0zz<2>0GzVVz<3>zVz<3>zVV<\
+  3>zzV<3>VzV<3>Vzz<2>Vbzhhz<3>zhz<3>zhh<3>zzh<3>hzh<3>hzz<2>hlz00S<3>S0S<3>S0\
+  0<3>SS0<3>0S0<3>0SS<2>07SEES<3>SES<3>SEE<3>SSE<3>ESE<3>ESS<2>EHSKKS<2>QKSSKS\
+  SKQSKOSKMSKK<2>SQKSSKQSKOSKMSKKSK<2>KSQKSSKQSKOSKMS00G<3>G0G<3>G00<3>GG0<3>0\
+  G0<3>0GG<2>04G88G<2>E8GG8GG8EG8CG8AG88<2>GE8GG8EG8CG8AG88G8<2>8GE8GG8EG8CG8A\
+  GBBG<2>FBGGBGGBFGBDGBCGBB<2>GFBGGBFGBDGBCGBBGB<2>BGFBGGBFGBDGBCGzuhzzh<3>hzh\
+  hzlhzq
+  }
+
+rhs-205               { ; Pickover
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=pickover corners=-2.8/2.8/-2.0/2.0
+  params=2.14/0.43/-0.95/-2.55 maxiter=32000 inside=0
+  colors=00000e0e00eee00e0eeL0eeeLLLLLzLzLLzzzLLzLzzzLzzz000555<3>HHHKKKOOOSSS\
+  WWW___ccchhhmmmssszzz00z<3>z0z<3>z00<3>zz0<3>0z0<3>0zz<2>0GzVVz<3>zVz<3>zVV<\
+  3>zzV<3>VzV<3>Vzz<2>Vbzhhz<3>zhz<3>zhh<3>zzh<3>hzh<3>hzz<2>hlz00S<3>S0S<3>S0\
+  0<3>SS0<3>0S0<3>0SS<2>07SEES<3>SES<3>SEE<3>SSE<3>ESE<3>ESS<2>EHSKKS<2>QKSSKS\
+  SKQSKOSKMSKK<2>SQKSSKQSKOSKMSKKSK<2>KSQKSSKQSKOSKMS00G<3>G0G<3>G00<3>GG0<3>0\
+  G0<3>0GG<2>04G88G<2>E8GG8GG8EG8CG8AG88<2>GE8GG8EG8CG8AG88G8<2>8GE8GG8EG8CG8A\
+  GBBG<2>FBGGBGGBFGBDGBCGBB<2>GFBGGBFGBDGBCGBBGB<2>BGFBGGBFGBDGBCGzuhzzh<3>hzh\
+  hzlhzq
+  }
+
+rhs-206               {
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=manowarj
+  corners=0.14428139/0.15111512/-0.33245784/-0.35495818/0.15755189/-0.35013038
+  maxiter=65 inside=0 outside=imag logmap=yes
+  colors=000c00<28>GEEFFFFFFFFF<29>x11z00z10<29>zx0zz0zz1<29>zzxzzzzzz<61>zV1z\
+  U0zU0zT0<28>z10z00z00y00<28>d00
+  }
+
+rhs-207               {
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=fn(z)+fn(pix) function=sqr/sqr
+  corners=5.609452/-5.809712/4.739325/-3.825069 params=5/12/-8/10
+  maxiter=500 inside=0 potential=255/200/32000
+  colors=0003Q8<23>1I20K0<5>0K0FA0<62>pV0pV0oV0<57>IC0HC0GB0FA00F0<64>5_F5_F5Z\
+  F<27>3Q8
+  }
+
+rhs-208               {
+                     ; (c) July 1992 Dick Sherry 76264,752
+  reset type=sqr(1/fn) function=cotan
+  corners=-9.759338/9.760895/-7.322174/7.320084 maxiter=500 inside=0
+  outside=real
+  colors=0FF<14>0FF0F00FF<8>0FFFF0<61>zz0zz0yy0<61>FF000F<62>00z00z00y<35>00Z
+  }
+

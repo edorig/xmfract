@@ -1,0 +1,154 @@
+Ghost_Buster       { ; In the trap! (c)1992 PGM 100012,3213
+                     ; Blantyre House, Cossack SQ, Nailsworth, Gloucs, UK.
+  reset type=lyapunov corners=3.556418/3.972418/3.308545/3.620545
+  params=5/0.5 float=y maxiter=10
+  colors=000VZ2<26>i3P<4>HZ3<4>7qW<15>1Zq<30>hMA<8>Q7_O6aN8_<12>IOG<2>wRZ<4>iD\
+  T<20>pj4<5>cfGHZcaeI<8>J__ny1<6>LbYvkD<14>J_`i8F<21>IZ`bC6<2>PRQLWWF9_<20>HY\
+  aHZaGXk<18>H_aOHJ<3>JUW
+  }
+
+Downpoor           { ; Pastal watercolour thingy - (c) 1992 Pete M. 100012,3213
+                     ; Blantyre House, Cossack SQ, Nailsworth, Gloucs, UK.
+  reset type=fn(z)+fn(pix) function=cosxx/cosh
+  corners=-1.502386/-1.371228/2.3414666/2.4398491 params=1.5/0.06/1
+  colors=000eQUhFLk4C<7>duQ`aaYIl<2>ZViZZhXWe<6>K8H<2>5G`<7>Y9WXXSWtP<7>rgvkVu\
+  dIu<6>nVC<2>ifQgjVgbQ<2>eDAeV_ely<3>TDd<6>QuJIhYBXl<2>Oh_<5>mjr<5>ohrohrqbi<\
+  3>uGBqWQnjc<2>1Vw<7>kDj<5>MEM<5>cX5MEv<6>gctjgtkhr<4>nkf<7>73gOFhdRieIh
+  }
+
+See_Sea            { ; Vulcan Sea-scape, re-visited
+                     ; Blantyre House, Cossack SQ, Nailsworth, Gloucs, UK.
+  reset type=lambda corners=0.022491/0.158129/-0.400258/-0.29853
+  params=2/0.66 float=y maxiter=20000 outside=imag distest=256/100
+  finattract=y periodicity=0
+  colors=LSUBLSALR9MQ8MP6KM<58>inujovinu<181>GMUFLUFLUEKUEKUDJVCKUBLT
+  }
+
+Candy_Star         { ; Sixties Sci-Fi? (c)1992 Pete M, 100012,3213
+                     ; Blantyre House, Cossack SQ, Nailsworth, Gloucs, UK.
+  reset type=fn(z)+fn(pix) function=sqr/sqr
+  corners=31.99/-31.99/15.995183/-31.99 params=5/12/-8/10 maxiter=32000
+  inside=0 potential=255/200/32000
+  colors=000gVP<7>nYKt`GnYJ<5>s`Gt`FsRh<5>t_JaAb<6>fGYfHXgIWhJVhKViKU<20>t`Foa\
+  c<74>t`Ft`Ft`Ft_Ft_FtZF<25>rVFrVFrWF<9>s_Fs_FsZL<4>tWo<54>t`FnLd<9>qSUqTTpTR\
+  000gUQ
+  }
+
+Close_Encounter    { ; AAAARRRGHH! their here, (c) Peter Moreland 100012,3213
+                     ; Blantyre House, Cossack SQ, Nailsworth, Gloucs, UK.
+  reset type=manowarj
+  corners=0.523212471/0.521725613/-0.64161852/-0.642975661/0.523328938/-0.6417\
+  73336 params=-0.67813301/2.7686765 float=y maxiter=256 inside=0
+  potential=255/1500/500
+  colors=000VVD<20>qDmRZfRXF<3>DgUUVC<20>NlWSZC<4>IrGSVDQVEOUFVYGLUG<3>CSK<8>U\
+  kTWnUYpV_sWauXdxZ<9>tsN<14>FfY<5>HZ`HYaHXbIWcIUc<7>KKiLJjLIkMGkMFlNDlNCmOAnO\
+  An<22>dqS<8>LNpJKsHGvECy<9>LWdMYbMYb<8>E_eD`fC`fBagAag9bh<31>f7o<7>4ty<23>9d\
+  h
+  }
+
+Is_that_you_HAL?   { ; Sorry Dave.... (c) 1992 Peter M 100012,3213
+                     ; Blantyre House, Cossack SQ, Nailsworth, Gloucs, UK
+  reset type=lambda corners=-31.99/31.99/-22.991216/24.993784
+  params=2/0.659999999999982 float=y maxiter=20000 outside=imag
+  distest=256/100 finattract=y periodicity=0
+  colors=LSUBLSALR9MQ8MP6KM<58>inujovinu<181>GMUFLUFLUEKUEKUDJVCKUBLT
+  }
+
+Jaapnese?....      { ; Honourable fractal...(c)1992 Peter Moreland 100012,3213
+                     ; Blantyre House, Cossack SQ, Nailsworth, Gloucs, UK.
+  reset type=fn(z)+fn(pix) function=sqr/tan
+  corners=11.390983/10.600984/0.300422/-0.296456 params=5/12/-8/-27
+  maxiter=32000 inside=0 potential=255/200/32000
+  colors=000tZT<20>t`FnLd<5>pPY000pRWqRV000qTTpTR000gUQ<2>iWO000kXN<4>kXM000kX\
+  N<56>pa`pa`pa_<63>t`Ft`Ft`Ft_Ft_FtZF<25>rVFrVFrWF<9>s_Fs_FsZL<4>tWo<32>tZU
+  }
+
+The_Dolphin        { ; Maths mimics nature (c)1992 Peter Moreland
+                     ; Blantyre House, Cossack Sq, Nailsworth, Gloucs, UIK.
+  reset type=mandel corners=-0.8385749/-0.9254041/-0.8120587/-0.8771594
+  params=0.8 maxiter=9 inside=bof60 outside=0
+  colors=000MrU<63>QBkQBkRCi<18>URE<15>U3W<6>XaDXeBWfC<21>OgVOgVQfW<31>x`ty`tx\
+  _s<46>UU`UU`VTa<35>kLdMrT
+  }
+
+Grin!              { ; Terminator type smile...
+                     ; Blantyre House, Cossack Sq, Nailsworth, Gloucs, UIK.
+  reset type=lyapunov corners=3.558858/3.974858/3.315041/3.604287
+  params=0/0.5 float=y maxiter=10
+  colors=000VZ2<26>i3P<4>HZ3<4>7qW<15>1Zq<30>hMA<8>Q7_O6aN8_<12>IOG<2>wRZ<4>iD\
+  T<20>pj4<5>cfGHZcaeI<8>J__ny1<6>LbYvkD<14>J_`i8F<21>IZ`bC6<2>PRQLWWF9_<20>HY\
+  aHZaGXk<18>H_aOHJ<3>JUW
+  }
+
+Bio                { ; Ready to divide! (c)1992 Pete Moreland 100012,3213
+  reset type=formula formulafile=fractint.frm formulaname=richard1
+  corners=-0.69871/-0.6768465/0.6699588/0.82308/-0.7643758/0.7574564
+  params=1.78/0.345 float=y maxiter=10000 inside=6 potential=255/600/500
+  colors=LSU9MQ8MP6KM<58>inujovinu<169>IPUIPUIPUHOUHOUHOU<4>GNUFMUFMUFLUFLUEKU\
+  EKUDJV<3>AMR
+  }
+
+Peas_in_a_pod!     { ; ............ (c)1992 Pete Moreland 100012,3213
+  reset type=formula formulafile=fractint.frm formulaname=richard1
+  corners=-0.70550532168/-0.70548450354/0.66124583657/0.66119985992/-0.7054757\
+  6756/0.66120641465 params=1.78/0.345 float=y maxiter=10000 inside=6
+  potential=255/600/500
+  colors=LSU9MQ8MP6KM<58>inujovinu<164>KQUJQUJQUJPUJPUIPU<11>FMUFLUFLUEKUEKUDJ\
+  V<3>AMR
+  }
+
+V.E.R.Y. PRETTY    { ; Ilovethelookofthisone (c)1992 Pete Moreland 100012,3213
+  reset type=fn(z*z) function=sinh
+  corners=-0.0594969/0.1695258/-1.196613/-0.845811/-0.1454889/-1.081995
+  float=y maxiter=32000 bailout=100 inside=255 potential=255/128/0
+  decomp=256 biomorph=0
+  colors=000<21>524524524624624625<43>I8EI8EI8EI9EI9EI9E<69>FK8FK8GJ6<35>FflFg\
+  mDhp<51>SZWSZWRWZ<12>TaTPCW000
+  }
+
+Misty!             { ; Play it for me.... (c) Peter M
+  reset type=magnet1m
+  corners=-11.1601714/-11.184285/-11.5039249/-11.542591/-11.1396539/-11.529146\
+  6 params=1.76/4 maxiter=32000 bailout=500 inside=0 potential=255/511/0
+  decomp=256
+  colors=000mJj<2>mJlmJllIllIlkIl<48>QDl<19>Awh<12>vcF<77>fhefhefhefiefif<10>g\
+  pngpnfoo<69>T1w
+  }
+
+HI Earthling..     { ; Well were is your leader?
+                     ; Peter Moreland 100012,3213
+  reset type=magnet1m
+  corners=7.414884/3.717069/-6.804988/3.803521/1.034958/1.774657
+  params=1.76/4 float=y maxiter=32000 bailout=500 inside=0
+  potential=255/511/0 decomp=256
+  colors=LSUK`W<4>9kZ<2>s72<2>b9k<27>I2V<9>j5k<27>gjX<30>gUa<7>Hb1<13>Vq7Wr7Xs\
+  9<30>esw<5>wUV<24>ubSubStaT<21>h9w<6>eHAeI3cL7<4>W_RVbUUcS<4>ThNk5Ln5K<12>MZ\
+  V
+  }
+
+Well...            { ; Urrmm... (c)1992 Peter Moreland 100012,3213
+                     ;
+  reset type=formula formulafile=rclpar.frm formulaname=rcl_cosh
+  corners=1.7404444/1.6683525/-1.9680464/-1.8719239/1.6683525/-1.8719239
+  params=1/1.7/1/2.7 float=y maxiter=10000 inside=0
+  colors=000`VU`KI`96<3>M6JFIc9TxDhnHwe<4>btz2Sn<2>fzr<5>p18<5>Q8X<2>XU_<2>UJj\
+  TFmUHn<6>aXt<7>9CEO78b22jT3rs4<5>VuY<6>WqC<4>1TD<2>z_K<2>XZq<6>2JM<5>bN7<7>w\
+  ig<2>5bQZxu<2>ud7<3>KTJMfXNtj<5>VMj<2>MFL<3>XWX_`_bfiadbdheVUahhsgjofkkI1ik4\
+  z<3>gck3qi<2>Xmhxm`<6>hlglM9<3>hcXghbdsmepkfni8zv<5>anjv8qUV0Z`FbfUf9J<4>ffd\
+  pXt<2>hhkftA<4>fmc8CX<5>aggtvL<3>hndY48`JLcYXuFzmWqujNIiJ<4>bldMENXWYPG4<3>c\
+  f`tj8<4>hlb0Pb<2>XfgPNt<6>diiImn<5>clhQ4g<4>dehm12
+  }
+
+Mirror, Mirror!    { ; (c) Peter Moreland 100012,3213
+                     ; Blantyre House, Cossack Sq, Nailsworth, Gloucs, UIK.
+  reset type=barnsleyj1 corners=-1.3564493/-1.2725469/0.717811/0.7807173
+  params=0.1414/1.79 float=y maxiter=32000 bailout=100 decomp=256
+  colors=00000e0e00eee00e0eeL0eeeLLLLLzLzLLzzzLLzLzzzLzzz000555<3>HHHKKKOOOSSS\
+  WWW___ccchhhmmmssszzz00z<3>z0z<3>z00<3>zz0<3>0z0<3>0zz<2>0GzVVz<3>zVz<3>zVV<\
+  3>zzV<3>VzV<3>Vzz<2>Vbzhhz<3>zhz<3>zhh<3>zzh<3>hzh<3>hzz<2>hlz00S<3>S0S<3>S0\
+  0<3>SS0<3>0S0<3>0SS<2>07SEES<3>SES<3>SEE<3>SSE<3>ESE<3>ESS<2>EHSKKS<2>QKSSKS\
+  SKQSKOSKMSKK<2>SQKSSKQSKOSKMSKKSK<2>KSQKSSKQSKOSKMS00G<3>G0G<3>G00<3>GG0<3>0\
+  G0<3>0GG<2>04G88G<2>E8GG8GG8EG8CG8AG88<2>GE8GG8EG8CG8AG88G8<2>8GE8GG8EG8CG8A\
+  GBBG<2>FBGGBGGBFGBDGBCGBB<2>GFBGGBFGBDGBCGBBGB<2>BGFBGGBFGBDGBCG000<6>000
+  }
+

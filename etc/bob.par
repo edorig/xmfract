@@ -1,0 +1,100 @@
+
+lamda1             { ; Interesting Lamda generation. 256 colors
+                     ; Bob Dodson | 1992
+  reset type=lambda corners=-1.5/2.500001/-1.499999/1.5 params=0.85/0.6
+  float=y maxiter=600 outside=imag distest=256/100 finattract=y
+  periodicity=0
+  colors=000xE2<21>336<17>RQkLXs<13>YMiqBu<2>OScHGa<10>FeWXFx<3>FgW<13>la`vWg<\
+  6>eiTfhB<9>_onenw<6>Npb5lg<4>WsWp0Z<4>bkU`tU_rV<4>VhZXdU<6>PmiOnkKrp<14>faUt\
+  ce<12>FV0<19>gDBv8UqANlCHi61<12>e_ejWi<16>ZiheyyKuM<8>dp_fp`hmY<10>wH4
+  }
+
+lamda2             { ; Another Lamda with an unusual color map. 256 color
+                     ; Bob Dodson | 1992
+  reset type=lambda
+  corners=-0.341333/1.362679/1.13601/-1.135999/1.362679/-1.135999
+  params=0.85/0.6 maxiter=20 inside=bof60 outside=summ
+  colors=f00VRI<4>_VJMMH<12>omXMKH<15>v9aIOJ<7>2snLKG<15>iMOLJJ<9>c3vUqNKKG<17\
+  >KJTJIULKG<9>`SBJJI<7>A6YLLG<16>hiKKKG<20>RG`aZWtnlLLI<14>ncqJKG<3>EICOJISIK\
+  WGMKKH<22>9IlLKG<22>tLXKLI<9>OXaPZcNSUP_eQ`gQaiRck<8>e`b
+  }
+
+lamda3             { ; A Lamda from the Dark Side. 256 color mode
+                     ; Bob Dodson | 1992
+  reset type=lambda
+  corners=0.0308712/0.2773391/0.5954119/0.6142325/0.110565/0.489145
+  params=0.85/0.6 maxiter=20 inside=bof60 outside=summ
+  invert=0.00490161/0.185312/0.628615
+  colors=000rD3<19>336<17>RQkLXs<13>YMiqBu<2>OScHGa<10>FeWXFx<3>FgW<13>la`vWg<\
+  6>eiTfhB<9>_onenw<6>Npb5lg<4>WsWp0Z<4>bkU`tU_rV<4>VhZXdU<6>PmiOnkKrp<14>faUt\
+  ce<12>FV0<19>gDBv8UqANlCHi61<12>e_ejWi<16>ZiheyyKuM<8>dp_fp`hmY<11>xE2uD3
+  }
+
+Ghostie            { ; Looks a bit like a dwarf Jedi eh? <GRIN>  256 color
+                     ; Bob Dodson | 1992
+  reset type=fn*fn function=sin/sqr
+  corners=-0.54425/0.542938/0.892853/1.708969 maxiter=1000 outside=imag
+  invert=0.136019/0/1.30091
+  colors=000I58<21>zKU<30>211000000<14>000010030<29>0z0<30>020000000<14>000110\
+  330<29>zz0<30>220000000<29>000000200<6>G57
+  }
+
+Spider1            { ; A different look at the Spider fractal. 256 color
+                     ; Bob Dodson | 1992
+  reset type=spider corners=-0.824/-0.624/-0.650488/-0.500488 maxiter=30
+  inside=bof60 outside=0 invert=0.5/-0.5/0 periodicity=4
+  colors=000oZK<6>xE2<8>`94Y90W84<10>336559000<27>000WO0000000000gHoYMiOScHGa<\
+  6>FXY000000FcXFeWXFx<3>FgW<13>la`vWg<6>eiTfhB<9>_onenw<6>Npb5lg<4>WsWp0Z<4>b\
+  kU`tU_rV<4>VhZXdU<6>PmiOnkKrp<14>faUtce<12>FV0<19>gDBv8UqANlCHi61<12>e_ejWi<\
+  16>ZiheyyKuM<8>dp_fp`hmY<3>maN
+  }
+
+Spider2            { ; Try this one in a 16 color mode-looks nice in 1024X768.
+                     ; Bob Dodson | 1992
+  reset type=spider corners=-0.834834/0.429166/0.386496/1.334495
+  maxiter=30 inside=bof60 outside=0 invert=0.5/-0.5/0 periodicity=4
+  colors=000uOo<7>QA9YIGdPMjGFp88s6_u5z
+  }
+
+starbirth          { ; A thinned-out Newton with stellar color. 256 color
+                     ; Bob Dodson | 1992
+  reset type=newton passes=b
+  corners=-0.682764/0.638196/-0.239211/0.289315/-0.049804/-0.239211
+  params=4 float=y maxiter=600 finattract=y
+  colors=000PEEPEDOFC<18>HPjGQlHQl<36>ro`tp_tp_<74>vtivtivth<53>lkLlkLlkLkjLkj\
+  L<33>V_PUZQVYR<18>x2iPEFPEF
+  }
+
+Mandelbrot1        { ; An electrified, rarified Mandelbrot. 256 color
+                     ; Bob Dodson | 1992
+  reset type=mandel corners=0.929333/-2.206666/1.160014/-1.191986
+  maxiter=50 inside=bof60 outside=imag
+  colors=000rD3<19>336<17>RQkLXs<13>YMiqBu<2>OScHGa<10>FeWXFx<3>FgW<13>la`vWg<\
+  6>eiTfhB<9>_onenw<6>Npb5lg<4>WsWp0Z<4>bkU`tU_rV<4>VhZXdU<6>PmiOnkKrp<14>faUt\
+  ce<12>FV0<19>gDBv8UqANlCHi61<12>e_ejWi<16>ZiheyyKuM<8>dp_fp`hmY<11>xE2uD3
+  }
+
+
+Mandelbrot2        { ; Fractal forest fire. 256 color
+                     ; Bob Dodson | 1991
+  reset type=marksmandel
+  corners=-1.393317/-1.3588535/0.0004063/-0.0455265/-1.3588535/-0.0455265
+  params=0.8/0/-1 maxiter=5000 outside=real
+  colors=000022Z33<22>GEEFFFFFFFFF<29>x11z00z10<29>zx0zz0zz1<29>zzxzzzzzz<61>z\
+  V1zU0zU0zT0<19>zA0000z80<6>z10z00z00y00<19>k00000i00<8>c00b11a11`22
+  }
+
+Mandelbrot3        { ; A lonely neural synapse wending thru grey matter.
+                     ; 256 color mode.  Bob Dodson | 1991 |
+  reset type=mandel passes=b
+  corners=0.37233328/0.37393223/0.67359564/0.67468145 finattract=y
+  colors=00000e0e00eee00e0eeL0eeeLLLLLzLzLLzzzLLzLzzzLzzz000555<3>HHHKKKOOOSSS\
+  WWW___ccchhhmmmssszzz00z<3>z0z<3>z00<3>zz0<3>0z0<3>0zz<2>0GzVVz<3>zVz<3>zVV<\
+  3>zzV<3>VzV<3>Vzz<2>Vbzhhz<3>zhz<3>zhh<3>zzh<3>hzh<3>hzz<2>hlz00S<3>S0S<3>S0\
+  0<3>SS0<3>0S0<3>0SS<2>07SEES<3>SES<3>SEE<3>SSE<3>ESE<3>ESS<2>EHSKKS<2>QKSSKS\
+  SKQSKOSKMSKK<2>SQKSSKQSKOSKMSKKSK<2>KSQKSSKQSKOSKMS00G<3>G0G<3>G00<3>GG0<3>0\
+  G0<3>0GG<2>04G88G<2>E8GG8GG8EG8CG8AG88<2>GE8GG8EG8CG8AG88G8<2>8GE8GG8EG8CG8A\
+  GBBG<2>FBGGBGGBFGBDGBCGBB<2>GFBGGBFGBDGBCGBBGB<2>BGFBGGBFGBDGBCG000<6>000
+  }
+
+

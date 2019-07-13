@@ -1,0 +1,212 @@
+xrh111             { ; (c)1993 Richard H. Sherry
+                     ; Most original some inspired by others with my thanks.
+  reset type=fn(z)+fn(pix) function=recip/cosxx passes=t
+  corners=-1.353677/-0.624397/0.651325/-0.321048/-0.624397/-0.321048
+  params=-3.1524/2.6665/4.124 maxiter=100 fillcolor=5 inside=-100
+  potential=255/200/0 invert=7.99701/0/0 periodicity=0
+  colors=0000QQ<2>0NN000z00<40>M00z0z<40>M0M0z0<40>0M000z<40>00Mzz0<40>MM0\
+  0000000000zz<35>0RR
+  }
+
+xrh092             { ; (c)1993 Richard H. Sherry
+                     ; Most original some inspired by others with my thanks.
+  reset type=formula formulafile=fractint.frm formulaname=Jm_07
+  corners=-1.131195/-0.397037/0.489441/-0.489442/-0.397037/-0.489442
+  params=1.6/0.3 maxiter=256 inside=0 outside=imag logmap=yes
+  potential=255/350/75 periodicity=0
+  colors=0000PP<2>0MMz00<40>M00z0z<40>M0M0z0<40>0M000z<40>00Mzz0<40>MM0000\
+  0000000zz<34>0SS0000QQ
+  }
+
+xrh093             { ; (c)1993 Richard H. Sherry
+                     ; Most original some inspired by others with my thanks.
+  reset type=formula formulafile=fractint.frm formulaname=Jm_08
+  corners=0.36329/1.723279/0.906667/-0.906672/1.723279/-0.906672
+  params=0.3/1.6 maxiter=256 inside=0 outside=imag logmap=yes
+  potential=255/350/75 periodicity=0
+  colors=000PFF<15>zfD<14>SHE05F0FM<14>ILdKMfJMe<13>0FKAA0<15>PP0PP0OO0<13\
+  >AA0SNC<29>xo`zpaypa<28>WQG000000<29>nnnpppooo<30>000PFF<13>nd1pf0oe1<12\
+  >RHE
+  }
+
+xrh094             { ; (c)1993 Richard H. Sherry
+                     ; Most original some inspired by others with my thanks.
+  reset type=formula formulafile=fractint.frm formulaname=Jm_09
+  corners=-1.213759/-0.350035/0.575815/-0.575833/-0.350035/-0.575833
+  params=0.5/0.3/1.1/0.8 maxiter=256 inside=0 outside=imag logmap=yes
+  potential=255/350/75 periodicity=0
+  colors=000QH9<31>jX8jX8iW8<29>KAAKAALBA<28>cT8dU7dT7<57>K9BGAB<29>zz0<8>\
+  LVY<11>9da8da9b_<23>C8AD79D79<18>PH9
+  }
+
+xrh095             { ; (c)1993 Richard H. Sherry
+                     ; Most original some inspired by others with my thanks.
+  reset type=formula formulafile=fractint.frm formulaname=Jm_10
+  corners=-0.213551/0.22891/0.989167/1.321 params=0.5 maxiter=256
+  inside=0 outside=imag logmap=yes potential=255/350/75 periodicity=0
+  colors=000s`D<3>wcFwcFvbF<28>UK0UFF<31>rPSrPSqPS<29>UFFPAP<29>o_qp`ro_q<\
+  15>PAP<4>ePX<9>AKU<30>geeiffiff<13>og`ph_ogY<13>WM3UK0UK0<24>r_C
+  }
+
+xrh096             { ; (c)1993 Richard H. Sherry
+                     ; Most original some inspired by others with my thanks.
+  reset type=formula formulafile=fractint.frm formulaname=Jm_11
+  corners=-1.096751/1.096738/-0.822557/0.822556 params=0.5/0/1
+  maxiter=256 inside=0 outside=imag logmap=yes potential=255/350/75
+  periodicity=0
+  colors=0000002B0<14>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<29\
+  >ppp<31>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<11>7G0540000
+  }
+
+xrh097             { ; (c)1993 Richard H. Sherry
+                     ; Most original some inspired by others with my thanks.
+  reset type=formula formulafile=fractint.frm formulaname=Jm_11a
+  corners=-2.82667/2.826676/-2.119998/2.119997 params=1 maxiter=256
+  inside=0 outside=imag logmap=yes potential=255/350/75 periodicity=0
+  colors=000000bWK<19>xo`zpaypa<28>WQG000000<29>nnnpppooo<30>000PFF<13>nd1\
+  pf0oe1<13>PFF<15>zfD<14>SHE05F0FM<14>ILdKMfJMe<13>0FKAA0<15>PP0PP0OO0<13\
+  >AA0SNC<7>`UI
+  }
+
+xrh098             { ; (c)1993 Richard H. Sherry
+                     ; Most original some inspired by others with my thanks.
+  reset type=formula formulafile=fractint.frm formulaname=Jm_11a
+  corners=-0.0386857/0.4949753/-1.027456/-0.785743/0.0373937/-1.128921
+  params=1 maxiter=256 inside=0 outside=imag logmap=yes
+  potential=255/350/75 periodicity=0
+  colors=000770<13>ut0<15>000GA4<15>0fI<14>103<13>I9hKAkJAh<13>000<15>g01<\
+  13>B03804402<15>u0u<12>E0FB0C708304000<15>zzz<14>444<14>HNeIPhIOe<13>800\
+  400000<15>zX0<15>000440
+  }
+
+xrh099             { ; (c)1993 Richard H. Sherry
+                     ; Most original some inspired by others with my thanks.
+  reset type=formula formulafile=fractint.frm formulaname=Jm_12
+  corners=-3.54667/3.546646/-2.659997/2.659998 params=1/0.5
+  maxiter=256 inside=0 outside=imag logmap=yes potential=255/350/75
+  periodicity=0
+  colors=000000333<28>ppp<31>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<14>0A0<1\
+  5>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<12>XRH000UPF
+  }
+
+xrh100             { ; (c)1993 Richard H. Sherry
+                     ; Most original some inspired by others with my thanks.
+  reset type=formula formulafile=fractint.frm formulaname=Jm_13
+  corners=-3.441264/-2.477203/0.608061/-0.608069/-2.477203/-0.608069
+  params=1 maxiter=256 inside=0 outside=imag logmap=yes
+  potential=255/350/75 periodicity=0
+  colors=000AIW<6>ILdKMfJMe<13>0FKAA0<15>PP0PP0OO0<9>EE0000CC0BB0AA0SNC<29\
+  >xo`zpaypa<28>WQG000000<29>nnnpppooo<30>000PFF<13>nd1pf0oe1<13>PFF<15>zf\
+  D<14>SHE05F0FM<6>8IV
+  }
+
+xrh101             { ; (c)1993 Richard H. Sherry
+                     ; Most original some inspired by others with my thanks.
+  reset type=formula formulafile=fractint.frm formulaname=Jm_18
+  corners=-1.609423/-1.045427/0.375995/-0.376002/-1.045427/-0.376002
+  params=1/0/0.5 maxiter=256 inside=0 outside=imag logmap=yes
+  potential=255/350/75 periodicity=0
+  colors=000eee<5>ppp<31>000PFF<13>nd1pf0oe1<13>PFF<15>zfD<14>SHE05F0FM<14\
+  >ILdKMfJMe<13>0FKAA0<15>PP0PP0OO0<13>AA0SNC<29>xo`zpaypa<28>WQG000000<23\
+  >ddd
+  }
+
+xrh102             { ; (c)1993 Richard H. Sherry
+                     ; Most original some inspired by others with my thanks.
+  reset type=formula formulafile=fractint.frm formulaname=Jm_19
+  passes=1
+  corners=-1.583459/-1.689766/-0.070885/0.070876/-1.689766/0.070876
+  params=1 maxiter=512 inside=0 outside=imag potential=255/350/75
+  periodicity=0
+  colors=000AWD<12>KF3AK`<25>KE4BZT<3>JI87_F<23>KE39gt<21>KF5Pt8<29>KF3rus\
+  <27>LF4JXA<16>KF3bHF<7>ME4fk7VV598G<3>B9ECPb<8>0Gi<3>ESUIWPJVN<6>JOGJNFJ\
+  NEJND<8>KE441e<9>JD6HG8<14>KE32417aG<2>AYD
+  }
+
+xrh103             { ; (c)1993 Richard H. Sherry
+                     ; Most original some inspired by others with my thanks.
+  reset type=formula formulafile=fractint.frm formulaname=Jm_24
+  passes=1
+  corners=-1.170924/-1.302345/-0.2136/0.20738/-1.302345/0.20738
+  params=1 maxiter=256 inside=0 logmap=yes potential=255/350/75
+  periodicity=0
+  colors=000_fl<14>inujovinu<164>KQUJQUJQUJPUJPUIPU<11>FMUFLUFLUEKUEKUDJV<\
+  2>BLSAMR9MQ8MP6KM<32>S`e000<8>000
+  }
+
+xrh104             { ; (c)1993 Richard H. Sherry
+                     ; Most original some inspired by others with my thanks.
+  reset type=fn(z)+fn(pix) function=sin/cosh passes=1
+  corners=-1.9618065/-1.9873416/0.260773/0.595226/-2.1315404/0.487088
+  params=0.7/0.333/0.5/0.5 maxiter=128 bailout=50 inside=bof60
+  colors=000ccc<23>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<14>0A0<6>FN0
+  }
+
+xrh105             { ; (c)1993 Richard H. Sherry
+                     ; Most original some inspired by others with my thanks.
+  reset type=formula formulafile=fractint.frm formulaname=Jm_25
+  corners=2.150003/0.594168/-1.037243/1.037223/0.594168/1.037223
+  params=3.14167 maxiter=256 inside=0 logmap=yes potential=255/350/75
+  periodicity=0
+  colors=000dZN<8>WQG000000<29>nnnpppooo<30>000PFF<13>nd1pf0oe1<13>PFF<15>\
+  zfD<14>SHE05F0FM<14>ILdKMfJMe<13>0FKAA0<15>PP0PP0OO0<13>AA0SNC<29>xo`zpa\
+  ypa<18>eZO
+  }
+
+xrh106             { ; (c)1993 Richard H. Sherry
+                     ; Most original some inspired by others with my thanks.
+  reset type=formula formulafile=fractint.frm formulaname=Jm_26
+  corners=-3.073284/3.073263/4.097696/-4.097715/3.073263/-4.097715
+  params=3.1416/0.5 maxiter=256 inside=0 logmap=yes
+  potential=255/350/75 periodicity=0
+  colors=000000baB<13>HHBVTI<20>HHBGGBEbK<12>GHBgqn<16>IKFHIDDyY<6>GLDK0u<\
+  14>GFDWbH<18>GHBavg<11>HJDmHH<4>LGCRha<6>HJEFRE<18>WKlWKmVLl<28>HUL<9>u_\
+  R<7>KLFtps<29>HHCvuA<10>edB
+  }
+
+xrh107             { ; (c)1993 Richard H. Sherry
+                     ; Most original some inspired by others with my thanks.
+  reset type=formula formulafile=fractint.frm formulaname=Jm_26
+  corners=-1.976968/-2.767776/-0.5316/0.522773/-2.767776/0.522773
+  params=3.1416/0.5 maxiter=256 inside=0 logmap=yes
+  potential=255/350/75 periodicity=0
+  colors=000000EKT<6>7Or5Pv6Ps<10>IHEJHAKG6LG2MF0OH1<13>kml<13>QK5OI2MF0<3\
+  >LN0KP1KR1JT2JV3<7>Fk8<9>KR2KP1KN1LL1LJ0MH0MF0LI1<13>EqiDtlEqi<12>KL5LI2\
+  MF0<15>zH0<15>MF0<15>ww0<15>MF0OF1<14>wEa<14>PE1<15>zp_<14>SL4PI1MF0LG2<\
+  4>GJL
+  }
+
+xrh108             { ; (c)1993 Richard H. Sherry
+                     ; Most original some inspired by others with my thanks.
+  reset type=lyapunov passes=1
+  corners=1.297889/2.008692/3.436421/3.969524 params=31416/0.325/5
+  float=y maxiter=10 inside=zmag logmap=yes periodicity=-1
+  colors=000QGE<8>fX5
+  }
+
+xrh109             { ; (c)1993 Richard H. Sherry
+                     ; Most original some inspired by others with my thanks.
+                     ; thanks to Jon Horner
+  reset type=fn*fn function=exp/tanh
+  corners=-3.005371/0.994614/5.811661/0.47821/0.994614/0.47821
+  inside=0 potential=255/511/0
+  colors=000<29>nnnpppooo<30>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<14>0A0<1\
+  5>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF cyclerange=2/255
+  }
+
+xrh110             { ; (c)1993 Richard H. Sherry
+                     ; Most original some inspired by others with my thanks.
+  reset type=fn(z)+fn(pix) function=sqr/sin passes=b
+  corners=0.291385/-1.541776/0.917699/-3.373839/1.691385/-0.948968
+  params=9/4/-3 maxiter=100 fillcolor=5 inside=-100
+  potential=255/200/0 invert=7.99701/0/0 periodicity=0
+  colors=000cG9<5>CGFiIk<3>FGMhJk<2>HGOlpm<6>DKKyiRBmh<2>8ONM_9<4>AJFlf6<4\
+  >EKFhW60cw4Savl3XWAulFdaGhlEhq7c3v<6>8b5<6>mJ9<6>lHR<4>BWI<6>xMo<5>_BDkJ\
+  7vQ1<2>Isd<2>Ce0<6>QSr<5>gcridrjYo<3>lAe<3>d7Ec77_A8<2>PJ9<3>U1tha9VaLIa\
+  X8GHEURBNLIuB<4>9NG7ct8S_I53<3>AEEGkOCWKSk8<2>DOE80P<3>8DHhWE<4>EIGdNYOJ\
+  Paz3NbAPVV<2>CJJ1CO5EKLcN<6>9JGqtj<5>JQNDLJ5_n<4>8JL1Cr<3>7GNxfd<3>ILLQC\
+  c<2>CFMVHH<4>EGGBGG9je8VTipUXcPKSKcRe<6>CHJxa4<5>FJFHZBJ44<3>AEEhMBWKDKI\
+  FhnV<4>ELIhG7
+  }
+
+

@@ -1,0 +1,445 @@
+;; ckp375.par (images 351 through 375),  21 March 1993
+;;
+;; Here are my current contributions to PARs for Tomorrow (V18.0)...
+;; Any duplications are entirely
+;; unintentional...  With any luck, a few of these will find
+;; their way into the postcard/poster world before spring of
+;; '93...  Comments pro and con will be sent to their appropriate
+;; locations...
+
+;; With this particular PAR file, I seem to have gone "nuts"
+;; with 3d images...  Given the images I've found, I can honestly
+;; state I'll be doing more, and soon!
+
+;; A few images here were inspirations from other creations, and
+;; have been (I hope) accorded appropriate acknowledgement...
+
+;; Time listed on the first line reflects creation on a 486-50
+;; running 1024x768x256 colors...   ALL of these images look best
+;; when created with a 256-color or better video and 1024x768 or
+;; better resolution...  I have no idea how they will look at
+;; lower resolutions or lower color densities...  Happy viewing!
+
+;; caren park
+;; park computer services
+;; 23808 southeast 24th street
+;; issaquah, washington  98027
+;; CIS:  75430,1474
+
+;; PS:  Please do not use these images commercially without
+;; dropping me a quick message requesting inclusion in your
+;; fine product BEFORE you go to market...
+
+;; PPS:  Many of these 3ds rely on their own individual color
+;; maps, and not those of the original 2d image...  In order to
+;; see them as I imagine (and created) them, you will need to
+;; do the following for CKP351, 352, 355, 356, 357, and 361:
+;;
+;; generate the 2D image (the file that immediately precedes
+;;      the 3D CKP image...
+;; generate the CKP image...
+;; load the finished CKP...
+;; type "@" to retrieve CKP375.PAR...
+;; move the cursor to the appropriate CKP image (ie, 351)...
+;; hit the RETURN key, then the ESCAPE key...
+;;
+;; you should now see the colors as I generated them originally...
+;; this little "exercise" is due to the inability of the 3D generation
+;; routines to "read" the COLORS= line for 3D PARs...
+
+;; and now, on with the show!
+
+=====================================================================
+J_Lagandre4-1      { ; J_Lagandre4 zoomed in
+  reset type=formula formulafile=tchebych.frm
+  formulaname=J_Lagandre4 corners=-1.830262/1.161745/-1.115761/1.128261
+  potential=256/2000/4
+  }
+---------------------------------------------------------------------
+
+ckp0351            { ; "Frosted Island Forest"
+                     ; 00:02:39.11 .. 21 mar 93 .. caren park
+                     ; need to create TCHEBYCH:J_Lagandre4-1 first,
+                     ; then run this 3d formula over it...
+  3d=yes filename=j_lagand.gif scalexyz=90/90 roughness=30 waterline=0
+  filltype=2 ambient=20 rotation=60/10/0 perspective=0 xyshift=0/0
+  colors=00000e10f<5>27g38g39h4Ai4Bi5Ci5Dj6Ek6Fk7Gk7Hl8Im8Jm9Km9LnAMoANoBO\
+  oBPpCQqCRqDSqDTrEUsFVsFWsGXtGYuHXuHYuHZuH_uI`vIawJbwJcwKdx<2>LgyAV0<12>C\
+  X2DX2DX2EX3EX3<18>H`6I`6I`7Ia7Ia8Ja8<4>KcALcALdAMdAMdB<7>PgDPgEPhEPhEQhF\
+  <20>WoNXoNXpNYpNYpO<8>`sR`tRatRatRbtRbtR<2>etRetRftRftRgtR<22>ttRutRutRu\
+  tQ<5>utNusNusNurMuqL<5>unHumHumGumG<9>uhBuhBugBugBugA<7>tc8tc8sb7sa6sa6s\
+  `5r`5rZ4rZ4rX4qX4qV2qV2qT2WWWWWWzzz<6>zzzkkkkkkzzz<5>zzz
+  }
+
+=====================================================================
+folds1             { ; j_l3
+  reset type=formula formulafile=tchebych.frm formulaname=J_Laguerre3
+  corners=2.8288057/2.9163843/0.1209986/0.3260441/2.7619116/0.2101857
+  params=0.15 inside=0
+  }
+---------------------------------------------------------------------
+
+ckp0352            { ; "Japanese Dragon Lamp"
+                     ; 00:01:32.99 .. 23 mar 93 .. caren park
+                     ; need to create TCHEBYCH:Folds1 first, then
+                     ; run this 3d formula over it...
+  3d=yes filename=folds1.gif sphere=y latitude=-90/90 longitude=180/0
+  radius=100 scalexyz=90/100 roughness=30 waterline=0 filltype=2
+  ambient=20 perspective=0 xyshift=0/0
+  colors=WPJTM9<4>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSAR\
+  UBUWBXY<6>DqlDtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN3\
+  KO4J<12>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<\
+  4>jiWhfUfdTebS<3>ZUMYRKUMHSJF<6>EAb<6>7Nu5Px5Nu<5>A5cB5`<3>G8SH9QIAQ<4>S\
+  KP<3>_VZ`Y`b`cdcf<4>nru<15>OI5RK7
+  }
+
+ckp0353            { ; "Oscar on Drugs"
+                     ; 00:00:48.66 .. 23 mar 93 .. caren park
+  reset type=tim's_error function=sqr
+  corners=-1.8702607646/0.8600288381/1.7410673927/-2.0232238952/0.85568973\
+  45/-2.0244204416 params=0.2432/0.2424 float=y maxiter=25 bailout=10
+  outside=real decomp=256 biomorph=0
+  colors=HGMDDLAAK<3>ALQAOSARUBUWBXY<6>DqlDtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7\
+  >zH0<8>SDF<3>N3JL0KL1KM2KN3KO4J<12>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF<13\
+  >K8C413000<15>svcsvcsvcsvc<4>jiWhfUfdTebS<4>YRKWPJUMHSJF<6>EAb<6>7Nu5Px5\
+  Nu<5>A5cB5`<3>G8SH9QIAQ<4>SKP<3>_VZ`Y`b`cdcf<4>nru<15>OI5<6>eYJg_LiaNkcP\
+  neR<4>zpa<4>jdWgaVcZT`WSYUR<3>KJN cyclerange=0/255
+  }
+
+ckp0354            { ; "Flamenco Dancer"
+                     ; 00:00:48.66 .. 23 mar 93 .. caren park
+                     ; (same as previous, different colormap)
+  reset type=tim's_error function=sqr
+  corners=-1.8702607646/0.8600288381/1.7410673927/-2.0232238952/0.85568973\
+  45/-2.0244204416 params=0.2432/0.2424 float=y maxiter=25 bailout=10
+  outside=real decomp=256 biomorph=0
+  colors=LEd<72>`A2`A2`A1a90aA0bB0<37>yrHztIzwJzzL<2>zsK000zpK<18>z07<15>0\
+  j0<28>Bzs<2>FttHqtJouLmuMkv<7>_UyaRzbQw<13>q4Bs27r28<29>MDdKEfKEfKEeKEe
+  cyclerange=0/255
+  }
+
+=====================================================================
+CurlyMandelbrot    { ; A prime candidate for 3D-look
+  reset type=mandel
+  corners=-0.687374802/-0.687369086/0.382380338/0.382384624 maxiter=1900
+  inside=maxiter logmap=200
+  colors=zP0u0g<22>h0lh0lg1lf1me2me3n<24>MIyLJyKKzKLzJMz<28>1xz0zz0zy<29>0zV0z\
+  T0zT<4>3wO4vN5vM5vM<37>chAdhAehAehAfgA<16>tZ4uY3tY4<15>aMM_LO`LP<45>y1y000
+  }
+---------------------------------------------------------------------
+
+;; this particular image comes from RADAR.PAR, and is beautiful in
+;; its own right...  it will take you about 18 minutes to generate
+;; with a 486/50...  as the comment states, it's a beautiful 3d
+;; candidate...  the next two of mine show some of its wonder...
+;; enjoy!
+
+ckp0355            { ; "Snowy Slopes, Foggy Valley"
+                     ; 00:02:27.10 .. 23 mar 93 .. caren park
+                     ; need to create RADAR:CurlyMandelbrot first,
+                     ; then run this 3d formula over it...
+  3d=yes filename=curlyman.gif scalexyz=90/90 roughness=30 waterline=0
+  filltype=2 ambient=20 rotation=60/30/0 perspective=0 xyshift=0/0
+  colors=000fls<3>inujovinu<163>KQUJQUJQUJPUJPUIPU<11>FMUFLUFLUEKUEKUDJV<5\
+  >7JO6KM7LN<29>R_dS`eS`eT`fTafUag<18>fkr
+  }
+
+ckp0356            { ; "Io"
+                     ; 00:01:45.84 .. 23 mar 93 .. caren park
+                     ; need to create RADAR:CurlyMandelbrot first,
+                     ; then run this 3d formula over it...
+  3d=yes filename=curlyman.gif sphere=y latitude=-90/90
+  longitude=180/0 radius=100 scalexyz=90/100 roughness=30 waterline=0
+  filltype=2 ambient=20 perspective=0 xyshift=0/0
+  colors=413000<15>svcsvcsvcsvcqsaoq`np_mnZ<2>hfUfdTebSc`QbYP`WNZUMYRKUMHS\
+  JF<6>EAb<6>7Nu5Px5Nu<5>A5cB5`<3>G8SH9QIAQ<4>SKP<3>_VZ`Y`b`cdcf<4>nru<15>\
+  OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARUBUWBXY<6>\
+  DqlDtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN3KO4J<12>zz\
+  0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C cyclerange=0/255
+  }
+
+=====================================================================
+curly-wurlies      { ;... from RADAR.PAR
+  reset type=mandel
+  corners=-0.930600312/-0.930415479/0.244768998/0.244907577 maxiter=1024
+  inside=maxiter logmap=80
+  }
+---------------------------------------------------------------------
+
+ckp0357            { ; "Stormy Weather"
+                     ; 00:02:12.54 .. 23 mar 93 .. caren park
+                     ; need to create RADAR:Curly-Wurlies first,
+                     ; then run this 3d formula over it...
+  3d=yes filename=curly-wu.gif sphere=y latitude=-90/90
+  longitude=180/0 radius=100 scalexyz=90/100 roughness=30 waterline=0
+  filltype=2 ambient=20 perspective=0 xyshift=0/0
+  colors=000vzz<41>5zz3zz2zz0zz0yz<43>05z03z02z00z00y<59>003002000000000<2\
+  9>00k00m01m<29>0ky0mz1mz<30>zzzyzz cyclerange=0/255
+  }
+
+=====================================================================
+xzz012             { ; (c) 1993 Richard H, Sherry, CIS: 76264,752
+  reset type=formula formulafile=tchebych.frm
+  formulaname=M_TchebychevS3
+  corners=-0.154238/0.154269/-0.115671/0.115683 params=-0.1/2
+  maxiter=256 inside=0 logmap=yes potential=255/350/75 periodicity=0
+  colors=000SWT<18>BDEoSQ<24>oS2<9>C97478878ovz<20>68AlCP<9>869yed<23>679d\
+  UL<28>568Mdt<5>6BFtiN<30>578jr1aTP<13>679J6K<19>468MzX<26>488X`X<3>TXT
+  }
+---------------------------------------------------------------------
+
+ckp0358            { ; "Stonehenge, Prototype"
+                     ; 00:01:42.60 .. 24 mar 93 .. caren park
+                     ; need to create XZZ011:Xzz012 first, then
+                     ; run this 3d formula over it...
+  3d=yes filename=xzz012.gif scalexyz=90/90 roughness=30 waterline=0
+  filltype=2 ambient=20 rotation=60/15/0 perspective=0 xyshift=0/0
+  colors=000MON<8>JQN5ah<70>SW_SW_TX`<61>kmokmojln<89>SKOSKORLN<11>OMNNNNN\
+  NNNON
+  }
+
+ckp0359            { ; "Target"
+                     ; 00:07:24.57 .. 24 mar 93 .. caren park
+                     ; for use in creating ckp0360 as 3d
+                     ; from a tiny point on XZZ011:Xzz015
+  reset type=fn*fn function=recip/tan
+  corners=-0.039016724/0.031204224/-0.37979126/-0.473449707/0.031204224/-0\
+  .473449707 inside=period potential=255/511/0
+  colors=WPJUMH8Bi98fA5c<5>H9Q<4>QIPSKPUNS<2>_VZ`Y`b`cdcf<4>nru<15>OI5<6>e\
+  YJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARUBUWBXY<6>DqlDtnC\
+  ql<6>7Ta<6>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN3KO4J<12>zz0<7>``9YYAXVB\
+  <6>KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<4>jiWhfUfdTebS<4>YRKSJF\
+  <6>EAb<6>7Nu5Px5Nu<2>8El cyclerange=0/255
+  }
+
+ckp0360            { ; "Oasis"
+                     ; 00:01:32.11 .. 24 mar 93 .. caren park
+                     ; need to create ckp0359 first, then
+                     ; run this 3d formula over it...
+  3d=yes filename=ckp0359.gif scalexyz=90/90 roughness=30 waterline=0
+  filltype=3 ambient=20 rotation=60/15/0 perspective=0 xyshift=0/0
+  colors=WPJUMH6Kr<4>A5c<5>H9Q<4>QIPSKPUNS<2>_VZ`Y`b`cdcf<4>nru<15>OI5<6>e\
+  YJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARUBUWBXY<6>DqlDtnC\
+  ql<6>7Ta<6>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN3KO4J<12>zz0<7>``9YYAXVB\
+  <6>KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<4>jiWhfUfdTebS<4>YRKSJF\
+  <6>EAb<6>7Nu5Px5Nu cyclerange=0/255
+  }
+
+=====================================================================
+Flotsam            { ; flotsam and jetsam on the waves
+   reset type=julfn+zsqrd function=cosxx
+   corners=-1.27565/0.359512/0.880264/0.26326/-0.391266/-0.29953
+   params=-0.5/0.5 maxiter=1000 inside=0 potential=255/500/0
+   colors=000aSn<18>pZtBGc<40>MmyMnzMozNpz<6>PvzBGc<42>T9yT9zU9zU9z<12>_6zGIrLK\
+   zQMzCGd<12>STxTUzVVz<10>hezBGc<24>TdyUeyVfzVgzWhz<7>apzbqzbqzcqz<5>hpzipzjoy\
+   kox<15>ylezkcykcxjcKKf<22>aSm
+   }
+---------------------------------------------------------------------
+
+ckp0361            { ; "Mountain Pass"
+                     ; 00:00:35.70 .. 26 mar 93 .. caren park
+                     ; original 3d derived from CWPAR:Flotsam
+  3d=yes filename=flotsam.gif scalexyz=90/90 roughness=50 waterline=0
+  filltype=1 ambient=20 rotation=60/10/0 perspective=0 xyshift=0/0
+  colors=000HSJ<15>K85K64K53K32K21L00<9>900700600400300100000<20>r5At6Bw6B\
+  z7Cz7C<7>t5Cs5Cr5Cq4Cp4Co3B<2>l5Ek5Fj5Gi5Hh6Ig6J<5>j7Pk8Rk8Sl9Tm9U<21>yH\
+  qzIszJr<29>zqPzsOzsP<29>zyxzzzyzz<45>FzgDzfDyf<24>HUK
+  }
+
+=====================================================================
+FieryMandelbrot    { ; resembles lightning      Michael Coddington
+  reset type=mandel
+  corners=-0.59695729/-0.58756756/-0.62374772/-0.61683133 inside=0
+  colors=000aiu_kxZmzgbmpS`N`8<13>wINF5E<19>wHO7xu<8>tLRz`p<22>yIQyHPwzD<22>yI\
+  OBR`<23>wHOCxF<5>rNN3DX<3>nHP6`W<9>tIOptH<9>yKORCG<14>wHOlEe<30>yHO8_1<25>wH\
+  O_uF<7>hgIieJiX`<4>kVc<4>bfr
+  }
+---------------------------------------------------------------------
+
+ckp0362            { ; "Io, as seen with Mandelbrot Eyes"
+                     ; 00:01:10.85 .. 26 mar 93 .. caren park
+                     ; original 3d derived
+                     ; from Michael Coddington's FRACTINT:FieryMandelbrot
+  3d=yes filename=fieryman.gif sphere=y latitude=-90/90 longitude=180/0
+  radius=100 scalexyz=90/100 roughness=30 waterline=0 filltype=3
+  ambient=20 perspective=0 xyshift=0/0
+  colors=000aiu_kxZmzgbmpS`N`8<13>wINF5E<19>wHO7xu<8>tLRz`p<22>yIQyHPwzD<2\
+  2>yIOBR`<23>wHOCxF<5>rNN3DX<3>nHP6`W<9>tIOptH<9>yKORCG<14>wHOlEe<30>yHO8\
+  _1<25>wHO_uF<7>hgIieJiX`<3>kVbkVciXf<3>bfr
+  }
+
+ckp0363            { ; "Big Red S"
+                     ; 00:00:38.01 .. 01 apr 93 .. caren park
+  reset type=barnsleyj2 passes=b
+  corners=-5.376/5.376/3.1096404/-3.1096404/5.376/-3.1096404
+  params=2.7/0.6 float=y maxiter=255 fillcolor=254 inside=2
+  potential=255/250/0
+  colors=0005FO3EN2DM0BL<8>6HW7IX8JZ9K_AL`ALb<17>PZxQ_zSZz<33>y1zz0zz0zz0y\
+  <59>zIKzJKzJJzJJzKK<70>zxxzxxywx<42>6GP
+  }
+
+ckp0364            { ; "Peacock Eyes"
+                     ; 00:00:38.95 .. 01 apr 93 .. caren park
+  reset type=barnsleyj1 passes=b corners=-2.0/2.000012/-1.499989/1.5
+  params=4.5/-0.3 maxiter=255 fillcolor=253 potential=255/150/0
+  invert=0.9/0/0
+  colors=000aaa<19>666444222000PFF<27>vcDwdDxeDzfCyfCxeC<29>PFF0A0<15>Zc0<\
+  14>0A0<15>Zc0<15>0A0SNC<29>xo`zpaypa<11>meTldSkcRibRibRhaQ<13>UPF111<29>\
+  ppp<7>ccc
+  }
+
+ckp0365            { ; "Neon Neuron"
+                     ; 00:01:05.53 .. 01 apr 93 .. caren park
+  reset type=barnsleyj1 passes=b corners=-2.0/2.000012/-1.499989/1.5
+  params=0.5/-1.3 maxiter=255 fillcolor=253 potential=255/150/0
+  invert=0.9/0/0
+  colors=000666<26>ppp<28>666444222000PFF<27>vcDwdDxeDzfCyfCxeC<29>PFF0A0<\
+  15>Zc0<14>0A0<15>Zc0<15>0A0SNC<29>xo`zpaypa<11>meTldSkcRibRibRhaQ<13>UPF\
+  111333444
+  }
+
+ckp0366            { ; "Peacock Eyes, #2"
+                     ; 00:00:25.65 .. 01 apr 93 .. caren park
+  reset type=barnsleyj1 passes=b
+  corners=-5.0503007/5.0503127/-3.7876993/3.7877103 params=2.5/-0.3
+  maxiter=255 fillcolor=253 potential=255/150/0 invert=0.9/0/0
+  colors=0002C0<14>Zc0<15>0A0SNC<29>xo`zpaypa<11>meTldSkcRibRibRhaQ<13>UPF\
+  111<29>ppp<28>666444222000PFF<27>vcDwdDxeDzfCyfCxeC<29>PFF0A0<15>Zc0<14>\
+  0A0
+  }
+
+=====================================================================
+shelob's_lair      { ; (C) Lee. H. Skinner, 1993
+ reset type=spider passes=1 corners=-2.5/1.5/-1.5/1.5 float=y
+ maxiter=1023 inside=maxiter potential=255/511/0 periodicity=0
+ colors=000tR0z00<35>q00q00p00o00<212>000z`0
+ }
+---------------------------------------------------------------------
+
+ckp0367            { ; "Tiger Tail Mesa"
+                     ; 00:00:56.63 .. 01 apr 93 .. caren park
+                     ; original 3d image derived
+                     ; from 9303MSGS:Shelob'sLair
+  3d=yes filename=shelob's.gif scalexyz=90/90 roughness=30 waterline=0
+  filltype=1 ambient=20 rotation=60/10/0 perspective=0 xyshift=0/0
+  colors=000tR0z00<35>q00q00p00o00<212>000z`0
+  }
+
+=====================================================================
+Solar_Flare        { ; An Inverted Complex Mark's Mandel
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=cmplxmarksmand corners=-1.439299/2.560701/-1.5/1.5
+  params=0/0/1 float=y inside=bof60 invert=0.5/0/0 biomorph=128
+  colors=000000800D10N30<2>a90kB0<2>zH0<21>zx0zz0zz1<29>zzxzzzzzz<61>zV1zU0zU0\
+  zT0<17>zC0
+  }
+---------------------------------------------------------------------
+
+ckp0368            { ; "Arrowhead Mesa"
+                     ; 00:02:05.17 .. 03 apr 93 .. caren park
+                     ; Original 3d derived from RCLPAR:SolarFlare
+  3d=yes filename=solar_fl.gif scalexyz=90/90 roughness=30 waterline=0
+  filltype=1 ambient=20 rotation=45/5/0 perspective=0 xyshift=0/0
+  colors=000000800D10N30<2>a90kB0<2>zH0<21>zx0zz0zz1<29>zzxzzzzzz<61>zV1zU\
+  0zU0zT0<17>zC0ccc<103>ccc
+  }
+
+ckp0369            { ; "Stairway to Heaven"
+                     ; 00:00:26.30 .. 04 apr 93 .. caren park
+  reset type=barnsleyj2 passes=b corners=-2.0/2.0/-1.5/1.5
+  params=1.6/0.1 float=y maxiter=255 fillcolor=254 inside=2
+  potential=255/250/0
+  colors=000gL9mJ9<6>lHR<4>BWI<6>xMo<5>_BDkJ7vQ1<2>Isd<2>Ce0<6>QSr<5>gcrid\
+  rjYo<3>lAe<3>d7Ec77_A8<2>PJ9<3>U1tha9VaLIaX8GHEURBNLIuB<4>9NG7ct8S_I53<3\
+  >AEEGkOCWKSk8<2>DOE80P<3>8DHhWE<4>EIGdNYOJPaz3NbAPVV<2>CJJ1CO5EKLcN<6>9J\
+  Gqtj<5>JQNDLJ5_n<4>8JL1Cr<3>7GNxfd<3>ILLQCc<2>CFMVHH<4>EGGBGG9je8VTipUXc\
+  PKSKcRe<6>CHJxa4<5>FJFHZBJ44<3>AEEhMBWKDKIFhnV<4>ELIhG7<6>CGFiIk<3>FGMhJ\
+  k<2>HGOlpm<6>DKKyiRBmh<2>8ONM_9<4>AJFlf6<4>EKFhW60cw4Savl3XWAulFdaGhlEhq\
+  7c3v<6>8b5E_6KX7000000aO8
+  }
+
+ckp0370            { ; "Crystal Tiles"
+                     ; 00:00:50.86 .. 04 apr 93 .. caren park
+  reset type=barnsleyj2 passes=b corners=-2.0/2.0/-1.5/1.5
+  params=0.6/1.1 float=y maxiter=255 fillcolor=254 inside=epsiloncross
+  potential=255/250/0
+  colors=000vvv<14>000L00<13>z00<2>p00l00h00d00a00<9>000<15>zX0<15>000<15>\
+  ut0<15>000GA4<12>2v10z00w0<14>000<15>00z<14>000<16>z0X<15>000<15>p0w<15>\
+  000<15>zzz
+  }
+
+ckp0371            { ; "Our Tunnels Missed by 'That' Much"
+                     ; 00:00:27.74 .. 04 apr 93 .. caren park
+                     ; with sympathy for Don Adams, Get Smart
+  reset type=barnsleyj2 passes=b corners=-2.0/2.0/-1.5/1.5
+  params=2.15044/-0.1 float=y maxiter=255 fillcolor=254
+  inside=epsiloncross logmap=yes potential=255/250/0
+  colors=cccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKK\
+  KcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKK\
+  KcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKK\
+  KcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKK\
+  KcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKKKK00\
+  0<11>00100MK00000<3>0000G8000<2>000006G0000000000FB003z009N00000000004C0\
+  0Oa00xd0000000000A40000<7>00000AM0000000000Op00000<7>0000An00HG00Kj0000<\
+  15>00000Gg00H800GF00Aq0000000000A100<4>00000v000<2>00000D000<5>00007c000\
+  0000000EB00Rb00000<3>000z00zc0zz0AwA7Uzm0zcAAzcmwwwKKK
+  cyclerange=0/255
+  }
+
+ckp0372            { ; "We Seem to be Experiencing Technical Difficulties..."
+                     ; 00:00:36.86 .. 04 apr 93 .. caren park
+                     ; Do you remember the Fifties?
+  reset type=barnsleyj2 passes=b corners=-2.989/2.989/-2.24175/2.24175
+  params=1.66044/1.45 float=y maxiter=255 fillcolor=254
+  inside=epsiloncross logmap=yes potential=255/250/0
+  colors=000cccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcc\
+  cKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcc\
+  cKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcc\
+  cKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcc\
+  cKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKKK\
+  K000<11>00100MK00000<3>0000G8000<2>000006G0000000000FB003z009N0000000000\
+  4C00Oa00xd0000000000A40000<7>00000AM0000000000Op00000<7>0000An00HG00Kj00\
+  00<15>00000Gg00H800GF00Aq0000000000A100<4>00000v000<2>00000D000<4>00007c\
+  0000000000EB00Rb00000<3>000z00zc0zz0AwA7Uzm0zcAAzcmwwwKKK
+  }
+
+ckp0373            { ; "Window Into the Soul"
+                     ; 00:00:44.93 .. 04 apr 93 .. caren park
+  reset type=barnsleym2 passes=b
+  corners=-2.158843/2.1515018/-1.6278683/1.6048903 float=y maxiter=255
+  fillcolor=254 inside=epsiloncross logmap=yes potential=255/250/0
+  colors=WPJqsa<3>jiWhfUfdTebS<3>ZUMYRKUMHSJF<6>EAb<6>7Nu5Px5Nu<5>A5c<5>H9\
+  Q<4>QIPSKPUNS<2>_VZ`Y`b`cdcf<4>nru<15>OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWg\
+  aVcZT`WSYUR<6>AAK<3>ALQAOSARUBUWBXY<6>DqlDtnCql<6>7Ta<6>L4R<8>VHI<7>zH0<\
+  8>SDF<3>N3JL0KL1KM2KN3KO4J<12>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C4\
+  13000<15>svc<2>svc
+  }
+
+ckp0374            { ; "Untitled, #374"
+                     ; 00:01:32.05 .. 04 apr 93 .. caren park
+  reset type=cmplxmarksjul passes=t
+  corners=-1.9602273/1.9602273/2.6136364/-2.6136364/1.9602273/-2.6136364
+  params=1.3/0.6/1/0.55 float=y maxiter=255 fillcolor=254
+  inside=epsiloncross logmap=yes potential=255/250/0
+  colors=000cccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcc\
+  cKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcc\
+  cKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcc\
+  cKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcc\
+  cKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKKK\
+  K000<11>00100MK00000<3>0000G8000<2>000006G0000000000FB003z009N0000000000\
+  4C00Oa00xd0000000000A40000<7>00000AM0000000000Op00000<7>0000An00HG00Kj00\
+  00<15>00000Gg00H800GF00Aq0000000000A100<4>00000v000<2>00000D000<4>00007c\
+  0000000000EB00Rb00000<3>000z00zc0zz0AwA7Uzm0zcAAzcmwwwKKK
+  }
+
+ckp0375            { ; "You, every Friday, 4:59pm"
+                     ; 00:01:44.31 .. 05 apr 93 .. caren park
+  reset type=marksmandelpwr function=sinh passes=b
+  corners=-1.4986977/0.4986977/-2.2249639/-0.7269174
+  params=0.2345235325354/1.3523535 float=y maxiter=255 fillcolor=254
+  inside=epsiloncross logmap=yes potential=255/250/0
+  colors=w0wo03<12>003w00<13>000w0v<14>00vw0r<14>00rw0n<14>00nw0j<14>00jw0\
+  f<14>00fw0b<14>00bw0Z<14>00Zw0V<14>00Vw0R<14>00Rw0N<14>00Nw0J<14>00Jw0F<\
+  14>00Fw0B<14>00Bw07<14>007w03s03
+  }
+

@@ -1,0 +1,88 @@
+# Generated automatically from Makefile.in by configure.
+# Makefile for library files used xmfract
+# Copyright (C) 1995 Thomas Winder
+
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2, or (at your option)
+# any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#
+# $Id: Makefile.in,v 1.3 1995/04/26 17:48:43 tom Exp $
+#
+SHELL = /bin/sh
+
+srcdir = .
+
+CC = gcc
+AR = ar
+RANLIB = ranlib
+DEFS = -DHAVE_CONFIG_H
+CFLAGS = -g -O
+
+SOURCES = nbasename.c memcmp.c strcspn.c strstr.c \
+strtod.c strtol.c strtoul.c stricmp.c
+
+OBJECTS = nbasename.o 
+
+DISTFILES = Makefile.in $(SOURCES)
+
+all: libxmfra.a
+
+.SUFFIXES: .c .o
+
+.c.o:
+	$(CC) -c $(CPPFLAGS) $(DEFS) -I. -I.. -I$(srcdir) $(CFLAGS) $<
+
+subdir = lib
+Makefile: ../config.status Makefile.in
+	cd .. && CONFIG_FILES=$(subdir)/$@ CONFIG_HEADERS= ./config.status
+
+installdirs:
+
+install: all
+
+uninstall:
+
+TAGS: $(SOURCES)
+	etags $(SOURCES)
+
+check:
+
+clean:
+	rm -f *.a *.o
+
+mostlyclean: clean
+
+distclean: clean
+	rm -f Makefile *.tab.c tposixtm.c \
+	  safe-stat.c safe-stat.h safe-lstat.c safe-lstat.h
+
+realclean: distclean
+	rm -f TAGS getdate.c posixtm.c
+
+distdir = ../`cat ../distname`/$(subdir)
+dist: $(DISTFILES)
+	for file in $(DISTFILES); do \
+	  ln $$file $(distdir) \
+	    || { echo copying $$file instead; cp -p $$file $(distdir);}; \
+	done
+
+libxmfra.a: $(OBJECTS)
+	rm -f $@
+	$(AR) cr $@ $(OBJECTS)
+	-$(RANLIB) $@
+
+$(OBJECTS): ../config.h
+
+# Tell versions [3.59,3.63) of GNU make not to export all variables.
+# Otherwise a system limit (for SysV at least) may be exceeded.
+.NOEXPORT:

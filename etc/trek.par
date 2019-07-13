@@ -1,0 +1,74 @@
+Engage!            { ; Captain, the star is going nova, go to warp speed?
+                     ; (c) Peter Moreland BlantyreHSE,CossackSqr,Nailsworth,UK
+  reset type=fn(z)+fn(pix) function=sqr/ident
+  corners=10.571921/10.997713/11.314474/11.740326 params=0/0/1
+  maxiter=32000 inside=0 outside=real potential=255/200/32000
+  colors=000zz4<2>zz1zz0zy0yx0<56>I4IH3JG2JF0KF0K<9>H0MH0MH0NI0NI0NI0O<45>T0aT\
+  0bT0bU0cU0c<62>zzzzzzzzy<56>zz5
+  }
+
+Genesis_Wave       { ; Damn! They have used Proto-Matter in the matrix.......
+                     ; (c) 1992 Peter Moreland 100012,3213
+  reset type=newtbasin
+  corners=12.1762344559/12.176355783/12.1888035646/12.1890084717/12.1761797786\
+  /12.1888764682 params=4 float=y maxiter=32000 decomp=256
+  colors=000<56>000ix8<4>lgBlcCl`DlYDlVE<2>nLGoIHoEHoBI<15>cJQfZg<20>k_hk_hix8\
+  <13>oEHoBInCJ<14>cJQ000<109>000
+  }
+
+Readout_1          { ; Dilithium Crystal readouts are nominal, ready to warp...
+                     ; (c) 1992 Peter Moreland 100012,3213
+  reset type=sierpinski
+  corners=-1.246322/0.7532/0.579395831/0.579252779/0.216615/0.140371859
+  maxiter=32000 bailout=10 outside=real decomp=256 biomorph=256
+  periodicity=0
+  colors=000AVN<29>j45<21>xkp<12>iTqaVohSqUA3<31>gRptiH<17>gSpo_v<14>gRqa_x<33\
+  >gRqWIs<8>fRqbpD<14>gSoAs5<35>gRpu7w<9>hQqHL4<8>PNJ
+  }
+
+Red_Alert!         { ; Vessel de-cloaking on starboard bow, ignoring comms....
+                     ; (c) 1992 Peter Moreland 100012,3213
+  reset type=tim's_error function=sin
+  corners=-1.156848/0.775345/-0.698302/0.70694 maxiter=15000 bailout=10
+  outside=real decomp=256 biomorph=256
+  colors=FWV000FWV<24>YaYYaYZaY_bZ_bY_bX<16>RiCRjBQjAPk8QjBQiB<54>UHRUMR<6>beh\
+  _Zc<13>kAgiGf<10>ngfojenie<16>YMk_Rj<25>7esePj<11>kYmlZml_mm`nk_mj_l<3>dZjcZ\
+  icYi`Yh<24>2SU1ST2ST4TU<11>DWV
+  }
+
+Scanning....       { ; Suggests a distortion of the warp field around the hull
+                     ; (c) 1992 Peter Moreland 100012,3213
+  reset type=tim's_error function=sin
+  corners=-0.1426628/-0.094736/0.3707375/0.4055737 maxiter=25 bailout=10
+  outside=real decomp=256 biomorph=256
+  colors=000fCX<5>VBMbFa<2>V2j<7>J6OODIH7L<4>A96ZO3<8>BA40mW<16>9B5YPaalD<13>C\
+  E5AB47Rl<21>995tbi<2>LGEztm<14>CC61Rt<11>9A8WRpOL_GFKQiB<8>AC4t2b<10>D96ZjK<\
+  14>AB5mnD<15>BB45`C<14>9A4bJq<12>B97oqj<2>JKET`z<14>AA70z3<2>7M4elU<13>BB5hD\
+  Z
+  }
+
+Your_Work_Spock?   { ; Yes Captain,I painted it in my final year at the academy
+                     ; (c) 1992 Peter Moreland 100012,3213
+  reset type=tetrate
+  corners=0.113234/-1.385933/-1.612044/1.59638/-1.385933/1.59638 float=y
+  maxiter=100 bailout=10 outside=real biomorph=256
+  colors=000GMC<30>FflFgmDhp<51>SZWSZWRWZ<11>TaT
+  }
+
+Wormhole!          { ; Chekov, Go to sub-light and engage impulse power, mark!
+                     ; (c) 1992 Peter Moreland 100012,3213
+  reset type=spider corners=-1.161406/-0.771128/-2.61755/-2.324842
+  params=2.56/3.54523 float=y maxiter=100 bailout=10 outside=real
+  decomp=256 biomorph=256 periodicity=4
+  colors=5Ch<23>38fCT_<73>NdxNdxMcw<153>5Ch
+  }
+
+Fascinating        { ; The very fabric of space seems to be folding Captain
+                     ; (c) 1992 Peter Moreland 100012,3213
+  reset type=mandel
+  corners=-0.2250484/-0.2517881/-0.7673053/-0.6048508/-0.3126417/-0.6504761
+  params=0.333/1.666 maxiter=1000 bailout=100 inside=0 logmap=yes
+  colors=000phE<3>phC000<50>PLHQMIOJIMHIKFI<18>lS`mSanT`<32>oqFoqFppE<18>rmArm\
+  Ath4rmA<34>uh3R4t<58>uh3uPn<13>ug6nhG<4>ohE
+  }
+

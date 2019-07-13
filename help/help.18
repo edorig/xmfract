@@ -1,0 +1,11 @@
+
+Image Save/Restore Commands
+
+<s> saves the current image to disk. All parameters required to recreate
+the image are saved with it. Progress is marked by colored lines moving
+down the screen's edges.
+
+<r> restores an image previously saved with <s>, or an ordinary GIF file.
+After pressing <r> you are shown the file names in the current directory
+which match the current file mask.
+

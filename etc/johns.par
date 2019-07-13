@@ -1,0 +1,52 @@
+Baseman            { ; Base for "egg" Julias
+  reset type=mandel corners=-2.5/1.500007/-1.500002/1.5 maxiter=20
+  inside=bof60 outside=summ
+  }
+
+Wreath             { ; Christmas Wreath
+  reset type=julia corners=-0.202643/0.773356/-0.025432/0.706568
+  params=-0.269392792401752/-0.63677185560601 maxiter=255 inside=0
+  colors=z00<42>z00ii0<21>220000000<29>0000002004J1<18>0D00D00E1<20>0UI0UI0UH<\
+  13>6T3422211000<15>000010030<29>0z0<31>0N00M00M0<4>4L0<4>7m08m0
+  }
+
+Egg1               { ; Faberge Egg
+  reset type=julia corners=-2.0/2.000007/-1.500002/1.5
+  params=-0.249212176379309/-8.65000000016547e-007 maxiter=20 inside=bof60
+  outside=summ
+  colors=00000WW0W0WW00000W0W0WW0W00W0W0WWkkkkkkzzzW000W0WW000WW0W0WW000
+  }
+
+R_Shield           { ; "Indian" shield w/ rabbit design
+  reset type=julia corners=-2.0/2.000007/-1.500002/1.5
+  params=0.0134868025795455/0.00210884213258794 maxiter=20 inside=bof60
+  outside=summ
+  colors=00000W0W0WW0W00W0W0WWkkkkkkzzzW000W0WW000WW0W0WW00000W0W0WW0W00
+  }
+
+MiH                { ; Mickey in Hell
+  reset type=julia corners=-2.0/2.000012/-1.499989/1.5
+  params=-0.330979647042251/-6.17000000002754e-006 maxiter=20 inside=bof60
+  outside=summ colors=000jRC<11>UANxa2<5>xB2
+  }
+
+Egg2               { ; Faberge egg
+  reset type=julia corners=-2.0/2.000007/-1.500002/1.5
+  params=-0.24920854/0.256279799824122 maxiter=20 inside=bof60
+  outside=summ
+  colors=00000WW0W0WW00000W0W0WW0W00W0W0WWkkkkkkzzzW000W0WW000WW0W0WW000
+  }
+
+Bird               { ; A Quail?
+  reset type=manzpower passes=2 corners=-2.0/2.0/-1.5/1.5
+  params=1/0.45/2/0.9 float=y maxiter=20000 bailout=200 inside=bof60
+  logmap=old
+  colors=00000e0e00eee00e0eeL0eeeLLLLLzLzLLzzzLLzLzzzLzzz000555<3>HHHKKKOOOSSS\
+  WWW___ccchhhmmmssszzz00z<3>z0z<3>z00<3>zz0<3>0z0<3>0zz<2>0GzVVz<3>zVz<3>zVV<\
+  3>zzV<3>VzV<3>Vzz<2>Vbzhhz<3>zhz<3>zhh<3>zzh<3>hzh<3>hzz<2>hlz00S<3>S0S<3>S0\
+  0<3>SS0<3>0S0<3>0SS<2>07SEES<3>SES<3>SEE<3>SSE<3>ESE<3>ESS<2>EHSKKS<2>QKSSKS\
+  SKQSKOSKMSKK<2>SQKSSKQSKOSKMSKKSK<2>KSQKSSKQSKOSKMS00G<3>G0G<3>G00<3>GG0<3>0\
+  G0<3>0GG<2>04G88G<2>E8GG8GG8EG8CG8AG88<2>GE8GG8EG8CG8AG88G8<2>8GE8GG8EG8CG8A\
+  GBBG<2>FBGGBGGBFGBDGBCGBB<2>GFBGGBFGBDGBCGBBGB<2>BGFBGGBFGBDGBCG000<6>000
+  }
+

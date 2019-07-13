@@ -1,0 +1,133 @@
+------------------------------------------------------------
+BOB7.PAR
+For FRACTINT 17.2
+All images original work by Bob G. Dodson 71636,1075
+-------------------------------------------------------------
+This set of images explores the myriad possibilities inherent
+in the Sierpinski formula.  After several years of exploring
+this set, I'd have to say this is my favorite fractal.
+Many of these images have served as the basis for some of my
+best fractal transforms and are in LIB 5 (Fractal Images).
+These transforms typically incorporate plasma overlays and
+image manipulation.
+-------------------------------------------------------------
+
+
+SS_#2              { ; Serpinski Again...Gawd I love this formula!
+                     ; BG Dodson 1993 71636,1075
+  reset type=sierpinski passes=b
+  corners=0.023694/1.874892/0.136618/1.987812 float=y fillcolor=255
+  inside=-100 outside=real logmap=4 potential=256/2000/16
+  invert=0.433332/0/0 biomorph=20 periodicity=0
+  colors=000151131000<15>rAr<15>000<15>hh0<14>330000003<14>00r<15>000<15>r00<1\
+  5>000<15>0pp<14>044000222<14>hhh<14>333000000<26>007017037<13>4S4<13>2A22920\
+  00
+  }
+
+SS_#3              { ; Serpinski Again...Need I remind you?
+                     ; BG Dodson 1993 71636,1075
+  reset type=sierpinski passes=b
+  corners=16.620901/-13.371102/23.38518/-19.303299/21.191661/15.259399
+  float=y maxiter=32000 fillcolor=255 inside=bof61 outside=real logmap=4
+  potential=256/1900/16 invert=0.433332/0/0 biomorph=20 periodicity=0
+  colors=000006<3>007017037<13>4S4<13>2A2292171151131000<15>rAr<15>000<15>hh0<\
+  14>330000003<14>00r<15>000<15>r00<15>000<15>0pp<14>044000222<14>hhh<14>33300\
+  0000<21>006
+  }
+
+New_Nebula         { ; Barnsley Nebula
+                     ; BG Dodson 1992 71636,1075
+  reset type=barnsleyj2
+  corners=-2.228894/2.228894/-6.787856/6.826527/-7.158998/-0.214388
+  params=0.6/1.1 maxiter=1000 outside=summ potential=254/255/1
+  invert=0.885717/0/0 finattract=y
+  colors=000zzzzzzzzzzz0<62>q10p00p00p00<25>g00g00f00e00<5>d00c00c00b00b00<68>\
+  C33B33C44<42>zzz<8>ddd<22>zzz
+  }
+
+Sierpinski_puzzle  { ; Derived from Bob3 GASP
+                     ; BG Dodson Feb 2 1993  71636,1075
+  reset type=sierpinski passes=b corners=-0.9/1.7/-0.9/1.7 float=y
+  maxiter=32767 fillcolor=1 inside=bof60 potential=254/255/1 finattract=y
+  periodicity=0
+  colors=000EI4DL3000<4>0005k20n13r12v10z0<15>000<15>00z<14>000<16>z0X<15>000<\
+  15>p0w<15>000<15>zzz<3>jjj<30>22i00h10f<14>G73I80K70<13>k00<16>II0<10>ut0<2>\
+  ji0gf0ed0<12>FE4
+  }
+
+Birth_of_Chaos     { ; Sierpinski Big bang.
+                     ; BG Dodson/ 71636,1075 / 1993
+  reset type=sierpinski corners=-0.9/1.7/-0.9/1.7 bailout=16959
+  outside=real invert=0.433333/0.4/0.400003 periodicity=0
+  colors=000sQC<3>xE2<21>336<17>RQkLXs<13>YMiqBu<2>OScHGa<10>FeWXFx<3>FgW<13>l\
+  a`vWg<6>eiTfhB<9>_onenw<6>Npb5lg<4>WsWp0Z<4>bkU`tU_rV<4>VhZXdU<7>OnkKrp<14>f\
+  aUtce<12>FV0<19>gDBv8UqANlCHi61<12>e_ejWi<16>ZiheyyKuM<8>dp_fp`hmY<6>rTF
+  }
+
+Modern_Art         { ; Sierpinski as sculpture
+                     ; BG Dodson / 71636,1075 / 1992
+  reset type=sierpinski corners=-0.718848/1.600368/-0.635786/1.68341
+  maxiter=5000 bailout=9999 outside=imag finattract=y periodicity=0
+  colors=000vK7wH4xE2<21>336<17>RQkLXs<13>YMiqBu<2>OScHGa<10>FeWXFx<3>FgW<13>l\
+  a`vWg<6>eiTfhB<9>_onenw<6>Npb5lg<4>WsWp0Z<4>bkU`tU_rV<4>VhZXdU<7>OnkKrp<14>f\
+  aUtce<12>FV0<19>gDBv8UqANlCHi61<12>e_ejWi<16>ZiheyyKuM<8>dp_fp`hmY<8>tNA
+  }
+
+Martian_Tomb       { ; Sierpinski Tomb and canal.
+                     ; BG Dodson / 71636,1075 / 1991
+  reset type=sierpinski
+  corners=1.062325/0.186705/2.817641/-1.355429/2.249403/0.707297
+  maxiter=1000 bailout=9999 outside=summ finattract=y periodicity=0
+  colors=000rD3<19>336<17>RQkLXs<13>YMiqBu<2>OScHGa<10>FeWXFx<3>FgW<13>la`vWg<\
+  6>eiTfhB<9>_onenw<6>Npb5lg<4>WsWp0Z<4>bkU`tU_rV<4>VhZXdU<7>OnkKrp<14>faUtce<\
+  12>FV0<19>gDBv8UqANlCHi61<12>e_ejWi<16>ZiheyyKuM<8>dp_fp`hmY<11>xE2uD3
+  }
+
+Chaos_Bloom        { ; Sierpinski Bloom at the threshold of chaos
+                     ; BG Dodson / 71636,1075 / 1991
+  reset type=sierpinski corners=1.605088/-0.32028/1.655249/-0.270104
+  maxiter=5000 bailout=9999 outside=real invert=0.279465/0.713947/0.858967
+  finattract=y periodicity=0
+  colors=000ijV<10>xE2<21>336<17>RQkLXs<13>YMiqBu<2>OScHGa<10>FeWXFx<3>FgW<13>\
+  la`vWg<6>eiTfhB<9>_onenw<6>Npb5lg<4>WsWp0Z<4>bkU`tU_rV<4>VhZXdU<7>OnkKrp<14>\
+  faUtce<12>FV0<19>gDBv8UqANlCHi61<12>e_ejWi<16>ZiheyyKuM<8>dp_fp`hmY
+  }
+
+Chaos_VS_Order     { ; Basis for my fractal transform "CHAOS"
+                     ; BG Dodson / 71636,1075 / 1991
+  reset type=sierpinski corners=-0.668819/3.284592/-1.117722/2.835657
+  maxiter=5000 bailout=9999 outside=real invert=0.279465/0/0 finattract=y
+  periodicity=0
+  colors=000oZK<6>xE2<21>336<17>RQkLXs<13>YMiqBu<2>OScHGa<10>FeWXFx<3>FgW<13>l\
+  a`vWg<6>eiTfhB<9>_onenw<6>Npb5lg<4>WsWp0Z<4>bkU`tU_rV<4>VhZXdU<7>OnkKrp<14>f\
+  aUtce<12>FV0<19>gDBv8UqANlCHi61<12>e_ejWi<16>ZiheyyKuM<8>dp_fp`hmY<3>maN
+  }
+
+Door_into_Chaos    { ; Yet Another Sierpinski "tweak"
+                     ; BG Dodson / 71636,1075 / 1991
+  reset type=sierpinski corners=-0.185276/1.632977/-0.453094/1.365152
+  maxiter=5000 bailout=9999 outside=real finattract=y periodicity=0
+  colors=000wH5xE2<21>336<17>RQkLXs<13>YMiqBu<2>OScHGa<10>FeWXFx<3>FgW<13>la`v\
+  Wg<6>eiTfhB<9>_onenw<6>Npb5lg<4>WsWp0Z<4>bkU`tU_rV<4>VhZXdU<7>OnkKrp<14>faUt\
+  ce<12>FV0<19>gDBv8UqANlCHi61<12>e_ejWi<16>ZiheyyKuM<8>dp_fp`hmY<5>pWHrTFsQCt\
+  NAuK7
+  }
+
+Fire_Und_Ice       { ; Sierpinski dawdling
+                     ; BG Dodson / 71636,1075 / 1992
+  reset type=sierpinski
+  corners=0.270884/-0.044695/0.039722/0.155641/0.114249/0.315936
+  maxiter=1000 inside=zmag outside=imag invert=0.0199731/0.127518/0.138572
+  periodicity=0
+  colors=0000jf<13>AAIzzzP50020<15>z20n20<3>z10j10<6>z00e10<14>z00`a`<30>zzzhh\
+  h<30>zzzTUT<124>zzzW84T85
+  }
+
+Spherical_Sier     { ; Not exactly stunning - but technically interesting
+                     ; BG Dodson Feb 2 1993  71636,1075
+  reset type=sierpinski passes=b corners=-31.99/31.99/-31.99/31.99 float=y
+  maxiter=32767 bailout=16959 fillcolor=1 inside=zmag outside=1 logmap=-4
+  distest=1/1000 biomorph=20 finattract=y periodicity=0
+  colors=000zzz<253>000
+  }
+

@@ -1,0 +1,77 @@
+*AGAMOTO*          { ; Welcome DR. Strange, make mine marvel! Pete 100012,3213
+                     ; Cycle...
+  reset type=complexnewton
+  corners=-6.802084/-3.988209/9.009179/9.348195/-5.951817/7.875489
+  params=8/0/4/8 float=y maxiter=32767 inside=0 periodicity=0
+  colors=000iNW<12>`Ze<3>2Yh<19>`HCbGAcHB<33>tsYttYuuZuvZtu_<57>c9hc9hdAi<64>i\
+  WsiWshVr<2>gUoHC0fUn<3>dTjKkI<18>HlLz3E<19>jMV
+  }
+
+*BIO*              { ; Organ/Glandular type thingy! Peter Moreland 100012,3213
+                     ; Almost Sleezy, what are fractals coming too!
+  reset type=manfn+zsqrd function=log
+  corners=1.732483/-3.019135/-3.204361/3.133194/-3.019135/3.133194 float=y
+  maxiter=32000 inside=0 potential=255/300/150 decomp=265 biomorph=0
+  colors=000Xb4<78>ROAROAQPB<92>NhaNhaNhaNhaNhaNhb<70>LxwXc4<2>Xb4
+  }
+
+*GONZO*            { ; Muppet monster eyes! Peter Moreland 100012,3213
+                     ; Look into my eyes, cycle!, Cycle!!!!
+  reset type=mandel
+  corners=-1.860573960053322/-1.860573960010119/-0.0000009343731507/-0.0000009\
+  343850622/-1.860573960031925/-0.0000009344012104 float=y maxiter=1500
+  inside=0
+  colors=000RWh<2>_fzILS<3>WWsFJP<7>HKnKIK<6>u61GKM<22>gzgFJM<15>QRYFKMRRZ<4>V\
+  Ub<2>q1P<11>p1m<5>3YS<14>ulv<22>sSD<6>IRU<2>pVX<10>9_S<14>__waZzb_x<11>ouS<2\
+  >t1v<9>ymV<15>0Em<3>UdK<19>s6U<2>ikK<15>qq5
+  }
+
+*NETWORK*          { ; A hopalong lacey littlenumber Peter Moreland 100012,3213
+  reset type=hopalong corners=-24.694914/29.486391/-22.866557/23.187553
+  params=1.666/0.556/4.6 float=y maxiter=32767 bailout=300 inside=0
+  logmap=yes
+  colors=00000e0e00eee00e0eeL0eeeLLLLLzLzLLzzzLLzLzzzLzzz000555<3>HHHKKKOOOSSS\
+  WWW___ccchhhmmmssszzz00z<3>z0z<3>z00<3>zz0<3>0z0<3>0zz<2>0GzVVz<3>zVz<3>zVV<\
+  3>zzV<3>VzV<3>Vzz<2>Vbzhhz<3>zhz<3>zhh<3>zzh<3>hzh<3>hzz<2>hlz00S<3>S0S<3>S0\
+  0<3>SS0<3>0S0<3>0SS<2>07SEES<3>SES<3>SEE<3>SSE<3>ESE<3>ESS<2>EHSKKS<2>QKSSKS\
+  SKQSKOSKMSKK<2>SQKSSKQSKOSKMSKKSK<2>KSQKSSKQSKOSKMS00G<3>G0G<3>G00<3>GG0<3>0\
+  G0<3>0GG<2>04G88G<2>E8GG8GG8EG8CG8AG88<2>GE8GG8EG8CG8AG88G8<2>8GE8GG8EG8CG8A\
+  GBBG<2>FBGGBGGBFGBDGBCGBB<2>GFBGGBFGBDGBCGBBGB<2>BGFBGGBFGBDGBCGkkk<5>343642
+  }
+
+*PASTAL*           { ; "LIKE A CIRCLE IN A SPIRAL.." Peter Moreland 100012,3213
+                     ; Cycle...
+  reset type=julia
+  corners=-2.941289/3.015974/-0.219155/0.234951/-1.01579/-2.787567
+  params=0.296665/0.000409836 maxiter=32767 inside=-100 outside=real
+  decomp=256
+  colors=000334534356654931D31962D52964D74784A83D92FC2A95D95BC5ED54799795ACA9A\
+  DA9AD9ED9AADDBDADEEDDG31H62L72H74L75P75HA3L93ID3LF3H95LA5HD6LD6QC6HB8LB8ID9M\
+  E9HACHEDLEDPB8SB9PE9TE9QFCUFCFG6EHBJG3MG3IG6MH5NK6PI3UH3RK3TL3PI4TH6QL5TM5UO\
+  6IH9MHAIKAMLAIHEMIDILDMLEQHATHAPLAULAPIDTIDQLEULEMPESPC37J5EJCEI4ESAEQIEIPFJ\
+  HEO6GMEHKFPM6IR9KTCPUIHHLIHJLIMLHHILLILHKMMLLRLILPKTPKJLQQMQLPSRRRXE6XDAYL5Y\
+  Q6dP6YKDdKCZPDeRCZMHdMIYPI`PIXTIaSJXQLaQLXTMaTLeRLYMRZTQfTQkTNlURUXJUXSYWEfX\
+  A_YMdXN`XTfYTecSmXUlfS4FW6IX8MX9OZJNXRNXMQYSTZKRdRVcYUYfUYUX`UYe_Z_eYXiYXe`X\
+  h`YeZ`iY`ea`ia`ac_gd`Z`ffafadhgfgn`Zsa_nd`tcanbdsbdnffuffikinlitliZbkdbkafmf\
+  inaisnjlujkhlqimsllmplmnompommmpqnpmoqppqunprtruupnptwrtqtxutuxtuxwutvyyvwux\
+  zzzz<19>zzz<7>343642
+  }
+
+*SINGULARITY*      { ; Yellow Polo    Peter Moreland 100012,3213
+                     ; Worm Hole Captain Yellow Alert!
+  reset type=lambdafn function=sqr
+  corners=-3.266251/3.274231/-2.454712/2.449051 params=1.2666/1.2666
+  maxiter=32767 bailout=25000 inside=255 potential=255/455/0 decomp=256
+  biomorph=0 colors=000RWD<71>`p8`p8`p8`p8`p8_p8<164>4ZS4ZS4ZR<9>4ZP
+  }
+
+*SPIRAL*           { ; Falling apart, cut up! Peter Moreland 100012,3213
+                     ; Owed to an insect leg!
+  reset type=barnsleyj1
+  corners=-0.103136/1.227358/-0.627183/-1.06283/0.584952/-1.544634
+  params=0.6/1.1 float=y maxiter=2000
+  colors=CCCssM<3>ssEssCsqC<19>sECsCCqCC<21>ACCCCC<21>sCs<20>ECsCCsCEs<19>CqsC\
+  ssCsq<8>Cs_CsYECE<20>sCs<20>ECsCCsCEs<19>CqsCssCsq<19>CsECsCEsE<19>qsqsssssq\
+  <14>ssO
+  }
+

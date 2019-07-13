@@ -1,0 +1,30 @@
+
+mandphoenix
+
+      z(0) = p1, y(0) = 0
+      For degree of Z = 0:
+        z(n+1) = z(n)^2 + pixel.x + (pixel.y)y(n), y(n+1) = z(n)
+      For degree of Z >= 2:
+        z(n+1) = z(n)^degree + pz(n)^(degree-1) + qy(n), y(n+1) = z(n)
+      For degree of Z <= -3:
+        z(n+1) = z(n)^|degree| + pz(n)^(|degree|-2) + qy(n), y(n+1) = z(n)
+    Three parameters: real part of z(0), imaginary part of z(0), and the
+      degree of Z.
+
+
+The phoenix type defaults to the original phoenix curve discovered by
+Shigehiro Ushiki, "Phoenix", IEEE Transactions on Circuits and Systems,
+Vol. 35, No. 7, July 1988, pp. 788-789. These images do not have the
+X and Y axis swapped as is normal for this type.
+
+The mandphoenix type is the corresponding Mandelbrot set image of the
+phoenix type. The spacebar toggles between the two as long as the
+mandphoenix type has an initial Z(0) of (0,0). The mandphoenix is not
+an effective index to the phoenix type, so explore the wild blue yonder.
+
+To reproduce the Mandelbrot set image of the phoenix type as shown in
+Stevens' book, "Fractal Programming in C", set initorbit=0/0 on the
+command line or with the <g> key. The colors need to be rotated one
+position because Stevens uses the values from the previous calculation
+instead of the current calculation to determine when to bailout.
+

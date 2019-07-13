@@ -1,0 +1,265 @@
+;POD1.PAR and POD2.PAR represent a collection of all of the 'Par of the Day'
+;parameter files that I have been submitting an a daily basis for the past
+;fifty days. Users should be cautioned that some of the fils require .frm
+;files that were not included with thebasic Fractint package. The required
+;files are available in the libraries. If any difficulties are encountered
+;during execution let me know and I will attempt to resolve any problems.
+
+pod001             { ; Par of the day 10-13-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=formula formulafile=fractint.frm formulaname=Sterling
+  corners=-0.267933/0.179816/0.298486/-0.298495/0.179816/-0.298495
+  maxiter=125 inside=zmag outside=summ potential=255/300/0
+  colors=000000OU0<4>Zc0<14>0A0<15>Zc0<15>0A0SNC<29>xo`zpaypa<29>UPF000<29>nnn\
+  pppooo<30>000PFF<29>xeDzfCyfC<30>PFF0A0<6>FN0000000
+  }
+
+pod002             { ; Par of the day 10-14-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=formula formulafile=pjhcon.frm formulaname=JuliConj10
+  corners=-1.639999/1.640009/-1.229988/1.230001 params=0.1005/0.68/5
+  maxiter=500 fillcolor=7 inside=zmag outside=summ logmap=yes
+  periodicity=0
+  colors=000<18>zpa<12>UPFMJIEDLAAK<4>AOSARUBUWBXYB__Bba<5>DtnDqm<14>14RC6QO8O\
+  P9NQBM000000UFJVHI<7>zH0<7>WEDSDFRAG<3>L0KB8D1H5<19>Q`5Sa6R`6<16>2I6IIAZJE<6\
+  >wgF<9>UHD<7>AB7000HIC<10>svcsvc<20>200pdJ<5>zjF<13>RCCEEE<13>kki<18>005
+  }
+
+pod003             { ; Par of the day 10-15-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=formula formulafile=fractint.frm formulaname=Richard1
+  corners=-4.543998/4.543991/-3.407994/3.408 params=0.9/1/0.9/1
+  maxiter=125 inside=zmag outside=summ potential=255/275/0
+  colors=0007G0<2>0A0<15>Zc0<15>0A0SNC<29>xo`zpaypa<29>UPF000<29>nnnpppooo<30>\
+  000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<10>AI0
+  }
+
+pod004             { ; Par of the day 10-16-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=formula formulafile=fractint.frm formulaname=Richard11
+  corners=-3.168002/3.167994/3.754669/-3.754674/3.167994/-3.754674
+  params=0.4/0.3/0.2/0.1 maxiter=125 inside=zmag outside=summ
+  potential=255/275/0
+  colors=000000VGGUFFPAP<26>lXn000nZpo_qp`r<16>PAP<4>ePX<9>AKU<28>ecd000geeiff\
+  <14>og`ph_ogY<13>WM3UK0UK0<29>wcFwcFvbF<28>UK0UFF<31>rPSrPSqPS<26>XGH
+  }
+
+pod005             { ; Par of the day 10-17-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=formula formulafile=fractint.frm formulaname=Jm_14 passes=1
+  corners=8.999994/-9.000009/-10.666676/10.666668/-9.000009/10.666668
+  maxiter=125 inside=zmag outside=summ potential=255/300/0
+  colors=000vmZwn_xo`zpa<30>UPF000<29>nnnpppooo<30>000PFF<29>xeDzfCyfC<30>PFF0\
+  0K<29>GGqHHsHHr<30>00KSNC<25>tkX000
+  }
+
+pod006             { ; Par of the day 10-18-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=sqr(1/fn) function=recip passes=b
+  corners=-4.0/3.9953/-3.003021/3.0 maxiter=499 fillcolor=7 inside=-100
+  outside=summ logmap=yes periodicity=0
+  colors=000000<4>888000BBB<23>ppp<31>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<14>\
+  0A0<15>Zc0<15>0A0SNC<29>xo`zpaypa<29>UPF
+  }
+
+pod007             { ; Par of the day 10-19-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=formula formulafile=fractint.frm formulaname=ZZ
+  corners=-4.094681/9.369309/7.978673/-7.978677/9.369309/-7.978677
+  maxiter=125 inside=zmag outside=summ potential=255/300/0
+  colors=000300d_9<7>zz6<14>MFA96G<15>B_ZCa`Bb`Aca9da8da<24>C8AD79E79<39>qe8qe\
+  8pd8<45>KAAKAALBA<41>sg8sg8rf8<40>K9B<3>UMA000_TA
+  }
+
+pod008             { ; Par of the day 10-20-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=formula formulafile=fractint.frm formulaname=Richard1
+  corners=-0.169269/0.169213/2.66123/3.010615 maxiter=125 inside=0
+  outside=summ potential=255/300/0
+  colors=000yfC<29>RGEPFFQFF<13>cRFeSFdSF<13>RGFPFFPFF<14>cPFcPFbOF<13>PFFSNC<\
+  29>xo`zpaypa<28>WQG000000<29>nnnpppooo<30>000PFF<30>zfC
+  }
+
+pod009             { ; Par of the day 10-21-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=formula formulafile=fractint.frm formulaname=LeeMandel3
+  corners=0.3664201/0.4619534/0.100926/-0.100899/0.4619534/-0.100899
+  params=0.4/0.3/0.2/0.1 maxiter=125 inside=zmag outside=summ
+  colors=000EM0<5>0A0<15>Zc0<15>0A0SNC<29>xo`zpaypa<29>UPF000<29>nnnpppooo<30>\
+  000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<7>HO0
+  }
+
+pod010             { ; Par of the day 10-22-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=formula formulafile=fractint.frm formulaname=Fzppfnsr
+  passes=1
+  corners=-1.459585/-1.960891/-0.297063/0.297062/-1.960891/0.297062
+  maxiter=500 inside=zmag outside=summ potential=255/355/0
+  colors=000E00dYM<10>zpa<12>UPFMJIEDLAAK<4>AOSARUBUWBXYB__Bba<5>DtnDqm<14>14R\
+  C6QO8O<5>VHI<7>zH0<7>WEDSDFRAG<3>L0KB8D1H5<19>Q`5Sa6R`6<16>2I6IIAZJE<6>wgF<9\
+  >UHD<7>AB7000HIC<10>svcsvc<20>200pdJ<5>zjF<13>RCCEEE<13>kki<18>005SNC<4>`VJ
+  }
+
+pod011             { ; Par of the day 10-23-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=formula formulafile=fractint.frm formulaname=Jm_14
+  function=tanh
+  corners=2.15173/2.023021/-0.062685/0.06266/2.023021/0.06266 maxiter=125
+  inside=zmag outside=summ potential=255/300/0
+  colors=000vcDwdDxeDzfC<31>PFF0A0<15>Zc0<14>0A0<15>Zc0<15>0A0SNC<29>xo`zpaypa\
+  <29>UPF000<29>nnnpppooo<30>000PFF<24>r`D000000
+  }
+
+pod012             { ; Par of the day 10-24-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=formula formulafile=fractint.frm formulaname=Fzppfnth
+  function=sin/cosh/sinh corners=-0.415995/0.416023/1.61281/2.236809
+  maxiter=125 inside=zmag outside=summ potential=255/355/0
+  colors=000mSF<7>ebc650<4>0C1JkL<10>AO5000<3>I00xKW<15>WHLUGKVGKWGK000<3>FGN0\
+  Qf<18>00NjQk<17>2GO<11>544shb<19>655tEO<18>645UQK<2>A98xcW<18>655e3i<13>646e\
+  uI<9>785Tbo<2>ACGML1<14>554WjpMW_DIKsC3<11>844b`F<12>AF8cJq<2>QIRYMNePJ
+  }
+
+pod013             { ; Par of the day 10-25-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=formula formulafile=fractint.frm formulaname=Jm_27
+  function=log/cosh
+  corners=-0.274135/0.679723/0.253925/-0.253932/0.679723/-0.253932
+  maxiter=125 inside=zmag outside=summ potential=255/355/0
+  colors=0007BY<30>58I<6>qzv<17>BEFFU6<57>478I9q<38>97R003<74>5799Ei<21>7BY
+  }
+
+
+pod014             { ; Par of the day 10-26-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=formula formulafile=fractint.frm formulaname=Jm_11a
+  function=sqr/sin/sin/sqr
+  corners=1.12560803/1.10425156/-0.04561383/-0.0563491/1.11944842/-0.04051012
+  maxiter=500 inside=zmag outside=summ potential=255/355/0
+  colors=000jPn<40>1PZ<45>mp8np8oo7<16>ti6ti6sh8<38>lRjlRkmTk<16>vykvzkuyj<27>\
+  WiU<3>bdL<11>5`b3`c2_a<19>1Z31Z23X3<11>PEA<3>3Eb4Fc4Gc
+  }
+
+pod015             { ; Par of the day 10-27-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=formula formulafile=fractint.frm formulaname=Fzppfnse
+  function=tan/cosh/sinh/ident
+  corners=-0.0387955/0.0387885/0.1288053/0.1870005 maxiter=125 inside=zmag
+  outside=summ potential=255/355/0
+  colors=000HO0<6>0A0<15>Zc0<15>0A0SNC<29>xo`zpaypa<29>UPF000<29>nnnpppooo<30>\
+  000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<5>LS0000
+  }
+
+pod016             { ; Par of the day 10-28-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=sqr(1/fn) function=sin passes=b
+  corners=-0.402115/0.397415/-0.304092/0.298645 maxiter=499 fillcolor=0
+  inside=-100 outside=summ logmap=yes
+  colors=0000A0SNC<29>xo`zpaypa<29>UPF000<29>nnnpppooo<30>000PFF<29>xeDzfCyfC<\
+  30>PFF0A0<15>Zc0<14>0A0<15>Zc0<14>3C0
+  }
+
+pod017             { ; Par of the day 10-29-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=formula formulafile=fractint.frm formulaname=FnDog
+  function=log
+  corners=0.19613/1.88379/0.561463/-0.559258/1.88379/-0.559258 maxiter=125
+  inside=zmag outside=summ potential=255/355/0
+  colors=000000cQE<17>zfC<31>PFF0A0<15>Zc0<14>0A0<15>Zc0<15>0A0SNC<29>xo`zpayp\
+  a<29>UPF000<29>nnnpppooo<30>000PFF<9>`OF000
+  }
+
+pod018             { ; Par of the day 10-30-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=mandel
+  corners=-1.81016654/-1.80986422/-0.000113439/0.000113236 maxiter=500
+  inside=0 logmap=yes periodicity=0
+  colors=000bXL<6>WQG000000<12>MMM000PPP<2>UUU000YYYZZZ000bbbN_Beeegggiii002ll\
+  lnnnpppoooKP0lll<2>ggge00ccc<23>000PFF<29>xeDzfCyfC<29>RGEPFFQFF<13>cRFeSFdS\
+  F<13>RGFPFFPFF<14>cPFcPFbOF<13>PFFSNC<29>xo`zpaypa<20>cYM
+  }
+
+pod019             { ; Par of the day 10-31-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=mandel
+  corners=-0.17968369/-0.17569149/-0.65958732/-0.66149759/-0.17732924/-0.66271\
+  049 maxiter=500 inside=0 outside=summ logmap=yes periodicity=0
+  colors=000saC<25>PFF0A0<70>_UI`UIaVJbWK<19>xo`zpaypa<29>UPF000<29>nnnpppooo<\
+  30>000PFF<29>xeDzfCyfC<3>ubC
+  }
+
+pod020             { ; Par of the day 11-01-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=formula formulafile=fractint.frm formulaname=Jm_04
+  corners=-1.564553/-1.5772765/-0.0075141/0.0075685/-1.5772765/0.0075685
+  maxiter=499 fillcolor=0 inside=0 outside=summ logmap=yes
+  colors=000MHA<25>zz0<8>LVY<11>9da8da9b_<23>C8AD79D79<51>jX8jX8iW8<29>KAAKAAL\
+  BA<28>cT8dU7dT7<57>K9BGAB<2>LFA
+  }
+
+pod020a            { ; Par of the day 11-01-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=formula formulafile=fractint.frm formulaname=Jm_04
+  function=cosxx/tan/tan/cosxx
+  corners=-1.564553/-1.5772765/-0.0075141/0.0075685/-1.5772765/0.0075685
+  maxiter=499 fillcolor=0 inside=0 outside=summ logmap=yes
+  colors=000MHA<25>zz0<8>LVY<11>9da8da9b_<23>C8AD79D79<51>jX8jX8iW8<29>KAAKAAL\
+  BA<28>cT8dU7dT7<57>K9BGAB<2>LFA
+  }
+
+pod021             { ; Par of the day 11-02-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=formula formulafile=fractint.frm formulaname=Jm_15
+  function=sin/sin/sin/sin passes=1
+  corners=18.635783/19.073102/-0.145781/0.145766 maxiter=250 fillcolor=0
+  inside=-100 outside=summ logmap=old
+  colors=000ubE<27>UK0UFFUFFVFF000XGGXGHYGH000_HI<23>rPSrPSqPS<17>cJK000aJK<9>\
+  UFF000PAP<28>o_qp`ro_q<15>PAP<4>ePX<9>AKU<30>geeiffiff<13>og`ph_ogY<13>WM3UK\
+  0UK0<26>taD
+  }
+
+
+pod022             { ; Par of the day 11-03-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=mandel
+  corners=-0.744769642/-0.744325725/-0.183798598/-0.183882384/-0.744569723/-0.\
+  18406521 maxiter=1000 inside=0 logmap=yes periodicity=0
+  colors=000VXM<6>svcsvc<20>200pdJ<5>zjF<13>RCCEEE<13>kki<18>005SNC<17>zpa<12>\
+  UPFMJIEDLAAK<4>AOSARUBUWBXYB__Bba<5>DtnDqm<14>14RC6QO8O<5>VHI<7>zH0<7>WEDSDF\
+  RAG<3>L0KB8D1H5<19>Q`5Sa6R`6<16>2I6IIAZJE<6>wgF<9>UHD<7>AB7000HIC<2>STK
+  }
+
+pod023             { ; Par of the day 11-04-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=formula formulafile=fractint.frm formulaname=Richard5
+  passes=b
+  corners=-1.445998/1.446019/1.928016/-1.927987/1.446019/-1.927987
+  params=1/0.3/1/0.3 maxiter=1000 fillcolor=2 inside=-100 outside=summ
+  potential=200/200/0 biomorph=2 finattract=y
+  colors=000ZH0000TG0PF0FKA<5>NSIPUKOTJ<6>FKA00K<4>57j79p78l<6>00K0D1<6>1aA<7>\
+  1F0KF1<6>hZ0<6>OI0KF0F0F<6>Z0U<7>F0FKF0<6>hZ0<7>KF000A<6>00k<7>00AA00<6>z00<\
+  7>A00<6>2r00z00u0<7>0A0<6>eXU<7>0A0AKK<6>mmK<7>AKMFF0<6>zz0<7>FF0F00<6>z0A<7\
+  >F00FFF<6>zzz<5>RRR000FFF0FK<6>0Um<7>0FKPF0<6>mK0<3>aI0
+  }
+
+pod024             { ; Par of the day 11-05-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=spider passes=b
+  corners=-1.223818/-1.479524/-0.222341/0.226595/-1.479524/0.226595
+  maxiter=500 fillcolor=7 inside=zmag outside=imag logmap=yes
+  periodicity=0
+  colors=000ZKD<2>RCCEEEHHG000LLL<12>ppn<15>F0AUPF<2>OI5<5>bVHeYJg_LiaN<6>zpa<\
+  12>UPFHGMEDLAAK<4>AOSARUBUWBXYB__Bba<5>Dtn<6>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<7>W\
+  EDSDFRAG<3>L0K0G5<21>Np6Pr7Op7<16>0G5ZJE<6>wgF<9>UHD<7>AB7<12>svcsvcsvcsvc<8\
+  >cZPaXObXO<5>kbL000ocJ<6>zjF<9>aMD
+  }
+
+pod025             { ; Par of the day 11-06-92, Dick Sherry, 76264,752
+                     ; (c) 1992
+  reset type=barnsleym1 passes=1
+  corners=-0.0133415/0.0133578/-1.0148121/-0.9947874 maxiter=499
+  fillcolor=0 inside=zmag outside=imag logmap=yes periodicity=0
+  colors=0009J7<30>478I9q<38>97RHPf<19>AigAjgChdEfb<21>aJr<27>67B7BA5799Ei<53>\
+  58I<6>qzv<17>BEFFU6<25>AJ7
+  }
+

@@ -1,0 +1,113 @@
+Spider_Web         { ; A Fractal Spider
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=mandel
+  corners=-1.69059234/-1.68973213/-0.000323147/0.000321742
+  colors=00000e0e00eee00e0eeL0eeeLLLLLzLzLLzzzLLzLzzzLzzz000555<3>HHHKKKOOOSSS\
+  WWW___ccchhhmmmssszzz00z<3>z0z<3>z00<3>zz0<3>0z0<3>0zz<2>0GzVVz<3>zVz<3>zVV<\
+  3>zzV<3>VzV<3>Vzz<2>Vbzhhz<3>zhz<3>zhh<3>zzh<3>hzh<3>hzz<2>hlz00S<3>S0S<3>S0\
+  0<3>SS0<3>0S0<3>0SS<2>07SEES<3>SES<3>SEE<3>SSE<3>ESE<3>ESSEOSELS
+  }
+
+Brain              { ; Your Brain On Fractals
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=magnet1m corners=3.195261/-0.612032/-2.56/2.56/-0.612032/2.56
+  maxiter=1023 inside=0 potential=255/511/0
+  colors=000ZY_ZYYYYYXYYYXZYXXXXXWXXXWYXWWWWWVWWWVXWVVVVVUVVVUWVUUUUUTUUUTVUTT\
+  TTTSTTTSUTSSSSSRSSSRTSRRRRRQRRRQSRQQQQQPQQQPRQPPPPPOPPPOQPOOOOONOOONPONNNNNM\
+  NNNMONMMMMMLMMMLNMLLLLLKLLLKMLKKKKKJKKKJLKJJJJJIJJJIKJIIIIIHIIIHJIHHHHHGHHHG\
+  IHGGGGGFGGGFHGFFFFFEFFFEGFEEEEEDEEEDFEDDDDDCDDDCEDCCCCCBCCCBDCBBBBBABBBACBAA\
+  AAA9AAA9BA9999989998A9888887888798777776777687666665666576555554555465444443\
+  44435433333233324322222122213211111011102100<2>000zzzyzzzyzzyyyyyxyyyxzyxxxx\
+  xwxxxwyxwwwwwvwwwvxwvvvvvuvvvuwvuuuuutuuutvutttttstttsutsssssrsssrtsrrrrrqrr\
+  rqsrqqqqqpqqqprqpppppopppoqpooooonooonponnnnnmnnnmonmmmmmlmmmlnmlllllklllkml\
+  kkkkkjkkkjlkjjjjjijjjikjiiiiihiiihjihhhhhghhhgihgggggfgggfhgfffffefffegfeeee\
+  edeeedfedddddcdddcedcccccbcccbdcbbbbbabbbacbaaaaa`aaa`ba`````_```_a`_____Z__\
+  _Z`_ZZZZZYZZ
+  }
+
+Butterfly          { ; A Fractal Butterfly (inspired by Pickover)
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=formula formulafile=rclpar.frm formulaname=RCL_Cosh
+  corners=2.008874/-3.811126/-3.980167/3.779833/-3.811126/3.779833 float=y
+  inside=0
+  colors=00000j0j0jj0j00j0j0jjkkkkrkdmwCCC_C_<9>sCs<20>ECsCCsCEs<19>CqsCssCsq<\
+  19>CsECsCEsE<19>qsqsssssq<19>ssEssCsqC<17>sIC
+  }
+
+Lilly_Pads         { ; Fractal Lilly Pads
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=formula formulafile=rclpar.frm formulaname=RCL_11
+  corners=-0.166994/0.177006/0.937778/1.195778 params=2 float=y
+  maxiter=20000 inside=0
+  colors=00000j0j0jj0j00j0j0jjkkkkrkdmwCCC_C_<9>sCs<20>ECsCCsCEs<19>CqsCssCsq<\
+  19>CsECsCEsE<19>qsqsssssq<19>ssEssCsqC<19>sECsCCqCC<18>GCCECCACCECE<9>YCYbjb\
+  <2>zjbFrb<5>zrbFzb<5>zzbFFj<5>zFjFNj<5>zNjFVj<5>zVjFbj<5>zbjFjj<5>zjjFrj<4>r\
+  rjzywccdWWWz000z0zz000zz0z0zzzzz
+  }
+
+Crabs              { ; A Family Of Fractal Crabs
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=lambda
+  corners=-0.053368/1.066608/-0.411172/0.428816 params=3/0.1 inside=0
+  colors=000<8>000CCC_C_<9>sCs<20>ECsCCsCEs<19>CqsCssCsq<19>CsECsCEsE<19>qsqss\
+  sssq<19>ssEssCsqC<17>sIC
+  }
+
+Big_Brother        { ; Big Brother is watching you!
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=fn(z*z) function=log
+  corners=-2.848312/2.845245/-2.13179/2.136597 inside=255
+  potential=255/128/0
+  colors=000Doz<24>zzz<44>5zz3zz2zz0zz0yz<43>05z03z02z00z00y<59>002000000000<2\
+  9>00k00m01m<29>0ky0mz1mz<4>Boz
+  }
+
+Mothra!            { ; The Silver Screen Star (Moth) Returns!
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=formula formulafile=rclpar.frm
+  formulaname=Mothra corners=-2.0/1.999997/-1.499996/1.5 float=y inside=0
+  colors=000_6c_7b<2>LHIKMMJPOJRRIUTGa_FdaFfcDnjCqlBto<2>DumDulEvi<6>IxcVnU<3>\
+  tUA<14>fJ3hPCohbrokpkjmghhZelJ3<2>tM4HC2<13>FZSJD2<9>ieGHB4<9>MCeGD8<6>8XyGC\
+  3<11>4V`HB3<14>4HhIC6<7>XKjJE3<8>`lU
+  }
+
+Old_Glory          { ; A Very Patriotic Fractal
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=cmplxmarksjul corners=-2.0/2.0/-1.5/1.5 params=0.3/0.6/1.1
+  inside=bof60 outside=mult
+  colors=000z00zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz00\
+  zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz0\
+  0zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz0\
+  0zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz\
+  00zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz\
+  00zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz00zzz00zz00zz\
+  z00z
+  }
+
+Solar_Flare        { ; An Inverted Complex Mark's Mandel
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=cmplxmarksmand corners=-1.439299/2.560701/-1.5/1.5
+  params=0/0/1 float=y inside=bof60 invert=0.5/0/0 biomorph=128
+  colors=000000800D10N30<2>a90kB0<2>zH0<21>zx0zz0zz1<29>zzxzzzzzz<61>zV1zU0zU0\
+  zT0<17>zC0
+  }
+
+Cut_me             { ; Cut me and I bleed Fractals!
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=fn*z+z function=cosh corners=-4.0/3.999993/-2.999991/3.0
+  params=1.414/0/0/1.414 inside=255 potential=255/128/0
+  colors=00000j0j0jj0j00j0j0jjkkkkrkdmwCCC_C_<9>sCs<20>ECsCCsCEs<19>CqsCssCsq<\
+  19>CsECsCEsE<19>qsqsssssq<19>ssEssCsqC<19>sECsCCqCC<18>GCCECCACCECE<9>YCYbjb\
+  <2>zjbFrb<5>zrbFzb<5>zzbFFj<5>zFjFNj<5>zNjFVj<5>zVjFbj<5>zbjFjj<5>zjjFrj<4>r\
+  rjzywccdWWWz000z0zz000zz0z0zzzzz
+  }
+
+Chaos_Gate         { ; Here There Be Chaos
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=fn*z+z function=cosh
+  corners=0.982869/2.224583/-1.343957/-2.638199/1.585182/-2.887693
+  params=1.414/0/0/1.414 inside=255 potential=255/128/0
+  colors=@rclmap2.map cyclerange=152/187
+  }
+
+

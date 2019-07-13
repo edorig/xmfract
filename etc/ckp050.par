@@ -1,0 +1,297 @@
+;; 10 december 1992
+;;
+;; Here are my current contributions to PARs for Tomorrow
+;; (V18.0)...  Any duplications are entirely unintentional...
+;; With any luck, a few of these will find their way into the
+;; postcard/poster world before spring of '93...  Comments
+;; pro and con will be sent to their appropriate locations...
+
+;; Time listed on the first line reflects creation on a 486-50
+;; running 1024x768x256 colors...  The most intensive are the
+;; Lyapunovs...  I would suggest not attempting these unless you
+;; have LOTS of time to spare, as even at 486 speeds, some will take
+;; a VERY long time...  They do create, however, stunning images
+;; when mapped with strong colors...  You might try, per Peter
+;; Moreland's suggestion, to set the MaxIter to something around
+;; 10 to 20 (from its current setting on these images of 500)...
+
+;; ALL of these images look best when created with a 256-color or
+;; better video and 1024x768 or better resolution...  I have no
+;; idea how they will look at lower resolutions or lower color
+;; densities, though I would suspect the Lyapunovs wouldn't degrade
+;; nearly as much as the others...  Happy viewing!
+
+;; caren park
+;; park computer services
+;; 23808 southeast 24th street
+;; issaquah, washington  98027
+
+;; PS:  Please do not use these images commercially without
+;; dropping me a quick message requesting inclusion in your
+;; fine product BEFORE you go to market...
+
+FlyingBumbershoots { ; 00:03:48.46
+                     ; 03 Dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=Halley passes=t
+  corners=-1.091791/-0.657218/-0.162947/0.162967 params=44/5/5/0.2 float=y
+  maxiter=500 inside=-100 outside=imag decomp=256
+  colors=00000z<14>000<16>z0X<15>000<15>p0w<15>000<15>zzz<15>000L00<13>z00<2>p\
+  00l00h00d00a00<9>000<15>zX0<15>000<15>ut0<15>000GA4<12>2v10z00w0<14>000<14>0\
+  0v
+  }
+
+SlicedColors       { ; 00:01:08.49
+                     ; 03 Dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=HalleySin passes=t
+  corners=9.369526/9.487331/5.094011/5.211823 params=0.4/11/0.3/9
+  maxiter=500 inside=-100 outside=imag
+  colors=000r0T<13>000<15>p0w<15>000<15>zzz<15>000L00<13>z00<2>p00l00h00d00a00\
+  <9>000<15>zX0<15>000<15>ut0<15>000GA4<12>2v10z00w0<14>000<15>00z<14>000<16>z\
+  0Xv0V
+  }
+
+EventHorizon       { ; 00:01:53.37
+                     ; 04 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=HalleySin passes=t
+  corners=7.719147/7.993415/-0.137184/0.137116 params=0.4/11/0.3/9
+  maxiter=500 inside=-100 outside=imag
+  colors=00000m<11>000<16>z0X<15>000<15>p0w<15>000<15>zzz<15>000L00<13>z00<2>p\
+  00l00h00d00a00<9>000<15>zX0<15>000<15>ut0<15>000GA4<12>2v10z00w0<14>000<15>0\
+  0z00v00r
+  }
+
+AntiMirror         { ; 00:03:10.26
+                     ; 04 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=HalleySin
+  function=cosxx/cos passes=t corners=8.471517/8.765663/2.432713/2.726855
+  params=0.4/11/0.3/9 maxiter=500 inside=-100 outside=imag
+  colors=000000000<29>00k00m01m<29>0ky0mz1mz<30>zzz<46>2zz0zz0yz<45>02z00z00y<\
+  60>000
+  }
+
+RainbowSpaceShip   { ; 00:00:36.30
+                     ; 04 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=HalleySin passes=t
+  corners=10.844196/11.143641/5.602076/5.069698/11.143641/5.069698
+  params=0.4/11/0.3/9 maxiter=500 inside=-100 outside=imag
+  colors=000h00<11>000<15>zX0<15>000<15>ut0<15>000GA4<12>2v10z00w0<14>000<15>0\
+  0z<14>000<16>z0X<15>000<15>p0w<15>000<15>zzz<15>000L00<13>z00<3>l00
+  }
+
+NightBeachFlight   { ; 00:04:10.74
+                     ; 05 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=HalleySin
+  function=cosxx/cos passes=t
+  corners=8.4129818/8.4655103/1.5939049/1.5004903/8.4655103/1.5004903
+  params=0.4/11/0.3/9 maxiter=500 inside=-100 outside=imag
+  colors=00000M<19>002000000000<29>00k00m01m<29>0ky0mz1mz<30>zzz<46>2zz0zz0yz<\
+  45>02z00z00y<38>00N
+  }
+
+BeanstalkForest    { ; 00:12:49.18
+                     ; 05 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=juliconj04
+  passes=t corners=1.01401/-1.084445/-0.079573/0.220214/0.114676/1.119548
+  params=0.2/0.9/0.2/0.9 float=y maxiter=250 inside=-100 outside=imag
+  colors=000hUE<7>K8C413000<15>svcsvcsvcsvc<13>UMHSJFQIJ<5>EAb<6>7Nu5Px5Nu<5>A\
+  5c<2>D6XheUG8S<2>KBL000OEK<5>_VZ`Y`b`cdcf<4>nru<15>OI5<6>eYJg_LiaNkcPneR<4>z\
+  pa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARUBUWBXY<6>DqlDtnCql<5>8Xc7Ta9Q`<5>L4R<8\
+  >VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN3KO4J<12>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF
+  }
+
+Untitled #1        { ; 00:07:48.02
+                     ; 05 dec 92 .. caren park
+  reset type=fn(z)+fn(pix) function=exp/tanh passes=t
+  corners=-2.5/1.499996/-1.355261/1.644719 params=1/1/0/1 maxiter=500
+  inside=-100 outside=imag
+  colors=000QK8OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARU\
+  BUWBXY<6>DqlDtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN3KO4J<\
+  12>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<13>UMHSJF\
+  QIJ<5>EAb<6>7Nu5Px5Nu<5>A5c<2>D6XheUG8S<2>KBL000OEK<5>_VZ`Y`b`cdcf<4>nru<13>\
+  RNC
+  }
+
+OctopusBreast      { ; 00:30:23.96
+                     ; 05 dec 92 .. caren park
+  reset type=magnet1j corners=-4.218291/2.565709/-2.544/2.544
+  params=-0.2/0.4 float=y maxiter=500 inside=maxiter periodicity=0
+  colors=000dce<4>nrt<15>OI4<6>eYIg_KiaMkcOneQ<4>zp`<4>jdVgaUcZS`WRYUQ<6>AAJ<3\
+  >ALPAORARTBUVBXX<6>DqkDtmCqk<5>8Xb7T`9Q_<5>L4Q<8>VHH<5>rH4vH1zH0vH1<7>SDE<3>\
+  N3IL0JL1JM2JN3JO4I<10>tq2wu0zz0ww0<6>``8YY9XVA<6>KAIMAJOAL<12>ziE<13>K8B4120\
+  00<15>svbsvbsvbsvb<13>UMGSJEQII<5>EAa<6>7Nt5Pw5Nt<5>A5b<2>D6WheTG8R<2>KBK000\
+  OEJ<7>b`b
+  }
+
+BadDream           { ; 01:30:10.15
+                     ; 05 dec 92 .. caren park
+  reset type=newton
+  corners=0.813797527/0.814047167/-0.001023803/-0.000836573 params=47
+  float=y maxiter=500 inside=maxiter periodicity=-1
+  colors=000f0l<2>p0w<15>000<15>zzz<15>000L00<13>z00<2>p00l00h00d00a00<9>000<1\
+  5>zX0<15>000<15>ut0<15>000GA4<12>2v10z00w0<14>000<15>00z<14>000<16>z0X<15>00\
+  0<11>c0h
+  }
+
+EyePatch           { ; 00:01:54.24
+                     ; 05 dec 92 .. caren park
+  reset type=fn(z)+fn(pix) function=exp/tanh passes=t
+  corners=-0.183764/0.215687/1.379885/1.679467 params=1/1/0/1 maxiter=500
+  inside=-100 outside=imag
+  colors=000ffd<10>OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAO\
+  SARUBUWBXY<6>DqlDtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN3K\
+  O4J<12>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<13>UM\
+  HSJFQIJ<5>EAb<6>7Nu5Px5Nu<5>A5c<2>D6XheUG8S<2>KBL000OEK<5>_VZ`Y`b`cdcf<4>nru\
+  <3>gih
+  }
+
+NastyLobster       { ; 00:14:24.47
+                     ; 05 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=Halley
+  corners=-0.0445902/0.044617/0.6227771/0.6896607
+  params=5e-006/0.2/0.0044/-11 maxiter=500 inside=-100 outside=imag
+  colors=000cc8``9YYA<7>KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<13>UMHSJ\
+  FQIJ<5>EAb<6>7Nu5Px5Nu<5>A5c<2>D6XheUG8S<2>KBL000OEK<5>_VZ`Y`b`cdcf<4>nru<15\
+  >OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARUBUWBXY<6>Dql\
+  DtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN3KO4J<12>zz0<5>gg7
+  }
+
+HungrySnake        { ; 00:14:15.84
+                     ; 05 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=Halley
+  corners=-0.079567/0.079579/0.762249/0.881616
+  params=5e-006/0.2/0.0044/-11 maxiter=500 inside=-100 outside=imag
+  colors=000f0l<12>000<15>zzz<15>000L00<13>z00<2>p00l00h00d00a00<9>000<15>zX0<\
+  15>000<15>ut0<15>000GA4FE4<7>RX_<2>XpUZwSZvVZuYYt`0o0<12>000<15>00z<14>000<2\
+  >B05<14>4oQ3sS5sT<13>Xgi<12>0ll<2>iIAkHD
+  }
+
+ColorfulSnail      { ; 00:39:45.20
+                     ; 05 dec 92 .. caren park
+  reset type=julia
+  corners=0.000000337014/0.000000816279/0.000000917403/0.000000400069/0.000000\
+  816279/0.000000400069 params=-1.86057396005452/-9.34352182334033e-007
+  float=y maxiter=1500 inside=maxiter
+  colors=000Bba<4>DqlDtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2K\
+  N3KO4J<12>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<13\
+  >UMHSJFQIJ<5>EAb<6>7Nu5Px5Nu<5>A5c<2>D6XheUG8S<2>KBL000OEK<5>_VZ`Y`b`cdcf<4>\
+  nru<15>OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARUBUWBXY\
+  B__
+  }
+
+ChickensAndEagles  { ; 00:28:11.98
+                     ; 06 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=Halley
+  corners=-0.00221682/0.0022344/0.66275066/0.66608799
+  params=5e-006/0.2/0.0044/-11 maxiter=500 inside=-100 outside=imag
+  colors=000f0l<12>000<15>zzz<15>000L00<13>z00<2>p00l00h00d00a00<9>000<15>zX0<\
+  15>000<15>ut0<15>000GA4FE4<7>RX_<2>XpUZwSZvVZuYYt`0o0<12>000<15>00z<14>000<2\
+  >B05<14>4oQ3sS5sT<13>Xgi<12>0ll<2>iIAkHD
+  }
+
+WiseOwl            { ; 00:12:53.90
+                     ; 06 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=Halley
+  corners=-0.0108699/0.0108984/0.6668062/0.683127
+  params=5e-006/0.2/0.0044/-11 maxiter=500 inside=-100 outside=imag
+  colors=000f0l<12>000<15>zzz<15>000L00<13>z00<2>p00l00h00d00a00<9>000<15>zX0<\
+  15>000<15>ut0<15>000GA4FE4<7>RX_<2>XpUZwSZvVZuYYt`0o0<12>000<15>00z<14>000<2\
+  >B05<14>4oQ3sS5sT<13>Xgi<12>0ll<2>iIAkHD
+  }
+
+BlueStrandsOnGreen { ; 01:05:38.22
+                     ; 06 dec 92 .. caren park
+  reset type=complexnewton passes=t
+  corners=-0.000008636234/-0.000008034234/0.0000004819/0.0000009334
+  params=3/2/4/1 float=y maxiter=400 bailout=2500 inside=maxiter
+  periodicity=0
+  colors=000ZZZ<6>zzz<15>000L00<13>z00<2>p00l00h00d00a00<9>000<15>zX0<15>000<1\
+  5>ut0<15>000GA4<12>2v10z00w0<14>000<15>00z<14>000<16>z0X<15>000<15>p0w<15>00\
+  0<7>WWW
+  }
+
+SplitPersonality   { ; 00:55:15.41
+                     ; 06 dec 92 .. caren park
+  reset type=complexnewton
+  corners=-0.0000083345383/-0.0000082394223/0.0000007220173/0.0000007933543
+  params=3/2/4/1 float=y maxiter=400 bailout=2500 inside=maxiter
+  periodicity=0
+  colors=000ZZZ<6>zzz<15>000L00<13>z00<2>p00l00h00d00a00<9>000<15>zX0<15>000<1\
+  5>ut0<15>000GA4<12>2v10z00w0<14>000<15>00z<14>000<16>z0X<15>000<15>p0w<15>00\
+  0<7>WWW
+  }
+
+WeavingNautilus    { ; 00:06:53.26
+                     ; 06 dec 92 .. caren park
+  reset type=complexnewton corners=-2.0/2.0/-1.5/1.5 params=1/3/2/4
+  float=y maxiter=400 bailout=2500 inside=maxiter periodicity=0
+  colors=000ZZZ<6>zzz<15>000L00<13>z00<2>p00l00h00d00a00<9>000<15>zX0<15>000<1\
+  5>ut0<15>000GA4<12>2v10z00w0<14>000<15>00z<14>000<16>z0X<15>000<15>p0w<15>00\
+  0<7>WWW
+  }
+
+SpiderMom          { ; 00:03:45.97
+                     ; 06 dec 92 .. caren park
+  reset type=newton corners=-0.194363/0.194333/1.21358/1.5 params=6
+  float=y periodicity=-256
+  colors=000wfF<12>K8C413000<15>svcsvcsvcsvc<13>UMHSJFQIJ<5>EAb<6>7Nu5Px5Nu<5>\
+  A5c<2>D6XheUG8S<2>KBL000OEK<5>_VZ`Y`b`cdcf<4>nru<15>OI5<6>eYJg_LiaNkcPneR<4>\
+  zpa<4>jdWgaVcZT`WSYUR<6>AAK<5>ARU
+  }
+
+Amazing!           { ; 00:01:57.98
+                     ; 06 dec 92 .. caren park
+  reset type=lambda
+  corners=-0.266267/0.26729/0.3273891/-0.1249812/0.145558/-0.2151976
+  params=1.00000000000005/0.2 float=y maxiter=500 inside=maxiter
+  colors=000kc7<4>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvc\
+  svc<13>UMHSJFQIJ<5>EAb<6>7Nu5Px5Nu<5>A5c<2>D6XD3UG8S<2>KBL0FIOEK<5>_VZ`Y`b`c\
+  dcf<4>nru<15>OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARU\
+  BUWBXY<6>DqlDtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN3KO4J<\
+  6>h_9
+  }
+
+OrangeGlasses      { ; 01:45:49.70
+                     ; 08 Dec 92 .. caren park
+  reset type=lambdafn function=cos
+  corners=0.14196349625/0.1419677081/0.124963618284/0.124960599548/0.141966461\
+  51/0.124959664606 params=4.72675/0.00145555 float=y maxiter=400
+  bailout=2500 inside=maxiter invert=0.5/0.2/0.5
+  colors=000WPJUMHSJF<6>EAb<6>7Nu5Px5Nu<5>A5cB5`<2>E7UG8SH9QJANKBL000OEK<5>_VZ\
+  `Y`b`cdcf<4>nru<15>OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQ\
+  AOSARUBUWBXY<6>DqlDtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN\
+  3KO4J<12>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<11>\
+  YRK
+  }
+
+ChevyChrome        { ; 00:02:50.00
+                     ; 08 Dec 92 .. caren park
+  reset type=julfn+zsqrd function=cosxx
+  corners=-2.00383/2.007874/-1.507797/1.5 params=-0.5/0.5 maxiter=2250
+  bailout=30 decomp=256 biomorph=0
+  colors=000WPJUMHSJF<6>EAb<6>7Nu5Px5Nu<5>A5cB5`<2>E7UG8SH9QJANKBL000OEK<5>_VZ\
+  `Y`b`cdcf<4>nru<15>OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQ\
+  AOSARUBUWBXY<6>DqlDtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN\
+  3KO4J<12>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<11>\
+  YRK
+  }
+
+RedSatinStarChaos  { ; 02:43:53.33
+                     ; 08 Dec 92 .. caren park
+  reset type=lyapunov corners=3.07368/3.63368/3.01495/3.43495
+  params=10/0.001/40 float=y maxiter=500 inside=maxiter periodicity=-1
+  colors=000800<5>200000000000<29>k00m00m01<29>y0kz0mz1m<30>zzz<46>z2zz0zz0y<4\
+  5>z02z00y00<52>900
+  }
+
+ColorWhirlpool     { ; 02:42:39.44
+                     ; 08 Dec 92 .. caren park
+  reset type=lambdafn function=cos
+  corners=-0.844865578/-0.844182698/-0.744752182/-0.744240022
+  params=4.72675000000005/0.00145555000003039 float=y maxiter=900
+  inside=maxiter invert=0.5/0.2/0.5
+  colors=000H9QJANKBL000OEK<5>_VZ`Y`b`cdcf<4>nru<15>OI5<6>eYJg_LiaNkcPneR<4>zp\
+  a<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARUBUWBXY<6>DqlDtnCql<5>8Xc7Ta9Q`<5>L4R<8>\
+  VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN3KO4J<12>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF<1\
+  3>K8C413000<15>svcsvcsvcsvc<13>UMHSJFQIJ<5>EAb<6>7Nu5Px5Nu<5>A5cB5`<3>G8S
+  }
+

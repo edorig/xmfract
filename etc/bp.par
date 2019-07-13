@@ -1,0 +1,234 @@
+Purple_Belt        { ; (c) 1992 Bill Potter/Diag stripe on striped bg/Purple
+                     ; have fun use & abuse but no commercial use wo permission
+  reset type=sqr(1/fn) function=sin passes=g float=y
+  corners=-2.929652/2.94456/-6.09566/6.098513/-6.668815/-1.108385
+  maxiter=5000 decomp=255
+  colors=000F0K<57>T0aT0bT0bU0cU0c<62>zzzzzzzzy<60>zz1zz0zy0yx0<56>I4IH3JG2JF0\
+  KF0KF0KF0K
+  }
+
+Purple_KaleidoRing { ; (c) 1992 Bill Potter/Rings of foil kaleidoscope
+                     ; have fun use & abuse but no commercial use wo permission
+  reset type=sqr(1/fn) function=sin passes=g float=y corners=-1.12/1.12/-0.84/0.84
+   maxiter=5000 decomp=255
+  colors=000F0K<57>T0aT0bT0bU0cU0c<62>zzzzzzzzy<60>zz1zz0zy0yx0<56>I4IH3JG2JF0\
+  KF0KF0KF0K
+  }
+
+Moire_Sunrays      { ; (c) 1992 Bill Potter/Moire patterns -- just too hip!
+                     ; have fun use & abuse but no commercial use wo permission
+  reset type=sqr(1/fn) function=sin passes=g float=y
+  corners=0.2685749/0.4585841/0.048462/0.339601/0.1972315/0.1435866
+   maxiter=5000 decomp=255
+  colors=000xU00XUxU00WVxV00WVxV00VWxW00VWxW00UXxX00UXxX00TYxY00TYxY00SZxZ00SZ\
+  xZ00R_x_00R_x_00Q`x`00Q`x`00Paxa00Paxa00Obxb00Obxb00Ncxc00Ncxc00Mdxd00Mdxd00\
+  Leye00Leye00Kfyf00Kfyf00Jgyg00Jgyg00Ihyh00Ihyh00Hiyi00Hiyi00Gjyj00Gjyj00Fkyk\
+  00Fkyk00Elyl00Elyl00Dmym00Dmym00Cnyn00Cnyn00Boyo00Boyo00Apyp00Apyp009qyq009q\
+  yq008ryr008ryr007sys007sys006tyt006tyt005uyu005uyu004vyv004vyv003wyw003wyw00\
+  2xyx002xyx001yyy001yzz0zW00WWw000z0w000z0w000y1w100y1w100x2w200x2w200w3w300w\
+  3w300v4w400v4w400u5w500u5w500t6w600t6w600s7w700s7w700r8w800r8w800q9w900q9w90\
+  0pAwA00pAwA00oBwB00oBwB00nCwC00nCwC00mDwD00mDwD00lEwE00lEwE00kFwF00kFwF00jGw\
+  G00jGwG00iHwH00iHwH00hIwI00hIwI00gJwJ00gJwJ00fKwK00fKwK00eLxL00eLxL00dMxM00d\
+  MxM00cNxN00cNxN00bOxO00bOxO00aPxP00aPxP00`QxQ00`QxQ00_RxR00_RxR00ZSxS00ZSxS0\
+  0YTxT00YT000kkk
+  }
+
+Moire_KaleidoRing  { ; (c) 1992 Bill Potter/Moire patterns on Ring Kaleidoscope
+                     ; have fun use & abuse but no commercial use wo permission
+  reset type=sqr(1/fn) function=sin passes=g float=y
+  corners=-0.67648/0.67648/-0.50736/0.50736  maxiter=5000
+  decomp=255
+  colors=000kkkxU00XUxU00WVxV00WVxV00VWxW00VWxW00UXxX00UXxX00TYxY00TYxY00SZxZ0\
+  0SZxZ00R_x_00R_x_00Q`x`00Q`x`00Paxa00Paxa00Obxb00Obxb00Ncxc00Ncxc00Mdxd00Mdx\
+  d00Leye00Leye00Kfyf00Kfyf00Jgyg00Jgyg00Ihyh00Ihyh00Hiyi00Hiyi00Gjyj00Gjyj00F\
+  kyk00Fkyk00Elyl00Elyl00Dmym00Dmym00Cnyn00Cnyn00Boyo00Boyo00Apyp00Apyp009qyq0\
+  09qyq008ryr008ryr007sys007sys006tyt006tyt005uyu005uyu004vyv004vyv003wyw003wy\
+  w002xyx002xyx001yyy001yzz0zW00WWw000z0w000z0w000y1w100y1w100x2w200x2w200w3w3\
+  00w3w300v4w400v4w400u5w500u5w500t6w600t6w600s7w700s7w700r8w800r8w800q9w900q9\
+  w900pAwA00pAwA00oBwB00oBwB00nCwC00nCwC00mDwD00mDwD00lEwE00lEwE00kFwF00kFwF00\
+  jGwG00jGwG00iHwH00iHwH00hIwI00hIwI00gJwJ00gJwJ00fKwK00fKwK00eLxL00eLxL00dMxM\
+  00dMxM00cNxN00cNxN00bOxO00bOxO00aPxP00aPxP00`QxQ00`QxQ00_RxR00_RxR00ZSxS00ZS\
+  xS00YTxT00YT000
+  }
+
+Brown_Swirl        { ; (c) 1992 Bill Potter/Pointillist brown brushstroke
+                     ; have fun use & abuse but no commercial use wo permission
+  reset type=popcornjul passes=g float=y
+  corners=-0.524185/0.499603/0.904083/1.649628 params=0.05
+  maxiter=3000
+  colors=CCCFCF<2>FCFMJKNKLOIJVTRQHHb`XTFGjibVEEsmTYCCsmTYCCsmTYCCsmTYCCsmTYCC\
+  smTYCCsmTYCCsmTYCCsmTYCCsmTYCCsmTYCCsmTYCCsmTYCCsmSYCCslRYCCslPYCCskOYCCskNY\
+  CCsjLYCCsjKYCCsjJYCCsiIYCCsiGYCCshFYCCshEYCCsgCYCCscCYCCs_CYCCsWCYCCsSCYCCsO\
+  CYCCsKCYCCsGCYCCrGCYCCpGCYCCnGCYCCmGCYCCkGCYCCiGCYCChFCUCCfFCQCCdFCQCCcFCPCC\
+  aFCOCC_FCOCCZECNCCXECMCCVECLCCUECLCCSECKCCQECJCCPDCICCNDCICCLDCHCCKDCGCCIDCG\
+  CC<5>EDCDDCDCC<4>ACCACCACCACCACC<112>FCF
+  }
+
+BOF48_Red&White    { ; (c) 1992 Bill Potter/BOF map 48, custom colors Red&White
+                     ; have fun use & abuse but no commercial use wo permission
+  reset type=mandel passes=g float=y
+  corners=-0.7436550201/-0.7436313986/0.1318178053/0.1318355141
+  maxiter=32767 logmap=yes
+  colors=000HHH<2>000<3>000111111222222<75>kkklllllllll<34>vvv<5>aaaYYYUUUQQQU\
+  UU<5>vvv<18>xJJxHHxHH<12>xHHxIIxIIxJJxKK<57>wuuvvvvvvvvv<6>vvv<6>MMM
+  }
+
+Brown_StripedSnake { ; (c) 1992 Bill Potter/Striped snakes - Dark Brown map
+                     ; have fun use & abuse but no commercial use wo permission
+  reset type=mandel passes=g float=y
+  corners=-0.74544133402/-0.74541182844/-0.11300137512/-0.11301610036/-0.74543\
+  761177/-0.11299737715  maxiter=32767 inside=79
+  colors=CCCECE<68>FCFMJKNKLOIJVTRQHHb`XTFGjibVEEsmTYCCsmTYCCsmTYCCsmTYCCsmTYC\
+  CsmTYCCsmTYCCsmTYCCsmTYCCsmTYCCsmTYCCsmTYCCsmTYCCsmSYCCslRYCCslPYCCskOYCCskN\
+  YCCsjLYCCsjKYCCsjJYCCsiIYCCsiGYCCshFYCCshEYCCsgCYCCscCYCCs_CYCCsWCYCCsSCYCCs\
+  OCYCCsKCYCCsGCYCCrGCYCCpGCYCCnGCYCCmGCYCCkGCYCCiGCYCChFCUCCfFCQCCdFCQCCcFCPC\
+  CaFCOCC_FCOCCZECNCCXECMCCVECLCCUECLCCSECKCCQECJCCPDCICCNDCICCLDCHCCKDCGCCIDC\
+  GCCGDC<11>ACCACCACCACCACC<46>ECE
+  }
+
+Cream_Butterfly    { ; (c) 1992 Bill Potter/Beautiful cream & red butterfly
+                     ; have fun use & abuse but no commercial use wo permission
+  reset type=julfn+zsqrd function=cosxx passes=g float=y
+  corners=-7.247995/7.244699/-5.439471/5.436556
+  params=-0.500549315/0.5010375975  maxiter=32767 bailout=30
+  inside=maxiter invert=0.1/0/0 decomp=255 biomorph=0
+  colors=000zzdzzz<9>zzzzzzzxszzza88<14>x11z00z10<29>zx0zz0zz1<29>zzxzzzzzz<61\
+  >zV1zU0zU0zT0<28>z10z00z00y00<30>c00b11a11`22_22<25>FFF
+  }
+
+Blue_Clouds        { ; (c) 1992 Bill Potter/Seahorse valley (sky in JADE.GIF)
+                     ; have fun use & abuse but no commercial use wo permission
+  reset type=mandel passes=g float=y
+  corners=-0.746777872/-0.74672577/0.114142217/0.114181362
+  maxiter=32767 logmap=210
+  colors=000DUm<125>FglFglGhkHhk<3>JikKikLikMikMjk<36>luflvfmvfnwenwe<14>nwetv\
+  btAJ<34>pDFVK9<22>fHB
+  }
+
+Red_DancingDragons { ; (c) 1992 Bill Potter/Two dragon-julias dance together
+                     ; have fun use & abuse but no commercial use wo permission
+  reset type=julia
+  corners=-0.696281/0.696281/-1.479278/1.479278/-1.970455/-0.120437
+  params=-0.7467518275/0.114161837  maxiter=32000 inside=maxiter
+  logmap=yes
+  colors=000PCC<4>PCCODDPCC<22>x11z00z10<29>zY2zZ3zZ3<17>zlBzmBznCznD<28>zunzv\
+  pzvqzwszvq<13>zhSzgQzfQ<28>m83m72l51k31i00<82>HDDHDDGEEFFFFFF
+  }
+
+Blue_Fillet        { ; (c) 1992 Bill Potter/Mandel found on Tubular Fillets
+                     ; have fun use & abuse but no commercial use wo permission
+  reset type=formula formulafile=fractint.frm formulaname=richard1
+  passes=g float=y
+  corners=1.08008875/1.08162293/-0.00601131/0.00473245/1.0754862/0.00012798
+   maxiter=10000 inside=6 potential=255/600/500
+  colors=CCCYCY<10>sCs<20>ECsCCsCEs<17>Cms<4>HgqIfqJeqJdqJbq<12>CGs<11>mDrqCqs\
+  Cs<5>gCseCsdCq<6>YCYYCYYCYKCs<2>ECsCCsCEs<4>COsCQsCQs<79>rpDsqCsoC<18>sECsCC\
+  qCC<21>ACCCCC<9>WCW
+  }
+
+BlueGreen_Fish     { ; (c) 1992 Bill Potter/Infinite fish
+                     ; have fun use & abuse but no commercial use wo permission
+  reset type=mandel passes=g float=y
+  corners=-2.00002505/-1.99614517/-0.00145491/0.0014549
+  maxiter=32767 logmap=yes decomp=255
+  colors=CCCXZj<3>XZjY_jY_jZ_iZ`i<30>mjemjenkdokd<2>qmcrmcrnbrnb<7>tp`up`up`uq\
+  `tq`spa<6>ligjhhjhh<15>cckcckbckbckbckbck<38>XZjXZjWYk<7>OUpOUpNUo<57>K_aK_`\
+  K_`K__K__J`Z<2>HZYGZYFZYEZYEYX<4>AXW9XW9XW9XW<32>VYiccc
+  }
+
+BlueGreen_FishCont { ; (c) 1992 Bill Potter/Infinite fish - continuous potentl
+                     ; have fun use & abuse but no commercial use wo permission
+  reset type=mandel passes=g float=y
+  corners=-2.00038451/-1.99587232/-0.00168705/0.00169551
+  maxiter=32767 logmap=yes potential=255/2750/0 decomp=255
+  colors=CCCXZj<3>XZjY_jY_jZ_iZ`i<8>bchcchcchcchdchddh<35>rmcrmcqmc<27>cdjbckb\
+  ckbck<38>XZjXZjWYk<7>OUpOUpNUo<59>J_aJ_`J_`I_`I_`I__<14>DYXDYXEYY<3>FYZFYZGX\
+  _GX`<21>VYiccc
+  }
+
+Cream&Red_JuliaX   { ; (c) 1992 Bill Potter/Classic "X" Julia - Seahorse Valley
+                     ; have fun use & abuse but no commercial use wo permission
+  reset type=julia passes=g float=y
+  corners=-0.01588605/0.01584821/0.00835325/-0.00912339/0.0087128/-0.0180263
+  params=-0.745426581230003/-0.113008737740001  maxiter=32767
+  inside=79
+  colors=000IFF<65>IFF<4>zzJ<20>zzxzzzzzz<61>zV1zU0zU0zT0<28>z10z00z00y00<30>c\
+  00b11a11`22_22<23>GEEFFFFFFFFFGFF
+  }
+
+Purple_Kaleidoscop { ; (c) 1992 Bill Potter/Kaleidoscope (try color cycling!)
+                     ; have fun use & abuse but no commercial use wo permission
+  reset type=mandel passes=g float=y
+  corners=-1.29290240222/-1.29290115222/0.439630624739/0.439631562239
+   maxiter=32767 decomp=255
+  colors=000f_q<43>oopoopnmo<37>d4nd3nc4m<64>bE`bE``E`bE`<37>XJsXJsXJsXJsXJs<1\
+  3>XKsXKsYKsYLsYLsYMs<38>f_q
+  }
+
+Red_Mandel         { ; (c) 1992 Bill Potter/Classic Mandelbrot
+                     ; have fun use & abuse but no commercial use wo permission
+  reset type=mandel passes=g float=y corners=-2.763066/1.547297/-1.616365/1.616379
+   maxiter=32767 inside=40 potential=255/600/0
+  colors=000o00<2>n00n00l00<5>i00h00g00f00f00<3>c00b11a11`22_22<23>GEEFFFFFFFF\
+  F<29>x11z00z10<7>zH0zJ0zJ0<114>zx8zx8zw8<36>v`6<5>zJ0ZC8f64
+  }
+
+Orange_Pod         { ; (c) 1992 Bill Potter/Orange PseudoPod (or is it a wave?)
+                     ; have fun use & abuse but no commercial use wo permission
+  reset type=formula formulafile=fractint.frm formulaname=Wineglass
+  passes=g float=y
+  corners=0.045484698/0.052014863/-0.109095733/-0.11577113/0.051039748/-0.1165\
+  02466  maxiter=32767
+  colors=000FFF<29>x11z00z10<29>zx0zz0zz1<29>zzxzzzzzz<61>zV1zU0zU0zT0<28>z10z\
+  00z00y00<30>c00b11a11`22_22<25>FFF
+  }
+
+Blue_Rain          { ; (c) 1992 Bill Potter/It's either rain or Snail Trails...
+                     ; have fun use & abuse but no commercial use wo permission
+  reset type=bifurcation passes=g float=y
+  corners=2.62364262/2.62640482/0.42558783/0.42894393
+  maxiter=32767 bailout=256 inside=0
+  colors=00000000eS0S0eee00e0ez0GeeeLLLLLzLzLLzzzLLzLzzzLzzLzzL555<3>HHHKKKOOO\
+  SSSWWW___ccchhhmmmssszzL00z<3>z0zz0jzzLz0Gz00<3>zz0<3>0z0<3>0zz<2>0GzVVz<3>z\
+  Vz<3>zVV<3>zzV<3>VzV<3>Vzz<2>Vbzhhz<3>zhz<3>zhh<3>zzh<3>hzh<3>hzz<2>hlz00S<3\
+  >S0S<3>S00<3>SS0<3>0S0<3>0SS<2>07SEES<3>SES<3>SEE<3>SSE<3>ESE<3>ESS<2>EHSKKS\
+  <2>QKSSKSSKQSKOSKMSKK<2>SQKSSKQSKOSKMSKKSK<2>KSQKSSKQSKOSKMS00G<3>G0G<3>G00<\
+  3>GG0<3>0G0<3>0GG<2>04G88G<2>E8GG8GG8EG8CG8AG88<2>GE8GG8EG8CG8AG88G8<2>8GE8G\
+  G8EG8CG8AGBBG<2>FBGGBGGBFGBDGBCGBB<2>GFBGGBFGBDGBCGBBGB<2>BGFBGGBFGBDGBCG000\
+  <5>000
+  }
+
+Red_Holes          { ; (c) 1992 Bill Potter/Red holes on black background
+                     ; have fun use & abuse but no commercial use wo permission
+  reset type=barnsleyj1 passes=g float=y
+  corners=2.524975/-3.004308/2.540056/-1.606958
+  params=0.599999905/1.099998949  maxiter=6000 inside=0
+  potential=255/1000/1 colors=000<126>y00z00y00<125>000
+  }
+
+Yellow_Spikes      { ; (c) 1992 Bill Potter/Spiky swirl
+                     ; have fun use & abuse but no commercial use wo permission
+  reset type=mandelfn function=sin
+  corners=-0.999207347/-0.998723943/0.267657468/0.26801987
+  maxiter=32767
+  colors=CCCisi<3>qsqsssssq<19>ssEssCsqC<19>sECsCCqCC<21>ACCCCC<21>sCs<20>ECsC\
+  CsCEs<19>CqsCssCsq<8>Cs_CsYECE<20>sCs<20>ECsCCsCEs<19>CqsCssCsq<19>CsECsCEsE\
+  <14>gsg
+  }
+
+Yellow_Arch        { ; (c) 1992 Bill Potter/Yellow arches
+                     ; have fun use & abuse but no commercial use wo permission
+  reset type=barnsleym1 passes=g float=y
+  corners=0.418969/1.90697/0.99699/-0.98703/1.90697/-0.98703
+  maxiter=32767 inside=maxiter potential=255/1000/1
+  colors=000<169>zz0zz0yy0<82>000
+  }
+
+Yellow_Holes       { ; (c) 1992 Bill Potter/Yellow Holes
+                     ; have fun use & abuse but no commercial use wo permission
+  reset type=barnsleyj1 passes=g float=y
+  corners=2.524975/-3.004308/2.540056/-1.606958
+  params=0.599999905/1.099998949  maxiter=6000 inside=0
+  potential=255/1000/1 colors=000zz0<253>000
+  }
+

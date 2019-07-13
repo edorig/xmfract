@@ -1,0 +1,375 @@
+
+The Main Menu Bar
+
+The main menu bar contains ten buttons that will invoke functions or
+other menus. Each of these a described in brief detail below, and some
+descriptions will refer to other topics that you may select from the
+main help index. Some of the menu items may display a character in
+square brackets to the right of the label. This is called a menu item
+accelerator. The letter in the brackets may be typed when the mouse
+pointer is in the canvas window and the program will act as if the menu
+item had been selected with the mouse. The menu does not need to be
+currently displayed to invoke the menu item with the accelerator letter.
+
+Xmfract supports tear-off menus, if the user has not specifically
+prevented it by an entry in the resource file. Menus may be "torn off",
+or posted in windows of their own (seperate from the main window), by
+selecting the dashed line at the top of the menu. To dismiss any torn-off
+menu, press the 'Esc' key while the pointer is in the menu window.
+
+The "File" menu:
+
+  "Load saved parameter set...      [ @ ]"
+    -- Select "Parameter Save/Restore Commands"
+       from the main help index for more information.
+
+  "Save Parameter set to file...    [ b ]"
+    -- Select "Parameter Save/Restore Commands"
+       from the main help index for more information.
+
+  "Load image from file...          [ r ]"
+    -- Select "Image Save/Restore Commands"
+       from the main help index for more information.
+
+  "Save image to file...            [ s ]"
+    -- Select "Image Save/Restore Commands"
+       from the main help index for more information.
+
+  "Quit XmFract                     [ q ]"
+    -- quits the program. If the "verbose=" option in "$HOME/.xmfractrc"
+       is set to "no", the program will not ask for confirmation
+       before exiting.
+
+
+The "Options" menu:
+
+  "Basic options...           [ x ]"
+    -- Select "Basic Options Screen"
+       from the main help index for more information.
+
+  "Extended options...        [ y ]"
+    -- Select "Extended Options Screen"
+       from the main help index for more information.
+
+  "View window options...     [ v ]"
+    -- Select "View Windows Mode"
+       from the main help index for more information.
+
+  "Fractal 3D parameters...   [ i ]"
+    -- Select "Three-dimensional Fractal Parameters"
+       from the main help index for more information.
+
+
+The "Parameters" menu:
+
+  "Select fractal type    [ t ]"
+    -- Brings up a dialog that allows the user to select from many
+       different fractal types. By default, the "mandel" type is
+       selected when the program is first initialized. This is the
+       classic Mandelbrot set. Pressing the "OK" button will select
+       the fractal type that is displayed in the text window and/or
+       highlighted in the list of available selections. The next
+       screen that is displayed will allow the user to view and set
+       the parameters for that fractal type. Press the "Help" button
+       in the dialog for more information about the selected type.
+
+  "Current parameters     [ z ]"
+    -- Brings up a dialog that allows the user to set the initial
+       fractal parameters. If the currently selected fractal type
+       requires a file containing parameter definitions (such as
+       the "formula", "lsystem", or "ifs" fractal types), then the
+       associated file name and the currently selected entry from
+       that file are also displayed, and buttons appear that allow
+       the user to return to the appropriate file or entry selection
+       portions of the program. There is a button that allows the
+       user to view and set the corner values for the currently
+       selected type, as well.
+
+  "Parameter forwarding (On/Off)"
+    -- This is a pull-right menu (hold the left mouse button down
+       in the menu button and drag the mouse to the right) that
+       will expose a sub-menu containing two buttons, only one
+       of which may be selected at a time. If parameter forwarding
+       is turned "On", then parameters from the previously selected
+       fractal type are "forwarded", or applied to the currently
+       selected fractal type.
+
+
+The "Image" menu:
+
+  "Create Image  [ d ]" or "Continue calculation   [ d ]"
+    -- Draw an image using the parameters that have been set. If the
+       image creation is interrupted (use the "Esc" key to interrupt),
+       and the selected fractal type is resumeable, the label for
+       this menu item will change to "Continue calculation". If you
+       wish to take up where we left off with the creation of the
+       current image, select this item. Use the "Reset" menu items
+       to clear the screen and/or parameters and start anew. Note
+       that some types are not resumeable and at least one is not
+       interruptible. Use the "Info about image" item from the "Misc"
+       menu for more information about the state of the current image.
+
+  "3d transform from file...        [ 3 ]"
+    -- Select "Three-dimensional Images" from the main help index
+       for more information.
+
+  "Set image refresh rate..."
+    -- Controls the rate at which the screen will update. Setting this
+       value to a lower number may decrease the amount of network traffic
+       during fractal calculation and display. This will also, when set
+       to a low value, significantly reduce fractal generation time.
+
+  "Window resize mode"
+    -- This is a pull-right menu (hold the left mouse button down
+       in the menu button and drag the mouse to the right) that
+       will expose a sub-menu containing two buttons, only one
+       of which may be selected at a time. If "Clear window when
+       resized" is selected, the window will clear, and any displayed
+       image will be erased, if the window is resized. Any subsequent
+       images created will be calculated at the new window size.
+       If "Do not clear when resized" is selected, then the window
+       will not be cleared if the window is resized. Any subsequent
+       image that is created will be created at the original screen size.
+
+
+The "Zoom" menu:
+
+  "Turn [Off/On] Aspect Ratio Snap"
+    -- When the user has drawn a zoom box on the screen the box will,
+       by default, change its own shape to conform the closest approximation
+       of the aspect ratio of the current window. The longest of the
+       horizontal or vertical sides is used as the preferred dimension
+       when the box is snapped to the aspect ratio of the window. Selecting
+       this item before or after the box is drawn will toggle between the
+       "On" and "Off" states. Stretching a zoom box that has been drawn
+       automatically turns aspect ratio snapping "Off".
+
+  "Pan (Full-Screen Zoom Box)"
+    -- When this item is enabled (not greyed out) it may be selected to
+       produce a full-screen zoom box that the user may move around on
+       the screen by pressing the left mouse button down while the pointer
+       is inside the box, then dragging the box around the screen. When the
+       mouse button is released and the user selects "Create image" from
+       the "Image" menu, the image is panned to the new coordinates and
+       any portion of the image that was inside the zoom box will not
+       need to be re-calculated.
+
+  "Zoom In (Create Image)"
+    -- This is equivalent to the "Create Image" item from the "Image" menu.
+       In fact, if a zoom box is drawn on the screen and the user selects
+       the "Create Image" item from the "Image" menu, the program assumes
+       that the user wishes to zoom in on the selected area. This item is
+       only enabled (not "greyed out") if a zoom box is drawn on the screen.
+
+  "Zoom out (Create Image)"
+    -- This is (obviously) the reverse of zooming in. The "magnification"
+       of the image on the screen is reduced by a factor equivalent to the
+       ratio of the area of the zoom box to the area of the screen. To zoom
+       out a larger amount, draw a smaller zoom box. This item is
+       only enabled (not "greyed out") if a zoom box is drawn on the screen.
+
+  "Cancel (Erase Zoom Box)"
+    -- Cancels any pending zoom operation and erases the zoom box. This
+       item is only enabled (not "greyed out") if a zoom box is drawn on
+       the screen.
+
+  "Change zoom box color..."
+    -- This will pop up a dialog that will allow you to change the color
+       of the zoom box. This item is only enabled (not greyed out) if
+       a zoom box is drawn on the screen.
+
+
+The "Color" menu:
+
+  "Edit current color palette...    [ e ]"
+    -- Select "Color Editor Commands"
+       from the main help index for more information.
+
+  "Save current palette to file...  [ m ]"
+    -- Select Color Palette Maps"
+       from the main help index for more information.
+
+  "Load color palette from file...  [ l ]"
+    -- Select "Color Palette Maps"
+       from the main help index for more information.
+
+  "Randomize color palette..."
+    -- This will pop up a dialog that allows you to randomize the color
+       palette according to a wide variety of modes and functions.
+
+       In all cases, the palette is split into contiguous chunks. The
+       function selected will determine how many chunks. Also in all cases,
+       the range of colors between the start and end of a chunk is smoothed
+       between the two colors, with the color editor's gamma value determining
+       the contrast for the range.
+
+       Randomization functions:
+         "One segment" - causes the palette to be one chunk. The start and
+          end colors are randomized, with weighting according to the mode.
+
+         "Two segments" - causes the palette to be split in half. The start
+          and end color of each chunk is randomized, with weighting according
+          to the mode.
+
+         "16-color segments" - causes the palette to be split into 16-color
+          chunks. The start and end color of each chunk is randomized, with
+          weighting according to the mode.
+
+         "8-color segments" - causes the palette to be split into 16-color
+          chunks. The start and end color of each chunk is randomized, with
+          weighting according to the mode.
+
+         "Random segments (largest)"
+         "Random segments (large)"
+         "Random segments (small)"
+         "Random segments (smallest)"
+            - These cause the palette to be split into a random number of
+              contiguous chunks. In all cases the chunks are at least five
+              colors. The average size of the chunks vary with the function
+              selected, from large chunks to small chunks. The start and
+              end color of each chunk is randomized, with weighting according
+              to the mode.
+
+       Randomization modes:
+         "Block mode (darker end first)" - the starting color is weighted
+          toward the darker end of the scale and the ending color of the
+          chunk is weighted toward the lighter end of the scale.
+
+         "Reverse mode (brighter end first)" - the starting color is weighted
+          toward the lighter end of the scale and the ending color of the
+          chunk is weighted toward the darker end of the scale.
+
+         "Alternate mode (darker end first)" - the starting color of every
+          other chunk is weighted toward the darker side of the scale and
+          the ending color is weighted toward the lighter side of the scale,
+          starting with the first chunk. Alternating chunks are weighted in
+          the opposite manner.
+
+         "Alternate mode (brighter end first)" - the starting color of every
+          other chunk to be weighted toward the lighter side of the scale and
+          the ending color to be weighted toward the darker side of the scale,
+          starting with the first chunk. Alternating chunks are weighted in
+          the opposite manner. This is the same as the previous mode, except
+          that we start the first chunk weighted from light to dark, instead
+          of from dark to light.
+
+         "Blend mode (darker end first)"
+         "Blend mode (brighter end first)"
+            - will cause the end color of one chunk to be the starting color
+            of the next. The difference between the two modes is the same as
+            the corresponding Alternate modes with respect to the weighted
+            values.
+
+         "Smooth mode (darker end first)"
+         "Smooth mode (brighter end first)"
+            - The same as the Blend mode except that the highest color index
+            is the same color as the starting index. This results in a smooth
+            transition of colors throughout the entire range, with no sharp
+            break where the end of the palette meets the beginning. The
+            difference between the two modes is the same as the corresponding
+            Alternate modes with respect to the weighted values.
+
+The "Reset" menu:
+
+  "Refresh"
+    -- Will refresh (redraw) the current image without changing color or
+       fractal parameters.
+
+  "Reset Color"
+    -- Will reset the color to the color map that was in effect before any
+       color cycling  or color editing commands were initiated. If you have
+       made changes in color that you wish to save, use the "Save current
+       palette to file" item from the "Color" menu before resetting the color
+       with this menu item.
+
+  "Clear Screen"
+    -- Will clear the screen, erasing any current image. No parameters are
+       changed. If you have interrupted a non-resumeable type, draw another
+       using the same parameters by clearing the screen with this option,
+       then selecting the"Create Image" item from the "Image" menu.
+
+  "Reset Parameters"
+    -- This will set all parameters and options to the default values that
+       are set when the program starts, including the fractal type.
+
+  "All of the above"
+    -- Select "All of the above" from "The "Reset" menu:" in the topic
+       "The Main Menu Bar" from the main help index for more information.
+
+
+The "Misc" menu:
+
+  "Info about image   [ tab ]"
+    -- Displays information about the current image.
+
+  "Resize window"     [  z  ]"
+    -- Allows the user to explicitly set the size of the main window. The
+       default size is 640 x 480 pixels, and the maximum size is 2048 x 2048.
+       Only the size of the menu bar is taken into account when calculating
+       the maximum size for a fully visible image (the window manager
+       decorations, such as borders, etc., are not considered). That means
+       that if you resize the window to the maximum size for a fully visible
+       image, the borders may be off the screen, but the image canvas will be
+       fully visible. In addition, if the user elects to load a GIF image that
+       was created in a size that is different from the current window size,
+       the user is given the option to resize the window to fit the new image.
+
+       There is an option menu associated with the "Set window size" dialog.
+       Press the left mouse button when the pointer is in the button and an
+       option menu will appear that allows the user to select from several
+       preconfigured window sizes, including the maximum size for a fully
+       visible image. Pressing the "Default" pushbutton will set the window
+       to the pre-selected default size of 640 x 480 pixels. The normal
+       aspect ratio for the program (the ratio of width to height) is 4:3,
+       and the program figures out the aspect ratio of the root window on
+       your display and configures several preset values in that aspect
+       ratio as well. To resize the window to any of these values, select
+       the desired menu item.
+
+  "Create Starfied"
+    -- Select "Starfields" from the main help index for more information.
+       This item is only enabled (not "greyed out") if there are 256 colors
+       allocated by the program. See the -private command-line option for
+       more information about color cell allocation.
+
+  "Flip Image"
+    -- Flip the image horizontally, vertically, or both. The corner
+       parameters are preserved after the flip, so the image may be
+       zoom in or out.
+
+
+The "Restore" menu:
+
+  "There are x saved images"
+    -- Lists how many parameter sets are stored by the program. A maximum
+       of ten parameter sets are stored, and the images they represent may
+       be re-created by selecting the desired offset from the current
+       image by using the ""Restore which image" item below.
+
+  "Current image is number x"
+    -- Lists which image in the saved structure is currently displayed.
+       When the program reaches the maximum limit of ten saved images,
+       the oldest saved parameter set is overwritten and the current
+       image index is reset to that number. This forms sort of a "circle"
+       of images that may be displayed or re-created.
+
+  "Restore which image"
+    -- This menu is dynamic and will change according to how many images
+       are saved and which image in the saved structure is currently
+       displayed.
+
+
+The "Help" menu:
+
+  "Version information"
+    -- Display current version number and copyright information.
+
+  "Authors..."
+    -- Display the authors' names and major contributions to this program.
+       This dialog is displayed automatically when the program starts
+       unless the user has specifically prevented it with an entry in the
+       initialization file. Select "Xmfract General Information" from the
+       main help index for more information.
+
+  -- Select "About help" from the main help index for more information.
+

@@ -1,0 +1,102 @@
+
+Three-dimensional Images
+
+Xmfract can restore images in "3D". Important: we use quotation marks
+because it does not create images of 3D fractal objects (there are such,
+but we're not there yet.) Instead, it restores .gif images as a 3D
+projection or stereo image pair. The iteration values you've come to know
+and love, the ones that determine pixel colors, are translated into
+"height" so that your saved screen becomes a landscape viewed in
+perspective. You can even wrap the landscape onto a sphere for realistic-
+looking planets and moons that never existed outside your computer!
+
+We suggest starting with a saved plasma-cloud screen. Hit <3> in main
+command mode to begin the process. Next, select the file to be
+transformed.
+
+After hitting <3>, you'll be bombarded with a long series of options.
+
+Not to worry: all of them have defaults chosen to yield an acceptable
+starting image, so the first time out just pump your way through with
+the <Done> button. When you enter a different value for any option,
+that becomes the default value the next time you hit <3>, so you can
+change one option at a time until you get what you want.
+
+Once you're familiar with the effects of the 3D option values you have a
+variety of options on how to specify them. You can specify them all on the
+command line (there ARE a lot of them so they may not all fit within the
+command line limits), with an xmfract.ini file, or with a parameter (.par)
+file entry.
+
+Note that the image created by 3D transformation is treated as if it were
+a plasma cloud - We have NO idea how to retain the ability to zoom and pan
+around a 3D image that has been twisted, stretched, perspective-ized, and
+water-leveled. Actually, we do, but it involves the kind of hardware that
+Industrial Light & Magic, Pixar et al. use for feature films. So if you'd
+like to send us a check equivalent to George Lucas' net from the "Star
+Wars" series...
+
+One of the neat things that this WILL do for us is spherical projection.
+Here are the steps to take to create a realistic-looking Class-M planet:
+
+Select the 'plasma' fractal type from the "Fractals" menu.
+
+On the parameters screen, accept the default values by pressing
+the 'Done' button. (Come back to this screen later and change the
+'Graininess' and/or 'Algorithm' parameters on subsequent images to
+get the feel for what these parameters do...)
+
+Press the 'd' key (or select 'Create Image' from the "Draw" menu) to
+create the plasma cloud. If you selected the 'New' algorithm from the
+parameters screen, you will be able to see what the final plasma image
+will look like before the image is completed. Not that it matters much,
+because neither algorithm is faster and this fractal type is not
+interruptable anyway...
+
+This very colorful miasma is going to become our planet.
+
+Save this image by pressing the 's' key (or select 'Save image to file...'
+from the "File" menu. Save the image as whatever name you wish, with
+a '.gif' extension after the name. You do not need to specify the
+extension, however. If you do not supply one, the program will tack
+an extension of '.gif' on to whatever you supply as a file name.
+
+If a file of the same name exists in the specified directory, you will
+be asked if you want to overwrite the file. If you do, press the 'Ok'
+button. If not, press the 'Cancel' button, then start the save process
+again and select a different name or directory.
+
+As the program is saving the image, color bars will appear on the sides
+of the window indicating the progress of the save. When it is complete,
+the program will notify you with an info dialog. Tell the program that
+it has done a totally awesome job by pressing the 'Ok' button.
+
+Select '3d transfrom from file...' from the "File" menu (or press the '3' key).
+
+Select the file you just created when the file selection dialog appears.
+You will not be overwriting or changing this file, it is used as input
+to the parameters of the spherical projection.
+
+On the next screen (Three Dimensional Options), toggle the 'Spherical
+Projection' radio buttons to 'Yes' by pressing the 'Yes' button with
+the left mouse button. Leave everything else as it is and press the
+'Done' button.
+
+On the next screen (Three-D Fill Mode), leave everything as it is and
+press the 'Done' button.
+
+On this screen (Check Color Map File), erase the asterisk that is in
+the text box and type in "topo.map" (without the quotation marks),
+then press the 'Done' button.
+
+On this rather busy screen (Three-D Sphere Parameters), change the
+'Surface Roughness scaling factor in pct' to zero (0) and change
+the 'Water Level' to forty-seven (47). The 47 value is determined
+by the color map "topo.map" that we loaded previously. Leave everything
+else as it is and press the 'Done' button.
+
+Now sit back and watch the fun...
+
+The planet is on its side, with the north pole facing the right...
+Experiment with other images and parameters, and have fun!
+

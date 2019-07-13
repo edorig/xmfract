@@ -1,0 +1,205 @@
+CirclesInRows      { ; FN(z)+FN(pix) -- recip/sqr
+  reset type=fn(z)+fn(pix) function=recip/sqr
+  corners=-0.4058937/-0.3219577/0.2865162/0.3494682 params=0/0/1 float=y
+  maxiter=32767 bailout=128 inside=0 outside=real logmap=yes
+  colors=000UKD<17>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1zz0zy0yx0<39>VLD
+  }
+
+YellowButterfly    { ; FN(z)+FN(pix) -- cosxx/cotanh
+  reset type=fn(z)+fn(pix) function=cosxx/cotanh
+  corners=1.204072/-1.123917/-1.552023/1.551999/-1.123917/1.551999
+  params=0/0/1 maxiter=32767 outside=real logmap=yes
+  colors=000us2<53>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1zz0zy0yx0<3>vt1
+  }
+
+Dali'sGuitar       { ; Tim's Error  -- sinh
+  reset type=tim's_error function=sinh
+  corners=-2.451706/-0.108794/-0.878592/0.878592 params=0.857 float=y
+  maxiter=32767 bailout=16 outside=real logmap=yes
+  colors=000eZ9<32>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1zz0zy0yx0<24>f_8
+  }
+
+GoldenEights       { ; FN*z+z -- cosxx  w/inversion
+  reset type=fn*z+z function=cosxx corners=-8.0/8.0/-6.0/6.0 params=1/0/1
+  maxiter=32767 inside=0 outside=real logmap=yes invert=0.5/0/0
+  colors=000ga8<35>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1zz0zy0yx0<21>hb7
+  }
+
+CircularMask       { ; Mandelfn -- ident  w/inversion
+  reset type=mandelfn function=ident
+  corners=-1.552978/1.551022/-1.155134/1.172866 float=y maxiter=32767
+  outside=mult logmap=yes invert=1/0/0 finattract=y
+  colors=000bVA<28>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1zz0zy0yx0<28>cW9
+  }
+
+GlassesNoFrames    { ; Formula --  Halley
+  reset type=formula formulafile=fractint.frm formulaname=halley
+  corners=-0.344002/0.343986/0.426484/0.942489 params=-4/3/-2/1
+  maxiter=500 inside=0 potential=256/250/32000
+  colors=000ZV7<17>zz0<8>LVY<9>Bb`Aca9da8da9b_9aZ<22>C8AD79D79<51>jX8jX8iW8<27\
+  >MBALBAKAAKAALBA<28>cT8dU7dT7<57>K9BGAB<9>WS8000
+  }
+
+CircusTent         { ; Completely different Mandelfn -- ident
+  reset type=mandelfn function=ident
+  corners=-1.150116/-0.997971/0.11821/-0.084717/-0.997971/-0.084717
+  params=5/5 maxiter=32767 bailout=512 inside=0 outside=summ logmap=yes
+  periodicity=-256
+  colors=00000e0e00eee00e0eeL0eeeLLLLLzLzLLzzzLLzLzzzLzzz000555<3>HHHKKKOOOSSS\
+  WWW___ccchhhmmmssszzz00z<3>z0z<3>z00<3>zz0<3>0z0<3>0zz<2>0GzVVz<3>zVz<3>zVV<\
+  3>zzV<3>VzV<3>Vzz<2>Vbzhhz<3>zhz<3>zhh<3>zzh<3>hzh<3>hzz<2>hlz00S<3>S0S<3>S0\
+  0<3>SS0<3>0S0<3>0SS<2>07SEES<3>SES<3>SEE<3>SSE<3>ESE<3>ESS<2>EHSKKS<2>QKSSKS\
+  SKQSKOSKMSKK<2>SQKSSKQSKOSKMSKKSK<2>KSQKSSKQSKOSKMS00G<3>G0G<3>G00<3>GG0<3>0\
+  G0<3>0GG<2>04G88G<2>E8GG8GG8EG8CG8AG88<2>GE8GG8EG8CG8AG88G8<2>8GE8GG8EG8CG8A\
+  GBBG<2>FBGGBGGBFGBDGBCGBB<2>GFBGGBFGBDGBCGBBGB<2>BGFBGGBFGBDGBCGkCs<6>YCs
+  }
+
+Refraction         { ; FN*z+z -- exp  w/inversion & cont. potential
+  reset type=fn*z+z function=exp
+  corners=-3.250437/-7.715628/1.674447/-1.674447
+  params=-5000/-1000/5000/100000 maxiter=32000 inside=0
+  potential=255/200/32000 invert=0.5/0/0
+  colors=000zzn<49>zz1zz0zy0yx0<58>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0c\
+  V1cV2d<60>zzzzzzzzy<9>zzo
+  }
+
+MeanderingJulia    { ; Marksjulia w/inversion
+  reset type=marksjulia
+  corners=0.917188/-1.154835/0.5629684/1.145915/-0.714064/1.1267617
+  params=0.1/0.9 maxiter=32767 bailout=32 inside=0 outside=real logmap=yes
+  invert=0.5/0/0 finattract=y
+  colors=000WMD<19>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1zz0zy0yx0<37>XNC
+  }
+
+Windows            { ; Formula ULI_4 -- ident/cos w/inversion & cont. pot.
+  reset type=formula formulafile=uli.frm formulaname=ULI_4
+  function=ident/cos corners=-2.759418/10.360569/-4.45067/5.389361
+  params=0.9/-0.5/1 maxiter=256 outside=summ logmap=yes
+  potential=255/400/700
+  colors=000fPl<37>zzzzzzzzy<60>zz1zz0zy0yx0<58>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M\
+  <52>T0bU0cU0cV1cV2d<21>eOk
+  }
+
+PerspectiveCircles { ; FN(z)+FN(pix) -- recip/recip
+  reset type=fn(z)+fn(pix) function=recip/recip
+  corners=0.083309/-0.066691/1.026467/1.226467/-0.066691/1.226467
+  params=0/0/1 float=y maxiter=32767 bailout=128 inside=0 outside=real
+  logmap=yes
+  colors=000YPC<22>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1zz0zy0yx0<34>ZQB
+  }
+
+LookingInsideAStar { ; Formula ULI_2 -- log/sqr
+  reset type=formula formulafile=uli.frm formulaname=ULI_2
+  function=log/sqr corners=-9.689148/6.310837/-9.379413/2.620597
+  params=2/4/6/8 maxiter=256 inside=0 outside=mult logmap=yes
+  potential=255/400/1000
+  colors=000TTT<42>JJJJJwIIIIIUIIII0KHHH<7>FFFUFFcFFmFFmEEzEEEEE<15>AAAAUz<36>\
+  112000000000000yyy<131>UUU
+  }
+
+ms1                { ; FN*z+z -- exp w/inversion & cont. potential
+  reset type=fn*z+z function=exp corners=-16.0/16.0/-12.0/12.0
+  params=-5000/-100/200/-1000 maxiter=32000 inside=0
+  potential=255/200/32000 invert=0.5/0/0
+  colors=000zzr<53>zz1zz0zy0yx0<58>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0c\
+  V1cV2d<60>zzzzzzzzy<5>zzs
+  }
+
+UnderHang          { ; Spider w/inversion
+  reset type=spider corners=1.0/-2.0/-2.0/2.0/-2.0/2.0 float=y
+  maxiter=32767 bailout=16 outside=real logmap=yes invert=0.1/0/0
+  periodicity=4
+  colors=000IDDHEEGEEFFFFFFFFF<29>x11z00z10<29>zx0zz0zz1<29>zzxzzzzzz<61>zV1zU\
+  0zU0zT0<28>z10z00z00y00<30>c00b11a11`22_22<20>JDD
+  }
+
+SlantedMarksJulia  { ; Marksjulia w/inversion
+  reset type=marksjulia corners=3.0/-3.0/-4.0/4.0/-1.487984/1.983999
+  params=0.1/0.9 maxiter=32767 outside=real logmap=yes invert=0.2/0/0
+  finattract=y
+  colors=000zz1zz0<60>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzz\
+  zzzzzy<59>zz2
+  }
+
+Spider             { ; FN(z)+FN(pix) -- ident/sqr w/cont. potential
+  reset type=fn(z)+fn(pix) function=ident/sqr
+  corners=-4.030304/3.969688/-3.000005/3.0 params=25000/5000/1000/-150
+  maxiter=32000 inside=0 potential=255/200/32000
+  colors=000mi5<43>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1zz0zy0yx0<13>nj5
+  }
+
+Spirals            { ; Marksjulia w/inversion
+  reset type=marksjulia corners=-5.592399/-3.416399/0.451275/2.083275
+  params=0.1/0.9 float=y maxiter=32767 bailout=32 inside=0 outside=real
+  logmap=yes invert=0.5/0/0 finattract=y
+  colors=000zzT<27>zz1zz0zy0yx0<58>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0c\
+  V1cV2d<60>zzzzzzzzy<31>zzU
+  }
+
+SqueezingThru      { ; JULFN+EXP -- exp/exp w/inversion
+  reset type=julfn+exp function=exp corners=-8.0/8.0/-6.0/6.0 float=y
+  maxiter=32767 bailout=128 outside=real logmap=yes invert=1/0/0
+  colors=000_SB<25>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1zz0zy0yx0<31>`TA
+  }
+
+BullsEyeWeb        { ; Square shaped Kamtorus
+  reset type=kamtorus corners=-0.676315/0.681732/-0.510895/0.507309
+  params=48.6789/0.005/50/250 inside=0
+  colors=00008ryr008ryr007sys007sys006tyt006tyt005uyu005uyu004vyv004vyv003wyw0\
+  03wyw002xyx002xyx001yyy001yzz0zW00WWw000z0w000z0w000y1w100y1w100x2w200x2w200\
+  w3w300w3w300v4w400v4w400u5w500u5w500t6w600t6w600s7w700s7w700r8w800r8w800q9w9\
+  00q9w900pAwA00pAwA00oBwB00oBwB00nCwC00nCwC00mDwD00mDwD00lEwE00lEwE00kFwF00kF\
+  wF00jGwG00jGwG00iHwH00iHwH00hIwI00hIwI00gJwJ00gJwJ00fKwK00fKwK00eLxL00eLxL00\
+  dMxM00dMxM00cNxN00cNxN00bOxO00bOxO00aPxP00aPxP00`QxQ00`QxQ00_RxR00_RxR00ZSxS\
+  00ZS
+  }
+
+TriKam             { ; Triangular Kamtorus
+  reset type=kamtorus corners=-1.0/0.998047/-0.748047/0.75
+  params=23.21/0.005/50/200 inside=0
+  colors=0000yz<45>02z00z00y<59>002000000000<29>00k00m01m<5>0Ao
+  }
+
+wings              { ; Kamtorus
+  reset type=kamtorus corners=-0.460526/0.460449/-0.344986/0.34552
+  params=23.5555/0.005/50/200 maxiter=32767
+  colors=000V0zj0zz0z<3>z00<3>zz0<3>0z0<3>0zz<2>0GzVVz<3>zVz<3>zVV<3>zzV<3>VzV\
+  <3>Vzz<2>Vbzhhz<3>zhz<3>zhh<3>zzh<3>hzh<3>hzz<2>hlz00S<3>S0S<3>S00<3>SS0<3>0\
+  S0<3>0SS<2>07SEES<3>SES<3>SEE<3>SSE<3>ESE<3>ESS<2>EHSKKS<2>QKSSKSSKQSKOSKMSK\
+  K<2>SQKSSKQSKOSKMSKKSK<2>KSQKSSKQSKOSKMS00G<3>G0G<3>G00<3>GG0<3>0G0<3>0GG<2>\
+  04G88G<2>E8GG8GG8EG8CG8AG88<2>GE8GG8EG8CG8AG88G8<2>8GE8GG8EG8CG8AGBBG<2>FBGG\
+  BGGBFGBDGBCGBB<2>GFBGGBFGBDGBCGBBGB<2>BGFBGGBFGBDGBCG000<6>00000e0e00eee00e0\
+  eeL0eeeLLLLLzLzLLzzzLLzLzzzLzzz000555<3>HHHKKKOOOSSSWWW___ccchhhmmmssszzz00z\
+  G0z
+  }
+
+AbstractArtwork    { ; Formula Ent
+  reset type=formula formulafile=fractint.frm formulaname=Ent
+  corners=-11.999996/12.000024/16.000007/-16.000024/12.000024/-16.000024
+  params=0.5/0/4 inside=maxiter outside=real logmap=4 decomp=254
+  colors=CCCDDD777000<14>c00<30>2xU0zV0zb<2>0zz<15>00z<7>z0z<6>z00<15>zz0<7>0z\
+  0<6>0zz<16>00z<7>z0z<5>z0900U<46>00U00U00W<13>00z<3>0zU<3>zU0<3>z0U<3>000<9>\
+  zzz<10>zzz<4>WWW
+  }
+
+Zipper             { ; ComplexNewton w/cont. potential
+  reset type=complexnewton corners=-2.0/2.0/-1.5/1.5 params=2/0/1 float=y
+  maxiter=1500 inside=0 potential=256/256/256 decomp=256 periodicity=0
+  colors=0000e00eee00e0eeL0eeeLLLLLzLzLLzzzLLzLzzzLzzz000555<3>HHHKKKOOOSSSWWW\
+  ___ccchhhmmmssszzz00z<3>z0z<3>z00<3>zz0<3>0z0<3>0zz<2>0GzVVz<3>zVz<3>zVV<3>z\
+  zV<3>VzV<3>Vzz<2>Vbzhhz<3>zhz<3>zhh<3>zzh<3>hzh<3>hzz<2>hlz00S<3>S0S<3>S00<3\
+  >SS0<3>0S0<3>0SS<2>07SEES<3>SES<3>SEE<3>SSE<3>ESE<3>ESS<2>EHSKKS<2>QKSSKSSKQ\
+  SKOSKMSKK<2>SQKSSKQSKOSKMSKKSK<2>KSQKSSKQSKOSKMS00G<3>G0G<3>G00<3>GG0<3>0G0<\
+  3>0GG<2>04G88G<2>E8GG8GG8EG8CG8AG88<2>GE8GG8EG8CG8AG88G8<2>8GE8GG8EG8CG8AGBB\
+  G<2>FBGGBGGBFGBDGBCGBB<2>GFBGGBFGBDGBCGBBGB<2>BGFBGGBFGBDGBCGuQB<5>R4J00000e
+  }
+

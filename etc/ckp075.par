@@ -1,0 +1,296 @@
+;; ckp075.par (images 51 through 75), 12 december 1992
+;;
+;; Here are my current contributions to PARs for Tomorrow (V18.0)...
+;; A few of these images are color map changes for PARs already
+;; uploaded by others (RHS, JMS, etc), but most are completely
+;; original (to my knowledge)...  Any duplications are entirely
+;; unintentional...  With any luck, a few of these will find
+;; their way into the postcard/poster world before spring of
+;; '93...  Comments pro and con will be sent to their appropriate
+;; locations...
+
+;; Time listed on the first line reflects creation on a 486-50
+;; running 1024x768x256 colors...   ALL of these images look best
+;; when created with a 256-color or better video and 1024x768 or
+;; better resolution...  I have no idea how they will look at
+;; lower resolutions or lower color densities...  Happy viewing!
+
+;; caren park
+;; park computer services
+;; 23808 southeast 24th street
+;; issaquah, washington  98027
+
+;; PS:  Please do not use these images commercially without
+;; dropping me a quick message requesting inclusion in your
+;; fine product BEFORE you go to market...
+
+CrystalDragon      { ; 00:00:23.67
+                     ; 08 Dec 92 .. caren park
+  reset type=mandel corners=-1.2652133/-1.25521331/0.35240449/0.3599049
+  colors=000AIP<7>BecCheCkhCnjDqlDtn<7>7Ta<6>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1K\
+  M2KN3KO4J<12>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc\
+  <5>hfU
+  }
+
+Moth&HalosAtLight  { ; 00:18:56.19
+                     ; 08 Dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=newtonsinexp
+  corners=-1.79936587/-1.79684857/-0.00094399/0.00094399 params=0.2
+  float=y maxiter=500 inside=zmag invert=255/0/0 finattract=y
+  periodicity=-1
+  colors=00000Z<32>002000000000<29>00k00m01m<29>0ky0mz1mz<30>zzz<46>2zz0zz0yz<\
+  45>02z00z00y<25>00_
+  }
+
+ColorNautilus      { ; 00:16:10.16
+                     ; 08 Dec 92 .. caren park
+  reset type=julia
+  corners=-0.0002514055/-0.0002348167/-0.0001133878/-0.0001009462
+  params=-1.86057396005486/-9.34352683106792e-007 float=y maxiter=1500
+  inside=maxiter
+  colors=WPJUMHSJF<6>EAb<6>7Nu5Px5Nu<5>A5cB5`<3>G8SH9QIAQ<4>SKP<3>_VZ`Y`b`cdcf\
+  <4>nru<15>OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARUBUW\
+  BXY<6>DqlDtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN3KO4J<12>\
+  zz0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<4>jiWhfUfdTe\
+  bS<4>YRK
+  }
+
+;; The following two PARs are identical, except for the color
+;; map change...  Are there any other PARs hiding in this equation?
+
+MothAtSoundBarrier { ; 01:22:40.99
+                     ; 09 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=newtonsinexp
+  passes=t corners=-1.7706804/-1.7287124/-0.015738/0.015738 params=0.5
+  float=y maxiter=500 inside=maxiter invert=255/0/0 finattract=y
+  periodicity=-1
+  colors=000VRQ<5>AAK<3>ALQAOSARUBUWBXY<6>DqlDtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>\
+  zH0<8>SDF<3>N3JL0KL1KM2KN3KO4J<12>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C4\
+  13000<15>svcsvcsvcsvc<13>UMHSJFQIJ<5>EAb<6>7Nu5Px5Nu<5>A5cB5`<2>E7UG8SH9QJAN\
+  KBL000OEK<5>_VZ`Y`b`cdcf<4>nru<15>OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WS\
+  YUR
+  }
+
+SpaceMoth          { ; 01:22:40.99
+                     ; 09 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=newtonsinexp
+  passes=t corners=-1.7706804/-1.7287124/-0.015738/0.015738 params=0.5
+  float=y maxiter=500 inside=maxiter invert=255/0/0 finattract=y
+  periodicity=-1
+  colors=000Afh<3>7Ta9Q`O2cDJY<3>L4R<8>VHI<7>zH0<8>SDFRAG<92>geThfUfdT<6>UMHSJ\
+  FQIJ<5>EAb<6>7Nu5Px5Nu<5>A5cB5`<2>E7UG8SH9QJANKBL000OEK<5>_VZ`Y`b`cdcf<4>nru\
+  <15>OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARUBUWBXY<6>\
+  DqlDtnCqlCmkBji
+  }
+
+
+Untitled_#2        { ; 00:01:27.38
+                     ; 11 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=richard1
+  corners=-1.108742/1.108695/-0.831534/0.831551 params=0.9/1/0.9/1
+  maxiter=125 inside=zmag outside=summ potential=255/275/0
+  colors=000ZJUbMVePX<9>AKU<30>geeiffiff<13>og`ph_ogY<11>ZP7XO5WM3UK0UK0VL0<25\
+  >taDccc<3>cccubE<27>UK0UFFUFFVFFVFFXGGXGHYGHZFF_HI<21>pORqPSrPSrPSqPSpPS<15>\
+  dJKcJKbJKaJK`JK<7>VFGUFFSDKPAP<28>o_qp`ro_q<15>PAPSDRWGS
+  }
+
+UrchinXmasOrnament { ; 00:05:12.09
+                     ; 11 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=richard1
+  passes=t corners=-1.27315694/-1.26413256/0.0509097/0.05767578
+  params=0.9/1/0.9/1 maxiter=125 inside=zmag outside=summ
+  potential=255/275/0
+  colors=000geeiff<14>og`ph_ogY<11>ZP7XO5WM3UK0UK0VL0<25>taDccc<3>cccubE<27>UK\
+  0UFFUFFVFFVFFXGGXGHYGHZFF_HI<21>pORqPSrPSrPSqPSpPS<15>dJKcJKbJKaJK`JK<7>VFGU\
+  FFSDKPAP<28>o_qp`ro_q<15>PAP<4>ePX<9>AKU<29>fde
+  }
+
+SpaceXmasOrnament  { ; 00:00:43.56
+                     ; 11 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=richard11
+  corners=-9.303449/7.754984/9.420867/-10.796797/7.754984/-10.796797
+  params=0.4/0.3/0.2/0.1 maxiter=125 inside=zmag outside=summ
+  potential=255/275/0
+  colors=000000VGGUFFPAP<26>lXn000nZpo_qp`r<16>PAP<4>ePX<9>AKU<28>ecd000geeiff\
+  <14>og`ph_ogY<11>ZP7XO5WM3UK0UK0VL1<28>wcFwcFvbF<28>UK0UFF<29>pORqPSrPSrPSqP\
+  SpPS<25>XGH
+  }
+
+DysanSphere        { ; 00:00:32.35
+                     ; 11 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=richard11
+  corners=-26.991221/26.991132/31.99/-31.99/26.991132/-31.99
+  params=0.4/0.3/0.2/0.1 maxiter=125 inside=zmag outside=summ
+  potential=255/275/0
+  colors=000000VGGUFFPAP<26>lXn000nZpo_qp`r<16>PAP<4>ePX<9>AKU<28>ecd000geeiff\
+  <14>og`ph_ogY<11>ZP7XO5WM3UK0UK0VL1<28>wcFwcFvbF<28>UK0UFF<29>pORqPSrPSrPSqP\
+  SpPS<25>XGH
+  }
+
+Spokes             { ; 00:02:05.29
+                     ; 11 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=richard11
+  corners=11.078516/11.330827/11.336803/11.037718/11.330827/11.037718
+  params=0.4/0.3/0.2/0.1 maxiter=125 inside=zmag outside=summ
+  potential=255/275/0
+  colors=WPJUMHSJF<6>EAb<6>7Nu5Px5Nu<5>A5cB5`<3>G8SH9QIAQ<4>SKP<3>_VZ`Y`b`cdcf\
+  <4>nru<15>OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARUBUW\
+  BXY<6>DqlDtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN3KO4J<12>\
+  zz0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<4>jiWhfUfdTe\
+  bS<4>YRK
+  }
+
+EmbroideredPillow  { ; 00:02:40.77
+                     ; 11 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=richard1
+  corners=-0.05351/0.053441/2.746107/2.856513 maxiter=125 inside=0
+  outside=summ potential=255/300/0
+  colors=000yfC<27>TIESHERGEPFFQFFRGF<12>cRFeSFdSF<13>RGFPFFPFF<14>cPFcPFbOF<1\
+  3>PFFSNC<29>xo`zpaypa<28>WQG000000<30>ppp<14>TTTRRRPPPNNNMMM<12>000PFF<30>zf\
+  C
+  }
+
+SpiderLeggings     { ; 00:11:23.54
+                     ; 11 dec 92 .. caren park
+  reset type=spider passes=t
+  corners=-1.3204703/-1.3828737/-0.052686/0.056887/-1.3828737/0.056887
+  maxiter=500 fillcolor=7 inside=zmag outside=imag logmap=yes
+  periodicity=4
+  colors=000ZKD<2>RCCEEEHHG000LLL<12>ppn<15>F0AUPF<2>OI5<6>eYJg_LiaNkcPneR<4>z\
+  pa<12>UPFHGMEDLAAK<3>ALQAOSARUBUWBXY<6>DqlDtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>z\
+  H0<8>SDF<4>L0K0G5<21>Np6Pr7Op7<16>0G5ZJE<6>wgF<8>XKDUHDSGC<6>AB7<12>svcsvcsv\
+  csvc<9>aXO<6>kbL000ocJ<6>zjF<9>aMD
+  }
+
+HawkHeadInFog      { ; 01:06:10.40
+                     ; 11 dec 92 .. caren park
+  reset type=barnsleym1 corners=-0.065943/0.064544/0.9944714/1.0923053
+  maxiter=499 fillcolor=7 inside=zmag outside=imag logmap=yes
+  colors=000zpa<12>UPFHGMEDLAAK<3>ALQAOSARUBUWBXY<6>DqlDtnCql<5>8Xc7Ta9Q`<5>L4\
+  R<8>VHI<7>zH0<6>_EB<141>ccaddbffe<3>ppn<2>jgggcde`bbX_`UY000WOS<6>F0AUPF<2>O\
+  I5<6>eYJg_LiaNkcPneR<3>xn_
+  }
+
+ShockWave_#1       { ; 00:11:06.19
+                     ; 11 dec 92 .. caren park
+  reset type=barnsleym1 passes=t
+  corners=0.98692/1.228505/-0.090565/0.09061 maxiter=499 fillcolor=7
+  inside=zmag outside=imag logmap=yes
+  colors=000ZJ0<8>000<15>ut0<15>000GA4<12>2v10z00w0<14>000<15>00z<14>000<16>z0\
+  X<15>000<15>p0w<15>000<15>zzz<15>000L00<13>z00<2>p00l00h00d00a00<9>000<15>zX\
+  0<5>bL0
+  }
+
+ChristmasWrappings { ; 00:01:22.17
+                     ; 11 dec 92 .. caren park
+  reset type=julia passes=b corners=-2.0/2.0/-1.5/1.5
+  params=-1.74445669/-0.007619376295 maxiter=250 fillcolor=0 inside=-100
+  logmap=yes decomp=256
+  colors=000`ac<5>geeiffiff<13>og`ph_ogY<11>ZP7XO5WM3UK0UK0VL0<25>taDccc<3>ccc\
+  ubE<27>UK0UFFUFFVFFVFFXGGXGHYGHZFF_HI<21>pORqPSrPSrPSqPSpPS<15>dJKcJKbJKaJK`\
+  JK<7>VFGUFFSDKPAP<28>o_qp`ro_q<15>PAP<4>ePX<9>AKU<23>_`b
+  }
+
+SapphireMedallion  { ; 00:00:59.49
+                     ; 11 dec 92 .. caren park
+  reset type=julia passes=1 corners=-2.0/2.0/-1.5/1.5
+  params=-0.175321635499996/-0.649451702000018 float=y maxiter=250
+  inside=zmag outside=imag logmap=yes
+  colors=00000j<44>002000000000<29>00k00m01m<29>0ky0mz1mz<30>zzz<46>2zz0zz0yz<\
+  45>02z00z00y<8>00p
+  }
+
+KnotDoughnut       { ; 00:00:53.00
+                     ; 11 dec 92 .. caren park
+  reset type=fn(z)+fn(pix) function=cosh/cosxx
+  corners=-8.179596/-7.491974/3.503449/4.01918 params=25000/5000/1000/-150
+  maxiter=32000 inside=0 potential=255/200/32000
+  colors=000CI0<21>0G0<3>000<15>00z<14>000<16>z0X<15>000<15>p0w<15>000<15>zzz<\
+  15>000L00<13>z00w00<25>gM0fN0fN0eN0<54>DJ0
+  }
+
+StarHoodOrnament   { ; 00:01:12.78
+                     ; 12 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=richard11
+  corners=-9.855808/9.855705/11.68109/-11.681083/9.855705/-11.681083
+  params=0.4/0.3/0.2/0.1 maxiter=125 inside=zmag outside=summ
+  potential=255/275/0
+  colors=000kfd<9>og`ph_ogY<11>ZP7XO5WM3UK0UK0VL0<24>s`DtaDtaDtaD<2>taDubEtaE<\
+  26>UK0UFFUFFVFFVFFXGGXGHYGHZFF_HI<21>pORqPSrPSrPSqPSpPS<15>dJKcJKbJKaJK`JK<7\
+  >VFGUFFSDKPAP<28>o_qp`ro_q<15>PAP<4>ePX<9>AKU<30>geeiffiff<2>jfe
+  }
+
+;; The following images were, once again, discoveries made
+;; by fellow Fractint fanatics, but changed (usually color maps)
+;; to "create" the image you see...  I'm VERY impressed by the
+;; work of JMS, whoever s/he is...  I can only hope s/he continues
+;; to provide us with fun stuff to view...
+
+RainbowJukebox     { ; 00:02:25.17
+                     ; ... from POD040
+  reset type=mandel passes=b
+  corners=-1.74584391/-1.74306947/-0.0057701/-0.00946865/-1.74306947/-0.009468\
+  65 maxiter=250 fillcolor=0 inside=-100 logmap=yes decomp=256
+  colors=000000OEK<5>_VZ`Y`b`cdcf<4>nru<15>OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWga\
+  VcZT`WSYUR<6>AAK<3>ALQAOSARUBUWBXY<6>DqlDtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0\
+  <8>SDF<3>N3JL0KL1KM2KN3KO4J<12>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C4130\
+  00<15>svcsvcsvcsvc<13>UMHSJFQIJ<5>EAb<6>7Nu5Px5Nu<5>A5cB5`<2>E7UG8SH9QJANKBL
+  }
+
+MapCompass         { ; 00:00:21.20
+                     ; ... from POD047
+  reset type=lambdafn function=sqr passes=t
+  corners=-6.81694/6.810364/-4.549606/4.544006 params=1/0.9 maxiter=128
+  fillcolor=255 inside=-100 outside=mult logmap=yes
+  colors=000LMF<9>svcsvcsvcsvc<13>UMHSJFQIJ<5>EAb<6>7Nu5Px5Nu<5>A5c<2>E7WF8UG8\
+  SH9QJANKBLMCI<6>_VZ`Y`b`cdcf<4>nru<15>OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZ\
+  T`WSYUR<6>AAK<4>AOS
+  }
+
+PicassoPropeller   { ; 00:00:36.80
+                     ; ... from JMS01:DiamondCross
+  reset type=fn*z+z function=ident corners=-4.0/3.999992/-3.000005/3.0
+  params=150/-99/100/-10 maxiter=32000 inside=0 potential=255/200/32000
+  colors=000lNP<4>pORqPSrPSrPSqPSpPS<15>dJKcJKbJKaJK`JK<7>VFGUFFSDKPAP<28>o_qp\
+  `ro_q<15>PAP<4>ePX<9>AKU<30>geeiffiff<13>og`ph_ogY<11>ZP7XO5WM3UK0UK0VL0<25>\
+  taDccc<3>cccubE<27>UK0UFFUFFVFFVFFXGGXGHYGHZFF_HI<15>lMP
+  }
+
+OozingStar         { ; 00:01:33.05
+                     ; ... from JMS01:MeltingStar
+  reset type=fn(z)+fn(pix) function=cos/sqr
+  corners=-8.0/7.999985/-6.00001/6.0 params=2118/-115/56/12 maxiter=32000
+  inside=0 potential=255/200/32000
+  colors=000nZH<3>ziF<13>K8C413000<15>svcsvcsvcsvc<13>UMHSJFQIJ<5>EAb<6>7Nu5Px\
+  5Nu<5>A5cB5`<2>E7UG8SH9QJANKBL000OEK<5>_VZ`Y`b`cdcf<3>lornrunru<62>Dtn<7>7Ta\
+  <4>HBUJ8TJ8T<63>J9KKAJMAKOAM<5>eRJ000kWI
+  }
+
+HearNoEvil         { ; 00:00:45.32
+                     ; ... from JMS01:NoName
+  reset type=fn*z+z function=exp
+  corners=-11.391996/11.392007/-8.544015/8.543997
+  params=2000/-100/200/-1000 maxiter=32000 inside=0
+  potential=255/200/32000
+  colors=000B05<13>z0X<15>000<15>p0w<15>000<15>zzz<15>000L00<13>z00<2>p00l00h0\
+  0d00a00<9>000<15>zX0<15>000<15>ut0<15>000GA4<12>2v10z00w0<14>000<15>00z<14>0\
+  00301703
+  }
+
+AeolisAndJanus     { ; 00:06:40.46
+                     ; ... from JMS01:PigSnoutFace
+  reset type=barnsleym3 corners=3.320626/-2.679374/-4.4/4.4/-2.679374/4.4
+  maxiter=32767 bailout=16 outside=real logmap=yes invert=1/0/0
+  colors=000840<13>zX0<15>000<15>ut0<15>000GA4<12>2v10z00w0<14>000<15>00z<14>0\
+  00<16>z0X<15>000<15>p0w<15>000<15>zzz<15>000L00<13>z00<2>p00l00h00d00a00<9>0\
+  00420
+  }
+
+OrnateCBCLogo      { ; 00:02:04.73
+                     ; ... from JMS:PseudoSphere
+  reset type=mandelfn function=ident
+  corners=-1.552978/1.551022/-1.155134/1.172866 float=y maxiter=32767
+  outside=real logmap=yes invert=1/0/0 finattract=y
+  colors=000002<122>00z000<125>z00000<2>001
+  }
+

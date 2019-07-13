@@ -1,0 +1,26 @@
+
+manfn+exp
+
+    'Mandelbrot-Equivalent' for the julfn+exp fractal.
+
+      z(0) = c = pixel
+      z(n+1) = fn(z(n)) + e^z(n) + C.
+
+    Parameters: real & imaginary perturbations of z(0), and fn
+
+These types have been explored by Clifford A. Pickover, of the IBM Thomas
+J. Watson Research center. As implemented in xmfract, they are regular
+Mandelbrot/Julia set pairs that may be plotted with or without the
+{=@Biomorphs "biomorph"} option Pickover used to create organic-looking
+beasties (see below). These types are produced with formulas built from
+the functions z^z, z^n, sin(z), and e^z for complex z. Types with "power"
+or "pwr" in their name have an exponent value as a third parameter. For
+example, type=manzpower params=0/0/2 is our old friend the classical
+Mandelbrot, and type=manzpower params=0/0/4 is the Quartic Mandelbrot.
+Other values of the exponent give still other fractals. Since these WERE
+the original "biomorph" types, we should give an example. Try:
+
+    type=manfn+zsqrd biomorph=0 corners=-8/8/-6/6 function=sin
+
+to see a big biomorph digesting little biomorphs!
+

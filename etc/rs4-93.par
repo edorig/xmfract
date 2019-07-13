@@ -1,0 +1,412 @@
+sac039             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=mandel
+  corners=-0.462252801/-0.462227801/0.55890381/0.55893518/-0.462258747/0.5\
+  58912141 maxiter=1000 inside=0 logmap=yes periodicity=0
+  colors=000XM9<16>KAAKAALBA<41>sg8sg8rf8<40>K9B<15>zz6<14>MFA96G<15>B_ZCa\
+  `Bb`Aca9da8da<24>C8AD79E79<39>qe8qe8pd8<27>XM9
+  }
+
+zs3c039             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  3d=yes sphere=y latitude=-90/90 longitude=180/0 radius=100
+  scalexyz=90/100 roughness=30 waterline=0 filltype=2 ambient=20
+  perspective=0 xyshift=0/0
+  colors=000XM9<16>KAAKAALBA<41>sg8sg8rf8<40>K9B<15>zz6<14>MFA96G<15>B_ZCa\
+  `Bb`Aca9da8da<24>C8AD79E79<39>qe8qe8pd8<27>XM9
+  }
+
+sad028             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=lyapunov corners=1.329446/3.291174/2.510547/3.981843
+  params=3/0.005254687/3 float=y maxiter=2 inside=0 logmap=yes
+  periodicity=0
+  colors=000FFFFFFFFF<27>u22v11u11<28>QCCODDPDD<29>xW3zX2zY2<14>zzG<30>PCA\
+  NA9NA9<44>x41y41z30z20z10z00<32>c00b11a11`22_22<22>HEE000
+  }
+
+zs3d028             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  3d=yes sphere=y latitude=-90/90 longitude=180/0 radius=100
+  scalexyz=90/100 roughness=5 waterline=0 filltype=2 ambient=20
+  perspective=0 xyshift=0/0
+  colors=000FFFFFFFFF<27>u22v11u11<28>QCCODDPDD<29>xW3zX2zY2<14>zzG<30>PCA\
+  NA9NA9<44>x41y41z30z20z10z00<32>c00b11a11`22_22<22>HEE000
+  }
+
+saf004             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=mandel passes=1
+  corners=-1.726721/0.726711/-0.920038/0.92004 maxiter=256
+  inside=bof60 outside=120 logmap=yes periodicity=0
+  colors=000QW0<10>0A0<15>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF11\
+  1<29>ppp<31>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<2>SY0
+  }
+
+zs3f004             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  3d=yes sphere=y latitude=-90/90 longitude=180/0 radius=100
+  scalexyz=90/100 roughness=15 waterline=0 filltype=2 ambient=20
+  perspective=0 xyshift=0/0
+  colors=000QW0<10>0A0<15>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF11\
+  1<29>ppp<31>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<2>SY0
+  }
+
+sag003             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset type=tetrate
+  corners=-1.897733/-1.511333/0.2576/-0.2576/-1.511333/-0.2576 float=y
+  maxiter=256 inside=0 outside=imag
+  colors=000ldS<16>UPFF00<30>i00j00i00<29>F00PFF<29>xeDzfCyfC<30>PFF0F0<14\
+  >IaAKcBJbB<12>2H30F20F2<28>AcE<2>SNC<29>xo`zpaypa<11>meT
+  }
+
+zs3g003             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  3d=yes scalexyz=90/90 roughness=5 waterline=0 ambient=20
+  rotation=60/30/0 perspective=0 xyshift=0/0
+  colors=000ldS<16>UPFF00<30>i00j00i00<29>F00PFF<29>xeDzfCyfC<30>PFF0F0<14\
+  >IaAKcBJbB<12>2H30F20F2<28>AcE<2>SNC<29>xo`zpaypa<11>meT
+  }
+
+sai009             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=formula formulafile=fractint.frm formulaname=Jm_24
+  function=sinh
+  corners=-0.731477/0.756531/0.992019/-0.991991/0.756531/-0.991991
+  maxiter=256 fillcolor=0 inside=bof61 outside=summ logmap=yes
+  potential=255/200/50 periodicity=0
+  colors=000BNM<10>C8AD79E79<39>qe8qe8pd8<45>KAAKAALBA<41>sg8sg8rf8<40>K9B\
+  <15>zz6<14>MFA96G<15>B_ZCa`Bb`Aca9da8da<12>BON
+  }
+
+zs3i009             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  3d=yes sphere=y latitude=-90/90 longitude=180/0 radius=100
+  scalexyz=90/100 roughness=15 waterline=0 filltype=2 ambient=20
+  perspective=0 xyshift=0/0
+  colors=000BNM<10>C8AD79E79<39>qe8qe8pd8<45>KAAKAALBA<41>sg8sg8rf8<40>K9B\
+  <15>zz6<14>MFA96G<15>B_ZCa`Bb`Aca9da8da<12>BON
+  }
+
+saj001             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1701 type=mandel
+  corners=-1.930068812118/-1.930068479318/-0.000000152613/0.000000094722
+  float=y maxiter=500 inside=0 periodicity=0
+  colors=000OLT<2>CHJxa4<5>FJFHZBJ44<3>AEEhMBWKDKIFhnV<4>ELIhG7<6>CGFiIk<3\
+  >FGMhJk<2>HGOlpm<6>DKKyiRBmh<2>8ONM_9<4>AJFlf6<4>EKFhW60cw4Savl3XWAulFda\
+  GhlEhq7c3v<6>8b5<6>mJ9<6>lHR<4>BWI<6>xMo<5>_BDkJ7vQ1<2>Isd<2>Ce0<6>QSr<5\
+  >gcridrjYo<3>lAe<3>d7Ec77_A8<2>PJ9<3>U1tha9VaLIaX8GHEURBNLIuB<4>9NG7ct8S\
+  _I53<3>AEEGkOCWKSk8<2>DOE80P<3>8DHhWE<4>EIGdNYOJPaz3NbAPVV<2>CJJ1CO5EKLc\
+  N<6>9JGqtj<5>JQNDLJ5_n<4>8JL1Cr<3>7GNxfd<3>ILLQCc<2>CFMVHH<4>EGGBGG9je8V\
+  TipUXcPKSKcRe<2>SMW
+  }
+
+zs3j001             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  3d=yes sphere=y latitude=-90/90 longitude=180/0 radius=100
+  scalexyz=90/100 roughness=20 waterline=0 filltype=2 ambient=20
+  perspective=0 xyshift=0/0
+  colors=000OLT<2>CHJxa4<5>FJFHZBJ44<3>AEEhMBWKDKIFhnV<4>ELIhG7<6>CGFiIk<3\
+  >FGMhJk<2>HGOlpm<6>DKKyiRBmh<2>8ONM_9<4>AJFlf6<4>EKFhW60cw4Savl3XWAulFda\
+  GhlEhq7c3v<6>8b5<6>mJ9<6>lHR<4>BWI<6>xMo<5>_BDkJ7vQ1<2>Isd<2>Ce0<6>QSr<5\
+  >gcridrjYo<3>lAe<3>d7Ec77_A8<2>PJ9<3>U1tha9VaLIaX8GHEURBNLIuB<4>9NG7ct8S\
+  _I53<3>AEEGkOCWKSk8<2>DOE80P<3>8DHhWE<4>EIGdNYOJPaz3NbAPVV<2>CJJ1CO5EKLc\
+  N<6>9JGqtj<5>JQNDLJ5_n<4>8JL1Cr<3>7GNxfd<3>ILLQCc<2>CFMVHH<4>EGGBGG9je8V\
+  TipUXcPKSKcRe<2>SMW
+  }
+
+sae001             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=newton passes=b corners=-2.0/2.0/-1.5/1.5 params=8
+  maxiter=256 fillcolor=0 inside=-102 outside=imag logmap=yes
+  potential=255/2000/50 periodicity=0
+  colors=000555<26>nnnpppooo<30>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<14>0A\
+  0<15>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111333
+  }
+
+sae002             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=newton passes=b corners=-2.0/2.0/-1.5/1.5 params=4
+  maxiter=256 fillcolor=0 inside=-102 outside=imag logmap=yes
+  potential=255/2000/50 periodicity=0
+  colors=000555<26>nnnpppooo<30>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<14>0A\
+  0<15>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111333
+  }
+
+sae003             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=newton passes=b corners=-0.704/0.704/-0.528/0.528
+  params=4 maxiter=256 fillcolor=0 inside=-102 outside=imag logmap=yes
+  potential=255/2000/50 periodicity=0
+  colors=000555<26>nnnpppooo<30>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<14>0A\
+  0<15>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111333
+  }
+
+sae007             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=newton passes=b
+  corners=0.388369/1.364369/-0.366/0.366 params=2 float=y maxiter=256
+  fillcolor=0 inside=-102 outside=imag logmap=yes
+  potential=255/2000/50 periodicity=0
+  colors=000555<26>nnnpppooo<30>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<14>0A\
+  0<15>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111333
+  }
+
+sae008             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=sqr(fn) function=sin
+  corners=-1.26561/1.259735/0.506409/1.76059 maxiter=256 fillcolor=0
+  inside=-102 outside=real logmap=yes decomp=255 periodicity=0
+  colors=0002B0<14>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<29>pp\
+  p<31>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<13>3C00F0
+  }
+
+sae009             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=sqr(fn) function=sin passes=t
+  corners=-1.26561/1.259735/0.506409/1.76059 maxiter=256 fillcolor=0
+  inside=-102 outside=real logmap=yes decomp=255 periodicity=0
+  colors=000utG<26>PCANA9NA9<44>x41y41z30z20z10z00<32>c00b11a11`22_22<23>G\
+  EEFFFFFFFFF<27>u22v11u11<28>QCCODDPDD<29>xW3zX2zY2<14>zzG<2>wvG
+  }
+
+sag001             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=hypercomplex function=cosxx
+  corners=1.446169/2.610169/0.776/-0.776/2.610169/-0.776 params=0/0/1
+  float=y maxiter=256 inside=0 logmap=yes periodicity=0
+  colors=000dcf<4>nru<8>_ZTZWP_XP<13>xn`kcP<5>zpa<4>jdWgaVcZT`WSYUR<6>AAK<\
+  4>AOSARUBUWBXYB__Bba<5>Dtn<6>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<7>WEDSDFRAG<2>N\
+  3JL0KL1KM2KN3KO4J<12>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C413000<15>\
+  svcsvcsvcsvc<13>UMHSJFQIJ<5>EAb<6>7Nu5Px5Nu<5>A5cB5`<6>KBLMCIOEK<3>WQUYS\
+  X_VZ`Y`b`c
+  }
+
+sag004             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset type=sqr(1/fn) function=cosxx
+  corners=-0.78653/0.773529/1.919922/3.088867 float=y maxiter=256
+  inside=0 outside=summ
+  colors=000Ca`<2>9da8da9b_<23>C8AD79E79<39>qe8qe8pd8<43>LBALBAKAAKAALBA<3\
+  9>qe8rf8sg8sg8rf8qe8<39>K9B<15>zz6<14>MFA96G<15>B_Z
+  }
+
+sag005             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset type=sqr(1/fn) function=cosxx
+  corners=0.7574807/0.3330344/2.1606485/1.9457968/0.7079057/2.2266863
+  float=y maxiter=256 inside=0 outside=summ
+  colors=000Ca`<2>9da8da9b_<23>C8AD79E79<39>qe8qe8pd8<43>LBALBAKAAKAALBA<3\
+  9>qe8rf8sg8sg8rf8qe8<39>K9B<15>zz6<14>MFA96G<15>B_Z
+  }
+
+sai002             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=mandel passes=b corners=-2.5/1.500012/-1.499989/1.5
+  maxiter=256 fillcolor=241 inside=-100 outside=summ logmap=yes
+  potential=255/500/25 periodicity=0
+  colors=000eZM<16>xo`zpaypa<13>kcRibRibR<14>UPF111<29>ppp<31>000PFF<29>xe\
+  DzfCyfC<30>PFF0A0<15>Zc0<14>0A0<15>Zc0<15>0A0SNC<11>dYM
+  }
+
+sai003             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=julia passes=b corners=-2.0/2.000012/-1.499989/1.5
+  params=-7.15255737304688e-007/1.99 maxiter=256 fillcolor=241
+  inside=-100 outside=summ logmap=yes potential=255/500/25
+  periodicity=0
+  colors=000eZM<16>xo`zpaypa<13>kcRibRibR<14>UPF111<29>ppp<31>000PFF<29>xe\
+  DzfCyfC<30>PFF0A0<15>Zc0<14>0A0<15>Zc0<15>0A0SNC<11>dYM
+  }
+
+sai004             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=barnsleym3 passes=b
+  corners=-2.657279/1.342733/-1.499989/1.5 params=1 maxiter=255
+  fillcolor=241 inside=-100 outside=summ logmap=yes
+  potential=255/500/25 periodicity=0
+  colors=000333<28>ppp<31>000PFF<13>nd1pf0oe1<13>PFF<15>zfD<14>SHE05F0FM<1\
+  4>ILdKMfJMe<13>0FKAA0<15>PP0PP0OO0<13>AA0SNC<29>xo`zpaypa<16>g`P0P0eZO<9\
+  >WQG000000111
+  }
+
+sai005             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=formula formulafile=fractint.frm formulaname=Jm_27
+  passes=b
+  corners=-1.154536/0.005134/1.460517/-0.085716/0.005134/-0.085716
+  maxiter=256 fillcolor=241 inside=bof61 outside=summ logmap=yes
+  potential=255/200/50 periodicity=0
+  colors=000tkY<8>kcRibRibR<14>UPF111<29>ppp<31>000PFF<29>xeDzfCyfC<30>PFF\
+  0A0<15>Zc0<14>0A0<15>Zc0<15>0A0SNC<20>nfT000phV<7>zpa<4>ulZ
+  }
+
+sai006             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=formula formulafile=fractint.frm formulaname=Jm_23
+  passes=b corners=-0.919997/0.920004/1.114518/2.494507 maxiter=256
+  fillcolor=241 inside=bof61 outside=summ logmap=yes
+  potential=255/200/50 periodicity=0
+  colors=000FN0<8>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<29>ppp\
+  <31>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<14>0A0<5>DL0
+  }
+
+sai007             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=formula formulafile=fractint.frm formulaname=Jm_23
+  passes=b corners=-0.257597/0.257611/1.410721/1.797112 maxiter=256
+  fillcolor=85 inside=bof61 outside=summ logmap=yes
+  potential=255/200/50 periodicity=0
+  colors=000A20<12>cAP<10>H43E30A2A<2>000<15>hh0<15>000<3>00D00H22I<10>PP`\
+  <9>33H00E00A<2>000300700A00<12>rZ0<11>400A00<2>000<15>0pp<12>0BB07704400\
+  0222<14>hhh<15>000<27>007017037<13>4S4<13>1A1181171151131000313717
+  }
+
+sai008             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=formula formulafile=fractint.frm formulaname=Jm_22
+  corners=-2.018657/-0.422654/1.063989/-1.06399/-0.422654/-1.06399
+  maxiter=256 fillcolor=0 inside=bof61 outside=summ logmap=yes
+  potential=255/200/50 periodicity=0
+  colors=000ulY<2>xo`zpaypa<13>kcRibRibR<14>UPF111<29>ppp<31>000PFF<29>xeD\
+  zfCyfC<30>PFF0A0<15>Zc0<14>0A0<15>Zc0<15>0A0SNC<24>sjW0F0
+  }
+
+snm005             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=formula formulafile=fractint.frm
+  formulaname=F'M-SetInNewtonA function=sqr
+  corners=0.466454/2.093112/1.084442/-1.084443/2.093112/-1.084443
+  params=5.324951 maxiter=256 inside=0 outside=imag logmap=yes
+  potential=255/200/25 periodicity=0
+  colors=000C6U<4>I9hKAkJAh<13>000<15>g01<13>B03804402<15>u0u<12>E0FB0C708\
+  304000<15>zzz<14>444<14>HNeIPhIOe<13>800400000<15>zX0<15>000<15>ut0<15>0\
+  00GA4<15>0fI<14>103<5>84L000B5R
+  }
+
+snm007             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=formula formulafile=fractint.frm
+  formulaname=F'M-SetInNewtonA function=cos
+  corners=-2.04444/2.044468/-1.53334/1.533334 params=25.0101/0/15.0202
+  maxiter=256 inside=0 outside=imag logmap=yes potential=255/350/50
+  periodicity=0
+  colors=000000jVD<7>SHE05F0FM<14>ILdKMfJMe<13>0FKAA0<15>PP0PP0OO0<13>AA0S\
+  NC<29>xo`zpaypa<28>WQG000000<29>nnnpppooo<30>000PFF<13>nd1pf0oe1<13>PFF<\
+  15>zfD<2>saD000oZD
+  }
+
+snm008             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=formula formulafile=fractint.frm
+  formulaname=F'M-SetInNewtonA function=conj
+  corners=1.287652/-0.123016/-0.940463/0.940443/-0.123016/0.940443
+  params=10/0/5 maxiter=256 inside=0 outside=imag logmap=yes
+  potential=255/350/50 periodicity=0
+  colors=000000jVD<7>SHE05F0FM<14>ILdKMfJMe<13>0FKAA0<15>PP0PP0OO0<13>AA0S\
+  NC<29>xo`zpaypa<28>WQG000000<29>nnnpppooo<30>000PFF<13>nd1pf0oe1<13>PFF<\
+  15>zfD<2>saD000oZD
+  }
+
+snm011             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=formula formulafile=fractint.frm
+  formulaname=F'M-SetInNewtonA function=cotanh
+  corners=-0.710817/0.237192/0.632014/-0.631992/0.237192/-0.631992
+  params=3.121212 maxiter=256 inside=0 outside=imag logmap=yes
+  potential=255/350/50 periodicity=0
+  colors=000<29>nnnpppooo<30>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<14>0A0<1\
+  5>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<12>XRH000UPF
+  }
+
+snm012             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=formula formulafile=fractint.frm
+  formulaname=F'M-SetInNewtonA function=cotanh
+  corners=-0.651408/-0.454229/0.131471/-0.131446/-0.454229/-0.131446
+  params=3.121212 maxiter=256 inside=0 outside=imag logmap=yes
+  potential=255/750/50 periodicity=0
+  colors=000UUU<12>ppp<31>000PFF<13>nd1pf0oe1<13>PFF<15>zfD<14>SHE05F0FM<1\
+  4>ILdKMfJMe<13>0FKAA0<15>PP0PP0OO0<13>AA0SNC<29>xo`zpaypa<28>WQG000000<1\
+  4>PPP000TTT
+  }
+
+snm013             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=formula formulafile=fractint.frm
+  formulaname=F'M-SetInNewtonA function=cotanh
+  corners=-0.55295485/-0.52786279/-0.09621876/-0.08351797/-0.55002964/-0.1\
+  0014176 params=3.121212 maxiter=256 inside=0 outside=imag logmap=yes
+  potential=255/750/50 periodicity=0
+  colors=0000qq<9>0MMM00<20>z00<18>P00M00M0M<20>z0z<19>M0M0M0<20>0z0<19>0M\
+  000M<20>00z<19>00MMM0<20>zz0<19>MM00MM<30>0zz0000tt
+  }
+
+snm015             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=formula formulafile=fractint.frm
+  formulaname=F'M-SetInNewtonA function=sqr
+  corners=0.290167/3.096948/2.49353/-2.493554/3.096948/-2.493554
+  params=0.9090909 maxiter=256 inside=0 outside=imag logmap=yes
+  potential=255/250/50 periodicity=0
+  colors=000MT0<9>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<29>ppp<31>000\
+  PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<14>0A0<15>Zc0<2>TZ0000PV0
+  }
+
+snm025             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=formula formulafile=fractint.frm
+  formulaname=F'M-SetInNewtonA function=sin passes=t
+  corners=-0.396403/3.568035/-1.979181/1.979185 params=5/0/-5e-005
+  maxiter=256 fillcolor=16 inside=-102 logmap=-3 potential=255/250/25
+  periodicity=0
+  colors=000JJJ<10>000PFFQFFRGF025TIF<26>zfC<31>PFF0A0<15>Zc0<14>0A0<15>Zc\
+  0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<29>ppp<19>KKK
+  }
+
+snm026             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=formula formulafile=fractint.frm
+  formulaname=F'M-SetInNewtonA function=sin passes=b
+  corners=0.527311/2.644312/1.878911/-1.878903/2.644312/-1.878903
+  params=5/0/-5e-005 maxiter=256 fillcolor=0 inside=zmag outside=summ
+  potential=255/250/25 periodicity=0
+  colors=000<29>nnnpppooo<30>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<14>0A0<1\
+  5>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<12>XRH001UPF
+  }
+
+snm001             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=formula formulafile=fractint.frm
+  formulaname=F'M-SetInNewtonA function=cos
+  corners=-1.875587/1.124426/1.928016/-1.927987/1.124426/-1.927987
+  params=3.5 maxiter=256 inside=0 outside=imag logmap=yes
+  potential=255/200/25 periodicity=0
+  colors=000PV0<10>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<29>ppp<31>00\
+  0PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<14>0A0<15>Zc0Xb0V`0000RX0
+  }
+
+uli001             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1732 type=formula formulafile=fractint.frm formulaname=ULI_5
+  function=cos
+  corners=-1.481823/-0.533815/0.632014/-0.631992/-0.533815/-0.631992
+  params=1 maxiter=256 inside=0 outside=imag logmap=yes
+  potential=255/200/25 periodicity=0
+  colors=000aWL<6>UPF111<29>ppp<31>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<14\
+  >0A0<15>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<6>bXL
+  }
+
+spi004             { ; (c) 1993 Richard H. Sherry CIS:76264,752
+                     ; Must have V18 & necessary frm files
+  reset=1731 type=formula formulafile=fractint.frm
+  formulaname=a_spider1 function=ident
+  corners=-1.32382/0.272184/0.868501/-1.259478/0.272184/-1.259478
+  params=0.4/0.35 maxiter=256 inside=0 outside=imag logmap=yes
+  periodicity=0
+  colors=000BNM<10>C8AD79E79<39>qe8qe8pd8<45>KAAKAALBA<41>sg8sg8rf8<40>K9B\
+  <15>zz6<14>MFA96G<15>B_ZCa`Bb`Aca9da8da<12>BON
+  }
+

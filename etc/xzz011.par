@@ -1,0 +1,102 @@
+lupy2              { ; (c) 1993 Richard H, Sherry, CIS: 76264,752
+  reset type=lyapunov passes=1
+  corners=3.162352/3.574846/3.207905/3.688659/3.0800881/3.31759
+  params=32560180/0.5 float=y maxiter=2 inside=0
+  colors=000iUE<6>zfD<14>SHE05F0FM<14>ILdKMfJMe<13>0FKAA0<15>PP0PP0OO0<13>\
+  AA0SNC<29>xo`zpaypa<28>WQG000000<29>nnnpppooo<30>000PFF<13>nd1pf0oe1<13>\
+  PFF<7>gTE
+  }
+
+lyup3              { ; (c) 1993 Richard H, Sherry, CIS: 76264,752
+  reset type=lyapunov passes=1
+  corners=3.6298211/3.5297718/3.352936/3.6021946/3.4741592/3.5604851
+  params=32560180/0.5 float=y maxiter=2 inside=0
+  colors=000AUT<16>C8AD79D79<51>jX8jX8iW8<29>KAAKAALBA<28>cT8dU7dT7<57>K9B\
+  GAB<29>zz0<8>LVY<11>9da8da9b_<5>AWU
+  }
+
+xlup1              { ; (c) 1993 Richard H, Sherry, CIS: 76264,752
+  reset type=lyapunov passes=1
+  corners=3.536531/2.165779/1.586088/3.790875/1.984763/3.655112
+  params=32560180/0.5 float=y maxiter=2 inside=0
+  colors=000oe1<13>PFF<15>zfD<14>SHE05F0FM<14>ILdKMfJMe<13>0FKAA0<15>PP0PP\
+  0OO0<13>AA0SNC<29>xo`zpaypa<28>WQG000000<29>nnnpppooo<30>000PFF<14>pf0
+  }
+
+xlupy              { ; (c) 1993 Richard H, Sherry, CIS: 76264,752
+  reset type=lyapunov corners=-4.055687/4.456313/-2.199519/4.184481
+  params=32560180/0.5 float=y maxiter=2 inside=0
+  colors=000oe1<13>PFF<15>zfD<14>SHE05F0FM<14>ILdKMfJMe<13>0FKAA0<15>PP0PP\
+  0OO0<13>AA0SNC<29>xo`zpaypa<28>WQG000000<29>nnnpppooo<30>000PFF<14>pf0
+  }
+
+xzz010             { ; (c) 1993 Richard H, Sherry, CIS: 76264,752
+  reset type=formula formulafile=fractint.frm
+  formulaname=M_TchebychevC5
+  corners=-2.58667/2.586661/-1.940006/1.939997 params=-0.1/0.2/-0.3/1
+  maxiter=256 inside=0 logmap=yes potential=255/350/75 periodicity=0
+  colors=000888<25>ppp<31>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<14>0A0<15>Z\
+  c0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<2>666
+  }
+
+xzz012             { ; (c) 1993 Richard H, Sherry, CIS: 76264,752
+  reset type=formula formulafile=fractint.frm
+  formulaname=M_TchebychevS3
+  corners=-0.154238/0.154269/-0.115671/0.115683 params=-0.1/2
+  maxiter=256 inside=0 logmap=yes potential=255/350/75 periodicity=0
+  colors=000SWT<18>BDEoSQ<24>oS2<9>C97478878ovz<20>68AlCP<9>869yed<23>679d\
+  UL<28>568Mdt<5>6BFtiN<30>578jr1aTP<13>679J6K<19>468MzX<26>488X`X<3>TXT
+  }
+
+xzz013             { ; (c) 1993 Richard H, Sherry, CIS: 76264,752
+  reset type=manfn+exp function=log
+  corners=-2.615265/-0.440933/-0.815628/0.816025 params=2.21/0.1
+  decomp=256
+  colors=0009EF<6>19EAEG<20>6ZL6_L5`M5`N<21>1au5_q<10>kESeGU<14>2S96RC<23>\
+  lVs<5>YAlV7kQ8mHtm<13>WtrTrn<12>CGCKYU<27>5dGBdJ<9>Uy1Su3<24>Y8P<20>_YI`\
+  _HZUJ<20>AFF
+  }
+
+xzz014             { ; (c) 1993 Richard H, Sherry, CIS: 76264,752
+  reset type=fn*fn function=recip/tan
+  corners=-0.733917/0.727264/0.972076/-0.977997/0.727264/-0.977997
+  inside=0 potential=255/511/0
+  colors=0001110A0<15>Zc0<14>0A0<15>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRib\
+  R<14>UPF333<28>ppp<31>000PFF<2>SHFzIFzJFWKF<23>xeDzfCyfC<19>bPDzOE<9>zFF
+  cyclerange=2/255
+  }
+
+xzz015             { ; (c) 1993 Richard H, Sherry, CIS: 76264,752
+  reset type=fn*fn function=recip/tan passes=b
+  corners=-0.733917/0.727264/0.972076/-0.977997/0.727264/-0.977997
+  inside=-102 potential=255/511/0
+  colors=000111q_C<12>bPDzOE<9>zFF0A0<15>Zc0<14>0A0<15>Zc0<15>0A0SNC<29>xo\
+  `zpaypa<13>kcRibRibR<14>UPF333<28>ppp<31>000PFF<2>SHFzIFzJFWKF<23>xeDzfC\
+  yfC<5>r`C cyclerange=2/255
+  }
+
+xzz017             { ; (c) 1993 Richard H, Sherry, CIS: 76264,752
+  reset type=lyapunov passes=t
+  corners=3.6298211/3.5297718/3.352936/3.6021946/3.4741592/3.5604851
+  params=32560180/0.5 float=y maxiter=2 fillcolor=10 inside=-102
+  colors=FKFAUT<7>BKK000BHI<6>C8AD79D79<51>jX8jX8iW8<29>KAAKAALBA<28>cT8dU\
+  7dT7<57>K9BGAB<29>zz0<8>LVY<11>9da8da9b_<5>AWU
+  }
+
+xzz018             { ; (c) 1993 Richard H, Sherry, CIS: 76264,752
+  reset type=lyapunov passes=1
+  corners=3.3602997/3.2295107/3.224088/3.5499304/3.1568113/3.4954058
+  params=2314/0.09374215 maxiter=3 inside=zmag logmap=yes
+  periodicity=-1
+  colors=000222000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<14>0A0<15>Zc0<15>0A0SN\
+  C<29>xo`zpaypa<13>kcRibRibR<14>UPF111<29>ppp<29>444
+  }
+
+xzz121             { ; (c) 1992 Richard H. Sherry, CIS: 76264,753
+  reset type=lyapunov passes=b
+  corners=-0.825163/0.826165/-0.634767/0.603729 params=32560180/0.5
+  float=y maxiter=2 inside=2 decomp=9
+  colors=000oe1<13>PFF<15>zfD<14>SHE05F0FM<14>ILdKMfJMe<13>0FKAA0<15>PP0PP\
+  0OO0<13>AA0SNC<29>xo`zpaypa<28>WQG000000<29>nnnpppooo<30>000PFF<14>pf0
+  }
+

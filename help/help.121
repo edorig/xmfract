@@ -1,0 +1,40 @@
+
+Dynamic System Fractal Type
+
+formulas: dynamic, dynamic2
+
+
+These fractals are based on a cyclic system of differential equations:
+
+     x'(t) = -f(y(t))
+     y'(t) = f(x(t))
+
+These equations are approximated by using a small time step dt, forming
+a time-discrete dynamic system:
+
+     x(n+1) = x(n) - dt*f(y(n))
+     y(n+1) = y(n) + dt*f(x(n))
+
+The initial values x(0) and y(0) are set to various points in the plane,
+the dynamic system is iterated, and the resulting orbit points are plotted.
+
+In xmfract, the function f is restricted to:
+
+      f(k) = sin(k + a*fn1(b*k))
+
+The parameters are the spacing of the initial points, the time step dt,
+and the parameters (a,b,fn1) that affect the function f.
+
+Normally the orbit points are plotted individually, but for a negative
+spacing the points are connected.
+
+This fractal is similar to the Pickover and Popcorn types.
+
+A variant is the implicit Euler approximation:
+
+     y(n+1) = y(n) + dt*f(x(n))
+     x(n+1) = x(n) - dt*f(y(n+1))
+
+This variant results in complex orbits. The implicit Euler approximation
+is selected by entering dt < 0.
+

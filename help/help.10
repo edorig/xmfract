@@ -1,0 +1,371 @@
+
+Command Line Parameters
+
+Xmfract accepts command-line parameters that allow you to start it with a
+particular mode, fractal type, starting coordinates, and just about
+every other parameter and option.
+
+These parameters can also be specified in a xmfract.ini file, to set them
+every time you run xmfract.
+
+They can also be specified as named groups in a .par (parameter) file
+which you can then call up while running xmfract by using the <@>
+command.
+
+In all three cases (command line, xmfract.ini, and parameter file) the
+parameters use the same syntax, usually a series of keyword=value commands
+like overwrite=no. In each case below, values between "<" and ">" are
+required arguments for the specified command, and values between "[" and "]"
+are optional arguments for the specified command. Do not type any of these
+characters in the command unless otherwise directed.
+
+The command-line only parameters that may be set are:
+
+  -display <hostname>:<screen>.<display>
+     Specifies the X11 display to use.
+
+  -share
+     Shares the current display's colormap.
+
+  -private
+     Allocates the entire colormap (i.e. more colors).
+
+  -geometry <WxH[{+-X}{+-Y}]>
+     Changes the geometry of the image window.
+
+  makemig=<x/y>
+     Create a multi-image gif file "x" images wide by "y" images high.
+     See "Creating Multi-image GIF files" below for more information.
+
+
+These commands and options may be specified on the command line or in
+an initialization file named "xmfract.ini":
+
+  fractdir=<directory>
+     Specify where the ancillary files are stored.
+     This should be the first line in the initialization file.
+
+  helpdir=<directory>
+     Specify where the ancillary files are stored.
+     This must be a subdirectory of <fractdir>.
+
+  exitnoask=<yes|no>
+     Exit with or without asking for confirmation.
+
+  creditscreen=<yes|no>
+     Display the authors screen when the program starts.
+
+  disclaimer=<yes|no>
+     Display the disclaimer message when the program starts.
+
+  verbose=<yes|no>
+     Set the level of verbosity in the program.
+
+  overwrite=<yes|no>
+     Automatically overwrite existing files without confirmation.
+
+  map=<mapfilename>
+     Specify a color map file at startup.
+
+  rate=<number>
+     Specify the screen refresh rate as a percentage. A lower value
+     is slower and results in less overhead on networked machines,
+     and usually results in faster fractal calculations, due to the
+     reduced number of graphics function calls. The valid range for
+     this value is 1 -> 100.
+
+  undo=<number>
+     Specify the number of color editor commands that may undone.
+     A zero means that no undos will available. This is useful on
+     machines that have a limited amount of memory available.
+     The valid range for this value is 0 -> 32767. The default is 8192.
+
+
+These options are best specified in a parameter file:
+
+  filename=<filename>
+    Process commands from a file.
+
+  map=<@mapfilename>
+    Use 'filename' as the current color map.
+
+  reset[=<version>]
+    Causes xmfract to reset all calculation related parameters
+    to their default values.
+
+  colors=<@mapname|colorspec>
+    Reads in a replacement color map from 'filename'. The 'colorspec'
+    is rather long (768 characters for 256 color modes), and its syntax
+    is not documented here. This form of the 'colors=' command is not
+    intended for manual use - it exists for use by the 'b' command when
+    saving the description of a nice image.
+
+  type=<fractal>
+    Selects the fractal type to calculate. The default is type "mandel".
+
+  inside=<nnn|bof60|bof61|zmag|attractor|epscross|startrail|period>
+    Set the color of the interior; for example, "inside=0" makes the M-set
+    "lake" a stylish basic black. A setting of -1 makes inside=maxiter.
+    Three more options reveal hidden structure inside the lake. Inside=bof60
+    and inside=bof61, are named after the figures on pages 60 and 61 of
+    "Beauty of Fractals".
+
+  fillcolor=<color>
+    Sets a block fill color for use with boundary tracing and tesseral options.
+
+  finattract=<yes|no>
+    Look for finite attractor in julia types.
+
+  function=<func[,func,func,func]>
+    Allows specification of transcendental functions with types using variable
+    functions. Values are: sin, cos, tan, cotan, sinh, cosh, tanh, cotanh,
+                           exp, log, sqr, recip (1/z), ident (identity),
+                           conj, flip, zero, and cosxx (cos with bug).
+
+  outside=<nnn|iter|real|imag|mult|summ>
+    Fractal exterior color options.
+
+  maxiter=<iterations>
+    Maximum number of iterations {0-32767} (default = 127).
+
+  passes=<1|2|g|b|t>
+    Select single-pass, dual-pass, solid-guessing, boundary-tracing,
+    or the tesseral drawing algorithms.
+
+  cyclerange=<min/max>
+    Range of colors to cycle (default 1/255).
+
+  ranges=<ranges=nn/nn/nn/...>
+    Ranges of iteration values to map to colors.
+
+  potential=<potential=nn[/nn[/nn[/16bit]]]>
+    Continuous potential.
+
+  params=params=<xxx[/xxx[/...]]>
+    Begin with these extra parameter values.
+
+  miim=<[depth|breadth|walk]/[left|right]/[xxx/yyy[/zzz]]>
+    Params for MIIM julias. xxx/yyy = julia constant, zzz = max hits.
+    Eg. miim=depth/left/-.74543/.11301/3
+
+  initorbit=<nnn/nnn>
+    Sets the value used to initialize Mandelbrot orbits to the given
+    complex number (real and imag parts).
+
+  orbitname=<type>
+    Sets the orbit type for Julias.
+
+  3dmode=<monocular|left|right|red-blue>
+    Sets the 3D mode used with Julibrot.
+
+  julibrot3d=<nn[/nn[/nn[/nn[/nn[/nn]]]]]>
+    Sets Julibrot 3D parameters zdots, origin, depth, height, width,
+    and distance.
+
+  julibroteyes=<nn>
+    Distance between the virtual eyes for Julibrot.
+
+  julibrotfromto=<julibrotfromto=nn/nn[/nn/nn]>
+    "From-to" parameters used for Julibrot.
+
+  corners=<xmin/xmax/ymin/ymax[/x3rd/y3rd]>
+    Begin with these coordinates. (Eg.: corners=-0.739/-0.736/0.288/0.291)
+
+  viewwindows=<xx[/xx[/yes|no[/nn[/nn]]]]>
+    Set the reduction factor, final media aspect ratio,
+    crop starting coordinates (y/n), explicit x size,
+    and explicit y size
+
+  center-mag=[Xctr/Yctr/Mag]
+    This is an alternative way to enter corners as a center point and a
+    magnification that is popular with some fractal programs and publications.
+
+  invert=<nn/nn/nn>
+    Turns on inversion - turns images 'inside out'
+
+  biomorph=<nnn>
+    Biomorph coloring.
+
+  bailout=<nnnn>
+    Use this as the iteration bailout value instead of the default.
+    (4.0 for most fractal types)
+
+  symmetry=<xxxx>
+    Force symmetry to None, Xaxis, Yaxis, XYaxis, Origin, or Pi symmetry.
+
+  periodicity=<no|show|nnn>
+    Controls periodicity checking. 'no' turns checking off; entering a
+    number nnn controls the tightness of checking (default 1, higher is
+    more stringent). 'show' or a neg value colors 'caught' points white.
+
+  logmap=<yes|old|nn>
+    Yes maps logarithm of iteration to color. Old uses pre vsn 14 logic.
+    >1 compresses, <-1 for quadratic.
+
+  rseed=<nnnnn>
+    Random number seed, for reproducable plasma clouds.
+
+  orbitdelay=<nn>
+    Slows up the display of orbits (by nn/10000 sec).
+
+  showdot=<nn>
+    Colors the current dot being calculated color nn.
+
+  decomp=<nn>
+    'Decomposition' toggle, value 2 to 256.
+
+  distest=<nnn/nnn>
+    Distance estimator method.
+
+  formulafile=<filename>
+    File for type=formula.
+
+  formulaname=<name>
+    Specifies the formula name for type=formula fractals.
+
+  lfile=<filename>
+    File for type=lsystem.
+
+  lname=<name>
+    Lsystem name for 'type=lsystem' fractals.
+
+  ifsfile=<filename>
+    File for type=ifs.
+
+  ifs=<name>
+    IFS name for 'type=ifs' fractals.
+
+  stereo=<nnn>
+    Sets Stereo (R/B 3D) option:  0 = none, 1 = alternate,
+    2 = superimpose, 3 = photo.
+
+  rotation=<nn[/nn[/nn]]>
+    Rotation about x, y, and z axes.
+
+  perspective=<nn>
+    Perspective viewer distance (100 is at the edge).
+
+  xyshift=<nn/nn>
+    Shift image in x & y directions (alters viewpoint).
+
+  interocular=<nnn>
+    Sets 3D Interocular distance default value.
+
+  converge=<nnn>
+    Sets 3D Convergence default value.
+
+  crop=<nnn/nnn/nnn/nnn>
+    Sets 3D red-left, red-right, blue-left, and blue-right cropping values.
+
+  bright=<nnn/nnn>
+    Sets 3D red and blue brightness values.
+
+  xyadjust=<nnn/nnn>
+    Sets 3D X and Y adjustment values.
+
+  3d=<yes|overlay>
+    Resets 3D to defaults, starts 3D mode. If overlay specified,
+    does not clear existing graphics screen.
+
+  sphere=<yes>
+    Turns on 3D sphere mode.
+
+  scalexyz=<nn/nn/nn>
+    3d x, y, and z scale factors.
+
+  roughness=<nn>
+    Same as z scale factor.
+
+  waterline=<nn>
+    Colors this number and below will be 'inside' color.
+
+  filltype=<nn>
+    3D filltype.
+
+  lightsource=<nn/nn/nn>
+    The coordinates of the light source vector.
+
+  smoothing=<nn>
+    Smooths rough images in light source mode.
+
+  latitude=<nn/nn>
+    Latitude minimum and maximum.
+
+  longitude=<nn/nn>
+    Longitude minumim and maximum.
+
+  radius=<nn>
+    Radius scale factor.
+
+  transparent=<mm/nn>
+    Sets colors 'mm' to 'nn as transparent.
+
+  preview=<yes>
+    Turns on 3D 'preview' mode.
+
+  showbox=<yes>
+    Turns on 3D 'showbox' mode.
+
+  coarse=<nnn>
+    Sets preview 'coarseness' value.
+
+  randomize=<nnn>
+    Smoothes 3d color transitions between elevations.
+
+  ambient=<nnn>
+    Sets depth of shadows and contrast when using light source fill types.
+
+  haze=<nnn>
+    Sets haze for distant objects if fullcolor=1.
+
+  fullcolor=<yes>
+    Allows creation of full color .tga image with light source fill types.
+
+  lightname=<filename>
+    Targa FullColor output file name.
+
+  ray=nnn
+    Selects raytrace output file format.
+
+  brief=yes
+    Selects brief or verbose file for DKB output.
+
+
+Creating Multi-image GIF files:
+
+  To create a multiple-image GIF file from images created with xmfract,
+  the input images must all have the same width and height. Select the
+  images to be merged, then save or rename the selected gif files in
+  this format: "frmig_xy.gif" where x is the horizontal offset (from 0)
+  in the resulting mig and y is the vertical offset (from 0) in the
+  resulting mig... for example, if you have nine gif files to stitch
+  together and you want them to be in a 3-gif by 3-gif mig, then the
+  names will be:
+
+  frmig_00.gif will become the upper left image
+  frmig_10.gif will become the upper middle image
+  frmig_20.gif will become the upper right image
+
+  frmig_01.gif will become the middle left image
+  frmig_11.gif will become the middle middle image
+  frmig_21.gif will become the middle right image
+
+  frmig_02.gif will become the lower left image
+  frmig_12.gif will become the lower middle image
+  frmig_22.gif will become the lower right image
+
+  Because the command-line parameters are processed by xmfract before
+  the initialization file or environment variables, the mig maker
+  will not understand "fractdir" if it is set in the initialization
+  file or the environment. To overcome this limitation, supply the
+  "fractdir=" command-line argument in addition to the "makemig="
+  argument on the command line when creating a multi-image GIF from
+  files that reside in <fractdir>. If the files that are to be
+  stitched together reside in the current directory (from where you
+  invoke xmfract) then this additional argument is not necessary.
+
+  In the above example, the command-line argument would be:
+    xmfract fractdir=/my/images makemig=3/3
+
+  The output multiple-image GIF file will be named "fractmig.gif"
+

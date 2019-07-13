@@ -1,0 +1,83 @@
+=================================
+BOB6.PAR
+Released Jan 1993
+Parameter file for FRACTINT 17.1
+=================================
+Fractal_Sconce     { ; Wish I had a pair of these for the walls
+                     ; BG Dodson 71636,1075
+  reset type=fn+fn function=exp/sqr
+  corners=23.194412/-12.369583/-24.772671/22.629086/-12.369583/22.629086
+  params=1/0/1 maxiter=32000 inside=bof61 potential=255/200/32000
+  invert=8.32491/0/0
+  colors=000zg3<44>v31v21u00<4>t00t00t00s00s00s00<34>g00g00f00e00<5>d00c00c00b\
+  00b00<82>644644544444<57>yyyzzzzzzzzzzzzzzz
+  }
+
+Fractal_Angel???   { ; Most bizzare.
+                     ; BG Dodson 71636,1075
+  reset type=barnsleyj3 corners=-31.99/31.989999/-23.992556/23.992536
+  params=0.1/0.36 maxiter=32000 inside=bof61 potential=255/200/32000
+  invert=7.99752/0/0
+  colors=000zg3<44>v31v21u00<4>t00t00t00s00s00s00<34>g00g00f00e00<5>d00c00c00b\
+  00b00<82>644644544444<57>yyyzzzzzzzzzzzzzzz
+  }
+
+alien3             { ; Derivitive of BOB5.PAR parameter
+                     ; BG Dodson 1992 71636,1075
+  reset type=spider passes=b
+  corners=-0.417505/-0.012823/0.270806/-0.268767/-0.012823/-0.268767
+  maxiter=1000 fillcolor=200 inside=bof60 outside=mult invert=0.229998/0/0
+  decomp=64 periodicity=4
+  colors=000KK0<6>000<15>00r<15>000<15>r00<15>000<15>0pp<12>0BB077044000222<14\
+  >hhh<15>000<27>007017037<13>4S4<13>2A2292171151131000<15>rAr<15>000<15>hh0<7\
+  >NN0
+  }
+
+snebula_update     { ; changed colors from BOB5.PAR
+                     ; BG Dodson 1992 71636,1075
+  reset type=sierpinski
+  corners=0.518342/0.052506/1.688624/-0.53146/1.149868/0.56591
+  maxiter=1000 outside=summ potential=254/255/1
+  invert=0.145939/0.624509/0.731115 finattract=y periodicity=0
+  colors=000UUU<25>sssttttss<35>wK4xJ2xI2<16>v31v21u00<11>r00r00r00q00q00q00<2\
+  7>g00g00f00e00<5>d00c00c00b00b00<82>644644544444<22>oooSSSTTT
+  }
+
+SierpinskiSurprise { ; Another in the LOooooooooong line of fine Fractals
+                     ; BG Dodson 1993 71636,1075
+  reset type=sierpinski
+  corners=0.499249/0.119857/1.416449/-0.391661/1.013585/0.502073
+  maxiter=1000 outside=summ potential=254/2000/16
+  invert=0.145939/0.624509/0.731115 finattract=y periodicity=0
+  colors=000151131000<15>rAr<15>000<15>hh0<14>330000003<14>00r<15>000<15>r00<1\
+  5>000<15>0pp<14>044000222<14>hhh<14>333000000<26>007017037<13>4S4<15>171
+  }
+
+food_chain         { ; Jonah's View?
+                     ; BG Dodson 1993 71636,1075
+  reset type=barnsleyj2 corners=-31.99/20.4736/-20.174345/19.173355
+  params=0.6/1.1 maxiter=20 bailout=22 inside=bof60 outside=summ
+  invert=0.5/0.0533337/0
+  colors=000hh0<14>330000003<14>00r<15>000<15>r00<15>000<15>0pp<14>044000222<1\
+  4>hhh<14>333000000<26>007017037<13>4S4<13>2A2292171151131000<15>rAr<15>000<1\
+  4>ee0
+  }
+
+Brot_Embryo        { ; Here's a Mandelbrot you won't see every day...
+                     ; BG Dodson 1993 71636,1075
+  reset type=mandel corners=-7.782984/-4.960223/-0.605886/1.511185
+  params=4 float=y maxiter=32000 inside=bof60 outside=real
+  potential=255/257/10 invert=6.55795/-5.7582/0.563057
+  colors=000151131000<15>rAr<15>000<15>hh0<15>000<15>00r<15>000<15>r00<15>000<\
+  15>0pp<12>0BB077044000222<14>hhh<15>000<27>007017037<13>4S4<15>171
+  }
+
+altar_of_sacrifice { ; Now to procure a Fractal Virgin...
+                     ; BG Dodson NOV 1992 71636,1075
+  reset type=marksmandelpwr function=sin
+  corners=-7.21633/28.676431/23.927999/-23.927979/28.676431/-23.927979
+  maxiter=1000 outside=summ potential=254/255/1 finattract=y
+  colors=000<2>000100100200200<44>M10M10M20M20N20<87>hZ0h_0h_1h`2<71>zzz000<32\
+  >zzz800900
+  }
+

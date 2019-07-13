@@ -1,0 +1,26 @@
+
+lambda
+
+    Classic Lambda fractal. 'Julia' variant of Mandellambda.
+
+      z(0) = pixel
+      z(n+1) = lambda*z(n)*(1 - z(n)).
+
+    Two parameters: real and imaginary parts of lambda.
+
+
+This type calculates the Julia set of the formula lambda*Z*(1-Z). That is,
+the value Z[0] is initialized with the value corresponding to each pixel
+position, and the formula iterated. The pixel is colored according to the
+iteration when the sum of the squares of the real and imaginary parts
+exceeds 4.
+
+Two parameters, the real and imaginary parts of lambda, are required. Try
+0 and 1 to see the classical fractal "dragon". Then try 0.2 and 1 for a
+lot more detail to zoom in on.
+
+It turns out that all quadratic Julia-type sets can be calculated using
+just the formula z^2+c (the "classic" Julia"), so that this type is
+redundant, but we include it for reason of it's prominence in the history
+of fractals.
+

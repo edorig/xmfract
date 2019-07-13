@@ -1,0 +1,54 @@
+
+Parameter Save/Restore Commands
+
+Parameter files can be used to save/restore all options and settings
+required to recreate particular images. The parameters required to
+describe an image require very little disk space, especially compared with
+saving the image itself.
+
+<@>
+
+The <@> command loads a set of parameters describing an image.
+
+When you hit <@>, xmfract displays the names of the entries in the
+currently selected parameter file. The default parameter file,
+fractint.par, is included with the xmfract release and contains
+parameters for some sample images.
+
+<B>
+
+The <B> command saves the parameters required to describe the currently
+displayed image, which can subsequently be used with the <@> command to
+recreate it.
+
+After you press <B>, xmfract prompts for:
+
+  Parameter file:  The name of the file to store the parameters in.
+
+  Name:  The name you want to assign to the entry, to be displayed when
+  the <@> command is used.
+
+  Comments: Comments to store in the file with the entry.
+
+  Record colors?:  Whether color information should be included in the
+  entry. Usually the default value displayed by xmfract is what you want.
+
+  Allowed values are:
+
+  "no" - Don't record colors. This is the default if the image is using
+     your video adapter's default colors.
+
+  "@mapfilename" - When these parameters are used, load colors from the
+     named color map file. This is the default if you are currently using
+     colors from a color map file.
+
+  "yes" - Record the colors in detail. This is the default when you've
+     changed the display colors by using the palette editor or by color
+     cycling. The only reason that this isn't what xmfract always does
+     for the <B> command is that color information can be bulky - up to
+     nearly 1K of disk space. That may not
+     sound like much, but can add up when you consider the thousands of
+     wonderful images you may find you just *have* to record...
+     Smooth-shaded ranges of colors are compressed, so if that's used a
+     lot in an image the color information won't be as bulky.
+

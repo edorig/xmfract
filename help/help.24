@@ -1,0 +1,419 @@
+
+Extended Options Screen
+
+
+Finite attractors:
+
+Many of Xmfract's fractals involve the iteration of functions of complex
+numbers until some "bailout" value is exceeded, then coloring the
+associated pixel according to the number of iterations performed. This
+process identifies which values tend to infinity when iterated, and gives
+us a rough measure of how "quickly" they get there.
+
+In dynamical terms, we say that "Infinity is an Attractor", as many
+initial values get "attracted" to it when iterated. The set of all points
+that are attracted to infinity is termed The Basin of Attraction of
+Infinity. The coloring algorithm used divides this Basin of Attraction
+into many distinct sets, each a single band of one color, representing all
+the points that are "attracted" to Infinity at the same "rate". These
+sets (bands of color) are termed "Level Sets" - all points in such a set
+are at the same "Level" away from the attractor, in terms of numbers of
+iterations required to exceed the bailout value.
+
+Thus, xmfract produces colored images of the Level Sets of the Basin of
+Attraction of Infinity, for all fractals that iterate functions of Complex
+numbers, at least. Now we have a sound mathematical definition of what
+xmfract's "bailout" processing generates, and we have formally introduced
+the terms Attractor, Basin of Attraction, and Level Set, so you should
+have little trouble following the rest of this section!
+
+For certain Julia-type fractals, xmfract can also display the Level Sets
+of Basins of Attraction of Finite Attractors. This capability is a by-
+product of the implementation of the MAGNETic fractal types, which always
+have at least one Finite Attractor.
+
+This option can be invoked by setting the "Look for finite attractor"
+option on the <y> options screen, or by giving the "finattract=yes"
+command-line option.
+
+Most Julia-types that have a "lake" (normally colored blue by default)
+have a Finite Attractor within this lake, and the lake turns out to be,
+quite appropriately, the Basin of Attraction of this Attractor.
+
+The "finattract=yes" option (command-line or <y> options screen)
+instructs xmfract to seek out and identify a possible Finite Attractor
+and, if found, to display the Level Sets of its Basin of Attraction, in
+addition to those of the Basin of Attraction of Infinity. In many cases
+this results in a "lake" with colored "waves" in it;  in other cases there
+may be little change in the lake's appearance.
+
+For a quick demonstration, select a fractal type of LAMBDA, with a
+parameter of 0.5 + 0.5i. You will obtain an image with a large blue lake.
+Now set "Look for finite attractor" to 1 with the "Y" menu.
+The image will be re-drawn
+with a much more colorful lake. A Finite Attractor lives in the center of
+one of the resulting "ripple" patterns in the lake - turn the <o>rbits
+display on to see where it is - the orbits of all initial points that are
+in the lake converge there.
+
+Xmfract tests for the presence of a Finite Attractor by iterating a
+Critical Value of the fractal's function. If the iteration doesn't bail
+out before exceeding twice the iteration limit, it is almost certain that
+we have a Finite Attractor - we assume that we have.
+
+Next we define a small circle around it and, after each iteration, as well
+as testing for the usual bailout value being exceeded, we test to see if
+we've hit the circle. If so, we bail out and color our pixels according to
+the number of iterations performed. Result - a nicely colored-in lake
+that displays the Level Sets of the Basin of Attraction of the Finite
+Attractor. Sometimes !
+
+First exception: This does not work for the lakes of Mandel-types. Every
+point in a Mandel-type is, in effect, a single point plucked from one of
+its related Julia-types. A Mandel-type's lake has an infinite number of
+points, and thus an infinite number of related Julia-type sets, and
+consequently an infinite number of finite attractors too. It *MAY* be
+possible to color in such a lake, by determining the attractor for EVERY
+pixel, but this would probably treble (at least) the number of iterations
+needed to draw the image. Due to this overhead, Finite Attractor logic
+has not been implemented for Mandel-types.
+
+Secondly, certain Julia-types with lakes may not respond to this
+treatment, depending on the parameter value used. E.g., the Lambda Set
+for 0.5 + 0.5i responds well; the Lambda Set for 0.0 + 1.0i does not - its
+lake stays blue. Attractors that consist of single points, or a cycle of
+a finite number of points are ok. Others are not. If you're into fractal
+technospeke, the implemented approach fails if the Julia-type is a
+Parabolic case, or has Siegel Disks, or has Herman Rings.
+
+However, all the difficult cases have one thing in common - they all have
+a parameter value that falls exactly on the edge of the related Mandel-
+type's lake. You can avoid them by intelligent use of the Mandel-Julia
+Space-Bar toggle:  Pick a view of the related Mandel-type where the center
+of the screen is inside the lake, but not too close to its edge, then use
+the space-bar toggle. You should obtain a usable Julia-type with a lake,
+if you follow this guideline.
+
+Thirdly, the initial implementation only works for Julia-types that use
+the "Standard" fractal engine in xmfract. Fractals with their own
+special algorithms are not affected by Finite Attractor logic, as yet.
+
+Finally, the finite attractor code will not work if it fails to detect
+a finite attractor. If the number of iterations is set too low, the finite
+attractor may be missed.
+
+Despite these restrictions, the Finite Attractor logic can produce
+interesting results. Just bear in mind that it is principally a bonus
+off-shoot from the development of the MAGNETic fractal types, and is not
+specifically tuned for optimal performance for other Julia types.
+
+(Thanks to Kevin Allen for the above).
+
+There is a second type of finite attractor coloring, which is selected
+by setting "Look for Finite Attractor" to a negative value. This colors
+points by the phase of the convergence to the finite attractor,
+instead of by the speed of convergence.
+
+For example, consider the Julia set for -0.1 + 0.7i, which is the three-lobed
+"rabbit" set. The Finite Attractor is an orbit of length three; call these
+values a, b, and c. Then, the Julia set iteration can converge to one of
+three sequences: a,b,c,a,b,c,..., or b,c,a,b,c,..., or c,a,b,c,a,b,...
+The Finite Attractor phase option colors the interior of the Julia set with
+three colors, depending on which of the three sequences the orbit converges
+to. Internally, the code determines one point of the orbit, say "a", and
+the length of the orbit cycle, say 3. It then iterates until the sequence
+converges to a, and then uses the iteration number modulo 3 to determine the
+color.
+
+Continuous Potential:
+
+Note: This option can only be used with 256 color modes.
+
+Xmfract's images are usually calculated by the "level set" method,
+producing bands of color corresponding to regions where the calculation
+gives the same value. When "3D" transformed most images other than plasma
+clouds are like terraced landscapes: most of the surface is either
+horizontal or vertical.
+
+To get the best results with the "illuminated" 3D fill options 5 and 6,
+there is an alternative approach that yields continuous changes in colors.
+
+Continuous potential is approximated by calculating
+
+     potential =  log(modulus)/2^iterations
+
+where "modulus" is the orbit value (magnitude of the complex number) when
+the modulus bailout was exceeded, at the "iterations" iteration.
+Clear as mud, right?
+
+Fortunately, you don't have to understand all the details. However, there
+ARE a few points to understand. First, xmfract's criterion for halting a
+fractal calculation, the "modulus bailout value", is generally set to 4.
+Continuous potential is inaccurate at such a low value.
+
+The parameters for continuous potential are:
+    potential=maxcolor[/slope[/modulus[/16bit]]]
+
+These parameters are present on the <y> options screen.
+
+"Maxcolor" is the color corresponding to zero potential, which plots as
+the TOP of the mountain. Generally this should be set to one less than the
+number of colors, i.e. usually 255.
+
+"Slope" affects how rapidly the colors change -- the slope of the
+"mountains" created in 3D. If this is too low, the palette will not cover
+all the potential values and large areas will be black. If it is too high,
+the range of colors in the picture will be much less than those available.
+There is no easy way to predict in advance what this value should be.
+
+"Modulus" is the bailout value used to determine when an orbit has
+"escaped". Larger values give more accurate and smoother potential. A
+value of 500 gives excellent results.
+
+"16bit":  If you transform a continuous potential image to 3D, the
+illumination modes 5 and 6 will work fine, but the colors will look a bit
+granular. This is because even with 256 colors, the continuous potential
+is being truncated to integers. The "16bit" option can be used to add an
+extra 8 bits of goodness to each stored pixel, for a much smoother result
+when transforming to 3D.
+
+Xmfract's visible behavior is unchanged when 16bit is enabled, except
+that solid guessing and boundary tracing are not used. But when you save
+an image generated with 16bit continuous potential:
+ o The saved file is a fair bit larger.
+ o Xmfract names the file with a .POT extension instead of .GIF, if you
+   didn't specify an extension in "savename".
+ o The image can be used as input to a subsequent <3> command to get the
+   promised smoother effect.
+ o If you happen to view the saved image with a GIF viewer other than
+   xmfract, you'll find that it is twice as wide as it is supposed to
+   be. (Guess where the extra goodness was stored!) Though these files
+   are structurally legal GIF files the double-width business made us
+   think they should perhaps not be called GIF - hence the .POT filename
+   extension.
+
+A 16bit (.POT) file can be converted to an ordinary 8 bit GIF by
+<r>estoring it, changing "16bit" to "no" on the <y> options screen, and
+<s>aving.
+
+The following commands can be used to recreate the image that Mark
+Peterson first prototyped for us, and named "MtMand":
+
+    type=mandel
+    corners=-0.19920/-0.11/1.0/1.06707
+    inside=255
+    maxiter=255
+    potential=255/2000/1000/16bit
+    passes=1
+    float=yes
+
+Note that prior to version 15.0, Fractint:
+
+ o Produced "16 bit TGA potfiles" This format is no longer generated, but
+   you can still (for a release or two) use <r> and <3> with those files.
+
+ o Assumed "inside=maxit" for continuous potential. It now uses the
+   current "inside=" value - to recreate prior results you must be
+   explicit about this parameter.
+
+Distance Estimator Method:
+
+This is Phil Wilson's implementation of an alternate method for the M and
+J sets, based on work by mathematician John Milnor and described in "The
+Science of Fractal Images", p. 198. While it can take full advantage of
+your color palette, one of the best uses is in preparing monochrome images
+for a printer. Using the 1600x1200x2 disk-video mode and an HP LaserJet,
+we have produced pictures of quality equivalent to the black and white
+illustrations of the M-set in "The Beauty of Fractals."
+
+The distance estimator method widens very thin "strands" which are part of
+the "inside" of the set. Instead of hiding invisibly between pixels,
+these strands are made one pixel wide.
+
+Though this option is available with any escape time fractal type, the
+formula used is specific to the mandel and julia types - for most other
+types it doesn't do a great job.
+
+To turn on the distance estimator method with any escape time  fractal
+type, set the "Distance Estimator" value on the <y> options screen (or use
+the "distest=" command line parameter).
+
+Setting the distance estimator option to a negative value -nnn enables
+edge-tracing mode. The edge of the set is display as color number nnn.
+This option works best when the "inside" and "outside" color values are
+also set to some other value(s).
+
+In a 2 color (monochrome) mode, setting to any positive value results in
+the inside of the set being expanded to include edge points, and the
+outside points being displayed in the other color.
+
+In color modes, setting to value 1 causes the edge points to be displayed
+using the inside color and the outside points to be displayed in their
+usual colors. Setting to a value greater than one causes the outside
+points to be displayed as contours, colored according to their distance
+from the inside of the set. Use a higher value for narrower color bands,
+a lower value for wider ones. 1000 is a good value to start with.
+
+The second distance estimator parameter ("width factor") sets the distance
+from the inside of the set which is to be considered as part of the
+inside. This value is expressed as a percentage of a pixel width, the
+default is 71.
+
+You should use 1 or 2 pass mode with the distance estimator method, to
+avoid missing some of the thin strands made visible by it. For the
+highest quality, "maxiter" should also be set to a high value, say 1000 or
+so. You'll probably also want "inside" set to zero, to get a black
+interior.
+
+Unfortunately, images using the distance estimator method can take many
+hours to calculate even on a fast machine, especially if a high "maxiter"
+value is used. One way of dealing with this is to leave it turned off
+while you find and frame an image. Then hit <b> to save the current image
+information in a parameter file. Use an editor to change the parameter
+file entry, adding "distest=1", "maxiter=1000", and "inside=0". Run
+the parameter file entry with the <@> command when you won't be needing
+your machine for a while (over the weekend?)
+
+Inversion:
+
+Many years ago there was a brief craze for "anamorphic art": images
+painted and viewed with the use of a cylindrical mirror, so that  they
+looked weirdly distorted on the canvas but correct in the distorted
+reflection. (This byway of art history may be a useful defense when your
+friends and family give you odd looks for staring at fractal images color-
+cycling on a CRT.)
+
+The Inversion option performs a related transformation on most of the
+fractal types. You define the center point and radius of a circle
+xmfract maps each point inside the circle to a corresponding point
+outside, and vice-versa. This is known to mathematicians as inverting (or
+if you want to get precise, "everting") the plane, and is something they
+can contemplate without getting a headache. John Milnor (also mentioned
+in connection with the {Distance Estimator Method}), made his name in the
+1950s with a method for everting a seven-dimensional sphere, so we have a
+lot of catching up to do.
+
+For example, if a point inside the circle is 1/3 of the way from the
+center to the radius, it is mapped to a point along the same radial line,
+but at a distance of (3 * radius) from the origin. An outside point at 4
+times the radius is mapped inside at 1/4 the radius.
+
+The inversion parameters on the <y> options screen allow entry of the
+radius and center coordinates of the inversion circle. A default choice of
+-1 sets the radius at 1/6 the smaller dimension of the image currently on
+the screen. The default values for Xcenter and Ycenter use the
+coordinates currently mapped to the center of the screen.
+
+Try this one out with a Newton plot, so its radial "spokes" will give you
+something to hang on to. Plot a Newton-method image, then set the
+inversion radius to 1, with default center coordinates. The center
+"explodes" to the periphery.
+
+Inverting through a circle not centered on the origin produces bizarre
+effects that we're not even going to try to describe. Aren't computers
+wonderful?
+
+Color-cycling mode is entered with the 'c', '+', or '-' keys.
+
+Color cycling applies to the color numbers selected by the "cyclerange="
+command line parameter (also changeable via the <y> options screen and via
+the palette editor). By default, color numbers 2 to 255 inclusive are
+cycled. The '2' excludes the "lake" from color cycling. Set the value to
+'0' or '1' for images where you wish to cycle the lake as well.
+
+The cursor up/down arrow keys will increase or decrease the cycle speed.
+
+Periodicity Logic - controlled by the periodicity checking paramter:
+The "Mandelbrot Lake" in the center of the M-set images is the traditional
+bane of plotting programs. It sucks up the most computer time because it
+always reaches the iteration limit -- and yet the most interesting areas
+are invariably right at the edge the lake.
+
+Thanks to Mark Peterson for pointing out (well, he more like beat us over
+the head until we paid attention) that the iteration values in the middle
+of Mandelbrot Lake tend to decay to periodic loops (i.e., Z(n+m) == Z(n),
+a fact that is pointed out on pages 58-61 of "The Beauty of Fractals"). An
+intelligent program (like the one he wrote) would check for this
+periodicity once in a while, recognize that iterations caught in a loop
+are going to max out, and bail out early.
+
+For speed purposes, the current version of the program turns this checking
+algorithm on only if the last pixel generated was in the lake.  (The
+checking itself takes a small amount of time, and the pixels on the very
+edge of the lake tend to decay to periodic loops very slowly, so this
+compromise turned out to be the fastest generic answer).
+
+Try a full M-set plot with a 1000-iteration maximum with any other
+program, and then try it on this one for a pretty dramatic proof of the
+value of periodicity checking.
+
+You can get a visual display of the periodicity effects if you press
+<O>rbits while plotting. This toggles display of the intermediate
+iterations during the generation process.  It also gives you an idea of
+how much work your poor little computer is going through for you! If you
+use this toggle, it's best to disable solid-guessing first using 1- or
+2-pass mode because in its second pass, solid-guessing bypasses many of
+the pixel calculations precisely where the orbits are most interesting.
+
+Periodicity:
+Controls periodicity checking; "No" turns it off, "Show" lets you see
+which pixels were painted as "inside" due to being caught by periodicity.
+Specifying a number causes a more conservative periodicity test (each
+increase of 1 divides test tolerance by 2). Entering a negative number
+lets you turn on "show" with that number. Type lambdafn function=exp needs
+periodicity turned off to be accurate -- there may be other cases.
+
+The "Mandelbrot Lake" in the center of the M-set images is the traditional
+bane of plotting programs. It sucks up the most computer time because it
+always reaches the iteration limit -- and yet the most interesting areas
+are invariably right at the edge the lake.
+
+Thanks to Mark Peterson for pointing out (well, he more like beat us over
+the head until we paid attention) that the iteration values in the middle
+of Mandelbrot Lake tend to decay to periodic loops (i.e., Z(n+m) == Z(n),
+a fact that is pointed out on pages 58-61 of "The Beauty of Fractals"). An
+intelligent program (like the one he wrote) would check for this
+periodicity once in a while, recognize that iterations caught in a loop
+are going to max out, and bail out early.
+
+For speed purposes, the current version of the program turns this checking
+algorithm on only if the last pixel generated was in the lake.  (The
+checking itself takes a small amount of time, and the pixels on the very
+edge of the lake tend to decay to periodic loops very slowly, so this
+compromise turned out to be the fastest generic answer).
+
+Try a full M-set plot with a 1000-iteration maximum with any other
+program, and then try it on this one for a pretty dramatic proof of the
+value of periodicity checking.
+
+You can get a visual display of the periodicity effects if you press
+<O>rbits while plotting. This toggles display of the intermediate
+iterations during the generation process.  It also gives you an idea of
+how much work your poor little PC is going through for you!  If you use
+this toggle, it's best to disable solid-guessing first using <1> or <2>
+because in its second pass, solid-guessing bypasses many of the pixel
+calculations precisely where the orbits are most interesting.
+
+
+Symmetry
+
+If your "corners" choice is symmetrical, xmfract exploits the symmetry
+for faster display. Normally this is set by your selection of fractal
+type, and is included here because it makes debugging a new type easier,
+and for experimentation.
+
+
+Rseed
+
+The random number seed used for each plasma image is displayed
+on the <tab> information screen, and can be entered here to recreate
+a particular image.
+
+
+Showdot
+
+This colors the pixel currently being worked on using the specified color
+value (useful for those lloooonngg images being calculated using solid
+guessing - "where is it now?").
+
+

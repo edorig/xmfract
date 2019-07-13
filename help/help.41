@@ -1,0 +1,26 @@
+
+circle
+
+    Circle pattern by John Connett
+
+      x + iy = pixel
+      z = a*(x^2 + y^2)
+      c = integer part of z
+
+      color = c modulo(number of colors)
+
+
+This fractal type is from A. K. Dewdney's "Computer Recreations" column
+in "Scientific American". It is attributed to John Connett of the
+University of Minnesota.
+
+(Don't tell anyone, but this fractal type is not really a fractal!)
+
+Fascinating Moire patterns can be formed by calculating x^2 + y^2 for
+each pixel in a piece of the complex plane. After multiplication by a
+magnification factor (the parameter), the number is truncated to an integer
+and mapped to a color via color = value modulo (number of colors). That is,
+the integer is divided by the number of colors, and the remainder is the
+color index value used. The resulting image is not a fractal because all
+detail is lost after zooming in too far.
+

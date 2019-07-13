@@ -1,0 +1,175 @@
+
+#include "xmfract.h"
+#include "fractype.h"
+#include "macros.h"
+#include "helpdefs.h"
+#include "mpmath.h"
+#include "globals.h"
+#include "prototyp.h"
+
+#ifndef NO_IDENT
+#ident "$Id: resize_window.c,v 1.400 1995/06/20 15:39:23 darryl Exp $"
+#endif
+
+/*ARGSUSED*/
+void resize_window(
+Widget w,
+XtPointer client_data,
+XtPointer call_data)
+{
+  int junki;
+  unsigned int junkui;
+  Window junkw;
+  unsigned int width, height;
+  char msg[128];
+
+  if (resize_mode == 1) /* don't clear window */
+    return;
+
+  XGetGeometry(display, XtWindow(canvas),
+    &junkw,
+    &junki, &junki,
+    &width, &height,
+    &junkui, &junkui);
+
+  if(oldx != width || oldy != height)
+    {
+    sxdots = width;
+    sydots = height;
+    videotable[0].xdots = sxdots;
+    videotable[0].ydots = sydots;
+    xdots = sxdots;
+    ydots = sydots;
+    dx_size = xdots - 1;
+    dy_size = ydots - 1;
+    oldx = sxdots;
+    oldy = sydots;
+    winwidth = sxdots;
+    winheight = sydots;
+    screenaspect = sydots/(float)sxdots;
+    finalaspectratio = screenaspect;
+    viewwin_opts.dflt.finalaspectratio = screenaspect;
+    if (pixbuf != NULL)
+      XtFree((char *) pixbuf);
+
+    pixbuf = (unsigned char *) XtMalloc(winwidth *sizeof(unsigned char));
+
+    if (image != NULL)
+      {
+      XtFree((char *) image->data);
+      XFree((void *) image);
+      }
+
+    /* The following call to XCreateImage fails, so let's try to imitate 
+      http://pficheux.free.fr/articles/lmf/xlib-images/ : This is better but we don't see any nice fractal */ 
+    image = XCreateImage(display,
+      visual,
+      XDefaultDepth(display, screen_number),
+			 ZPixmap, 0, NULL, sxdots, sydots, 8*sizeof(unsigned int), 0);
+
+    if (image == NULL)
+      {
+      sprintf((char *) &msg, "%s", "XCreateImage failed.");
+      fatal(main_window, (char *) &msg);
+      exit(-1);
+      }
+
+    image->data = XtMalloc(image->bytes_per_line * image->height);
+
+    if (image->data==NULL)
+      {
+      sprintf((char *) &msg,"Malloc failed: (Ximage data: size:%d\n",
+        image->bytes_per_line * image->height);
+      fatal(main_window, (char *) &msg);
+      exit(-1);
+      }
+
+    if(resized_by_user == 0)
+      {
+      clear_window();
+      calc_status = IMG_PRMS_CHGD;
+      update_draw_menu(NEW_IMAGE);
+      toggle_zoom_grab(ZOOM_OFF);
+      }
+    else
+      resized_by_user -= 1;
+    }
+  return;
+}
+
+/*******************************************************************
+ * MODIFICATION HISTORY
+ *
+ * $Log: resize_window.c,v $
+ * Revision 1.400  1995/06/20  15:39:23  darryl
+ * Revision sync - release 1.4
+ *
+ * Revision 1.9  1995/06/13  17:51:35  darryl
+ * Add window resize mode function.
+ *
+ * Revision 1.8  1995/05/08  19:44:43  darryl
+ * Fix bugs reported in beta test.
+ *
+ * Revision 1.7  1995/04/30  11:41:08  darryl
+ * Revise zoom authorization handling, color editor enhancements.
+ *
+ * Revision 1.6  1995/04/26  20:31:53  darryl
+ * Fix bugs reported in beta testing:
+ *   -- solid-guessing would occasionally leave portions
+ *      of the image in coarse pixels.
+ *   -- Re-align more void pointers before type-casting.
+ *   -- Change zoombox color on loading a map or gif file.
+ *   -- Add panned images to restore history.
+ *
+ * Revision 1.5  1995/04/18  15:59:59  darryl
+ * Fix problems and incorporate enhancements from beta test.
+ *  -- not able to zoom after loading a saved image.
+ *  -- string parsing would fail because the tags were incorrect.
+ *  -- CLK_TCK is determined from sysconf() if it is available.
+ *  -- Julia sets were not calculated correctly after image save.
+ *  -- some void pointers were not cast before promotion.
+ *  -- Info About Image display says it was working on pass 2 of 1.
+ *  -- an incomplete image could not be saved.
+ *  -- a saved image was not drawn if the refresh rate was < 100.
+ *  -- added Refresh Rate menu item and command line support.
+ *  -- added Parameter Forwarding menu item and command line support.
+ *  -- added fallback resources.
+ *  -- enhanced parameter handling.
+ *  -- implemented the Fractint zoombox 'panning' capability.
+ *  -- enhanced the LogMap and LogTable handling.
+ *  -- various typograhic error fixes.
+ *
+ * Revision 1.4  1995/03/20  04:01:03  darryl
+ * Revision sync. Change all BulletinBoard dialogs to Forms.
+ * Delete all specific widget positioning and sizing resources.
+ * Change popup menus to option menus. Add Undo command to
+ * the color editor. Change usepixtab to 1 if privatecolor.
+ *
+ * Revision 1.1.1.1  1995/03/11  03:20:27  tom
+ * change dxsize to dx_size and dysize to dy_size
+ *
+ * Revision 1.1  1995/03/03  22:56:36  darryl
+ * Linux and HPUX enhancements, bug fixes. New basic options
+ * dialog, 'Flip' submenu created differently. EditRes protocol
+ * event handlers conditionally included. xmconfig.h generalized.
+ *
+ * Revision 0.300  1994/12/16  18:58:09  darryl
+ * Revision sync - beta3 version.
+ *
+ * Revision 0.200  1994/12/02  02:54:24  darryl
+ * Revision sync - beta2 version.
+ *
+ * Revision 0.102  1994/11/30  00:58:52  darryl
+ * Remove magic numbers from calc_status, use values
+ * defined in the main header file.
+ *
+ * Revision 0.101  1994/11/29  07:30:29  darryl
+ * Make the 'Create Image' button label dynamic. Depending on
+ * the value of calc_status, it reads 'Create Image' or
+ * 'Continue calculation'. The accelerator remains the same.
+ *
+ * Revision 0.100  1994/11/18  05:31:10  darryl
+ * Initial beta version.
+ *
+ * END MODIFICATION HISTORY
+ *******************************************************************/

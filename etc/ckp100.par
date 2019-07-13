@@ -1,0 +1,280 @@
+;; ckp100.par (images 76 through 100), 19 december 1992
+;;
+;; Here are my current contributions to PARs for Tomorrow (V18.0)...
+;; Any duplications are entirely
+;; unintentional...  With any luck, a few of these will find
+;; their way into the postcard/poster world before spring of
+;; '93...  Comments pro and con will be sent to their appropriate
+;; locations...
+
+;; Time listed on the first line reflects creation on a 486-50
+;; running 1024x768x256 colors...   ALL of these images look best
+;; when created with a 256-color or better video and 1024x768 or
+;; better resolution...  I have no idea how they will look at
+;; lower resolutions or lower color densities...  Happy viewing!
+
+;; caren park
+;; park computer services
+;; 23808 southeast 24th street
+;; issaquah, washington  98027
+
+;; PS:  Please do not use these images commercially without
+;; dropping me a quick message requesting inclusion in your
+;; fine product BEFORE you go to market...
+
+WhereRainbowsGo    { ; 00:23:32.04
+                     ; 12 dec 92 .. caren park
+  reset type=barnsleym1 corners=-0.0128608/0.0128709/-1.0010344/-0.981742
+  maxiter=499 fillcolor=0 inside=zmag outside=imag logmap=yes
+  colors=000QHN<4>_VZ`Y`b`cdcf<4>nru<15>OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZ\
+  T`WSYUR<6>AAK<3>ALQAOSARUBUWBXY<6>DqlDtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<8>\
+  SDF<3>N3JL0KL1KM2KN3KO4J<12>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C413000<\
+  15>svcsvcsvcsvc<13>UMHSJFQIJ<5>EAb<6>7Nu5Px5Nu<5>A5cB5`<2>E7UG8SH9QJANKBL000\
+  OEK
+  }
+
+DarkCandle         { ; 00:53:52.59
+                     ; 12 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=leemandel3
+  corners=0.39220136/0.39832741/0.0064839/-0.006443/0.39832741/-0.006443
+  params=0.4/0.3/0.2/0.1 maxiter=125 inside=zmag outside=summ
+  colors=IHHnn0<5>zz0<30>220000000<29>000000222<29>zzz<22>IHH
+  }
+
+RoyalDoorknob      { ; 00:06:00.96
+                     ; 12 dec 92 .. caren park
+  reset type=marksmandelpwr function=cosxx
+  corners=-0.979128/0.400872/0.92/-0.92/0.400872/-0.92 float=y
+  maxiter=32767 bailout=16 inside=-100 outside=real decomp=256
+  colors=000_O3<19>s`DtaDtaDtaD<2>taDubEtaE<26>UK0UFFUFFVFFVFFXGGXGHYGHZFF_HI<\
+  21>pORqPSrPSrPSqPSpPS<15>dJKcJKbJKaJK`JK<7>VFGUFFSDKPAP<28>o_qp`ro_q<15>PAP<\
+  4>ePX<9>AKU<30>geeiffiff<13>og`ph_ogY<11>ZP7XO5WM3UK0UK0VL0<3>ZN2
+  }
+
+Untitled.003       { ; 00:03:07.07
+                     ; 14 dec 92 .. caren park
+  reset type=marksmandelpwr function=cosxx passes=t
+  corners=-0.354987/0.197747/0.381087/-0.399073/0.197747/-0.399073 float=y
+  maxiter=32767 bailout=16 fillcolor=256 inside=-100 outside=real
+  logmap=yes decomp=18 finattract=y
+  colors=CnjDqlDtn<7>7Ta<6>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN3KO4J<12>zz0<7\
+  >``9YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<4>jiWhfUfdTebS<4>\
+  YRKWPJUMHSJF<6>EAb<6>7Nu5Px5Nu<5>A5cB5`<3>G8SH9QIAQ<4>SKP<3>_VZ`Y`b`cdcf<4>n\
+  ru<15>OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARUBUWBXY<\
+  4>Ckh cyclerange=0/255
+  }
+
+PlasmaLines        { ; 00:03:22.29
+                     ; 14 dec 92 .. caren park
+  reset type=lyapunov passes=t corners=3.48878/3.66078/2.962553/3.091553
+  params=-26629/0.5/0.2 float=y maxiter=3 inside=maxiter logmap=14
+  biomorph=256 periodicity=-1
+  colors=00000D<33>01L01M01M02M02M02N<87>0Zh0_h1_h2`h<71>zzz000<50>00D
+  }
+
+;; The following two PARs are identical, except for the color
+;; map change...  Are there any other PARs hiding in this equation?
+
+Reflections        { ; 00:03:23.61
+                     ; 14 dec 92 .. caren park
+  reset type=lyapunov passes=t corners=3.112604/3.356604/3.612216/3.795216
+  params=-26629/0.5/0.2 float=y maxiter=3 inside=maxiter logmap=14
+  biomorph=256 periodicity=-1
+  colors=000H3JG2JF0K<12>I0NI0NI0NI0OI0OI0P<37>R0ZS0_S0_T0`T0`<2>T0bT0bU1bU2c<\
+  62>zzzzzzzzy<60>zz1zz0zy0yx0<32>`SA_RBZQBYPCXOC<15>L8GL7HK6HJ5II4I
+  }
+
+SunriseAtBlackHole { ; 00:03:23.61
+                     ; 14 dec 92 .. caren park
+  reset type=lyapunov passes=t corners=3.112604/3.356604/3.612216/3.795216
+  params=-26629/0.5/0.2 float=y maxiter=3 inside=maxiter logmap=14
+  biomorph=256 periodicity=-1 colors=000<189>z00z00z11z22<61>zzz
+  }
+
+StellarJellyfish   { ; 00:03:22.06
+                     ; 14 dec 92 .. caren park
+  reset type=lyapunov passes=t corners=2.761529/3.105529/3.694012/3.952012
+  params=-26629/0.5/0.2 float=y maxiter=3 inside=maxiter logmap=14
+  biomorph=256 periodicity=-1
+  colors=000H3JG2JF0K<12>I0NI0NI0NI0OI0OI0P<37>R0ZS0_S0_T0`T0`<2>T0bT0bU1bU2c<\
+  62>zzzzzzzzy<60>zz1zz0zy0yx0<32>`SA_RBZQBYPCXOC<15>L8GL7HK6HJ5II4I
+  }
+
+BirdAndWaves       { ; 00:01:03.22
+                     ; 14 dec 92 .. caren park
+  reset type=magnet2m passes=t
+  corners=-1.325065/-0.821314/-0.247782/-0.3197466/-1.109172/-0.5356402
+  params=0.8/1 float=y maxiter=500 inside=-100 outside=real logmap=yes
+  decomp=32 periodicity=-1
+  colors=7Nu5Px<5>98fA5cB5`<3>G8SH9QIAQ<4>SKP<3>_VZ`Y`b`cdcf<4>nru<15>OI5<6>eY\
+  Jg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARUBUWBXY<6>DqlDtnCql<5>\
+  8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN3KO4J<12>zz0<7>``9YYAXVB<6>\
+  KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<4>jiWhfUfdTebS<4>YRKWPJUMHSJF<\
+  6>EAb<5>8Lr cyclerange=0/255
+  }
+
+FreeSprites        { ; 00:03:22.06
+                     ; 14 dec 92 .. caren park
+  reset type=lyapunov passes=t corners=2.761529/3.105529/3.694012/3.952012
+  params=104443/0.5/0.2 float=y maxiter=3 inside=maxiter logmap=14
+  biomorph=256 periodicity=-1
+  colors=000H3JG2JF0K<12>I0NI0NI0NI0OI0OI0P<37>R0ZS0_S0_T0`T0`<2>T0bT0bU1bU2c<\
+  62>zzzzzzzzy<60>zz1zz0zy0yx0<32>`SA_RBZQBYPCXOC<15>L8GL7HK6HJ5II4I
+  }
+
+DancingRopes       { ; 00:03:23.22
+                     ; 14 dec 92 .. caren park
+  reset type=lyapunov passes=t corners=3.405859/3.649859/3.138943/3.321943
+  params=104443/0.5/0.2 float=y maxiter=3 inside=maxiter logmap=14
+  biomorph=256 periodicity=-1
+  colors=000H3JG2JF0K<12>I0NI0NI0NI0OI0OI0P<37>R0ZS0_S0_T0`T0`<2>T0bT0bU1bU2c<\
+  62>zzzzzzzzy<60>zz1zz0zy0yx0<32>`SA_RBZQBYPCXOC<15>L8GL7HK6HJ5II4I
+  }
+
+JellyfishAndSquid  { ; 00:03:23.57
+                     ; 14 dec 92 .. caren park
+  reset type=lyapunov passes=t corners=3.442196/3.758196/2.613247/2.850247
+  params=104443/0.5/0.2 float=y maxiter=3 inside=maxiter logmap=14
+  biomorph=256 periodicity=-1
+  colors=000H3JG2JF0K<12>I0NI0NI0NI0OI0OI0P<37>R0ZS0_S0_T0`T0`<2>T0bT0bU1bU2c<\
+  62>zzzzzzzzy<60>zz1zz0zy0yx0<32>`SA_RBZQBYPCXOC<15>L8GL7HK6HJ5II4I
+  }
+
+WillowBranches     { ; 00:14:06.40
+                     ; 15 dec 92 .. caren park
+  reset type=marksmandelpwr function=cosxx passes=t
+  corners=-0.2773675/-0.2284616/-0.317307/-0.3863355/-0.2284616/-0.3863355
+  float=y maxiter=32767 bailout=16 fillcolor=256 inside=-100 outside=real
+  logmap=yes decomp=18 finattract=y
+  colors=zzzjj6<2>``9YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<4>\
+  jiWhfUfdTebS<4>YRKWPJUMHSJF<6>EAb<6>7Nu5Px5Nu<5>A5cB5`<3>G8SH9QIAQ<4>SKP<3>_\
+  VZ`Y`b`cdcf<4>nru<15>OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>A\
+  LQAOSARUBUWBXY<6>DqlDtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2\
+  KN3KO4J<12>zz0ww1tt2ppz cyclerange=0/255
+  }
+
+Fly,_BeFree        { ; 00:03:22.02
+                     ; 15 dec 92 .. caren park
+  reset type=lyapunov passes=t corners=2.852031/3.072191/3.774089/3.939209
+  params=104443/0.5/0.2 float=y maxiter=3 inside=maxiter logmap=14
+  biomorph=256 periodicity=-1
+  colors=000H3JG2JF0K<12>I0NI0NI0NI0OI0OI0P<37>R0ZS0_S0_T0`T0`<2>T0bT0bU1bU2c<\
+  62>zzzzzzzzy<60>zz1zz0zy0yx0<32>`SA_RBZQBYPCXOC<15>L8GL7HK6HJ5II4I
+  }
+
+CoolSpiderMom      { ; 00:19:21.29
+                     ; 16 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=halleysin
+  function=sin passes=t corners=-1.224916/-0.933204/-0.867346/-0.648562
+  params=1/-0.2/0.56/0.23 float=y maxiter=25 inside=maxiter
+  colors=000UXg<3>IN`FKZAEO57C000<6>zkk<7>z00G00
+  }
+
+EccentricOrbits    { ; 00:59:11.15
+                     ; 16 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=newtonsinexp
+  passes=2
+  corners=-1.70594992536/-1.70594613854/-0.00000142006/0.00000142006
+  params=2/-1/1 float=y maxiter=500 inside=zmag invert=255/0/0
+  finattract=y periodicity=-1
+  colors=00000i<43>002000000000<29>00k00m01m<29>0ky0mz1mz<30>zzz<46>2zz0zz0yz<\
+  45>02z00z00y<14>00j
+  }
+
+ElectricAnemone    { ; 00:01:46.99
+                     ; 16 dec 92 .. caren park
+  reset type=mandel
+  corners=-1.25972346/-1.25969488/0.355779774/0.355801204
+  colors=000000GA4<12>2v10z00w0<14>000<15>00z<14>000<16>z0X<15>000<15>p0w<15>0\
+  00<15>zzz<5>bbb
+  }
+
+GreenThorns        { ; 00:04:14.37
+                     ; 16 dec 92 .. caren park
+  reset type=mandel
+  corners=-0.55426198/-0.54426199/-0.65677249/-0.64927495
+  params=0.526316/0.526316 maxiter=500 bailout=4
+  colors=000v00x00z00<46>200000010<30>0z0<30>020000000<14>000110330<29>zz0<30>\
+  220000000<29>000100300<26>t00
+  }
+
+LipEars            { ; 09:01:32.20
+                     ; 16 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=newtonsinexp
+  passes=2
+  corners=-1.705947551808/-1.705947089816/-0.000000173247/0.000000173247
+  params=2/2/1 float=y maxiter=500 inside=zmag invert=255/0/0 finattract=y
+  periodicity=-1
+  colors=hU8iV8<4>cR5bQ5aP4`P4_O3ZN3<4>UK0UFFUFFVFFVFFXGGXGHYGHZFF_HI<21>pORqP\
+  SrPSrPSqPSpPS<10>hLNgLMfKMfKMfKMfKM<63>WGS<2>ePX<9>AKU<19>WYaXZaYZaZ_a__b<7>\
+  geeiffiff<13>og`ph_ogY<11>ZP7XO5WM3UK0UK0VL0<24>s`DtaDtaDtaD<2>taDubEtaE<9>j\
+  W9
+  }
+
+TurtleFission      { ; 01:47:51.60
+                     ; 16 dec 92 .. caren park
+  reset type=lambdafn function=cos
+  corners=0.1419412786/0.1420255155/0.1249887263/0.1249283516/0.1420005838/0.1\
+  249096527 params=4.72675/0.00145555 float=y maxiter=400 bailout=2500
+  inside=maxiter invert=0.5/0.2/0.5
+  colors=000X0a<9>000<15>zzz<15>000L00<13>z00<2>p00l00h00d00a00<9>000<15>zX0<1\
+  5>000<15>ut0<15>000GA4<12>2v10z00w0<14>000<15>00z<14>000<16>z0X<15>000<15>p0\
+  w<4>_0d
+  }
+
+LightGreenMoth     { ; 01:01:47.03
+                     ; 19 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=newtonsinexp
+  function=sin passes=2
+  corners=-1.79873151/-1.79748293/-0.000468219/0.000468219 params=0.2
+  float=y maxiter=500 inside=zmag invert=255/0/0 finattract=y
+  periodicity=-1
+  colors=0008z0<4>2z00z00y0<59>020000000000<29>0k00m01m0<29>ky0mz0mz1<30>zzz<4\
+  6>zz2zz0yz0<39>Az0
+  }
+
+FractalZygote      { ; 00:14:27.87
+                     ; 19 dec 92 .. caren park
+  reset type=lambdafn function=cos
+  corners=-0.480852/0.207148/-0.633489/-0.117489
+  params=4.72675000000005/0.00145555000003039 float=y maxiter=900
+  inside=maxiter invert=0.5/0.2/0.5
+  colors=000U0Y<8>000<15>zzz<15>000L00<13>z00<2>p00l00h00d00a00<9>000<15>zX0<1\
+  5>000<15>ut0<15>000GA4<12>2v10z00w0<14>000<15>00z<14>000<16>z0X<15>000<15>p0\
+  w<5>X0a
+  }
+
+FusionTornado      { ; 17:52:08.62
+                     ; 19 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=newtonsinexp
+  passes=2
+  corners=-1.705947555905/-1.70594727178/0.000000189417/-0.000000189417/-1.705\
+  94727178/-0.000000189417 params=2/2/1 float=y maxiter=500 inside=zmag
+  invert=255/0/0 finattract=y periodicity=-1
+  colors=WPJa`W<7>OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOS\
+  ARUBUWBXY<6>DqlDtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN3KO\
+  4J<12>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<4>jiWh\
+  fUfdTebS<3>ZUMYRKUMHSJF<6>EAb<6>7Nu5Px5Nu<5>A5cB5`<3>G8SH9QIAQ<4>SKP<3>_VZ`Y\
+  `b`cdcf<4>nru<6>bbZ
+  }
+
+GroundZero         { ; 17:55:18.07
+                     ; 19 dec 92 .. caren park
+  reset type=formula formulafile=fractint.frm formulaname=newtonsinexp
+  passes=2
+  corners=-1.705947396246/-1.70594727428/0.000000081311/-0.000000081311/-1.705\
+  94727428/-0.000000081311 params=2/2/1 float=y maxiter=500 inside=zmag
+  invert=255/0/0 finattract=y periodicity=-1
+  colors=000<86>01K01L01L02L02L02M<87>0Zg0_g1_g2`g<71>zzy
+  }
+
+DancingShrimp      { ; 02:35:27.85
+                     ; 19 dec 92 .. caren park
+  reset type=lambdafn function=cos
+  corners=-0.84720688/-0.84368688/-0.74565069/-0.74301069
+  params=4.72675000000005/0.00145555000003039 float=y maxiter=900
+  inside=maxiter invert=0.5/0.2/0.5
+  colors=000F00<9>200000010<30>0z0<30>020000000<14>000110330<29>zz0<30>2200000\
+  00<29>000100300<29>z00<35>G00
+  }
+

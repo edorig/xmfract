@@ -1,0 +1,123 @@
+NYUF001            { ; LeeMandel2 formula, continuous potential
+  reset type=formula formulafile=fractint.frm formulaname=LeeMandel2
+  corners=-0.0233229/0.0233249/0.2569835/0.291958 inside=0
+  potential=255/500/500
+  colors=000DP_Uoq<20>A4XVqq<18>nwjoIRFns0kuUqq<22>ieiUqo<19>HjCTqq<17>4riUqq<\
+  20>9ggUqq<14>SxqRyqTpq<6>LgmUqp<11>Pm`XfjPlZ<4>MjSy3J<5>YEB<15>eOFeOFdOF<11>\
+  ZMAl`AzoAIjb<10>sOD<22>1ZC<3>9SS
+  }
+
+NYUF002            { ; LeeMandel3 forumula, cont. pot. "Tonsils"
+  reset type=formula formulafile=fractint.frm formulaname=leemandel3
+  corners=1.66875/-1.668761/-2.225006/2.225/-1.668761/2.225 inside=0
+  potential=255/500/500 colors=000zk0<253>000
+  }
+
+NYUF003            { ; Wallpaper? LeeMandel2 cont. pot.
+  reset type=formula formulafile=fractint.frm formulaname=LeeMandel2
+  corners=-0.125705/0.125705/0.243304/0.431857 inside=0
+  potential=255/500/500
+  colors=000DP_Uoq<20>A4XVqq<18>nwjoIRFns0kuUqq<22>ieiUqo<19>HjCTqq<17>4riUqq<\
+  20>9ggUqq<14>SxqRyqTpq<6>LgmUqp<11>Pm`XfjPlZ<4>MjSy3J<5>YEB<15>eOFeOFdOF<11>\
+  ZMAl`AzoAIjb<10>sOD<22>1ZC<3>9SS
+  }
+
+NYUF004            { ; Just, very delicate and beautiful. Richard1 formula
+  reset type=formula formulafile=fractint.frm formulaname=Richard1
+  corners=1.0942183/1.0642116/-0.0205947/0.0193983/1.0642116/0.0193983
+  inside=0 potential=255/600/500
+  colors=000S9jLSd<147>hwXixWiwW<30>Z7wY5xY5x<69>T9j
+  }
+
+NYUF005            { ; Many, many little spots on LeeMandel2 formula
+  reset type=formula formulafile=fractint.frm formulaname=LeeMandel2
+  corners=-0.347427/0.377283/-0.27178/0.271767 inside=maxiter
+  potential=255/1000/256
+  colors=000F0K<59>T0bU0cU0cV1cV2d<60>zzzzzzzzy<60>zz1zz0zy0yx0<58>G2JF0KF0KF0\
+  KF0K
+  }
+
+NYUF006            { ; Continuous Potential Manowar Julia
+  reset type=manowarj
+  corners=-1.270395/0.882065/1.434976/-1.434976/0.882065/-1.434976
+  params=-0.6781311045/7.18250000003584e-006 maxiter=256 inside=0
+  potential=255/1500/500
+  colors=000c5m<2>f4oH6zCDc7LH<12>JQjKRmLTm<4>Udr<9>60O<8>IYSKaTKaT<21>bcLbcLb\
+  bM<8>YXU<3>DHb<3>vSj<5>bP9dFLf4X<4>UYpRcuReuShv<34>UelUekTej<19>KfS_99<15>x1\
+  1z00z10<29>zx0zz0zz1<7>103<8>XhD`mFalF<9>rX6<4>Y6h<7>c5l
+  }
+
+NYUF007            { ; Integer math artifact makes many spikes.  No FPU!!
+  reset type=formula formulafile=fractint.frm formulaname=Halley float=no
+  corners=-1.568/1.567994/-1.176/1.176 params=15 maxiter=256 inside=0
+  potential=254/175/500 colors=000Kzw<253>000
+  }
+
+NYUF008            { ; Continuous Potential again.  Hard to describe.  Try it.
+  reset type=barnsleyj1
+  corners=2.023155/-0.005196/-1.352236/1.352223/-0.005196/1.352223
+  params=0.599999905/1.099998949 maxiter=256 inside=0 potential=255/1000/1
+  colors=000zk0<253>000
+  }
+
+NYUF009            { ; Integer math bug makes cont. pot. biomorph
+  reset type=fn(z)+fn(pix) function=sin/sqr float=no
+  corners=12.801548/-3.196652/-10.911614/10.419413/-3.196652/10.419413
+  params=0/0/1 inside=0 potential=255/200/250
+  colors=000gK4fJ3hPCohbrokpkjmghhZelJ3<2>tM4HC2<13>FZSJD2<9>ieGHB4<9>MCeGD8<6\
+  >8XyGC3<11>4V`HB3<14>4HhIC6<7>XKjJE3<10>dt_HF1HJ1HO2HH7<3>GeXGF1<10>3y3OCB<3\
+  >pGpKF8<3>ZZ_HD3<7>ITQIVSGG5IXV<2>Jbc<8>SqFUsCTrD<14>2P`<12>Se4Vg1Ve3<14>_1f\
+  <3>_7b<2>LHIKMMJPOJRRIUTGa_FdaFfcDnjCqlBto<3>DulEvi<6>IxcVnU<3>tUA<12>hL4
+  }
+
+NYUF010            { ; Integer math bug makes cont. pot. biomorph
+  reset type=fn(z)+fn(pix) function=sin/sqr float=no
+  corners=12.786853/8.307345/-10.837941/-4.865248/8.307345/-4.865248
+  params=0/0/1 inside=0 potential=255/200/250
+  colors=000BK9DOG<6>HSOHSPJUS<3>LWWdTmfUp9K7<20>PBSAL8<33>mvkFTH<2>Zvj9K7<33>\
+  LdCAK7<43>twk9K7<29>5g0AK9<2>EHG9K7<20>A37B269K8<29>_Fo9K8<6>DOF
+  }
+
+NYUF011            { ; Integer math bug makes cont. pot. biomorph
+  reset type=fn(z)+fn(pix) function=sin/sqr float=no
+  corners=1.343918/-1.446335/-1.906906/1.813447/-1.446335/1.813447
+  params=0/0/6 maxiter=32000 inside=0 potential=255/200/32000
+  colors=000lJ3<2>tM4HC2<13>FZSJD2<9>ieGHB4<9>MCeGD8<6>8XyGC3<11>4V`HB3<14>4Hh\
+  IC6<7>XKjJE3<10>dt_HF1HJ1HO2HH7<3>GeXGF1<10>3y3OCB<3>pGpKF8<3>ZZ_HD3<7>ITQIV\
+  SGG5IXV<2>Jbc<8>SqFUsCTrD<14>2P`<12>Se4Vg1Ve3<14>_1f<3>_7b<2>LHIKMMJPOJRRIUT\
+  Ga_FdaFfcDnjCqlBto<3>DulEvi<6>IxcVnU<3>tUA<13>gK4fJ3hPCohbrokpkjmghhZe
+  }
+
+NYUF012            { ; Kamtorus variation #1
+  reset type=kamtorus corners=-1.951904/3.011078/-1.415314/2.304947
+  params=2/0.005/10/600 maxiter=32000 inside=0
+  colors=000KlM<5>TgLUfLXeLkcemdgoei<12>rcusbvrbu<36>558346356<51>SyU<3>E25<46\
+  >LTeMUfMUfNUfPUe<27>fQVfQUhQTiQTjPS<3>xJ7<5>rN8qN9nQA<13>`_E__EXaF<12>KkJJkK\
+  GmLFnLEoLDpM<3>ImM
+  }
+
+NYUF013            { ; Kamtorus variation #2
+  reset type=kamtorus corners=-1.103439/2.785873/-1.57457/1.341705
+  params=1.3/0.005/300/500 maxiter=3200 inside=0
+  colors=000dMk<40>zzzzzzzzy<60>zz1zz0zy0yx0<58>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M\
+  <52>T0bU0cU0cV1cV2d<18>dLj
+  }
+
+NYUF014            { ; Kamtorus variation #3
+  reset type=kamtorus corners=-0.282135/0.424515/-0.241226/0.292328
+  params=0.3/0.003/10/1000 maxiter=4 colors=000_Rl<2>`Vl
+  }
+
+NYUF015            { ; Kamtorus variation #4
+  reset type=kamtorus corners=-0.136246/0.13765/-0.101929/0.102722
+  params=1.3/0.0005/1.5/300 bailout=256 inside=0
+  colors=000KDJKCJJAKNIJ<17>FMwsqD<11>`72cKD<3>WOjUPsURs<11>RrnUji<4>gw8csH<14\
+  >BVc9Te9Te<12>CXiHWb<4>scAc_M<13>dMReUM<7>zZ0eWL<7>emDepBcVHa9NcnB<15>58M
+  }
+
+NYUF016            { ; Simple Julia set with bof60 inside and nice colormap
+  reset type=julia corners=-1.496/1.496/-1.122/1.122
+  params=-0.7228412555/0.1252612621 maxiter=8 inside=bof60 outside=0
+  periodicity=0 colors=000IBF<6>MCe
+  }
+

@@ -1,0 +1,20 @@
+
+Help on Help
+
+Many help buttons are available throughout the program.
+When a dialog is displayed, press the Help button for more information.
+
+For a detailed description of a specific fractal formula, select the
+topic "Summary of Fractal Types" from the help index, or highlight a
+fractal type from the fractal type selection dialog, then press the help
+button to get more information about that type.
+
+In general, pressing the "Done" button in a dialog will accept the
+values displayed unless an error is detected. Pressing the "Reset"
+button will reset the values to those that were in effect when the
+dialog was invoked. Pressing the "Default" button will set the values
+to preset default values. Pressing the "Cancel" button will cause the
+dialog to disappear without changing any values. Other specialized
+buttons, menus, and option menus are available in some dialogs. Use the
+on-line help system to guide you through the maze of fractal parameters.
+

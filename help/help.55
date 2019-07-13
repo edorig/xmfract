@@ -1,0 +1,29 @@
+
+henon
+
+    Orbit in two dimensions defined by:
+
+      x(n+1) = 1 + y(n) - a*x(n)*x(n)
+      y(n+1) = b*x(n)
+
+    Two parameters: a and b
+
+
+Michel Henon was an astronomer at Nice observatory in southern France. He
+came to the subject of fractals via investigations of the orbits of
+astronomical objects. The strange attractor most often linked with
+Henon's name comes not from a differential equation, but from the world of
+discrete mathematics - difference equations. The Henon map is an example
+of a very simple dynamic system that exhibits strange behavior. The orbit
+traces out a characteristic banana shape, but on close inspection, the
+shape is made up of thicker and thinner parts. Upon magnification, the
+thicker bands resolve to still other thick and thin components. And so it
+goes forever! The equations that generate this strange pattern perform the
+mathematical equivalent of repeated stretching and folding, over and over
+again.
+
+         xnew =  1 + y - a*x*x\
+         ynew =  b*x\
+
+The default parameters are a=1.4 and b=.3.
+

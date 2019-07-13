@@ -1,0 +1,169 @@
+dnl Process this file with autoconf to produce a configure script.
+dnl $Id: configure.in,v 1.5 1995/04/26 17:46:26 tom Exp $
+dnl
+
+AC_INIT(src/xmfract.c)
+
+dnl use header file
+AC_CONFIG_HEADER(config.h)
+
+dnl Checks for programs.
+AC_PROG_CC
+AC_PROG_INSTALL
+AC_PROG_RANLIB
+AC_PROG_MAKE_SET
+
+dnl X
+dnl AC_PATH_X
+AC_PATH_XTRA
+
+dnl motif
+AC_PATH_MOTIF
+
+dnl checking libs
+
+dnl check if gen lib is needed for motif
+dnl first check if this library is available
+dnl then link without -lgen. if this fails assume we need -lgen
+AC_CACHE_VAL(xmf_cv_lib_gen,
+[AC_CHECK_LIB(gen, regex, xmf_cv_lib_gen=yes,
+  xmf_cv_lib_gen=no)])
+
+if test $xmf_cv_lib_gen = yes; then
+  AC_MSG_CHECKING(if -lgen is needed)
+  ac_save_libs=$LIBS
+  ac_save_cflags=$CFLAGS
+  LIBS="$LIBS $MOTIF_LIBS $X_LIBS -lXt -lX11"
+  CFLAGS="$CFLAGS $X_INCLUDES $MOTIF_INCLUDES"
+  AC_TRY_LINK(
+    [#include <Xm/FileSB.h>],
+    [
+      Arg a[1];
+      int n = 1;
+      Widget m;
+
+      (void) XmCreateFileSelectionDialog (m, "x", a, n);
+    ],
+    xmf_cv_lib_gen=no, xmf_cv_lib_gen=yes)
+  LIBS=$ac_save_libs
+  CFLAGS=$ac_save_cflags
+  AC_MSG_RESULT($xmf_cv_lib_gen)
+  if test $xmf_cv_lib_gen = yes; then
+    MOTIF_POST_LIBS="-lgen"
+  fi
+fi
+
+AC_SUBST(MOTIF_POST_LIBS)
+
+dnl test for m library
+AC_CHECK_LIB(m, main)
+
+dnl test for ieee library
+AC_CHECK_LIB(ieee, main)
+
+dnl where to install the application resource file
+dnl AC_MSG_CHECKING(for application resource path)
+dnl if test ${XAPPLRESDIR+set} = set; then
+dnl  APPL_RES_PATH=$XAPPLRESDIR
+dnl fi
+dnl AC_SUBST(APPL_RES_PATH)
+
+dnl editres
+AC_MSG_CHECKING(for editres)
+AC_ARG_WITH(editres, [  --with-editres	  Use Editres handling],
+with_editres=yes, with_editres=no)
+AC_MSG_RESULT($with_editres)
+if test "$with_editres" = yes; then
+  AC_DEFINE(EDITRES_ENABLE)
+  LIBXMU=-lXmu
+fi
+AC_SUBST(LIBXMU)
+
+dnl linux malloc debug
+AC_MSG_CHECKING(for malloc debug)
+AC_ARG_WITH(malloc-debug, [  --with-malloc-debug  malloc debug for linux],
+with_malloc_debug=yes, with_malloc_debug=no)
+AC_MSG_RESULT($with_malloc_debug)
+if test $with_malloc_debug = yes; then
+  MALLOC_DEBUG_LIBS=-ldbmalloc
+  MALLOC_DEBUG_INC=-I/usr/debug_include
+fi
+AC_SUBST(MALLOC_DEBUG_LIBS)
+AC_SUBST(MALLOC_DEBUG_INC)
+
+dnl Checks for header files.
+AC_HEADER_STDC
+AC_CHECK_HEADERS(string.h sys/time.h unistd.h limits.h float.h sys/resource.h)
+
+dnl Checks for typedefs, structures, and compiler characteristics.
+AC_C_CONST
+AC_C_INLINE
+AC_TYPE_SIZE_T
+AC_HEADER_TIME
+AC_TYPE_SIGNAL
+
+dnl looking for div_t
+AC_MSG_CHECKING(for struct div_t)
+AC_CACHE_VAL(xmf_cv_struct_div_t,
+[AC_EGREP_HEADER(div_t, stdlib.h, xmf_cv_struct_div_t=yes,
+  xmf_cv_struct_div_t=no)])
+AC_MSG_RESULT($xmf_cv_struct_div_t)
+if test "$xmf_cv_struct_div_t" = yes ; then
+  AC_DEFINE(HAVE_DIV_T)
+fi
+
+dnl Checks for library functions.
+AC_FUNC_MEMCMP
+AC_FUNC_VPRINTF
+AC_CHECK_FUNCS(getcwd strcasecmp hypot gettimeofday sysconf)
+
+dnl Check for the number of parameters needed for gettimeofday
+dnl if there is no prototyp definition or no stdc compiler the test
+dnl will always succeed. Assume 2 paras then. It's no problem to
+dnl call the function with two paras if only one is expected.
+dnl The other way around is critical
+if test $ac_cv_func_gettimeofday = yes; then
+AC_MSG_CHECKING(for number of gettimeofday parameters)
+AC_CACHE_VAL(xmf_cv_func_gettimeofday_one_para,
+[AC_TRY_COMPILE(
+[
+#ifdef HAVE_SYS_TIME_H
+#include <sys/time.h>
+#endif
+#ifdef HAVE_UNISTD_H
+#include <unistd.h>
+#endif],
+[#ifdef __STDC__
+  struct timeval tv;
+  struct timezone tz;
+
+  gettimeofday(&tv, &tz);
+#endif
+], xmf_cv_func_gettimeofday_one_para=2,
+   xmf_cv_func_gettimeofday_one_para=1)
+])
+
+AC_MSG_RESULT($xmf_cv_func_gettimeofday_one_para)
+if test "$xmf_cv_func_gettimeofday_one_para" = 1; then
+  AC_DEFINE(GETTIMEOFDAY_HAS_ONE_PARA)
+fi
+fi
+
+dnl if strcasecmp is not available check for stricmp
+dnl replace with own function only if neccessairy
+dnl this also handles strnicmp
+if test "$ac_cv_func_strcasecmp" = no ; then
+  AC_REPLACE_FUNCS(stricmp)
+fi
+
+AC_REPLACE_FUNCS(strcspn strspn strstr strtod strtol)
+
+dnl linux cannot handle empty archives (at least binutils 950113)
+dnl if test "x$LIBOBJS" = x; then
+dnl   XMLIB=
+dnl else
+dnl   XMLIB=../lib/libxmfra.a
+dnl fi
+dnl AC_SUBST(XMLIB)
+
+AC_OUTPUT(Makefile lib/Makefile src/Makefile etc/Makefile help/Makefile)

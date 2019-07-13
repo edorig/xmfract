@@ -1,0 +1,573 @@
+rhs201              { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.16336101/-0.17133218/-0.66172957/-0.6602506/-0.16695213/-0.656968\
+  65 params=0.2/-0.13 maxiter=1000 bailout=200 inside=0 logmap=yes
+  colors=000po3<5>zz0<8>LVY<11>9da8da9b_<23>C8AD79D79<51>jX8jX8iW8<29>KAAKAALB\
+  A<28>cT8dU7dT7<57>K9BGAB<22>om3
+  }
+
+rhs202             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel
+  corners=0.36495906/0.3705588/0.14491612/0.14052552/0.36907339/0.13943154
+  params=-0.13/0.8 maxiter=500 bailout=128 inside=0
+  colors=000ec5<12>zz0<8>LVY<11>9da8da9b_<23>C8AD79D79<51>jX8jX8iW8<29>KAAKAAL\
+  BA<28>cT8dU7dT7<57>K9BGAB<15>da5
+  }
+
+rhs203             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=0.365956843/0.367116988/0.144393265/0.141903639/0.367574036/0.142260\
+  373 params=-0.13/0.8 maxiter=500 bailout=128 inside=0
+  colors=000NCA<6>K9BGAB<29>zz0<8>LVY<11>9da8da9b_<23>C8AD79D79<51>jX8jX8iW8<2\
+  9>KAAKAALBA<28>cT8dU7dT7<49>NCA
+  }
+
+rhs204             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel
+  corners=0.38436896/0.37353981/0.22906184/0.22524023/0.3822999/0.23180413
+  params=-0.13/0.9 maxiter=500 bailout=128 inside=0
+  colors=0009da8da<24>C8AD79D79<51>jX8jX8iW8<29>KAAKAALBA<28>cT8dU7dT7<57>K9BG\
+  AB<29>zz0<8>LVY<10>Aca
+  }
+
+rhs205             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=lambda
+  corners=0.3536842/0.0873952/0.3558072/0.8289457/0.0307212/0.786423
+  params=0.95/0.6 maxiter=500 inside=0 decomp=256
+  colors=00000_<26>00FFF0<61>zz0zz0yy0<61>FF000F<62>00z00z00y<33>00_
+  }
+
+rhs206             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=0.24230462/0.23831135/-0.531814158/-0.532307327/0.24109173/-0.530214\
+  489 params=-0.001/0.2 maxiter=500 bailout=200 inside=0
+  colors=000LFA<26>zz0<8>LVY<11>9da8da9b_<23>C8AD79D79<51>jX8jX8iW8<29>KAAKAAL\
+  BA<28>cT8dU7dT7<57>K9BGABICBJEA
+  }
+
+rhs207             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.88322997/-0.85896617/-0.22353292/-0.22168773/-0.87538183/-0.23400\
+  694 params=-0.13/0.3 maxiter=1000 bailout=128 inside=0
+  colors=000UQ8<20>zz0<8>LVY<11>9da8da9b_<23>C8AD79D79<51>jX8jX8iW8<29>KAAKAAL\
+  BA<28>cT8dU7dT7<57>K9BGAB<7>SO8
+  }
+
+rhs208             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+                     ; slender peninsuls appear to cross over themselves
+  reset type=mandel passes=1
+  corners=-0.113458097/-0.122498572/0.654562473/0.648912489/-0.114005089/0.655\
+  286133 params=-0.13/0.2 maxiter=10000 bailout=128 inside=0
+  colors=000PE9<4>KAAKAALBA<28>cT8dU7dT7<57>K9BGAB<29>zz0<8>LVY<11>9da8da9b_<2\
+  3>C8AD79D79<51>jX8jX8iW8<23>QF9
+  }
+
+rhs209             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.1470928/-0.127097/0.6487092/0.6637158 params=0.37/-1.5
+  maxiter=32000 inside=0
+  colors=000ZN8<40>K9BGAB<29>zz0<7>MUY<12>9da8da9b_<23>C8AD79D79<56>m_8n`7n`7o\
+  `7<21>pd6pd6oc6<48>ZO8
+  }
+
+rhs210             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.22173709/-0.21974045/0.735904932/0.730821073/-0.21859783/0.731677\
+  234 params=0.39/-1.6 maxiter=10000 inside=0
+  colors=000QP5<53>AA0FF0<48>PQ0PQ0OP0<42>FF3YO8<23>m_8n`7n`7o`7<21>pd6pd6oc6<\
+  27>fV7WV7<23>QP5
+  }
+
+rhs211             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel
+  corners=-0.20831555/-0.2096082/0.696026444/0.700205684/-0.21078891/0.6993019\
+  58 params=0.99/-1.09 maxiter=500 inside=0
+  colors=000YM8<37>K9BGAB<29>zz0TOV<19>9da8da9b_<23>C8AD79D79<56>m_8n`7n`7o`7<\
+  21>pd6pd6oc6<51>YN8
+  }
+
+rhs212             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel
+  corners=-0.5019179/-0.520943/-0.4992116/-0.5672707/-0.4761142/-0.5336426
+  params=0.5/-0.1 maxiter=500 inside=0
+  colors=000D``<3>9da8da9b_<23>C8AD79D79<56>m_8n`7n`7o`7<21>pd6pd6oc6<90>K9BGA\
+  B<29>zz0<4>PRW<10>E__
+  }
+
+rhs213             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.12756193/-0.16259551/0.66988027/0.64809841/-0.12972611/0.67273682
+  params=0.99/-0.89 maxiter=500 inside=0
+  colors=000ATS<15>C8AD79D79<56>m_8n`7n`7o`7<21>pd6pd6oc6<90>K9BGAB<29>zz0<4>P\
+  RW<15>9da8da9b_<6>AUT
+  }
+
+rhs214             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.12965399/-0.138561964/0.654742241/0.647402644/-0.129344821/0.6543\
+  2328 params=0.99/-0.89 maxiter=500 inside=0
+  colors=000D``<3>9da8da9b_<23>C8AD79D79<51>jX8jX8iW8<29>KAAKAALBA<28>cT8dU7dT\
+  7<57>K9BGAB<29>zz0<8>LVY<6>E__
+  }
+
+rhs215             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel
+  corners=-0.16167927/-0.15090251/0.6642201/0.6468485/-0.14945519/0.6479187
+  params=0.99/-0.87 maxiter=500 inside=0
+  colors=000F__<5>9da8da9b_<23>C8AD79D79<56>m_8n`7n`7o`7<21>pd6pd6oc6<90>K9BGA\
+  B<29>zz0<4>PRW<8>GZ_
+  }
+
+rhs216             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.74941152/-0.75545329/-0.061286211/-0.055629432/-0.75431067/-0.054\
+  773271 params=0.99/-0.47 maxiter=500 inside=0
+  colors=00000G<19>00k00m01m<29>0ky0mz1mz<30>zzz<46>2zz0zz0yz<45>02z00z00y<59>\
+  002000000000<8>00E
+  }
+
+rhs217             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel
+  corners=-0.727479875/-0.728426158/-0.19106054/-0.1786859/-0.73375839/-0.1826\
+  8132 params=1.99/0.14 maxiter=500 inside=0
+  colors=000ZV7<17>zz0<8>LVY<11>9da8da9b_<23>C8AD79D79<51>jX8jX8iW8<29>KAAKAAL\
+  BA<28>cT8dU7dT7<57>K9BGAB<10>XT7
+  }
+
+rhs218             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel
+  corners=-0.16657412/-0.15676707/0.65849966/0.65429753/-0.16103286/0.65111071
+  params=1.09/-1.11 maxiter=500 inside=0
+  colors=0009da8da<24>C8AD79D79<51>jX8jX8iW8<29>KAAKAALBA<28>cT8dU7dT7<57>K9BG\
+  AB<29>zz0<8>LVY<10>Aca
+  }
+
+rhs219             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.14014077/-0.1469838/0.6525107/0.65441275/-0.14351785/0.65700501
+  params=0.99/-0.89 maxiter=500 inside=0
+  colors=000YN8<38>K9BGAB<29>zz0<4>PRW<15>9da8da9b_<23>C8AD79D79<56>m_8n`7n`7o\
+  `7<21>pd6pd6oc6<50>ZN8
+  }
+
+rhs220             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel
+  corners=-0.47422856/-0.47047293/0.57710153/0.56772399/-0.46837813/0.56929362
+  params=0.69/-0.99 maxiter=500 inside=0
+  colors=000KL0<21>PQ0PQ0OP0<41>GG2FF3HG3<7>cS8<15>m_8n`7n`7o`7<21>pd6pd6oc6<2\
+  6>fV7fV7dV7<2>YV7VU7VU7<73>AA0FF0<25>KL0
+  }
+
+rhs221             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.22100747/-0.21950668/0.74158365/0.74510485/-0.2221728/0.74310714
+  params=0.39/-1.6 maxiter=10000 inside=0
+  colors=000d`Q<42>u8zu8zt9y<52>XXqXXqWWn<14>HUDGUBFTA<35>BH5BH5CI6<61>xl9xl9w\
+  kA<34>aWB
+  }
+
+rhs222             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.219655931/-0.220131755/0.752096772/0.752334952/-0.219941318/0.752\
+  477646 params=0.39/-1.6 maxiter=32000 inside=0
+  colors=000_X7<16>zz0<8>LVY<11>9da8da9b_<23>C8AD79D79<51>jX8jX8iW8<29>KAAKAAL\
+  BA<28>cT8dU7dT7<57>K9BGAB<11>ZV7
+  }
+
+rhs223             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.1159059/-0.0458252/0.6459273/0.6984861 params=0.5/-0.6
+  maxiter=500 inside=0
+  colors=000ss6<3>PRW<15>9da8da9b_<23>C8AD79D79<56>m_8n`7n`7o`7<21>pd6pd6oc6<9\
+  0>K9BGAB<29>zz0
+  }
+
+rhs224             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel
+  corners=-0.748276/-0.8929427/0.308058/0.006516/-0.6556203/0.184503
+  params=0.27/-0.06 maxiter=500 inside=0
+  colors=000vv1xx1zz0<4>PRW<15>9da8da9b_<23>C8AD79D79<56>m_8n`7n`7o`7<21>pd6pd\
+  6oc6<90>K9BGAB<26>ut2
+  }
+
+rhs225             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.72643852/-0.74003625/0.17891574/0.18865466/-0.73599899/0.19167501
+  params=0.27/-0.06 maxiter=500 inside=0
+  colors=0000G0<61>5_F5_F5ZF<59>0F0FA0<62>pV0pV0oV0<57>IC0HC0GB0FA00F00F00F0
+  }
+
+rhs226             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.70936102/-0.6941613/0.26244873/0.28016079/-0.71240515/0.26648599
+  params=0.37/-0.06 maxiter=500 inside=0
+  colors=0000G0<61>5_F5_F5ZF<59>0F0FA0<62>pV0pV0oV0<57>IC0HC0GB0FA00F00F00F0
+  }
+
+rhs227             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.445606/-0.4976403/0.55854291/0.55683398/-0.463514/0.58242369
+  params=0.47/-0.002 maxiter=500 inside=0
+  colors=000MUY<12>9da8da9b_<23>C8AD79D79<56>m_8n`7n`7o`7<21>pd6pd6oc6<90>K9BG\
+  AB<29>zz0<6>SZT
+  }
+
+rhs228             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+                     ; very unusual
+  reset type=mandel corners=-0.1877384/-0.1309121/0.6271165/0.6697581
+  params=0.37/-1.5 maxiter=500 inside=0
+  colors=000MUY<12>9da8da9b_<23>C8AD79D79<56>m_8n`7n`7o`7<21>pd6pd6oc6<90>K9BG\
+  AB<29>zz0<6>SZT
+  }
+
+rhs229             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel
+  corners=-0.21892369/-0.21998835/0.74181378/0.75555438/-0.22589189/0.7511071
+  params=0.39/-1.6 maxiter=500 inside=0
+  colors=000PbN<18>PaRQ`SPZR<10>C7CB5BC4D<10>L2Y<13>Vj3Vm1Uh3<2>TV9SNFSQB<21>C\
+  quBsxDptEmpGjlHgh<48>RPESODSODSOD<33>BHSBHSBHSBHSCHS<41>PQIXVKWUJhUV<4>iNf<6\
+  >PWT<2>PcK<10>PbM
+  }
+
+rhs230             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.218013108/-0.22177124/0.751637161/0.755436778/-0.22119993/0.75586\
+  4859 params=0.39/-1.6 maxiter=1000 inside=0
+  colors=000RGA<17>K9BGAB<29>zz0TOV<19>9da8da9b_<23>C8AD79D79<56>m_8n`7n`7o`7<\
+  21>pd6pd6oc6<71>RG9
+  }
+
+rhs231             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel
+  corners=-0.5134466/-0.4965523/0.5077281/0.5472751/-0.5263366/0.5249436
+  params=0.22/-0.13 maxiter=500 inside=0 decomp=256
+  colors=000`Q7cS8<15>m_8n`7n`7o`7<21>pd6pd6oc6<26>fV7fV7dV7<2>YV7VU7VU7<73>AA\
+  0AA0BB0<3>FF0GG0GG0GG0<40>PQ0PQ0OP0<41>GG2FF3HG3<5>YP6
+  }
+
+rhs232             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel
+  corners=-0.73267144/-0.73091155/-0.15649718/-0.1588586/-0.73091155/-0.158858\
+  6 params=0.99/-0.39 maxiter=500 inside=0
+  colors=000da5<13>zz0<8>LVY<11>9da8da9b_<23>C8AD79D79<51>jX8jX8iW8<29>KAAKAAL\
+  BA<28>cT8dU7dT7<57>K9BGAB<14>b_6
+  }
+
+rhs233             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel
+  corners=-0.62016636/-0.62699634/0.406573832/0.405748785/-0.62223542/0.409316\
+  123 params=0.59/-0.04 maxiter=500 inside=0
+  colors=000gW7<2>fV7fV7dV7<2>YV7VU7VU7<73>AA0AA0BB0<3>FF0GG0GG0GG0<40>PQ0PQ0O\
+  P0<41>GG2FF3HG3<7>cS8<15>m_8n`7n`7o`7<21>pd6pd6oc6<22>gX7
+  }
+
+rhs234             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-1.23351532/-1.23422915/0.088366807/0.088500381/-1.23384827/0.088785\
+  768 params=0.89/-0.29 maxiter=1000 inside=0
+  colors=000WL9<32>K9BGAB<29>zz0<8>LVY<11>9da8da9b_<23>C8AD79D79<51>jX8jX8iW8<\
+  29>KAAKAALBA<28>cT8dU7dT7<23>WL9
+  }
+
+rhs235             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.5509877/-0.5796077/0.47095639/0.47633779/-0.5638776/0.48813379
+  params=0.99/-0.79 maxiter=1000 inside=0
+  colors=000bS8<53>K9BGAB<29>zz0<8>LVY<11>9da8da9b_<23>C8AD79D79<51>jX8jX8iW8<\
+  29>KAAKAALBA<28>cT8dU7dT7<2>cS8
+  }
+
+rhs236             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.60317218/-0.61812943/0.43446559/0.43727082/-0.60990256/0.44345421
+  params=0.99/-0.99 maxiter=1000 inside=0
+  colors=000qs7<6>LVY<11>9da8da9b_<23>C8AD79D79<51>jX8jX8iW8<29>KAAKAALBA<28>c\
+  T8dU7dT7<57>K9BGAB<29>zz0vw3
+  }
+
+rhs237             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel
+  corners=-0.504306138/-0.506147921/-0.524123192/-0.523941517/-0.505043387/-0.\
+  52313292 params=0.49/-0.09 maxiter=500 inside=0
+  colors=000XM9<36>K9BGAB<29>zz0<8>LVY<11>9da8da9b_<23>C8AD79D79<51>jX8jX8iW8<\
+  29>KAAKAALBA<28>cT8dU7dT7<19>YM8
+  }
+
+rhs238             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.50433892/-0.504981399/-0.523994148/-0.523936749/-0.504600525/-0.5\
+  23651361 params=0.49/-0.09 maxiter=500 inside=0
+  colors=000pc6<4>pd6pd6oc6<26>fV7fV7dV7<2>YV7VU7VU7<73>AA0AA0BB0<3>FF0GG0GG0G\
+  G0<40>PQ0PQ0OP0<41>GG2FF3HG3<7>cS8<15>m_8n`7n`7o`7<15>pc6
+  }
+
+rhs239             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.60317218/-0.61812943/0.43446559/0.43727082/-0.60990256/0.44345421
+  params=0.99/-0.99 maxiter=1000 inside=0 decomp=256
+  colors=000FF0<60>zz0zz0yy0<61>FF000F<62>00z00z00y<61>00FFF0
+  }
+
+rhs240             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+                     ; great fractal
+  reset type=mandel
+  corners=-0.144906044/-0.144915879/0.652184069/0.651465416/-0.144573092/0.651\
+  727021 params=0.99/-0.89 maxiter=10000 inside=0
+  colors=000990<26>zz0<30>220000000<29>000000200<2>823FA0<23>aS8aS8`R8<28>FA04\
+  22211000<15>000010030<29>0z0<30>020000000<14>000110330550770
+  }
+
+rhs241             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=0.13772452/0.14023829/0.61077786/0.61268044
+  params=0.202020202/-1.02020202 maxiter=500 inside=0 logmap=yes
+  colors=000MWH<25>7KE7KE8JD9JDPE4AJC<15>PE44hr<38>EUVEUVFUUFUUFUU<41>FnYGoZHn\
+  Y<34>LXJMXJNYJ<34>urDwsCwsC<42>zz7bV7bV7
+  }
+
+rhs242             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.533555/-0.6156764/0.4794849/0.4912108/-0.5687528/0.5264086
+  params=0.2191919191919/-0.191919191919 maxiter=1000 inside=0 logmap=yes
+  colors=000wuB<32>zz7MWH<4>JUGITGITGISG<38>00K4hr<38>EUVEUVFUUFUUFUU<41>FnYGo\
+  ZHnY<34>LXJMXJNYJ<34>urDwsCwsC<10>wtB
+  }
+
+rhs243             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.30541831/-0.28536058/-0.64751542/-0.62196219/-0.31046015/-0.64077\
+  395 params=0.1911919191919/-0.121919191919 maxiter=500 inside=0
+  logmap=yes
+  colors=000PG9<11>OG8OG8PHA<46>nww<13>CL5<44>b``b``aa_<34>HoN<22>oY3<9>lSIkRJ\
+  kRJ<39>bH7aG6bI6<16>xw1zz0zz0zz0
+  }
+
+rhs244             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel
+  corners=-0.78287077/-0.78889376/0.11975724/0.1453312/-0.79761577/0.13845813
+  params=0.2/-0.13 maxiter=500 inside=0 logmap=yes
+  colors=000PG9<11>OG8OG8PHA<46>nww<13>CL5<44>b``b``aa_<34>HoN<22>oY3<9>lSIkRJ\
+  kRJ<39>bH7aG6bI6<16>xw1zz0zz0zz0
+  }
+
+rhs245             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.1480729/-0.14992577/0.65551513/0.66271204/-0.15221101/0.66099972
+  params=0.2/-0.14 maxiter=5000 bailout=200 inside=0 logmap=yes
+  colors=000M6MJ2N<10>dtW<13>8NE<19>8gq<24>LbiLbiM`h<21>c1cc0cb4`<16>Zu3Zx1_lB\
+  ``K`PT<15>Fpg<3>eQ5<19>MfP<23>mPy<8>joGqWU<6>EVm<24>zeV<23>6yX<5>OsD
+  }
+
+rhs246             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+                     ; another very unusual fractal
+  reset type=mandel passes=1
+  corners=-0.13335866/-0.13971782/0.6609903/0.6383246/-0.12474948/0.649526
+  params=0.191919191919/-0.14 maxiter=1000 inside=0 logmap=yes
+  colors=000M6MJ2N<10>dtW<13>8NE<19>8gq<24>LbiLbiM`h<21>c1cc0cb4`<16>Zu3Zx1_lB\
+  ``K`PT<15>Fpg<3>eQ5<19>MfP<23>mPy<8>joGqWU<6>EVm<24>zeV<23>6yX<5>OsD
+  }
+
+rhs247             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+                     ; another very unusual fractal
+  reset type=mandel passes=1
+  corners=-0.12858093/-0.1439473/0.66122633/0.64335728/-0.12551302/0.65715098
+  params=0.2/-0.13 maxiter=1000 inside=0 logmap=yes
+  colors=000M6MJ2N<10>dtW<13>8NE<19>8gq<24>LbiLbiM`h<21>c1cc0cb4`<16>Zu3Zx1_lB\
+  ``K`PT<15>Fpg<3>eQ5<19>MfP<23>mPy<8>joGqWU<6>EVm<24>zeV<23>6yX<5>OsD
+  }
+
+rhs248             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.13981777/-0.14287281/0.65113497/0.65213579/-0.1413874/0.65322977
+  params=0.2/-0.13 maxiter=1000 inside=0 logmap=yes
+  colors=0002F51C4uC5<7>sm8<2>Bc8A`8HbM`ca<2>NYhY_Vh`H<4>TB8<2>eBXVBTKBPAEL<6>\
+  DBniCZ<6>SFOPTNCTDAT8AI8<2>QBQiBn<2>TCSOIGJO8FU8FZ9FcOFhaA`X<2>AEI<4>RFP<2>L\
+  SR<2>JKDpjM<2>RPCeBk<2>OHIVXT<2>MLE<2>NRLAc8AW8BP8AZaDTSGNImm8<2>QQ8<5>Z`Mcg\
+  _homafbWZTPQJ<2>AH8CI8<2>BDVABbBB_<4>HCHpVf<2>RLH<2>AB8<4>AM8<2>Dr8Fh8G_8IR8\
+  <5>LZ8Ab_<7>KFKXu8<6>JNCghEZ_C<2>eB8YB8QB8YB8UB8QB8ME8Aj9A`AAU9EO9KB9<3>zENG\
+  W8IP8AT8AP8BL8<5>BjQAoTBZJBSNALSABTBBMFBFfH_ZIRRIIkHfXIQfD8ZF8RH8<2>PPQaBlSB\
+  TA_nAU`BONfBU`BOVDJPGEAUZEOMTP8PM8MK8AWNFSLHNF_BkVBaRCSNFIbB8YB8TB8OE8A_7<8>\
+  3H5
+  }
+
+rhs249             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=barnsleym2 corners=-0.271995/0.272007/0.75088/1.158889
+  params=1/-0.06 maxiter=500 inside=0 potential=255/1000/1
+  colors=000``0<28>FF000F<62>00z00z00y<61>00FFF0<61>zz0zz0yy0<31>aa0
+  }
+
+rhs250             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=barnsleym3 corners=-2.769855/0.078166/-0.376275/1.759728
+  params=1.707070707/-0.707070707 maxiter=500 inside=0
+  potential=256/1000/0
+  colors=000RPJ<4>0A0AKK<6>mmK<7>AKMFF0<6>zz0<7>FF0F00<6>z0A<7>F00FFF<6>zzz<7>\
+  FFF0FK<6>0Um<7>0FKPF0<6>mK0<7>PF0FKA<5>NSIPUKOTJ<6>FKA00K<4>57j79p78l<6>00K0\
+  D1<6>1aA<7>1F0KF1<6>hZ0<6>OI0KF0F0F<6>Z0U<7>F0FKF0<6>hZ0<7>KF000A<6>00k<7>00\
+  AA00<6>z00<7>A00<6>2r00z00u0<7>0A0<6>eXU`VRWSN
+  }
+
+rhs251             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=barnsleym3
+  corners=-2.5486713/-2.3722356/0.6171491/0.3417459/-2.3974875/0.328523
+  params=1.707070707/-0.707070707 maxiter=500 inside=0
+  potential=256/1000/0
+  colors=000<69>000F00<30>x00z00y00<30>F00<30>x00z00y00<30>F00000<54>000
+  }
+
+rhs252             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=barnsleym1
+  corners=-0.700127/-1.0444182/2.508204/2.069608/-0.6135358/2.392761
+  params=2/-2 maxiter=500 inside=0 potential=255/1000/1
+  colors=999d00<46>z00000<125>zzz500<78>d00
+  }
+
+rhs253             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=barnsleym1
+  corners=-0.7733046/-0.7868496/2.3081926/2.2132648/-0.7326132/2.2539562
+  params=2/-2 maxiter=500 inside=0 potential=255/1000/1
+  colors=0003Q8<30>0F0FA0<62>pV0pV0oV0<57>IC0HC0GB0FA00F0<64>5_F5_F5ZF<27>3Q8
+  }
+
+rhs254             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=barnsleyj1 corners=-2.508017/2.508013/-1.496161/1.49617
+  params=0.0009/0.9 maxiter=500 inside=0 potential=255/1000/1
+  colors=0F01J3<50>5_F5_F5ZF<59>0F0FA0<62>pV0pV0oV0<57>IC0HC0GB0FA00F0<12>1J3
+  }
+
+rhs255             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=lambda corners=-0.695478/1.720518/-0.973658/0.943596
+  params=-0.9191919191/0.7070707070707 maxiter=500 inside=0
+  potential=255/1000/1
+  colors=00000500F<61>00z00z00y<61>00FFF0<61>zz0zz0yy0<61>FF0
+  }
+
+rhs256             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=lambda
+  corners=0.6236444/0.6511601/0.026234/0.150033/0.5907536/0.1102929
+  params=3.85/0.5 maxiter=1000 inside=0 potential=256/1000/0
+  colors=000n00<23>F00000<124>000F00<30>x00z00y00<30>F00<30>x00z00y00<5>p00
+  }
+
+rhs257             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel
+  corners=-0.2487364/-0.2730899/-0.627823/-0.6691056/-0.2319937/-0.6394016
+  params=0.3/1.2 inside=0
+  colors=000MXV<14>XfLkfP<35>ACI9CIADJ<41>RQQRQQSPR<35>kKskKsjLr<12>bTq
+  }
+
+rhs258             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel
+  corners=0.3474183/0.2125917/-0.5487766/-0.5173091/0.283777/-0.4639179
+  params=-0.21546/1.05478 maxiter=500 inside=0 logmap=yes
+  colors=000JCJ<45>GFOGFOHGP<127>yrnyrnxqm<58>94D94DA5E<14>E7J
+  }
+
+rhs259             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel
+  corners=0.45315331/0.31574267/-0.03765249/0.16323334/0.30724919/0.1568597
+  params=-0.9191919191/0.9191919191 maxiter=500 bailout=200 inside=0
+  logmap=yes
+  colors=0007aA5fD3kGemb<6>bnC<6>6CC<5>`KIeLJiQM<4>zkY<7>oSj<5>1Ww6VsAVpaUaFVl\
+  <2>SVbXV__70`JHd0KbGRaUR231EDCQMNczIboNadSxWE<6>cVV3yZ<3>V`XyI6<4>dTTx6H<2>f\
+  PTVYP<6>`VWz1ZmGYKjm<4>ZXZkGB<2>bSSsAm<2>dQ`m0r<5>aR_5KMGH9jY1<2>bVPEzoMohUd\
+  bfkhdedb_`YM8<4>`UTVKE<6>`UVPBV<2>YQXnyF<2>caTSUoVVhYVbJ00<6>ZSTaA`<3>`RXIRf\
+  <6>ZVYQkRtMDjRNAQN<3>WUVzUxmVjPqe<3>ZZYWgq<5>`W_M`QfnBcdMhFYeLXbQXeO1<4>`USF\
+  vb<3>X_YtkN<3>dYVtlE<6>bXV77h<4>TP_XSY_CMbANe8O<6>c1l<6>GK6DM0BS49X7
+  }
+
+rhs260             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel
+  corners=-0.745097/-0.848956/0.377113/0.005876/-0.604282/0.18938
+  params=0.2/-0.14 maxiter=500 bailout=200 inside=0 logmap=yes
+  colors=000X0T<6>F0FKF0<6>hZ0<7>KF000A<6>00k<7>00AA00<6>z00<7>A00<6>2r00z00u0\
+  <7>0A0<6>eXU<7>0A0AKK<6>mmK<7>AKMFF0<6>zz0<7>FF0F00<6>z0A<7>F00FFF<6>zzz<7>F\
+  FF0FK<6>0Um<7>0FKPF0<6>mK0<7>PF0FKA<5>NSIPUKOTJ<6>FKA00K<4>57j79p78l<6>00K0D\
+  1<6>1aA<7>1F0KF1<6>hZ0<6>OI0KF0F0F<6>Z0U
+  }
+
+rhs261             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel
+  corners=-0.13963646/-0.14599562/0.6657985/0.6431327/-0.13102728/0.6543342
+  params=0.2/-0.14 maxiter=500 bailout=200 inside=0 logmap=yes
+  colors=000M6MJ2N<10>dtW<13>8NE<19>8gq<24>LbiLbiM`h<21>c1cc0cb4`<16>Zu3Zx1_lB\
+  ``K`PT<15>Fpg<3>eQ5<19>MfP<23>mPy<8>joGqWU<6>EVm<24>zeV<23>6yX<5>OsD
+  }
+
+rhs262             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+                     ; outstanding
+  reset type=mandel
+  corners=-0.136030555/-0.147038162/0.655588567/0.646579385/-0.135650039/0.655\
+  093431 params=0.2/-0.14 maxiter=10000 bailout=200 inside=0 logmap=yes
+  colors=000eJ7<66>eZ4e_4e_5<16>SRMRQNRQM<63>ea4ea4ea4ea4ea5ea5<13>fdC<3>z`E<2\
+  0>ihOhhOgiPgiQ<9>hkV<4>wqf<5>km_ilYilX<31>ggK
+  }
+
+rhs263             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel
+  corners=-0.1500963/-0.14794356/0.66259849/0.65547758/-0.14588684/0.65699965
+  params=0.2/-0.14 maxiter=1000 bailout=200 inside=0 logmap=yes
+  colors=000M6MJ2N<10>dtW<13>8NE<19>8gq<24>LbiLbiM`h<21>c1cc0cb4`<16>Zu3Zx1_lB\
+  ``K`PT<15>Fpg<3>eQ5<19>MfP<23>mPy<8>joGqWU<6>EVm<24>zeV<23>6yX<5>OsD
+  }
+
+rhs264             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel
+  corners=-0.84478641/-0.84779853/-0.20729089/-0.19555783/-0.851493/-0.1983403\
+  6 params=1.99/0.452165872468 maxiter=1000 bailout=200 inside=0
+  logmap=yes
+  colors=0000Le<27>00z00z00y<17>77k000<37>000LLJ<24>VV0VV0UW0<82>0z00z00y1<53>\
+  0Md
+  }
+
+rhs265             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel
+  corners=-0.845420539/-0.843972325/-0.20388645/-0.20082212/-0.84637183/-0.202\
+  62957 params=1.99/0.452165872468 maxiter=1000 bailout=200 inside=0
+  logmap=yes
+  colors=0000Le<27>00z00z00y<17>77k000<37>000LLJ<24>VV0VV0UW0<82>0z00z00y1<53>\
+  0Md
+  }
+
+rhs266             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.83809626/-0.84316957/-0.199014962/-0.198717594/-0.84004641/-0.196\
+  386933 params=1.056213489/-0.2536487941 maxiter=1000 bailout=200
+  inside=0 logmap=yes
+  colors=000zzn<4>zzxzzzzzz<61>zV1zU0zU0zT0<28>z10z00z00y00<30>c00b11a11`22_22\
+  <23>GEEFFFFFFFFF<29>x11z00z10<29>zx0zz0zz1<23>zzl
+  }
+
+rhs267             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=mandel passes=1
+  corners=-0.840670168/-0.841345906/-0.1992594/-0.199063957/-0.84100312/-0.198\
+  802352 params=1.056213489/-0.2536487941 maxiter=32000 bailout=200
+  inside=0 logmap=yes
+  colors=000v00<10>F00000<2>111F00<13>z00<15>F00<15>z00<15>F00<15>z00<15>F00<1\
+  5>z00<15>F00<15>z00<15>F00<15>z00<15>F00<15>z00<15>F00<15>z00
+  }
+
+rhs268             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=barnsleym1 corners=-1.711999/1.712017/-1.697515/0.870469
+  params=0/0.919191919191 maxiter=500 inside=0 potential=255/1000/1
+  colors=000<112>000F00<30>x00z00y00<30>F00<30>x00z00y00<30>F00000<11>000
+  }
+
+rhs269             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=barnsleym1 corners=2.000012/-2.0/0.507523/-2.492466
+  params=0.0055555/2 maxiter=500 inside=0 potential=255/1000/1
+  colors=0001J3<11>0F0FA0<62>pV0pV0oV0<57>IC0HC0GB0FA00F0<64>5_F5_F5ZF<46>2K4
+  }
+
+rhs270             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=lambda corners=-0.059996/1.060001/-0.419985/0.420004
+  params=3.85/0.5 maxiter=1000 inside=0 potential=256/1000/0
+  colors=0000F0<63>5_F5_F5ZF<59>0F0FA0<62>pV0pV0oV0<57>IC0HC0GB0FA00F0
+  }
+
+rhs271             { ; (c) Dick Sherry Aug 8, 1992 76264,752
+  reset type=lambdafn function=sin
+  corners=-1.553436/1.54718/-1.168732/1.163071 params=0.9/0.707 inside=0
+  potential=256/1000/0
+  colors=000<92>000F00G00I0F<30>u0uw0wv0v<29>H0HF0FG0G<30>w0wU0U<61>000
+  }
+

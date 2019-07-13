@@ -1,0 +1,639 @@
+; noel.par by Noel Giffin, (c)opyright 1994.
+; also see noel.frm
+
+elastic            { ; the 3d look of the mult colouring is interesting.
+                     ; One of my favourite fractals
+  reset type=formula formulafile=noel.frm formulaname=pheonix passes=1
+  corners=-0.35199589/-0.34714278/0.84632515/0.84996499 float=y
+  maxiter=300 inside=0 outside=mult
+  colors=000d04<29>GEIFFJFFJFFJ<7>RCGSBFUBFWAE<18>x15z04z14<29>zx4zz4zz5<27>zz\
+  xzzzzzz<4>zxzzxzzwyzwx<55>zV5zU4zU4zT4<28>z14z04z04y04<27>e04
+  }
+
+escher             { ; par file for escher.gif image posted to net
+                     ; alt.binaries.pictures.fractals newsgroup in Mar/93
+  reset type=formula formulafile=noel.frm formulaname=goat passes=1
+  corners=0.0841866366/0.0840696266/0.4274571428/0.42746333945/0.0841271586/0.\
+  4275142499 float=y maxiter=256 inside=maxiter decomp=256 periodicity=0
+  colors=000JH6`XH<61>0sk0sk1rj<65>nB1oA0oA0oA0<63>W5CW5CW5CW5CV6CV6C<50>KH6
+  }
+
+approach           { ; the approach fractal image posted to net
+                     ; alt.binaries.pictures.fractals newsgroup in Mar/93
+  reset type=formula formulafile=noel.frm formulaname=psycho passes=1
+  corners=0.093473604/0.094352063/0.610181988/0.610840832 float=y
+  maxiter=256 inside=0 decomp=256 periodicity=0
+  colors=CCC4rs<3>1rv<31>ZNd_Nd`Oe<76>xywxywyxv<31>zsizsiyrh<76>_Zf_Zf`_g<23>h\
+  jm
+  }
+
+cascade            {
+  reset type=formula formulafile=noel.frm formulaname=hflip passes=1
+  corners=-0.55738/-0.15738/0.099153/0.399153 float=y maxiter=256 inside=0
+  outside=summ
+  colors=000RMW<10>LPZKPZJOY<34>qiwriwqhv<154>CScCScBTb<25>ESccHR<19>SMW
+  }
+
+spiral             { ; the crazy bivalent spiral from the zzz function
+                     ; The zzz formula is full of strange discontinuities.
+  reset type=formula formulafile=noel.frm formulaname=zzz passes=1
+  corners=3.21967215/3.22338912/5.41982406/5.42261179 float=y outside=imag
+  decomp=256 biomorph=0 periodicity=0
+  colors=000M1a<8>V0_V0_W0_W0_X0_<3>_0`<15>303000000<86>v00w00z99<2>yF9xG9xI9x\
+  J8xL8<5>xU5xW5xX4xY4<12>yt2yv1yx1zz0zz0zy0zx0zx0<15>bq2`p3Yp3<4>Jo7Fn8En9<4>\
+  9nE7nF7nH<11>7rg6sj6sk<12>8rx8ry8px<11>9QjANhALh<7>C5dD2cD2c<8>L1a
+  }
+
+jfan               { ; working with inversions and second order feedback.
+                     ; This doesn't work as well with fractint vers > 17.2
+                     ; The area inside the exponential fans is coloured and
+                     ; it should be black. They have changed their algorithm.
+  reset=1710 type=formula formulafile=noel.frm formulaname=yyy
+  passes=1 corners=-0.70923838/-0.49372114/-0.26021979/-0.098581857
+  float=y maxiter=256 inside=0 decomp=256 periodicity=0
+  colors=0000kk<7>0uu0ww0xx0zz0zz<61>y1zz0zz0zz0y<59>zIKzJKzJJzJJzKK<29>z`\
+  `zaazaayaa<41>211000011<35>0jj
+  }
+
+picasso            { ; a picasso look-alike from the zz2 or scorpion fractal
+                     ; the zz2 is another fractal using inverted variables
+  reset type=formula formulafile=noel.frm formulaname=zz2 passes=1
+  corners=-0.272043/-0.072043/0.977151/1.127151 float=y maxiter=256
+  outside=mult decomp=256 periodicity=0
+  colors=000000<28>00w00z00z<63>y01z00z10z10<6>z50000<35>0xx0zz0zx<23>0z0<14>T\
+  z0Vz0Wz0Xz0<29>zz0000<9>z00<21>zz0000000000zzxzzz
+  }
+
+stretch            { ; a look at the structure of the penta fractal.
+                     ; It is a inductive fractal using complex conjugates
+  reset type=formula formulafile=noel.frm formulaname=penta passes=1
+  corners=-0.0572258/-0.0318642/0.6038269/0.6228481 float=y maxiter=500
+  inside=0 logmap=2 periodicity=0
+  colors=000nDh<13>j6yj6zk7y<30>zYpzYpxXo<37>01F<20>BS8f6E<17>416<35>Qba<15>1M\
+  V<44>yU5<29>oEf
+  }
+
+legend             { ; playing with inversions
+  reset=1800 type=formula formulafile=noel.frm
+  formulaname=tsept passes=t
+  corners=0.731053/0.99661317/-0.099585062/0.099585062
+  params=0.01/0.12 float=y periodicity=0
+  colors=000RP5<2>NM3MM3J9FLL4<16>H7EiA5<10>J7Ehtd<19>I9FKVKIJHc4Q<22>H7Ez\
+  ATy9R<7>M7FLG8<17>H7EKyr<8>HCIM4_<5>H7HkLm<18>J8HI7FFxa<6>HDHU7`<12>H7Fe\
+  TQ<15>I8EeIz<3>PAUL8MH4z<15>H7G64f<18>H7Fxkc<7>LBGvjg<6>gXXYU8<4>SQ5
+  }
+
+dwarf              { ; the dwarf fractal from the ht formula
+                     ; grayscale shading to hilight the detail
+  reset=1800 type=formula formulafile=noel.frm
+  formulaname=ht1 passes=1
+  corners=-0.5799772434/-0.5706972434/-0.00348/0.00348
+  params=0.20000000000000001 float=y maxiter=256 periodicity=0
+  colors=0002KM<2>1HO<3>EIVHIXLI_qco<14>rotspurns<20>D99FBC<40>NoP<2>YkEaj\
+  Bfi7MnO<41>Mi`MhaMh`<15>MKhNIiMPg<12>I6vLEo<27>vBGkEN<17>4r3Eh8<33>3KM
+  }
+
+crown              { ; more detail with the ht fractal
+                     ; set p1 to .15
+                     ; posted to a.b.p.f.
+  reset=1800 type=formula formulafile=noel.frm
+  formulaname=ht1 passes=1
+  corners=-0.81290127/0.37236253/0.47097433/0.88767179/-0.58622108/0.16873\
+  408 float=y maxiter=256 periodicity=0
+  colors=000Jfb<5>LdhGcq<7>OeePecOie<31>Q9IwHPfCLQ8I055<25>X2eY2fa0m<14>N7\
+  OB0M<10>mNNvQJ<37>VPbVPbWQa<42>hqQhrQguS<23>hRCoP3<2>VQUDRl<4>OQb<13>eeh\
+  EjR<10>Ifa
+  }
+
+crownx             { ; full figure fractal for the ht formula
+                     ; set p1 to .15
+  reset=1800 type=formula formulafile=noel.frm
+  formulaname=ht1 passes=t corners=-1.424/1.424/-1.068/1.068
+  params=0.14999999999999999 float=y maxiter=256 periodicity=0
+  colors=000dLH<9>b52<7>38C<20>VHqWHrXJp<16>eeXefWhhT<6>yvD<23>Y64<3>uKj<1\
+  0>e33d20a53<10>5_T3aV2bU2bT2bT2bS1bP1bS<7>0bNCAP<22>0aNZUF<6>4aMNo_<21>1\
+  bN4cd<3>0bQney<19>2bOXgtMehBcYbVk<21>1bOTxA<5>4eM5Dp<4>3Nd
+  }
+
+spir2              { ; detail from a spiral arm in the ht formula
+                     ; set p1 to .15
+  reset=1800 type=formula formulafile=noel.frm
+  formulaname=ht1 passes=1
+  corners=0.58504399/0.78504399/0.0049869622/0.15498696 float=y
+  maxiter=256 periodicity=0
+  colors=CCCZqM<2>ZqJ<22>bmtbmucks<22>wFN<9>huP<21>r3`<11>F4S<29>9Z6<28>gJ\
+  K<6>1Nz<25>hrq<31>XPe<11>k6`<14>F3HSnpNZdJJTSa`<3>QWY
+  }
+
+paridise           { ; The best view of the ht fractal I ever made.
+                     ; I was looking for the critical value of P1 where the two
+                     ; spirals touch but it is more interesting just close.
+                     ; The magic number is slightly less than 0.14815
+  reset=1800 type=formula formulafile=noel.frm formulaname=ht1 passes=1
+  corners=0.673009194/0.735606186/0.041731328/-0.041731328/0.735606186/-0.\
+  041731328 params=0.14815 float=y maxiter=32767 periodicity=0
+  colors=CCC000nlH<10>zn4<5>qbisbs<31>AJ7<17>kqdmpl<7>mxLpzH<28>GgR<27>PuR\
+  MzQ<6>dUUjRS<28>1Lp<29>3gJ<5>d13<21>rCPvBVrCPvBI<13>8LO4MO0LN<2>2MP
+  }
+
+xmas               { ; This is one I posted to a.b.p.f at Christmas/93
+                     ; It is basically a zoom at higher iteration into the
+                     ; middle region from the approach image.
+                     ; The fractal formula is "psycho"
+  reset=1710 type=formula formulafile=noel.frm formulaname=psycho
+  passes=1
+  corners=0.09389359921449/0.09391788861574/0.610493361957/0.6105031114132\
+  /0.09389766365992/0.6104879426964 float=y maxiter=512 inside=0
+  decomp=600 periodicity=0
+  colors=CCCvor<25>ywtywtwur<9>gecfdbdbaca`b`_<21>5333110`F<20>210u58<74>2\
+  00DdB<88>5D3unr
+  }
+
+angels             { ; an interesting region from the hydra fractal
+                     ; maths at T.C.D. is using it in there xmosaic
+                     ; intro page of their image library.
+                     ;
+  reset=1710 type=formula formulafile=noel.frm formulaname=hydra
+  passes=1
+  corners=0.3208605175212/0.3208642723438/0.237899360829/0.237910676115/0.\
+  3208564363747/0.2379048476336 float=y maxiter=1024 inside=0
+  periodicity=0
+  colors=CCCntm<19>vulvulurm<14>lPq2RC<41>16I16I27J<87>FnqFnqGop<81>mtm
+  }
+
+ape                { ; The facial features of an ape are just too much.
+                     ; This fractal is full of wierd organic shapes.
+                     ; This is from the pheonix fractal. Yes I know it's
+                     ; spelt wrong, but now it's different from all the others.
+  reset=1800 type=formula formulafile=noel.frm formulaname=pheonix
+  passes=1 corners=-0.665523635/-0.587827604/0.203915533/0.262187556
+  float=y maxiter=256 inside=0 periodicity=0
+  colors=000`jT<5>Wq`VsbVsb<29>Lqf<9>BMMAIKAFIACGA8DA9DCAEFCFUAALEH<7>hQP<\
+  28>bsL<9>AlmAkpDJN<24>_ch`di_ci<17>C5`A3_A2_<3>A2XA2WA3VA4U<6>BBNBCMBDLC\
+  DKCEJCFI<6>FMBFNAFOAGPAGQAGRAHSA<4>O`AQaARcBTeC<7>etJ<26>BcnAbpAaqAarA`s\
+  A_uA_tAZr<18>qJH
+  }
+chief              { ; Sort of an indian headress in appearance.
+                     ; The detail in the background is curious.
+                     ; looks very much like lunar surface.
+  reset=1710 type=formula formulafile=noel.frm formulaname=crown
+  passes=1
+  corners=-0.09660287281/-0.0952786964/0.5492967041/0.556351876/-0.0995126\
+  5182/0.5531764095 float=y maxiter=768 inside=0
+  colors=000mBQ<14>lAKlAKk8L<12>qVEqWDqYCq_CqaB<9>qr6qx5<7>qm8pk8nj8<24>OD\
+  FNCFLAE<80>SSPSSPRQN<46>boh`mg<23>nyloyloylpympymqymqymqymqyo<5>qyhqyfqx\
+  eqwd
+  }
+
+elast2             { ; another elastic fractal from the pheonix formula
+                     ; This time in blue and white
+                     ; These are best without too much detail.
+                     ; Too far into the centre it's too chaotic.
+  reset=1710 type=formula formulafile=noel.frm formulaname=pheonix
+  passes=1
+  corners=-0.4078802091/-0.4030270971/0.8373086163/0.8409484503
+  float=y maxiter=300 inside=0 outside=mult symmetry=none
+  colors=000000<29>00k00m01m<29>0ky0mz1mz<30>zzz<46>2zz0zz0yz<45>02z00z00y\
+  <59>002000000
+  }
+
+flames             { ; Flames at the edge of the pheonix fractal
+                     ; The volcano pallette came in very handy.
+  reset=1710 type=formula formulafile=noel.frm formulaname=pheonix
+  passes=1 corners=-0.411288773/-0.314226532/0.780805769/0.85360245
+  float=y maxiter=300 inside=0
+  colors=000KCG<3>GEIFFJFFJFFJ<7>RCGSBFUBFWAE<18>x15z04z14<29>zx4zz4zz5<27\
+  >zzxzzzzzz<4>zxzzxzzwyzwx<55>zV5zU4zU4zT4<28>z14z04z04y04<30>c04b15a15`2\
+  6_26<18>KCG
+  }
+
+fossil             { ; An unusual biomorph pattern from the logf formula
+  reset=1710 type=formula formulafile=noel.frm formulaname=logf
+  passes=1 corners=-0.545054913/-0.47627449/0.598044991/0.649659216
+  float=y maxiter=400 inside=0 biomorph=0 periodicity=0
+  colors=000WkvWkvWkvWkv<25>hCD<46>os7os7nt9<45>atvatw`sv<51>1lH<41>i4O<29\
+  >MI6<3>inc
+  }
+
+jewel              { ; This odd almost skew symmetry I found very interesting
+                     ; It's from the globe fractal which I almost forgot about.
+                     ; You have to iterate to about 512 or 1024 before it gets
+                     ; interesting.
+  reset=1710 type=formula formulafile=noel.frm formulaname=globe
+  passes=1
+  corners=-0.373686747/-0.339531357/0.8544567236/0.8502266879/-0.359640726\
+  /0.8325111977 float=y maxiter=512 inside=0 outside=mult decomp=256
+  symmetry=none
+  colors=000LAC<18>ogpLDCPKHTRMO58V38a07J79<17>oPeL78<10>u69I77<5>C10M98<4\
+  >hMAK8A<10>oR`GF9<4>2vGJA8<12>bm1KAF<5>YYuJ98<16>jgCH8A<8>0QTI78<17>IBPI\
+  BQIBRHCSI7BH7E<9>9AhL7B<10>yIhI7A<15>TDiI7DI8IHEGH9N<4>FEmFFrFIq<11>Dnk<\
+  19>BQIBPHBOFAMDCODFQD<6>YdE
+  }
+
+jewel2             { ; Another image from the globe fractal. I like the way
+                     ; this one builds on itself like stacking pagoda's.
+                     ;
+                     ;
+  reset=1710 type=formula formulafile=noel.frm formulaname=globe
+  passes=1
+  corners=-0.34641275605/-0.34564892242/0.85277350825/0.85096972049/-0.345\
+  39940736/0.85118786927 float=y maxiter=1024 inside=0 outside=mult
+  decomp=256 symmetry=none
+  colors=CCCvS6<15>tkN<8>DRA<8>HSCfumewngCY<29>IelfCY<19>B`VdFV<7>Cn7gEY<1\
+  3>swNgCY<6>kKRgBVkLQ<14>tcB<10>tNG<3>two<2>bSr<27>LleKmdKmdJmc<10>BmVAnU\
+  AmU<21>L7PM5ON5O<26>tN3vO2vP3vQ4vR5
+  }
+
+purgatry           { ; Another image from the globe fractal. I posted this
+                     ; one to a.b.p.f. as a counterpoint to the paridise image.
+                     ; It's a very sudden spiral with fringe like edges.
+                     ;
+  reset=1710 type=formula formulafile=noel.frm formulaname=globe
+  passes=1
+  corners=-0.34609785908565283/-0.34609785886073291/0.8513559941791795/0.8\
+  513559834335281/-0.34609785460851117/0.8513559871691536 float=y
+  maxiter=2048 inside=0 outside=mult decomp=256 symmetry=none
+  colors=000W1C<8>V1J<9>2se<16>D_XDZXFWZ<11>Y0r<19>uu7<2>_8T<13>R3qR3rS4p<\
+  20>h4O<2>8No<15>cKKdKIeLL<15>iYtiYvhVq<9>_79<9>2sg<21>XD1<20>0T4<22>yG1<\
+  18>qhG
+  }
+
+mcloud3            { ; A mandelcloud image
+                     ; They are fun to watch grow.
+                     ;
+  reset=1800 type=mandelcloud passes=1
+  corners=0.0019618539/-0.36534966/-0.83625833/1.3897481/-1.1987534/0.7646\
+  953 params=500 float=y maxiter=256 outside=summ decomp=256
+  periodicity=0
+  colors=CCCIQN<9>GkMGmMIjL<20>n5G<31>5Sl<22>BiKBiJChL<22>VdiVdjWeh<19>nhJ\
+  <10>4O4<2>BG9<4>OuGEWU47g<6>QDMREOjZpSFP<23>kZpUIj<29>kZqMwv<28>kZqxL2wM\
+  4wN6
+  }
+
+lizard             { ; Another HT varient with a sin function makes another
+                     ; interesting combination. Outside is recognizably sin
+                     ; but the inside is full of chaotic banding.
+                     ; The inside/outside terminology really doesn't work here.
+  reset=1820 type=formula formulafile=noel.frm formulaname=quartc
+  passes=1 corners=-1.8961553/-1.2495388/2.3013621/2.7863245
+  params=0.14899999999999999 float=y maxiter=1024 inside=zmag
+  periodicity=0
+  colors=000Bml<5>1i`<3>9PFCJ9DI9<12>_59a4AdFC<3>pvL<3>3lI<10>5RK6PL4_W2kf\
+  0wq<9>sPK<7>MRZ<10>MAy<2>_yeDBI<8>cU3<6>J2A<3>VI5ZM3`M5<10>zLU<5>a9tX7yV\
+  By<9>Bpq<8>gz3<9>ne3ob2nb3<5>bgB`hD_gG<13>ERu<2>AKPp76<15>TKS<7>iIKlHIlI\
+  J<14>rjh<2>sry<15>1PFS78<4>RKWQN`RNZ<4>WRM
+  }
+
+mandel2            { ; A mandelbrot I like
+                     ; An interesting minibrot surrounded by a group of
+                     ; uncertain spirals. I wanted to iterate further to get
+                     ; better definition but I was happy with the color map.
+  reset=1820 type=mandel passes=1
+  corners=-1.3446396295873351/-1.3446396295762046/0.048414566431837502/0.0\
+  48414566440113417 float=y maxiter=15000 bailout=4000 inside=0
+  logmap=old periodicity=0
+  colors=000kiW<5>_Ssf2b_B`EgWUK_NSYH`X9Br<6>BdYtT2oSQ<3>JeV7O7<4>BeSzyDtx\
+  G<5>HjUGtz<2>CkcPTU<6>CfWNHY<4>DdW7hf9h`9XR<3>BfVYYkQaeIe`5w`<5>BjWgJ2RW\
+  H8xh9rcAm_Qmj9ygAxe<4>BjXs6DXQNqTX<4>IfW5l`8jYUsw<5>Di_byI<4>FkUyCbLsz<3\
+  >Djax9yVwMRtONqQf8Kf4C<7>gb5<2>EbZWdfmfn<4>a4gcHmeTr6`6O`l<4>KxM<7>Dj9<5\
+  >O9oG7X95E<3>hku<2>xvshswUpz<4>ra_wZVzXQd`tdso<2>fQ6<4>6roUveqyWBGN<5>8K\
+  n<5>V4xdBjnIY<2>KrQ<7>`vh<5>9ON<4>T7CX4AZ3C<6>h2J<7>M2K<4>ooNmlS
+  }
+
+axe                { ; Another mandelcloud showing the clipping when you
+                     ; zoom into an orbital area. This can be frustrating
+                     ; and confusing but in some cases makes for interesting
+                     ; images.
+  reset=1800 type=mandelcloud passes=1
+  corners=-0.3739381706/-0.3527004458/0.62376816245/0.62293147166/-0.36534\
+  37298/0.61177959786 params=512 float=y maxiter=512 outside=summ
+  colors=000KCa<11>Mfu<9>rYG<38>`dt_ev_eu<29>CSJ<3>qSn<14>RXN<14>wfBzgAzeA\
+  <17>t3As0Aq7BnEDlLEGaY<30>qDgrWlsor<23>ldJkcHkcH<27>pXhqWioUh<10>K5XK7YK\
+  A_
+  }
+
+borders            { ; One of my favourite images from the PENTA formula.
+                     ; It really shows the chaotic stretching caused by the
+                     ; conjugate function. It was posted to a.b.p.f. and now
+                     ; is at ftp.cnam.fr
+  reset=1710 type=formula formulafile=noel.frm formulaname=penta
+  passes=1 corners=-0.0572258113/-0.0318641561/0.603826875/0.622848117
+  float=y maxiter=500 inside=0 logmap=2 periodicity=0
+  colors=000nDh<13>j6yj6zk7y<30>zYpzYpxXo<37>01F<20>BS8f6E<17>416<35>Qba<1\
+  5>1MV<44>yU5<29>oEf
+  }
+
+elast1             { ; Another in the elastic series from the PHEONIX formula
+                     ; This is a little more chaotic and the colour pallette
+                     ; looks a little more metalic.
+                     ;
+  reset=1710 type=formula formulafile=noel.frm formulaname=pheonix
+  passes=1
+  corners=-0.34870544311788/-0.34789992633081/0.8475422448/0.84840621853/-\
+  0.34870621868592/0.84775829018 float=y maxiter=300 inside=0
+  outside=mult symmetry=none
+  colors=000Z`_<9>fhffhfegg<31>S_jS_jT`i<26>Ujdioz<11>isxisxkru<6>ynfzmczm\
+  a<6>ziN<15>zg`zf`yfaxfb<27>_cyZczYczYcz<38>jYhnXbkYg<10>nXbzcR<35>y_Yy_Y\
+  y_Yx_Yx_YxZY<5>vZZ
+  }
+
+escherp            { ; This isn't related to the other escher image but it
+                     ; reminds me of some of Escher's tessalations. I thought
+                     ; it would make a good design for a plate or saucer.
+                     ; It's another HT varient this time applied to the pheonix
+  reset=1800 type=formula formulafile=noel.frm formulaname=pheot
+  passes=1 corners=-1.368194/1.368194/-1.026146/1.026146 float=y
+  maxiter=256 inside=zmag periodicity=0
+  colors=000fon<13>drtdrtbps<23>9Sh<4>PI0<6>RK4_OISK4<30>_OIk6z<13>_NLQL`<\
+  19>_OIYiS<33>_OIqMA<30>_OIBsi<25>_PJt8F<24>_OIido<3>gaif`ggmk<5>fnm
+  }
+
+escher2            { ; A look at the detail at the edge of escherp.
+                     ;
+                     ;
+                     ;
+  reset=1800 type=formula formulafile=noel.frm formulaname=pheot
+  passes=1 corners=-0.18248885/0.041726392/0.84005735/1.0082188
+  float=y maxiter=256 inside=zmag periodicity=0
+  colors=000sJw<23>vcwwdwubv<6>`Nm<2>R3q<13>U0q<9>`Wy<29>YeyXfxXex<35>F2xE\
+  0yE1y<23>5_d4ac5ac<36>mUl<3>8gQ<39>i6cj5dj6d<14>ZOe
+  }
+
+mcloud4            { ; Another mandelcloud showing the orbital areas along
+                     ; the negative real axis at the left of the main cardioid.
+                     ;
+                     ;
+  reset=1800 type=mandelcloud passes=1
+  corners=-1.5549599/-0.57895992/-0.366/0.366 params=512 float=y
+  maxiter=256 inside=0 outside=summ periodicity=0
+  colors=000JBP<5>IBPHAQIBQ<24>qlRsnSrnS<29>3nV1oW1oW<4>1pVteO<8>tuKswJswJ\
+  <76>s6Ss5Sr4Tq4T<16>YCPWDOWDO<70>JBP
+  }
+
+pheonix            { ; How my pheonix fractal got it's name.
+                     ; Now that I've got so many images pointing to it
+                     ; I'm reluctant to go back and correct the spelling.
+                     ; Especially since so many other fractals use it right.
+  reset=1710 type=formula formulafile=noel.frm formulaname=pheonix
+  passes=1 corners=-0.417093/0.14722235/0.51508939/0.9383259 float=y
+  maxiter=300 inside=0
+  colors=10E<3>50J60K80LA0MD0NFAOzzz<2>qtworvmpwkowimygkzkizigzgdzeax<5>UK\
+  `OHXQEURBPU9MW7Ha5Dc9BeCBgEAiEAkB9m69o48<3>s26u26v15x15z04<30>zx4zz4zz5<\
+  27>zzxzzzzzz<4>zxzzxzzwyzwx<55>zV5zU4zU4zT4<28>z14z04z04y04<30>c04b15a15\
+  `26_26<8>T7B
+  }
+
+candy              { ; I always think of Lewis Carrol's Caterpillar
+                     ; The one from "Through the Looking Glass"
+                     ; The name came from the sweet and artificial colouring.
+                     ; Another one at ANU. Where are you Terry Bossemeyer?
+  reset=1710 type=formula formulafile=noel.frm formulaname=peacock
+  passes=1 corners=0.0498218964/0.0670218964/1.13928716/1.15218716
+  float=y maxiter=256 inside=0 outside=imag decomp=256 biomorph=0
+  symmetry=none periodicity=0
+  colors=000teO<8>tuKswJswJ<76>s6Ss5Sr4Tq4T<16>YCPWDOWDO<77>IBPHAQIBQ<24>q\
+  lRsnSrnS<29>3nV1oW1oW<4>1pV
+  }
+
+ecto               { ; Unusual fractal cellular structure
+                     ; from one of the ht hybrids
+  reset=1820 type=formula formulafile=noel.frm formulaname=htc
+  passes=t corners=0.110507918/0.136107918/0.395489961/0.414689961
+  params=0.14999999999999999 float=y maxiter=512 inside=0
+  periodicity=0
+  colors=000W_`<2>`KcwDk<8>v2hu5i<18>BWREUS<15>Afe<10>zvMtsO<32>90KB2L<33>\
+  gKkhLlgKk<28>xKKyJJyJJyJJ<29>nJQmIRlJP<8>RHAUID<22>CGbBFdBHd<19>RwWRoYTj\
+  ZUe_
+  }
+
+hologrm            { ; Another look at the htc formula as in the ecto image.
+                     ; This time coloured with a high level decomp option.
+                     ; This shows the underlying structure where the reals
+                     ; and imaginary components are polarized.
+  reset=1820 type=formula formulafile=noel.frm formulaname=htc
+  passes=1
+  corners=0.170637265/0.209108581/0.3283838906/0.3245913375/0.186307364/0.\
+  3074904251 params=0.14999999999999999 float=y maxiter=640 inside=0
+  decomp=300 periodicity=0
+  colors=200n4Vo6x<6>zKeVMbTO_SQYQS0PU3Nz6<8>AhV8fy<4>1XkW0h<3>a8YbA0<9>qU\
+  RszUtxz<3>zpoUnl<5>LbWK`2IZ4HX7F0A<6>5ET3Gz2Ix0KuWMr<3>aUgczd<2>gtXir1<1\
+  0>yXVV0x<9>GKYFM0<3>9UB7zE<4>0pSXnUYly<7>iXck0`l2Zn4Wo62<6>zKLVMOTORSQUQ\
+  SzPUwNzt<8>AhX8f1<4>1XFW0I<3>a8TbA0dCx<8>qU_szXtx1<3>zpCUnE<5>LbVK`yIZvH\
+  XsF0p<5>6C`0002I30K5WM8<3>aUJczM<2>gtUiry<10>yXWV02<9>GKTFMz<3>9Uo7zl<4>\
+  0p_XnXYl1<7>iXNk0Ql2T
+  }
+
+jellfish           { ; Something toxic washed up on the beach
+                     ; Really broken and unstructured but somehow a fractal.
+                     ;
+                     ;
+  reset=1820 type=formula formulafile=noel.frm formulaname=rat
+  passes=1 corners=-0.36765435/-0.32605435/0.25363807/0.28483807
+  params=0.23499999999999999 float=y maxiter=512 periodicity=0
+  colors=000hjA<5>kg8kg8lg8mg8mg8<15>ydAzcByeC<4>wjRvlUvlU<28>llnkkomlk<34\
+  >nW6oV4oV4<32>i25h45<15>9DVGBQ<42>A_RD_Q<8>_wXXrW<19>ZBS_8RZQP<2>ZxGZQO<\
+  14>QO3WRG<3>nak
+  }
+
+nolace1            { ; A fractal lace pattern that is strangely disconnected.
+                     ; The pattern is recognizably fractal.
+                     ;
+                     ;
+  reset=1820 type=formula formulafile=noel.frm formulaname=ht1 passes=1
+  corners=0.642245564/0.685222667/0.4262215303/0.4276246236/0.657043836/0.\
+  4064905008 params=0.10000000000000001/0.10000000000000001 float=y
+  maxiter=256 periodicity=0
+  colors=000MMe<3>KKeCO8<12>BE3KPD<4>wzr<19>vOKca3uOK<49>4`07_1<80>yelrhhn\
+  lfiqdrhh<71>MMe
+  }
+
+quartet1           { ; This is a nice look at the quartet fractal showing
+                     ; some nice detail of the internal structure.
+                     ; Well, internal isn't such a good word as I don't
+                     ; really think it has one.
+  reset=1820 type=formula formulafile=noel.frm formulaname=quartet
+  passes=1 corners=-2/2/-1.5/1.5
+  params=0.0050000000000000001/5.0000000000000002e-005 float=y
+  maxiter=1024 inside=0 periodicity=0
+  colors=000uTA<84>ysoDcU<67>16N16N27M<97>tTA
+  }
+
+scarab2            { ; Another beautiful look at the quartet fractal.
+                     ; This one will look different depending on whether or not
+                     ; you work with xysymmetry or not. You really shouldn't
+                     ; as the imag component makes these ht varients asymmetric
+  reset=1820 type=formula formulafile=noel.frm formulaname=quartet
+  passes=1 corners=-0.12011986/0.12011986/-0.090089898/0.090089898
+  params=0.0050000000000000001/5.0000000000000002e-005 float=y
+  maxiter=1024 inside=0 periodicity=0
+  colors=000OtE<3>8hU8eYE_aKWYQSU<2>fNKfLH<9>b52<7>38C<20>VHqWHrXJp<16>eeX\
+  efWhhT<6>yvD<23>Y64<3>uKj<10>e33d20a53<10>5_T3aV2bU2bT2bT2bS1bP1bS<7>0bN\
+  CAP<22>0aNZUF<6>4aMNo_<21>1bN4cd<3>0bQney<19>2bOXgtMehBcYbVk<21>1bOTxA
+  }
+
+quartc             { ; The overall image for the quartc fractal.
+                     ; Some very interesting chaotic banding here.
+                     ;
+                     ;
+  reset=1820 type=formula formulafile=noel.frm formulaname=quartc
+  passes=1 corners=-6.260394/6.260394/-4.695295/4.695295
+  params=0.10000000000000001 float=y maxiter=1024 inside=zmag
+  periodicity=0
+  colors=000KsU<6>TZY<7>21B<5>rY8<13>`eD_eDWdGTdJ000<16>000000002005000<13\
+  >000000200700B10220030<4>070000<7>000007003000<30>100500900000<46>000050\
+  000000500100<34>000010000<33>000
+  }
+
+twins              { ; This is a double spiral from the quartet image
+                     ; It is specially coloured for all pallette cycling freaks
+                     ; Hit up arrow for top speed then keyboard 1-9 for taste
+                     ; not responsible for exploding heads.
+  reset=1820 type=formula formulafile=noel.frm
+  formulaname=quartet1
+  passes=1 corners=-30.000428/-29.694967/0.91002936/1.1391248
+  params=0.00050000000000000001/9.9999999999999995e-007 float=y
+  maxiter=4096 inside=0 periodicity=0
+  colors=ERrh6DW6BD7AQ78s86f84293F91SAWqAYdB_4B`HCbUCdoDfaDg6EiJEkzFmlFn_G\
+  p8GrMHtwHujIwYIyBJ0OJUuKShKQ0LPDLNQMLsMJfNI2NGFOESOCqPBcP94Q7HQ5VR4nR2aS\
+  06SXKTZyT_lUa_Uc9VeMVfw0hjzjYzlBymOyouxqhxs0wtDwvQvxsvzeuV2uTFtRTtQpsOcs\
+  M4rKIrJVqHnqFapD7pCKoAyo8ln6_n59m3Mm1wlWjlYXkZBk`Ojbujdgie0igDhiRhkrgleg\
+  n2fpGfrTespeucdw5dyIczVcUnbSabR7aPKaNy`Ll`KZ_I9_GMZEwZDiYBXY9BX7PX6tW400\
+  0E1XR1Yr2_e2a33cG3dT4fp4hc5j55kI6mV6on7q`7r78tK8vy9xk9yZAV9ATNBSvBQiCOXC\
+  MCDLPDJtEHgEF1FEEFCRGArG8eH73H5GI3TI1pJ0bJX5KZIK`0LbmLc`Me7MgLNixNjkOlZO\
+  nAPpNPqvQsiQuXRwCRxPSztSUgTT1TREUPRUNrVMdVK30IGzGUzFoyDbyB5x9Jx8zw6mw4`v\
+  28v1LuWxuYkt_ZtaAsbNsdvrfirhWqiCqkPpmtpofop1orEntSnvqmwdmy3lVHlUUkSokQbj\
+  O6jNJiLziJmhH`hG8gELgCxfAkf9Ye7Ae5Nd3vd2hc0WcXCbZQb`saafac1`eF`gS_hq_jdZ\
+  l4ZnHYoUYqoXsbXu6WvJ0xz0zm1V_1T82RL2Px3Oj3MY4KA4IO5Hu5F
+  }
+
+stargate           { ; mirrored galaxies at the bottom of fractal wells.
+                     ; This will take a long time to compute.
+                     ; I think it is worth it though. Also switch to worms
+                     ; pallette from fracxtra5 and cycle to recreate big bang
+  reset=1820 type=formula formulafile=noel.frm formulaname=quartet
+  passes=1
+  corners=-0.10837149216/-0.10786397216/-0.00019032000001/0.00019031999999
+  params=0.0001 float=y maxiter=32767 inside=0 logmap=yes
+  periodicity=0
+  colors=000KVnMWn<2>QZkR_jR`i<2>ScfSceTddTdcTeb<2>Uf_UgZVg_<5>Wj_Xk_Xl_Xm\
+  _Ym_<9>_s``t``s``r``rZaq`ap`bo`cn`<2>`ka_ja`ia<3>geaidalcapbatac<2>t`bs`\
+  bs_br_brZb<3>pXboXbnWbmWblVckVc<3>jTcjSckSc<2>lQelQelPd<7>nLYnLXnKWoJVoI\
+  UoHToGS<2>oDUpDVpEW<4>pO`pQapTbqWcq_dqceqgf<2>qqcttbssa<12>rfZreZrfZ<3>r\
+  jYrlXrlY<2>pkaojcojc<24>cZZbZYbYYbXY<10>XSWXSVWRVWQVVQV<9>QLSQKSPKSOKS<9\
+  >JGIJGHIGI<2>HEJGEKGDLFDMFDN<4>BBSABT9CU8DV7EX<3>5H`5Ha6Ib6Jc<3>7Mj8Nl8N\
+  m9On<5>GTtIUo8So8So
+  }
+
+splash             { ; Another ht variant using a second order inductive term.
+                     ; this has a nice 3D feel due to the pallette chosen.
+                     ; Like paint thrown on a fractal metal surface.
+  reset=1820 type=formula formulafile=noel.frm formulaname=htd
+  passes=1
+  corners=-0.06121302835/-0.05578582835/0.002338094394/0.006408494394
+  params=0.01 float=y maxiter=256 periodicity=0
+  colors=000lBO<8>lAKlAKk8L<12>qVEqWDqYCq_CqaB<9>qr6qx5<7>qm8pk8nj8<24>ODF\
+  NCFLAE<80>SSPSSPRQN<46>boh`mg<23>nyloyloylpympymqymqymqymqyo<5>qyhqyfqxe\
+  qwdmBQ<4>lBO
+  }
+
+spiral6            { ; Another in the unusual fractal spiral series
+                     ; posted to the a.b.p.f. newsgroup in May/94
+                     ; Formula is another Ht varient
+                     ; This time using second order induction.
+  reset=1820 type=formula formulafile=noel.frm formulaname=htd
+  passes=1
+  corners=-0.023546521203/-0.022580325265/0.0046474939633/0.0053721409163
+  params=0.0001/0.002 float=y maxiter=1023 periodicity=0
+  colors=000dZY<73>koKkoKjnJ<48>84B84B95C<126>c_K
+  }
+
+sandolr            { ; This looks to me very simalar to a sandollar shell.
+                     ; It's from another ht formula variation.
+                     ; The choice of parameters produced a very small but
+                     ; complicated active fractal region.
+  reset=1820 type=formula formulafile=noel.frm formulaname=htree
+  passes=1
+  corners=-0.0180607017/0.0180607017/-0.0135455263/0.0135455263
+  params=0.00018000000000000001/0.00018000000000000001 float=y
+  maxiter=4096 periodicity=0
+  colors=000yph<10>ysmDcS<67>16L16L27K<98>uT8uT8vU9<70>yog
+  }
+
+redfluff           { ; more variety with the quartet formula
+                     ; I couldn't decide to zoom out to get the end buds or
+                     ; zoom in to get the detail in the arms.
+                     ;
+  reset=1820 type=formula formulafile=noel.frm formulaname=quartet
+  passes=1 corners=-1.928426/-0.2884262/0.3159778/1.545978
+  params=0.065000000000000002/0.59999999999999998 float=y maxiter=8192
+  logmap=5 periodicity=0
+  colors=000G9H<9>LDCMDCMDBMEB<11>XIAYJAYJAYJA<58>veAveAudB<25>eVTYbc<25>g\
+  _`g_`hZ_hYZ<38>o1Eo1En2D<67>O9B
+  }
+
+capilary           { ; Some detail from the redfluff image, another quartet
+                     ; fractal showing some of it's versatility.
+                     ; Amazingly busy, but still an ordered fractal.
+  reset=1820 type=formula formulafile=noel.frm formulaname=quartet1
+  passes=1
+  corners=-1.9583685/-1.4399893/1.41704777/0.999771008/-1.597045/0.9855409\
+  15 params=0.065000000000000002/0.59999999999999998 float=y
+  maxiter=8192 logmap=5 periodicity=0
+  colors=000zWON75<48>B26B26C37<115>xwqxwqwvp<24>scXsbWtbW<2>r_Tr_SsZSsYR<\
+  2>qWPtVOsUNsUMrTL<7>tNFtMEsLE<7>rF7rF7sG8<16>wRJwRKwSKxSLyTMyUMyUNyVO
+  }
+
+redfred1           { ; good detail from the quartet1 fractal
+                     ; using large p2 parameter to improve resolution
+  reset=1820 type=formula formulafile=noel.frm formulaname=quartet1
+  passes=1
+  corners=0.557054577126/0.557080977126/1.28965800678/1.28962280678/0.5570\
+  80977126/1.28962280678 params=0.127/-0.18770000000000001
+  float=y maxiter=8192 logmap=935 periodicity=0
+  colors=000HEM<23>AFGAFGBGH<52>gXUhXViYVjYVkYV<2>nZWoZWpYV<6>uWTvWTvVTvVS\
+  <8>zSQzSPzRPzRPzRP<5>yPNyONyOMxOMxNMxNL<4>uLKtLKtLJtKJsKJsKI<7>nHGmHGmGG\
+  mGF<11>hCChCChDB<4>eF9eG9eG8eH8eG7<5>_C5ZC5YC6<5>S98R98Q99P99O9A<10>D9EC\
+  AEDAE<4>IBGIBHHBH<4>LBJJBJIBKJCK<2>HDLHDMIDM<16>IJSINTJEQ<12>FENJEN<3>HE\
+  M
+  }
+
+rosette1           { ; a spiral rosette from the quartet1 formula
+  reset=1820 type=formula formulafile=noel.frm formulaname=quartet1
+  passes=1
+  corners=-2.49399594/-2.46466163/0.860594195/0.821481779/-2.46466163/0.82\
+  1481779 params=0.14999999999999999/-0.1777 float=y maxiter=1024
+  periodicity=0
+  colors=000t`n<6>thktikshj<11>hbbrTM<47>_bd_bd`ce<53>xomxomwnl<48>BF9AF9B\
+  GA<61>tMttMttOs<10>t_n
+  }
+
+regal2             {
+  reset=1820 type=formula formulafile=noel.frm formulaname=quartz
+  passes=1
+  corners=-1.64312053/-1.61289907/-0.1545843/0.15197946/-1.77939141/0.0271\
+  10208 params=0.10000000000000001/0.001 float=y maxiter=1024
+  periodicity=0
+  colors=000POf<2>`L`<10>5pp<21>M0EM0D<3>`39d49h68<2>s95vA5xC6zE6<2>vI8uK8\
+  tM8sO9rQ9<7>keDjgDjkD<6>qyPruRsoS<2>vcXw_ZwY_x`VybRziNypJxwF<12>iuJ<2>ru\
+  KuuLzuLwuLtuLqtOnsQ<8>Gni<4>VY_<7>N7KN6N<12>94uA5qB6m<7>PEL<3>TkhVsnUhfR\
+  Y_<2>M2FzXW<18>i8Gh7Fh6Fg5Eg5Eg5D<3>e4Ce3Be3C<11>a07k6R<9>a08TEAYG8xYouY\
+  jsVfqRb`BV<3>PJcMKeLLf<20>8Uo<2>LQh
+  }
+
+trellis            { ; A minor varient from the quartet formula
+                     ; negating both terms in the equation gives
+                     ; an elegant pattern if good initial parameters
+                     ; are chosen.
+  reset=1820 type=formula formulafile=noel.frm formulaname=quartz
+  passes=1
+  corners=-1.64312053/-1.61289907/-0.1545843/0.15197946/-1.77939141/0.0271\
+  10208 params=0.10000000000000001/0.001 float=y maxiter=1024
+  periodicity=0
+  colors=000HES<2>NBYPA_Q9aR8cS9eTAg<9>bLr<4>TcwRgxPkwNmvLouJrtHus<2>CzoBx\
+  n9vm<2>6kjBgfFccJa_NYX<3>cKIgzEk8Ao58s36o24k13g02c11_20W32S44O57K7BG9HCB\
+  L9DP6FT4HV5JZ<2>CPjERnGTpIQtKNwMMzOLu<2>SJYTIQUHK<2>ZC5_B4aA4<2>f94h94j8\
+  4k74<4>t44v34w34y34<2>z34<14>Y34<2>a34b34c36<7>l3S<11>p38q36q35q34<9>t34\
+  <4>X34<2>a34534<3>534534535536<7>53D53E63E73F<3>93J93J95K<4>BDO9BK7AH69E\
+  <2>554534<34>534534535536534<12>5349IK<2>FFQ
+  }
+

@@ -1,0 +1,167 @@
+The_Pit            { ; Decending into the pit of Chaos
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=fn*z+z function=exp
+  corners=-1.095671/1.09565/-4.5317/-2.888207
+  params=1.414/2.71828/2.71828/1.414 float=y inside=0 potential=255/128/0
+  colors=000mKM<20>vWBeAWwXA<57>xaSybTxbT<16>XbLwXA<53>O4MX4Nc4Oj4Pq4Qz4SE4U<1\
+  9>w2t<17>S2VmbQ<4>L9LUbK<17>E3F<12>L6GfBV<15>mKN
+  }
+
+Shoe               { ; The sole of Mandelbrot's shoe?
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=fn*z+z function=sinh
+  corners=-7.792315/7.792294/-7.122519/4.565953 params=0/1.414/1.414
+  float=y inside=0 potential=255/128/0
+  colors=000NJf<55>nSWIHh<13>sMVHHh<24>ueqHHh<28>w8`GIh<30>Fv_ExZExZ<17>NsScM0\
+  <71>wX0MJfMJf
+  }
+
+Leaves             { ; Autumn Leaves
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=barnsleym1 corners=0.6956546/0.7516546/0.9332571/0.9752571
+  float=y maxiter=256 inside=0 logmap=old
+  colors=00000j0j0jj0j00j0j0jjkkkkrkdmwCCC_C_<9>sCs<20>ECsCCsCEs<19>CqsCssCsq<\
+  7>CsassCCsY<9>CsECsCEsEGsGiCCKsK<3>SsSsECWsW<10>qsqsssssqssCssm<17>ssEssCsqC\
+  <19>sECsCCqCC<18>GCCECCACCECE<9>YCYbjb<2>zjbFrb<5>zrbFzb<5>zzbFFj<5>zFjFNj<5\
+  >zNjFVj<5>zVjFbj<5>zbjFjj<5>zjjFrj<4>rrjzywccdWWWz000z0zz000zz0z0zzzzz
+  }
+
+Swirls             { ; Striped Swirls on a white background
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=barnsleyj1 center-mag=-8.54872e-015/4.66294e-015/0.666667
+  params=1.28741398341537/0.582054915073161 float=y maxiter=250 inside=0
+  logmap=old potential=255/10000/300
+  colors=000zzzCso<18>CsECsCEsE<19>qsqsssssq<19>ssEssCsqC<19>sECsCCqCC<18>GCCE\
+  CCACCECE<9>YCYbjb<2>zjbFrb<5>zrbFzb<5>zzbFFj<5>zFjFNj<5>zNjFVj<5>zVjFbj<5>zb\
+  jFjj<5>zjjFrj<4>rrjzywccdWWWz000z0zz000zz0z0zzzzz00j0j0jj0j00j0j0jjkkkkrkdmw\
+  CCC_C_<9>sCs<20>ECsCCsCEs<19>Cqs010
+  }
+
+Zig_Zag            { ; A bold, stylized design
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=barnsleym2
+  corners=0.70752754/0.71017992/1.26832595/1.27031524 float=y inside=0
+  colors=000Vt76Kg<9>1Nm000<2>000HDSHDSFL_HDSHDSINX<38>wp38K`<3>0SRAIb<31>W78A\
+  Ib<30>choAIb<17>JCQ
+  }
+
+Eyeglasses         { ; A strange pair of eyeglasses
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=barnsleyj2 corners=-2.0/2.000012/-1.499989/1.5
+  params=-1.17057663270736/0.616544722305764 maxiter=1000 inside=0
+  logmap=old potential=255/2000/1
+  colors=000U5F<14>d40X95gLL<4>fKJjOR<34>IJ3jOR<33>UABiPS<16>JrijOR<30>OMojPSN\
+  Mo<12>DKz<8>nRM<3>ubaweevee<33>JAMH9LH9M<13>A7e96g96g<28>T5G
+  }
+
+Infinity           { ; Looking into infinity
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=barnsleyj3 corners=-2.0/2.000012/-1.499989/1.5
+  params=5.77999999995527e-006/0.360005735 inside=0 potential=255/100/1
+  colors=000S9E<12>211000000<14>000010030<29>0z0<30>020000000<14>000110330<29>\
+  zz0<30>220000000<29>000000200<29>zKU<16>UAF
+  }
+
+Galaxy             { ; The birth of a galaxy
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=fn(z)+fn(pix) function=sin/cosxx
+  corners=-1.4054338/-1.377149/1.01032734/0.9538216/-1.3904034/0.95049208
+  params=0/0/1 maxiter=50 inside=0 logmap=old
+  colors=000mzz<36>2zz0zz0yz<9>0lz
+  }
+
+Feather            { ; A feather-like spike going off into infinity
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=fn(z)+fn(pix) function=cosh/ident
+  corners=-0.3778199/-0.4171463/0.119127/-0.156158/-0.2598405/-0.038179
+  params=0/0/1 float=y maxiter=20000 bailout=40 inside=0
+  colors=000QJKRKKSML000<14>ykZ<15>8Ia<13>H7vI6xKAs<9>hw6<4>RAG<11>VreYa8LTJ<5\
+  >I8H<14>TX2UZ1T_1<13>6t74v84uA<5>5jS<7>pCD<7>P8x<13>Sl7<12>T1S<15>t27<8>Vjk<\
+  11>pjMrkJuhh<10>6C_<14>uSk``UokN8Fg<12>JCKKBILCI<3>PIK
+  }
+
+Algae              { ; Algae floatint on a pond?
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=fn+fn function=cosh/ident
+  corners=-0.00289639/0.00296929/0.70545977/0.70992552 params=1/0/1
+  float=y maxiter=20000 inside=0 logmap=old potential=255/2000/200
+  colors=000g`t<6>qat<13>NoILoGKmF<30>KC4<8>E5kE5pD4uD4yE5x<57>owT<8>PdP5RMMbO\
+  <4>7TMIOG<4>7RLIOg<67>5RMwdC<35>TXIf`t
+  }
+
+Critters           { ; Under the microscope?
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=fn+fn function=tan/sqr
+  corners=-0.2858936/-0.2019912/1.1469407/1.2098675 params=1/0/0/1 float=y
+  maxiter=20000 inside=6 logmap=old potential=255/2000/200
+  colors=000KX2daO<11>RwhmM7<16>BbLmL8<15>AE_oL7<93>tlUoL7<47>e0NoL7<34>YS4oL8\
+  XS4<23>KX2
+  }
+Moonrise           { ; Moonrise and Star Trail
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=fn(z)+fn(pix) function=recip/cotan
+  corners=8.747776/9.619536/0.796909/1.504109 params=0/0/1 float=y
+  bailout=600 inside=maxiter outside=summ invert=4/10/0
+  colors=000C_8<41>1vPCZ8<61>Pi3CZ8<5>FVACZ8GUA<23>UFI<4>WyU<4>XuW00N
+  }
+
+Silverfish         { ; This one looks like a silverfish at first glance!?
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=mandellambda passes=b
+  corners=-1.41220051/-1.41124833/0.134589195/0.135302961 maxiter=500
+  colors=000fSJ<16>waA56c<43>LzT55c<67>zvB56c<22>SUh76c<25>wrx5Cc<5>3tb65c<22>\
+  TF`EQmUF`<21>oPXoPXnPX<14>dVX
+  }
+
+Xmas               { ; A Cheery Christmas Mandel Zoom
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=mandel
+  corners=-1.12168191/-1.12164739/0.306988297/0.307014171
+  colors=000FrF<5>zrFFzF<5>zzFFFN<5>zFNFNN<5>zNNFVN<5>zVNFbN<5>zbNFjN<5>zjNFrN\
+  <5>zrNFzN<5>zzNFFV<5>zFVFNV<5>zNVFVV<5>zVVFbV<5>zbVFjV<5>zjVFrV<5>zrVFzV<5>z\
+  zVFFb<5>zFbFNb<5>zNbFVb<5>zVbFbb<5>zbbFjb<5>zjbFrbNrbVrb
+  }
+
+Fire               { ; Ring of Fire
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=magnet1m corners=-3.103623/6.242172/-3.504673/3.504673
+  inside=3 potential=150/2000/200
+  colors=000000kCk000oCoqCqsCs<20>ECsCCsCEs<19>CqsCssCsq<19>CsECsCEsE<19>qsqss\
+  sssq<19>ssEssCsqC<19>sECsCCqCC<10>WCC
+  }
+
+Radio_Active       { ; The International Symbol for Radio Activity?
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=magnet1m
+  corners=1.4720725/1.530893/0.0340224/-0.033181/1.530893/-0.033181
+  float=y inside=3 potential=150/2000/200
+  colors=000vcvsetmkqgqm<6>g6V<2>iAZXUA<3>wh00DM<22>DnP0CM<18>H5XDNTQZ_bjf1CM<\
+  21>YTM3DM<13>t`J0DN<20>Gcs0EM<15>5uYGFFXJ70CP1CT2CX0004Dd
+  }
+
+Turtle             { ; Terrapin Station
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=magnet1m
+  corners=1.321179/1.64538/0.146763/-0.146763/1.64538/-0.146763 float=y
+  inside=3 potential=150/2000/200
+  colors=000000kCk000oCoqCqsCs<20>ECsCCsCEs<19>CqsCssCsq<19>CsECsCEsE<19>qsqss\
+  sssq<19>ssEssCsqC<19>sECsCCqCC<10>WCC
+  }
+
+Evil_Eye           { ; The Evil Eye
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=fn(z*z) function=log
+  corners=-0.7629609/-0.7164604/0.034816/-0.034816/-0.7164604/-0.034816
+  float=y maxiter=32767 inside=maxiter potential=255/1000/2
+  colors=000L13h87O63h87SB3h87WG3i97ZL2i97bQ2i97fV2i97i_1j97md1j97qi1aFeun0zDD\
+  <37>J02lmt<13>FFFL02<12>M12W1H<2>k1jN12<160>g86
+  }
+
+Egg                { ; An Easter Egg
+                     ; Ronald C. Lewen, 76376,2567
+  reset type=fn(z)+fn(pix) function=cosh/sqr
+  corners=-4.176421/4.194497/-3.139094/3.139094 params=0/0/1 float=y
+  maxiter=10 inside=0 biomorph=200 colors=000Bv_Wpw6ZlvbjwAkGdS<2>Bv_NDG
+  }
+
+

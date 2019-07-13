@@ -1,0 +1,77 @@
+Like,_Cosmic_Man!  { ; Far out! spaced, zapped, freaky! (c)1992 Peter Moreland
+                     ; Warning!  this takes nearly 2.5 hours on a 486/33
+  reset type=mandel
+  corners=-0.244534679/-0.240958278/-0.641176058/-0.63700917/-0.245246445/-0.6\
+  40225706 params=0.333/1.666 float=y maxiter=32767 bailout=100 inside=0
+  logmap=yes
+  colors=000GJO<5>5Px<8>KG6MF0PJ5<8>kmn<9>MF0<9>zV0<9>MF0<9>zeb<9>MF0<9>jPo<9>\
+  MF0<9>kfC<9>MF0<8>XX_ZZdYX`<5>RLDPJ9OH5MF0ME4<7>T3eU1jU2f<8>MF0<8>w70<6>MF0<\
+  8>ww1<9>MF0<9>wEc<9>MF0<9>zpa<9>MF0<8>He8Gh9He8<7>LI1MF0LG6JHCHII
+  }
+
+Space_Cobra!       { ; I think their made from static? (c)1992 Peter Moreland
+  reset type=popcorn
+  corners=4.883453/5.301437/3.628723/6.594162/3.584366/5.330185 params=0.5
+  colors=000aVf<27>`UfXPf`Uf<134>XPfcMg<86>YPgbVf
+  }
+
+Dimensional_Rift   { ; Were all doomed! Arrrggghh... (c)1992 Peter Moreland
+  reset type=formula formulafile=fractint.frm formulaname=halley
+  corners=-7.80556/7.805584/-5.85415/5.854142 params=6 inside=bof61
+  outside=imag decomp=256
+  colors=WX3kNL<14>pj4<5>cfGHZcaeI<8>J__ny1<6>LbYvkD<14>J_`i8F<21>IZ`bC6<2>PRQ\
+  LWWF9_<20>HYaHZaGXk<16>H_b<2>KPRMLNLOQMLNLOQVZ2<26>i3P<4>HZ3<4>7qW<15>1Zq<30\
+  >hMA<8>Q7_O6aN8_<12>IOG<2>wRZ<4>iDT<4>kMN
+  }
+
+Inca_Dinka_Do      { ; Eric von..., eat your heart out! (c)1992 Peter Moreland
+  reset type=fn+fn function=cos/tan passes=t
+  corners=-0.344/0.344/0.297411/0.813411 params=1/0/1 float=y maxiter=100
+  bailout=64 fillcolor=9 finattract=y
+  colors=000JCFICFHBGvhj<11>KDLGAIB1T<34>GNKWLFjJAjH5<24>600QzI<17>HV6
+  }
+
+The_Stargate       { ; The monolith should be here somewhere? (c)1992 Peter M.
+  reset type=magnet1m passes=b
+  corners=-15.976545/-12.5556/-0.799068/-3.116968/-11.998739/-3.812038
+  params=1.76/4 maxiter=32000 bailout=500 fillcolor=9 inside=zmag
+  potential=255/511/0 decomp=256
+  colors=0009TU<35>9Im9ImAHnBHnCHnWGuDGo<19>WBu`ot<21>WCuv`I<21>XCtGSG<43>WBui\
+  NG<16>WBsJyI<11>VEr4Yf<46>WBupuI<9>XFrJ5S<9>N7Z
+  }
+
+Keyboard_madness   { ; An ergonomic nightmare.....  (c)1992 Peter Moreland
+  reset type=cmplxmarksjul
+  corners=9.592494/8.9412748/-1.074353/-0.3477897/9.0093047/-0.2967673
+  params=1/3/1.1/2 float=y maxiter=30000 bailout=250 inside=256
+  outside=mult
+  colors=000554<8>`mF<2>diDfgChfBjdBkbA<3>rX6<4>Y6h<5>b5kb5lc5lc5md5ne4nf4oH6z\
+  CDc7LH<8>FO`GPcHPeIQhJQjKRm<5>Udr<9>60O<8>IYSKaTKaT<21>bcLbcLbbM<8>YXU<3>DHb\
+  <3>vSj<5>bP9dFLf4X<5>RcuReuShv<30>UenUemUemUelUel<21>KfS_99<15>x11z00z10<29>\
+  zx0zz0zz1<7>103
+  }
+
+Sploodge...        { ; Single cell mutates...pupates... (c)1992 Peter Moreland
+                     ;
+  reset type=fn*z+z function=cotan
+  corners=-0.545416/0.637958/-0.628912/0.25862 params=2.1414/0.875/1/1.863
+  float=y maxiter=20000 bailout=2000 inside=255 potential=255/128/0
+  colors=BkX`IX<20>l9cm6f<16>lLSpDV<12>`jLbkM<3>`lL`lL`lL`lL`lL<12>VlQVlQUlQUl\
+  QUlR<27>Hl_Hl_Hl_Hl_Hl_<90>BdJBdJBdJAcI8dG9dG<46>_JX
+  }
+
+Smokie_Watches_you { ; From "Evil" by Dick Sherry ;) Credit where it's due <G>.
+                     ; (c) 1992 Peter Moreland 100012,3213
+  reset type=manzzpwr
+  corners=-1.1681533/-1.1222362/0.0256899/-0.0246208/-1.1222362/-0.0246208
+  params=1/0/2 float=y maxiter=500 inside=0 potential=255/511/0
+  colors=000<178>000S00FZH<3>6H7ppp<3>UUUhhUhhT<10>NF4giT<11>TPBSOARM8PL7OJ5MH\
+  3<2>LG3KG3JF3IF3IF2<24>050iN9hMA
+  }
+
+wibble_wobble      { ; dibble dobble ibble obble (c)1992 Peter Moreland
+  reset type=fn+fn function=cosxx/sin corners=-4.0/4.007797/-3.003891/3.0
+  params=1.5/0.25/1.75/0.5 maxiter=32000 inside=0 potential=255/256/32000
+  decomp=256 colors=@royal.map
+  }
+

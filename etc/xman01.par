@@ -1,0 +1,388 @@
+man001              { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel passes=1 corners=-2.14/1.14/-1.23/1.23 float=y
+  maxiter=255 inside=255 potential=255/2000/1000
+  colors=000<200>000ZK0<45>xpAxpAwoA<3>tl9000
+  }
+
+man002             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel passes=1
+  corners=-0.469567986/-0.469563527/0.544448782/0.544442831/-0.469563527/0\
+  .544442831 maxiter=5000 inside=0 logmap=yes periodicity=0
+  colors=000EqiDtl<13>KL5LI2MF0<15>zH0<15>MF0<15>ww0<15>MF0OF1<14>wEa<14>P\
+  E1<15>zp_<14>SL4PI1MF0LG2<13>7Or5Pv6Ps<10>IHEJHAKG6LG2MF0OH1<13>kml<13>Q\
+  K5OI2MF0<3>LN0KP1KR1JT2JV3<7>Fk8<9>KR2KP1KN1LL1LJ0MH0MF0LI1<3>JSEzz0<7>z\
+  z0
+  }
+
+man003             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=manfn+zsqrd function=tan passes=1
+  corners=-1.940262/1.199356/-1.045685/1.048676 maxiter=1000
+  inside=zmag outside=mult decomp=11
+  colors=000TZ0<12>0A0SNC<29>xo`zpaypa<29>UPF000<29>nnnpppooo<30>000PFF<29\
+  >xeDzfCyfC<30>PFF0A0<15>Zc0<14>0A0<15>Zc0Xb0V`0
+  }
+
+man004             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel passes=1
+  corners=-1.905194/0.654814/-0.959991/0.960002 maxiter=500
+  inside=bof60 outside=0 decomp=11
+  colors=000jVD<17>PFF0A0<15>Zc0<14>0A0<15>Zc0<15>0A0SNC<29>xo`zpaypa<29>U\
+  PF000<29>nnnpppooo<30>000PFF<29>xeDzfCyfC<11>kWD
+  }
+
+man005             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel passes=1
+  corners=-0.46957135/-0.469559448/0.544441141/0.54445006 maxiter=5000
+  inside=0 logmap=yes periodicity=0
+  colors=000ZRT<23>IAD005H9D<17>005X3w<2>80IA6H<5>106EFQ<64>005uV4<30>105v\
+  Tg<42>105om8<35>115MJ1<10>GE2cWY<6>ZRU
+  }
+
+man006             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel passes=1
+  corners=-1.907465437211/-1.907464886921/-0.000000204527/0.000000204527
+  float=y maxiter=1000 inside=0 logmap=yes periodicity=0
+  colors=000iig<17>005SNC<17>zpa<12>UPFMJIEDLAAK<4>AOSARUBUWBXYB__Bba<5>Dt\
+  nDqm<14>14RC6QO8O<5>VHI<7>zH0<7>WEDSDFRAG<3>L0KB8D1H5<19>Q`5DS6<10>Pb6Rc\
+  5Qb5<11>4K2m`DscEvfF<28>ZLA<3>EF6<13>zze<23>CDAkZD<13>zu0050000
+  }
+
+man007             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel passes=1
+  corners=-0.697828138/-0.69785909/0.36066946/0.36063363/-0.697822193/0.36\
+  0661129 maxiter=1000 inside=0 logmap=yes periodicity=0
+  colors=KUU8H8<24>478I9q<38>97RHPf<19>AigAjgChdEfb<21>aJr<27>67B7BA5799Ei\
+  <27>7BVNNN<14>swuvzxvzx<13>rzwqzvoxt<16>BEFFU6<31>9H8
+  }
+
+man008             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel passes=1
+  corners=-0.10141963/-0.10923559/0.921076655/0.929032981/-0.10805488/0.92\
+  9912925 maxiter=1000 inside=0 logmap=yes biomorph=0 periodicity=0
+  colors=000imXjoVbgOPscVoY`kTCup<3>_iTqUS<6>ffO7zx<3>ZjVlww<8>ehR13`<3>Y_\
+  QEaa<11>cgP9yO<5>aiOcsE<8>ehNBIZ<14>dfO0Oi<12>bfPCfd<13>cgPVfj<5>dgRY0F<\
+  5>daNmcb<13>egP0yy<8>ahRrSM3Ta<3>ZdQmFn<5>fcR6UA<2>XdL_Kt5dO<11>cgOH21<5\
+  >UNDWRF_fa<8>qGo<6>s3ejJmaZt<7>YyD<10>STlSQoTPp<11>YPu<10>hkZ
+  }
+
+man009             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel passes=1
+  corners=-0.469567986/-0.469563527/0.544448782/0.544442831/-0.469563527/0\
+  .544442831 maxiter=5000 inside=0 logmap=yes periodicity=0
+  colors=000KjN<7>_nQsR8<6>lM7WDClM7<14>ZD52Me<5>VEAZ1I<4>ZB7J9IRBBlQu<7>_\
+  EAgmy<14>ZF8mtt<3>aLFW0S<16>ZC7ZD6Yx0<15>ZF56Z4<5>VG5ey4<6>ZJ54Zm<10>XE8\
+  qON<11>_D6aUw<6>ZFBDV7<7>XF5tvJi_Cjz3<4>`L5jmK<11>ZF602A<18>YD5ECLPDDuw_\
+  <22>ZE6`22_84YXVZWTAhK<3>4eK<6>IiN
+  }
+
+man010             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=marksmandel passes=1
+  corners=-2.688578/1.311434/-1.499989/1.5 params=0/0/1 maxiter=125
+  inside=zmag outside=summ biomorph=0
+  colors=000QW0<3>Zc0<15>0A0SNC<29>xo`zpaypa<29>UPF000<29>nnnpppooo<7>bbb
+  }
+
+man011             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel corners=-2.5/1.500012/-1.499989/1.5 maxiter=125
+  inside=zmag outside=summ biomorph=0
+  colors=000APO<12>C8AD79D79<51>jX8jX8iW8<29>KAAKAALBA<22>_P8
+  }
+
+man012             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel passes=1 corners=-2.5/1.500012/-1.499989/1.5
+  maxiter=125 inside=bof60 outside=mult biomorph=0
+  colors=000eib<3>JQNDLJ5_n<4>8JL1Cr<3>7GNxfd<3>ILLQCc<2>CFMVHH<4>EGGBGG9j\
+  e8VTipUXcPKSKcRe<6>CHJxa4<5>FJFHZBJ44<3>AEEhMBWKDKIFhnV<4>ELIhG7<6>CGFiI\
+  k<3>FGMhJk<2>HGOlpm<6>DKKyiRBmh<2>8ONM_9<4>AJFlf6<4>EKFhW60cw4Savl3XWAul\
+  FdaGhlEhq7c3v<6>8b5<6>mJ9<6>lHR<4>BWI<6>xMo<5>_BDkJ7vQ1<2>Isd<2>Ce0<6>QS\
+  r<5>gcridrjYo<3>lAe<3>d7Ec77_A8<2>PJ9<3>U1tha9VaLIaX8GHEURBNLIuB<4>9NG7c\
+  t8S_I53<3>AEEGkOCWKSk8<2>DOE80P<3>8DHhWE<4>EIGdNYOJPaz3NbAPVV<2>CJJ1CO5E\
+  KLcN<6>9JGqtjknf
+  }
+
+man013             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel passes=1 corners=-2.5/1.500012/-1.499989/1.5
+  maxiter=125 inside=bof60 outside=imag biomorph=0
+  colors=000A`9<17>1H90F90F9<75>6dN6dN6cN<54>1CB1CB1DB<31>6cD<3>7N4<45>Iq9\
+  Ir9Iq9<14>Aa9
+  }
+
+man014             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel passes=1 corners=-2.5/1.500012/-1.499989/1.5
+  maxiter=125 inside=bof60 biomorph=0
+  colors=0004Savl3XWAulFdaGhlEhq7c3v<6>8b5<6>mJ9<6>lHR<4>BWI<6>xMo<5>_BDkJ\
+  7vQ1<2>Isd<2>Ce0<6>QSr<5>gcridrjYo<3>lAe<3>d7Ec77_A8<2>PJ9<3>U1tha9VaLIa\
+  X8GHEURBNLIuB<4>9NG7ct8S_I53<3>AEEGkOCWKSk8<2>DOE80P<3>8DHhWE<4>EIGdNYOJ\
+  Paz3NbAPVV<2>CJJ1CO5EKLcN<6>9JGqtj<5>JQNDLJ5_n<4>8JL1Cr<3>7GNxfd<3>ILLQC\
+  c<2>CFMVHH<4>EGGBGG9je8VTipUXcPKSKcRe<6>CHJxa4<5>FJFHZBJ44<3>AEEhMBWKDKI\
+  FhnV<4>ELIhG7<6>CGFiIk<3>FGMhJk<2>HGOlpm<6>DKKyiRBmh<2>8ONM_9<4>AJFlf6<4\
+  >EKFhW60cw
+  }
+
+man015             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel corners=-1.995999/0.995993/-1.121997/1.122001
+  maxiter=500 inside=zmag outside=summ
+  colors=000fR6<8>IDBLDChni<2>ORPmPt<7>J7JkrP<8>EH9khC<10>ICEMG9KFAIDBZG`<\
+  7>ICD_Gt<11>HCEQjR<10>GEC8at<5>FFHO06<8>GBBhB8<5>KCBFNs<11>GDHGCEIqM<8>G\
+  GCCLl<12>GCD1ft<7>FFGS8c<5>HCFU4C<5>JABHBBEU1<7>GEAZ4p<14>HCDZQb<10>HDDz\
+  nO<8>KFCXKH<6>IDB`xi<14>HFDJyf<9>GGDqY3<2>hT5
+  }
+
+man016             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel passes=1
+  corners=-2.288845/0.847155/-1.175999/1.176 maxiter=125 inside=bof61
+  logmap=-4 periodicity=0
+  colors=000afd<4>DKKyiRBmh<2>8ONM_9<4>AJFlf6<4>EKFhW60cw4Savl3XWAulFdaGhl\
+  Ehq7c3v<6>8b5<6>mJ9<6>lHR<4>BWI<6>xMo<5>_BDkJ7vQ1<2>Isd<2>Ce0<6>QSr<5>gc\
+  ridrjYo<3>lAe<3>d7Ec77_A8<2>PJ9<3>U1tha9VaLIaX8GHEURBNLIuB<4>9NG7ct8S_I5\
+  3<3>AEEGkOCWKSk8<2>DOE80P<3>8DHhWE<4>EIGdNYOJPaz3NbAPVV<2>CJJ1CO5EKLcN<6\
+  >9JGqtj<5>JQNDLJ5_n<4>8JL1Cr<3>7GNxfd<3>ILLQCc<2>CFMVHH<4>EGGBGG9je8VTip\
+  UXcPKSKcRe<6>CHJxa4<5>FJFHZBJ44<3>AEEhMBWKDKIFhnV<4>ELIhG7<6>CGFiIk<3>FG\
+  MhJk<2>HGOlpmfkh
+  }
+
+man017             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel passes=1
+  corners=-0.748073401/-0.748116439/0.115173392/0.115377318/-0.748187853/0\
+  .115324551 maxiter=1000 inside=0 periodicity=0
+  colors=000G35<9>cAP<10>H43E30A2A<2>000<15>hh0<15>000<3>00D00H22I<10>PP`<\
+  9>33H00E00A<2>000300700A00<12>rZ0<11>400A00<2>000<15>0pp<12>0BB077044000\
+  222<14>hhh<15>000<27>007017037<13>4S4<13>1A1181171151131000313717A20C21E\
+  33
+  }
+
+man018             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel
+  corners=-1.86258907/-1.85978846/-0.00097499/0.00112528 maxiter=1000
+  inside=0 periodicity=0
+  colors=000WbQ<2>ELIhG7<6>CGFiIk<3>FGMhJk<2>HGOlpm<6>DKKyiRBmh<2>8ONM_9<4\
+  >AJFlf6<4>EKFhW60cw4Savl3XWAulFdaGhlEhq7c3v<6>8b5<6>mJ9<6>lHR<4>BWI<6>xM\
+  o<5>_BDkJ7vQ1<2>Isd<2>Ce0<6>QSr<5>gcridrjYo<3>lAe<3>d7Ec77_A8<2>PJ9<3>U1\
+  tha9VaLIaX8GHEURBNLIuB<4>9NG7ct8S_I53<3>AEEGkOCWKSk8<2>DOE80P<3>8DHhWE<4\
+  >EIGdNYOJPaz3NbAPVV<2>CJJ1CO5EKLcN<6>9JGqtj<5>JQNDLJ5_n<4>8JL1Cr<3>7GNxf\
+  d<3>ILLQCc<2>CFMVHH<4>EGGBGG9je8VTipUXcPKSKcRe<6>CHJxa4<5>FJFHZBJ44<3>AE\
+  EhMBWKDKIFhnVahS
+  }
+
+man019             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel passes=1 corners=-2.14/1.140008/-1.229989/1.23
+  maxiter=125 inside=zmag decomp=256
+  colors=000zmKGYNzcKF`LzcUFcJzmZJfKohePiKmcmTlLccm_oNUcmgrPPUonuRkkkvxTAA\
+  zvxT00zikNAAzXYHKKzKLAUUz774UUm966UUcRKK<8>0I8<24>8a08a08`0<25>0K0gMO<12\
+  >VR_TR`TR`zzzURazzzVRazzzWRazzz000zzz000zz0zzz0z0LLL<37>buCP0Z<34>qhzuhz\
+  zhzzhu<20>000o0B<7>K0fmzmK2emzmK5cczcJ8aczcJB`UzUIEZmzcIHXzzcIKVzzcHMUzz\
+  UHPSzzUGSQzmKGVO
+  }
+
+man020             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel passes=1
+  corners=-1.88490306/-1.88476142/-0.000048274/0.000058746 maxiter=250
+  inside=zmag
+  colors=000q00u00kkkfff<6>hhhzzz000mmm000gggA0AaaaAA0WWWK0KQQQKK0MMMU0UHH\
+  HUU0BBBc0c666cc0000m0m000mm0000000c0c000zz2555c8cBBBzz0HHH000LLL000PPPF0\
+  0SSSK00VVVP00<8>jc0000000pg0<2>ud0wc0zzzwm0wwwwm0xxxzz0xxxyyyyyyz00<3>z0\
+  0<13>zz0333<14>777zz0<14>0zhBBB<14>FFF0Uz<14>z00JJJ<14>NNNU0U<14>z00RRR<\
+  14>VVVzVz<14>zz0ZZZ<14>bbb000<11>m00
+  }
+
+man021             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel corners=-1.854291/0.741614/-0.973464/0.973465
+  maxiter=500 inside=zmag outside=0 logmap=yes periodicity=0
+  colors=000UPBNMDFJFHZBJ44<3>AEEhMBWKDKIFhnV<4>ELIhG7<6>CGFiIk<3>FGMhJk<2\
+  >HGOlpm<6>DKKyiRBmh<2>8ONM_9<4>AJFlf6<4>EKFhW60cw4Savl3XWAulFdaGhlEhq7c3\
+  v<6>8b5<6>mJ9<6>lHR<4>BWI<6>xMo<5>_BDkJ7vQ1<2>Isd<2>Ce0<6>QSr<5>gcridrjY\
+  o<3>lAe<3>d7Ec77_A8<2>PJ9<3>U1tha9VaLIaX8GHEURBNLIuB<4>9NG7ct8S_I53<3>AE\
+  EGkOCWKSk8<2>DOE80P<3>8DHhWE<4>EIGdNYOJPaz3NbAPVV<2>CJJ1CO5EKLcN<6>9JGqt\
+  j<5>JQNDLJ5_n<4>8JL1Cr<3>7GNxfd<3>ILLQCc<2>CFMVHH<4>EGGBGG9je8VTipUXcPKS\
+  KcRe<6>CHJxa4<2>aSA
+  }
+
+man022             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel passes=b
+  corners=-1.94273031/-1.93983567/-0.00108039/0.00108379 maxiter=500
+  inside=zmag outside=summ logmap=yes periodicity=0
+  colors=0009JEeee<24>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<14>0A0<15>Zc0<1\
+  5>0A0SNC<29>xo`zpaypa<29>UPF000<29>nnnpppooo<3>hhh
+  }
+
+man023             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel corners=-2.139999/1.140009/-1.229988/1.230001
+  maxiter=500 inside=0 outside=imag potential=255/300/0
+  colors=000zv4wz0<4>7z00z3<4>0zs3wz<6>w3zz2x<8>zlEzt6zy1qz0<4>2z00z9<4>0z\
+  x7sz<4>kFzs7zz0z<7>zeLzjGznCzt6zy1qz0<4>2z00z9<4>0zx7sz<4>kFzs7zz0z<7>ze\
+  LzjGznCzt6zy1qz0<4>2z00z9<3>0zn60t<6>z00z60<6>zy0tz0<4>Hz0Ex5<4>0gZ0Sh0J\
+  n08u20x<6>v04z20<5>zm0zu0xz0<3>Tz0Lz0Fy2<4>2jW0bb0Sh0Jn08u20x<6>v04z20<5\
+  >zm0zu0xz0<3>Tz0Lz0Fy2<4>2jW0bb0Sh0Eq03x60t<6>z00z60<6>zy0tz0<4>Hz0Ex5<4\
+  >0gZ0Ye0Nk0Eq03x60t3wz<6>w3zz2x<5>zYTCCCzbOzgJzlE cyclerange=0/255
+  }
+
+man024             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel corners=-2.139999/1.140009/-1.229988/1.230001
+  maxiter=500 inside=0 outside=imag potential=255/300/0
+  colors=000KKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKK\
+  KcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKK\
+  KcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKK\
+  KcccKKKcccKKKKKK000<10>0000j100X600000<3>0000z8000<2>000006G0000000000NB\
+  00B000s90000000000CC00Oa00xd0000000000t40000<7>00000W80000000000tp00000<\
+  7>0000Wn00S2006j0000<15>00000lg00E800OF00Wq0000000000f100<4>0000uv000<2>\
+  00000O000<4>00004c0000000000RQ00Rb00000<4>000z00zc0zz0AwA7Uzm0zcAAzcmwww\
+  KKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKccc\
+  KKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKK
+  cyclerange=0/255
+  }
+
+man025             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel corners=-2.139999/1.140009/-1.229988/1.230001
+  maxiter=500 inside=0 outside=imag potential=255/300/0
+  colors=000<5>0000Wn00S2006j0000<15>00000lg00E800OF00Wq0000000000f100<4>0\
+  000uv000<2>00000O000<5>00004c0000000000MB00Rb00000<3>000z00zc0zz0AwA7Uzm\
+  0zcAAzcmwwwKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccK\
+  KKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccK\
+  KKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccK\
+  KKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccK\
+  KKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccK\
+  KKKKK000<10>0000j100X600000<3>0000z8000<2>000006G0000000000NB00B000s9000\
+  0000000CC00Oa00xd0000000000t40000<7>00000W80000000000tp00000000
+  cyclerange=0/255
+  }
+
+man026             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel corners=-2.139999/1.140009/-1.229988/1.230001
+  maxiter=500 inside=0 outside=imag potential=255/300/0
+  colors=000sl9<40>QK00000F0<44>Fx0Gz0Gy0<31>0F0F00<45>x00z00y00<30>F00ZK0\
+  <45>xpAxpAwoA<2>um9 cyclerange=0/255
+  }
+
+man027             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel corners=-2.139999/1.140009/-1.229988/1.230001
+  maxiter=500 inside=0 outside=imag potential=255/300/0
+  colors=000t00<13>F00<15>z00<15>F00<15>z00<15>F00<15>z00<15>F00<15>z00<15\
+  >F00<15>z00<15>F00<15>z00<15>F00<15>z00<11>F00000000111111000F00<13>z00
+  cyclerange=0/255
+  }
+
+man028             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel corners=-2.067999/1.068001/-1.175992/1.176001
+  maxiter=500 inside=0 outside=mult logmap=yes periodicity=0
+  colors=000h`H<4>TB8<2>eBXVBTKBPAEL<6>DBniCZ<6>SFOPTNCTDAT8AI8<2>QBQiBn<2\
+  >TCSOIGJO8FU8FZ9FcOFhaA`X<2>AEI<4>RFP<2>LSR<2>JKDpjM<2>RPCeBk<2>OHIVXT<2\
+  >MLE<2>NRLAc8AW8BP8AZaDTSGNImm8<2>QQ8<5>Z`Mcg_homafbWZTPQJ<2>AH8CI8<2>BD\
+  VABbBB_<4>HCHpVf<2>RLH<2>AB8<4>AM8<2>Dr8Fh8G_8IR8<5>LZ8Ab_<7>KFKXu8<6>JN\
+  CghEZ_C<2>eB8YB8QB8YB8UB8QB8ME8Aj9A`AAU9EO9KB9<3>zENGW8IP8AT8AP8BL8<5>Bj\
+  QAoTBZJBSNALSABTBBMFBFfH_ZIRRIIkHfXIQfD8ZF8RH8<2>PPQaBlSBTA_nAU`BONfBU`B\
+  OVDJPGEAUZEOMTP8PM8MK8AWNFSLHNF_BkVBaRCSNFIbB8YB8TB8OE8A_7<10>1C4uC5<7>s\
+  m8<2>Bc8A`8HbM`ca<2>NYhY_V
+  }
+
+man029             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel corners=-2.067999/1.068001/-1.175992/1.176001
+  maxiter=500 inside=0 outside=imag logmap=yes periodicity=0
+  colors=000h`H<4>TB8<2>eBXVBTKBPAEL<6>DBniCZ<6>SFOPTNCTDAT8AI8<2>QBQiBn<2\
+  >TCSOIGJO8FU8FZ9FcOFhaA`X<2>AEI<4>RFP<2>LSR<2>JKDpjM<2>RPCeBk<2>OHIVXT<2\
+  >MLE<2>NRLAc8AW8BP8AZaDTSGNImm8<2>QQ8<5>Z`Mcg_homafbWZTPQJ<2>AH8CI8<2>BD\
+  VABbBB_<4>HCHpVf<2>RLH<2>AB8<4>AM8<2>Dr8Fh8G_8IR8<5>LZ8Ab_<7>KFKXu8<6>JN\
+  CghEZ_C<2>eB8YB8QB8YB8UB8QB8ME8Aj9A`AAU9EO9KB9<3>zENGW8IP8AT8AP8BL8<5>Bj\
+  QAoTBZJBSNALSABTBBMFBFfH_ZIRRIIkHfXIQfD8ZF8RH8<2>PPQaBlSBTA_nAU`BONfBU`B\
+  OVDJPGEAUZEOMTP8PM8MK8AWNFSLHNF_BkVBaRCSNFIbB8YB8TB8OE8A_7<10>1C4uC5<7>s\
+  m8<2>Bc8A`8HbM`ca<2>NYhY_V
+  }
+
+man030             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel corners=-2.067999/1.068001/-1.175992/1.176001
+  maxiter=500 inside=0 outside=real logmap=yes periodicity=0
+  colors=000A_7<10>1C4uC5<7>sm8<2>Bc8A`8HbM`ca<2>NYhY_Vh`H<4>TB8<2>eBXVBTK\
+  BPAEL<6>DBniCZ<6>SFOPTNCTDAT8AI8<2>QBQiBn<2>TCSOIGJO8FU8FZ9FcOFhaA`X<2>A\
+  EI<4>RFP<2>LSR<2>JKDpjM<2>RPCeBk<2>OHIVXT<2>MLE<2>NRLAc8AW8BP8AZaDTSGNIm\
+  m8<2>QQ8<5>Z`Mcg_homafbWZTPQJ<2>AH8CI8<2>BDVABbBB_<4>HCHpVf<2>RLH<2>AB8<\
+  4>AM8<2>Dr8Fh8G_8IR8<5>LZ8Ab_<7>KFKXu8<6>JNCghEZ_C<2>eB8YB8QB8YB8UB8QB8M\
+  E8Aj9A`AAU9EO9KB9<3>zENGW8IP8AT8AP8BL8<5>BjQAoTBZJBSNALSABTBBMFBFfH_ZIRR\
+  IIkHfXIQfD8ZF8RH8<2>PPQaBlSBTA_nAU`BONfBU`BOVDJPGEAUZEOMTP8PM8MK8AWNFSLH\
+  NF_BkVBaRCSNFIbB8YB8TB8OE8
+  }
+
+man031             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+                     ; Mandel inverted
+  reset type=mandel corners=-0.543579/1.463461/-0.752633/0.752642
+  maxiter=500 inside=0 logmap=yes invert=0.391999/0/0 periodicity=0
+  colors=000A_7<10>1C4uC5<7>sm8<2>Bc8A`8HbM`ca<2>NYhY_Vh`H<4>TB8<2>eBXVBTK\
+  BPAEL<6>DBniCZ<6>SFOPTNCTDAT8AI8<2>QBQiBn<2>TCSOIGJO8FU8FZ9FcOFhaA`X<2>A\
+  EI<4>RFP<2>LSR<2>JKDpjM<2>RPCeBk<2>OHIVXT<2>MLE<2>NRLAc8AW8BP8AZaDTSGNIm\
+  m8<2>QQ8<5>Z`Mcg_homafbWZTPQJ<2>AH8CI8<2>BDVABbBB_<4>HCHpVf<2>RLH<2>AB8<\
+  4>AM8<2>Dr8Fh8G_8IR8<5>LZ8Ab_<7>KFKXu8<6>JNCghEZ_C<2>eB8YB8QB8YB8UB8QB8M\
+  E8Aj9A`AAU9EO9KB9<3>zENGW8IP8AT8AP8BL8<5>BjQAoTBZJBSNALSABTBBMFBFfH_ZIRR\
+  IIkHfXIQfD8ZF8RH8<2>PPQaBlSBTA_nAU`BONfBU`BOVDJPGEAUZEOMTP8PM8MK8AWNFSLH\
+  NF_BkVBaRCSNFIbB8YB8TB8OE8
+  }
+
+man032             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel
+  corners=-1.930068861596/-1.930068528796/-0.000000121619/0.000000125717
+  float=y maxiter=500 inside=0 periodicity=0
+  colors=000USQJNQSzg<2>DTUjKO<2>IIQ4Y1gn2QYEz6M7DOKhDEVKQCEr1UWASBGzAHgTK\
+  ITF5MGCFHJpZqW4sOae<2>CNU8YL9QOCfYBYVAQSm9ETEK2g26VECF4AHFj1l<2>IEVb9`I3\
+  ADBIlRmTMa`CpOLmill<2>IPVIN8FLECJK3Au6EeCunc2VT8TJDRD2p<2>AEW`dygRanQc3Q\
+  `<2>8KSYSf<2>FKUv81<2>LGKRJ8IIHBqs<2>9RXBrCJLg<2>BIUxHO<2>MIQhUu<2>ILYP4\
+  9OprGZc3RB5OG7LLN_SIURDOQjTQlFITHMKmWOvh<2>CSUB33A8B9DJ1M75KHKgSMEE3pB<2\
+  >8QNV`kKR`NA4GEF7Rk<2>9KVtAnEIi<2>AIVSGK<2>DIPb76ODGK9iEE_o8aUDW3Qq5Ng7K\
+  Zpu1vzRYcQJWn<2>BLW4xvZo5QcCHTJ8Ov<2>9JY0tW<2>7RReKHPJMNa_GSVPDXDIZ1M`<2\
+  >GpH<2>0_c<2>754PdM<3>dqHB0dF8XIGPLNH<3>SFp<3>l27JILd``UUXJOTkNkZLcMJXQM\
+  PKKQEJQvvtYad0Yr5Qc1cWRZT<2>DMQovx<2>JSY95waHlSIdIIXQ4TK9SEEROgvJZkEQ`En\
+  B<2>AQNbNvOKevAd<2>LGTdYQ
+  }
+
+man033             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel
+  corners=-1.930068861596/-1.930068528796/-0.000000121619/0.000000125717
+  float=y maxiter=500 inside=0 periodicity=0
+  colors=000OLT<2>CHJxa4<5>FJFHZBJ44<3>AEEhMBWKDKIFhnV<4>ELIhG7<6>CGFiIk<3\
+  >FGMhJk<2>HGOlpm<6>DKKyiRBmh<2>8ONM_9<4>AJFlf6<4>EKFhW60cw4Savl3XWAulFda\
+  GhlEhq7c3v<6>8b5<6>mJ9<6>lHR<4>BWI<6>xMo<5>_BDkJ7vQ1<2>Isd<2>Ce0<6>QSr<5\
+  >gcridrjYo<3>lAe<3>d7Ec77_A8<2>PJ9<3>U1tha9VaLIaX8GHEURBNLIuB<4>9NG7ct8S\
+  _I53<3>AEEGkOCWKSk8<2>DOE80P<3>8DHhWE<4>EIGdNYOJPaz3NbAPVV<2>CJJ1CO5EKLc\
+  N<6>9JGqtj<5>JQNDLJ5_n<4>8JL1Cr<3>7GNxfd<3>ILLQCc<2>CFMVHH<4>EGGBGG9je8V\
+  TipUXcPKSKcRe<2>SMW
+  }
+
+man034             { ; (c) 1993 Richard H. Sherry, 76264,752
+                     ; Par series based on Mandelbrot classic lake
+  reset type=mandel passes=b corners=-2.5/1.500012/-1.499989/1.5
+  maxiter=499 fillcolor=9 inside=7 outside=imag logmap=yes
+  periodicity=0
+  colors=000bbb<6>RRR000OOO<2>JJJ000FFF<8>000PFF<29>xeDzfCyfC<30>PFF0A0<15\
+  >Zc0<14>0A0<15>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<29>ppp<\
+  7>ccc
+  }
+

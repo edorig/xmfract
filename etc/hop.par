@@ -1,0 +1,261 @@
+h-01               {
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=hopalong
+  corners=-30.324602/31.873898/3.571051/-2.621876/-4.989969/-30.546255
+  params=0.662597456/1.024562954/-0.92648752 float=y maxiter=100 inside=0
+  colors=000tShqJWoBJsvNhoOYiOMQYNcPO0CA5xCKfhE4TOF11m7I`U2`LIV9RNBUOCWPzm`igX\
+  TbTuBMfJNSROZC`dJURRRi77<2>LSL6i`9eXBaTt5R2Pn8UaxMChQHTULwLsybL<2>PZOn7VdETW\
+  LSMSQBO35yu9kdrusYicpcacmxQefne0ab9P_H`COPNPqaXkfc<2>L_SMUVHWSZdGkANUMOVWZMI\
+  4HQFrIQYQP2jK8cNg4O<2>KRPFnGhqd5w1WGMMPOWGe<2>HUTmewVaecSxVUlMW`j2bUIWCTUDVS\
+  DXQaVv<2>JYX7omAf`EF`DPVCXh<2>DYUtTEzWkCVQeqfWj`McV0tl7h`B_6CZDDYJf2ESIKOwMG\
+  FJFMLESNQdMrgddcZR`U7Jf9O`BTVHrbFgWcojVibMcWUd2OaAI_I3I2<2>BUKS01NC9INHJUbHW\
+  YFXT7Ny9RlBV`50_<2>BQRG_gEZYsAkdIcRQWhT_`VXTWULXRFEY<2>DTRb60QKD4Xk7YcAYWnap\
+  57i<2>BSUK`zL5S<2>FRP1J8<2>AVL0Kp<2>AVWPLcLQZHUU9DEBKICRMNuSJmRGeQgeo<2>K_VQ\
+  tJJhMTwRLjQcOqR5Fyt5`hF0skeiilndsr`<3>J2UANP2gKHdO<3>3uG2`D1HB3P54X0<3>9Gi<3\
+  >yRxW57h2Tt0m<2>w`u
+  }
+
+h-02               {
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=hopalong
+  corners=-10.280625/11.574115/0.940178/0.645929/-0.452203/-10.079912
+  params=1.396213546/0.225462013/-0.20350564 float=y maxiter=1000 inside=0
+  colors=000IGg<64>BaA<17>opp<43>TAeTAeRCf<14>8bs7cs8br<89>`M1`M1_L2<15>WK9
+  }
+
+h-03               {
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=hopalong
+  corners=-30.324602/31.873898/3.571051/-2.621876/-4.989969/-30.546255
+  params=1/0.558546871/-1 float=y maxiter=500 inside=0
+  colors=0009VimECdzIX0OOOUGRz1qWz8Z5e`z_b<2>IMVcO9<3>uLtFOz<6>AkW<3>8XcTvo<6>\
+  ZPO<6>Cd9<13>lKJ<9>29h<7>ah4<16>vGpxEsxGs<14>kkf<4>EXdAqw9ip8ajjSo<2>UTj2JQ<\
+  7>CNj<6>BSRGKLLCGP4B<3>jrk<2>YVb<2>qlq<3>TYxVUyXRz<2>Z3J<4>PmfefMu`1<6>EAP1x\
+  Ts1E<5>9NG<6>60y<4>LDO<7>jww4Lf<6>i3N<7>RG2<7>aJO<7>3_L<2>6XVGRk7WZ8Valph<6>\
+  DWd_SnQTjHUgE_yCYsBXn
+  }
+
+h-04               {
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=hopalong
+  corners=-30.324602/31.873898/3.571051/-2.621876/-4.989969/-30.546255
+  params=0.2/0.4684879521/-0.19 float=y maxiter=500 inside=0
+  colors=0009VimECdzIX0OOOUGRz1qWz8Z5e`z_b<2>IMVcO9<3>uLtFOz<6>AkW<3>8XcTvo<6>\
+  ZPO<6>Cd9<13>lKJ<9>29h<7>ah4<16>vGpxEsxGs<14>kkf<4>EXdAqw9ip8ajjSo<2>UTj2JQ<\
+  7>CNj<6>BSRGKLLCGP4B<3>jrk<2>YVb<2>qlq<3>TYxVUyXRz<2>Z3J<4>PmfefMu`1<6>EAP1x\
+  Ts1E<5>9NG<6>60y<4>LDO<7>jww4Lf<6>i3N<7>RG2<7>aJO<7>3_L<2>6XVGRk7WZ8Valph<6>\
+  DWd_SnQTjHUgE_yCYsBXn
+  }
+
+h-05               {
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=hopalong
+  corners=-30.324602/31.873898/3.571051/-2.621876/-4.989969/-30.546255
+  params=6.5/0.4684879521/-0.19 float=y maxiter=500 inside=0
+  colors=000noD<11>ufS<4>DEI<5>e31<15>zas<12>oihoihpjj<13>rpz<8>TVVRTSQON<3>O8\
+  5O41Q33<12>l2L<12>_VUZTWYRXOLaXPY<7>Q9eL2CR7LQ8Wcnf<4>SFfnvx<11>RBgOU5<5>QBa\
+  9thYIjUDhaKC<9>R9dmk0<9>SBc0D2<12>P8dnHy<5>T9hLiQ<5>QDdw_i<6>UBfnu6<3>VI_lTF\
+  <7>SAceOC<10>R9d8ds<9>KKjU5Y<2>L5J
+  }
+
+h-06               {
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=hopalong
+  corners=-30.324602/31.873898/3.571051/-2.621876/-4.989969/-30.546255
+  params=1/6/-0.19 float=y maxiter=500 inside=0
+  colors=0000G2<5>1aA<7>1F0KF1<6>hZ0<6>OI0KF0F0F<6>Z0U<7>F0FKF0<6>hZ0<7>KF000A\
+  <6>00k<7>00AA00<6>z00<7>A00<6>2r00z00u0<7>0A0<6>eXU<7>0A0AKK<6>mmK<7>AKMFF0<\
+  6>zz0<7>FF0F00<6>z0A<7>F00FFF<6>zzz<7>FFF0FK<6>0Um<7>0FKPF0<6>mK0<7>PF0FKA<5\
+  >NSIPUKOTJ<6>FKA00K<4>57j79p78l<6>00K0D1
+  }
+
+h-07               {
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=hopalong
+  corners=-30.324602/31.873898/3.571051/-2.621876/-4.989969/-30.546255
+  params=3/0.5/1 float=y maxiter=500 inside=0
+  colors=000YBYyjZrZalOdqDymDriDl4dpORknAB<2>hDZW31DzJyIFs4_n7bjAduLKpISkF_yv`\
+  o_cVLC`HStRLmKWQkTIsHVYU6A5PCODX`qa6JmWR`_ZPc8eeJ9q67vUZZ`Ob5BOGYUPRZYKbOS0V\
+  NF`IT2vC<2>XO_1NlFJjTGh1AzMCphT9gLQGK0UGMw2n<2>jBhneRjRZBdNRRXvorB5KR9WXfn<2\
+  >dKhR17V4GZ7PbAYdsFedPfRYiLK6nPJaVVP`vwoGO_fOPfIYsN9<2>iFZRz7<2>bPYBMf<2>ZFf\
+  X_7`SJcKVxL5rIIlFVKtKSeS_R_pv6k_PaiNcEdxPi<2>jGfwEW<2>jDdQAjZChhy2g`N632J7GV\
+  AU0C2FDGTDU4UtHOoUIjujfHEkUDhZUgbLf`RxbMrdHlEsYTYb4pVOX`cJj<2>fEgHstKkTdMN8O\
+  0QIMBaqMTmXLitbdpWemQeh9Ig7Of6T<3>gQck81<3>UHm<3>k4t<2>kTkFQ1<3>vTtoiViy6loF\
+  ofOKlqM_aONMPB7<3>dYQ<2>fzggtujVgl6Vz86uAGpBPfHgkCYwzuh`C<2>fJ_wvk4ikMkfXUfh\
+  gk<2>fKg7OnPIjMghXSgAoSRW_Rr1<2>bNXEy0T`MukM<2>iLaawqJYBRRMZKXJy_V`chkV<2>fL\
+  c654G7EP9O
+  }
+
+h-08               {
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=hopalong
+  corners=-30.324602/31.873898/3.571051/-2.621876/-4.989969/-30.546255
+  params=1.1/-0.2/0.9 float=y maxiter=500 inside=0
+  colors=000HNF_BkVBaRCSNFIbB8YB8TB8OE8A_7<10>1C4uC5<7>sm8<2>Bc8A`8HbM`ca<2>NY\
+  hY_Vh`H<4>TB8<2>eBXVBTKBPAEL<6>DBniCZ<6>SFOPTNCTDAT8AI8<2>QBQiBn<2>TCSOIGJO8\
+  FU8FZ9FcOFhaA`X<2>AEI<4>RFP<2>LSR<2>JKDpjM<2>RPCeBk<2>OHIVXT<2>MLE<2>NRLAc8A\
+  W8BP8AZaDTSGNImm8<2>QQ8<5>Z`Mcg_homafbWZTPQJ<2>AH8CI8<2>BDVABbBB_<4>HCHpVf<2\
+  >RLH<2>AB8<4>AM8<2>Dr8Fh8G_8IR8<5>LZ8Ab_<7>KFKXu8<6>JNCghEZ_C<2>eB8YB8QB8YB8\
+  UB8QB8ME8Aj9A`AAU9EO9KB9<3>zENGW8IP8AT8AP8BL8<5>BjQAoTBZJBSNALSABTBBMFBFfH_Z\
+  IRRIIkHfXIQfD8ZF8RH8<2>PPQaBlSBTA_nAU`BONfBU`BOVDJPGEAUZEOMTP8PM8MK8AWNFSL
+  }
+
+h-09               {
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=hopalong
+  corners=-30.324602/31.873898/3.571051/-2.621876/-4.989969/-30.546255
+  params=1.001359214658/-0.52016980345/0.071549235751 float=y maxiter=500
+  inside=0
+  colors=000fD8ZF8RH8<2>PPQaBlSBTA_nAU`BONfBU`BOVDJPGEAUZEOMTP8PM8MK8AWNFSLHNF\
+  _BkVBaRCSNFIbB8YB8TB8OE8A_7<10>1C4uC5<7>sm8<2>Bc8A`8HbM`ca<2>NYhY_Vh`H<4>TB8\
+  <2>eBXVBTKBPAEL<6>DBniCZ<6>SFOPTNCTDAT8AI8<2>QBQiBn<2>TCSOIGJO8FU8FZ9FcOFhaA\
+  `X<2>AEI<4>RFP<2>LSR<2>JKDpjM<2>RPCeBk<2>OHIVXT<2>MLE<2>NRLAc8AW8BP8AZaDTSGN\
+  Imm8<2>QQ8<5>Z`Mcg_homafbWZTPQJ<2>AH8CI8<2>BDVABbBB_<4>HCHpVf<2>RLH<2>AB8<4>\
+  AM8<2>Dr8Fh8G_8IR8<5>LZ8Ab_<7>KFKXu8<6>JNCghEZ_C<2>eB8YB8QB8YB8UB8QB8ME8Aj9A\
+  `AAU9EO9KB9<3>zENGW8IP8AT8AP8BL8<5>BjQAoTBZJBSNALSABTBBMFBFfH_ZIRRIIkHfXIQ
+  }
+
+h-10               {
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=hopalong
+  corners=-20.478482/21.567703/2.742017/-1.444402/-3.352271/-20.321282
+  params=0.92/-6/-0.0015 float=y maxiter=500 inside=0
+  colors=000S0P<4>F0FKF0<6>hZ0<7>KF000A<6>00k<7>00AA00<6>z00<7>A00<6>2r00z00u0\
+  <7>0A0<6>eXU<7>0A0AKK<6>mmK<7>AKMFF0<6>zz0<7>FF0F00<6>z0A<7>F00FFF<6>zzz<7>F\
+  FF0FK<6>0Um<7>0FKPF0<6>mK0<7>PF0FKA<5>NSIPUKOTJ<6>FKA00K<4>57j79p78l<6>00K0D\
+  1<6>1aA<7>1F0KF1<6>hZ0<6>OI0KF0F0F<6>Z0UX0TU0R
+  }
+
+h-11               {
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=hopalong
+  corners=-31.362298/30.836201/2.997787/-3.19514/-6.027665/-31.119519
+  params=-1.999999/-4/0.004 float=y maxiter=500 inside=0
+  colors=000pjM<2>RPCeBk<2>OHIVXT<2>MLE<2>NRLAc8AW8BP8AZaDTSGNImm8<2>QQ8<5>Z`M\
+  cg_homafbWZTPQJ<2>AH8CI8<2>BDVABbBB_<4>HCHpVf<2>RLH<2>AB8<4>AM8<2>Dr8Fh8G_8I\
+  R8<5>LZ8Ab_<7>KFKXu8<6>JNCghEZ_C<2>eB8YB8QB8YB8UB8QB8ME8Aj9A`AAU9EO9KB9<3>zE\
+  NGW8IP8AT8AP8BL8<5>BjQAoTBZJBSNALSABTBBMFBFfH_ZIRRIIkHfXIQfD8ZF8RH8<2>PPQaBl\
+  SBTA_nAU`BONfBU`BOVDJPGEAUZEOMTP8PM8MK8AWNFSLHNF_BkVBaRCSNFIbB8YB8TB8OE8A_7<\
+  10>1C4uC5<7>sm8<2>Bc8A`8HbM`ca<2>NYhY_Vh`H<4>TB8<2>eBXVBTKBPAEL<6>DBniCZ<6>S\
+  FOPTNCTDAT8AI8<2>QBQiBn<2>TCSOIGJO8FU8FZ9FcOFhaA`X<2>AEI<4>RFP<2>LSR<2>JKD
+  }
+
+h-12               {
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=hopalong
+  corners=-3.550204/2.757029/31.99/-31.99/-31.99/-5.929728
+  params=-2.070707070707/-0.7070707070707/2.7070707070707 float=y
+  maxiter=10 inside=0 colors=000FUU<8>FMZ
+  }
+
+h-13               {
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=hopalong
+  corners=-3.550204/2.757029/31.99/-31.99/-31.99/-5.929728
+  params=0.070707070707/-0.7070707070707/0.7070707070707 float=y
+  maxiter=10 inside=0
+  colors=0004KY<5>4JQ<7>_r8<9>A36<21>n`s<3>kXl`HKkXj<16>aJKsC3<13>bJIxg9<19>bK\
+  Jzj5<6>dMIzD3<3>fIGmIx<3>cJRx5e<19>bJKVrs<14>aLLPn2<15>aKIgJ4<18>aJJyfK<11>b\
+  KJ6QW<17>`JJAk5<6>ZMIDhmQWY0Ol<10>ZJLCf7Fc9I`A
+  }
+
+h-14               {
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=hopalong
+  corners=-3.550204/2.757029/31.99/-31.99/-31.99/-5.929728
+  params=0.770707070707/-0.0770707070707/-1 float=y maxiter=10 inside=0
+  colors=00000K<4>57j79p78l<6>00K0D1<6>1aA<7>1F0KF1<6>hZ0<6>OI0KF0F0F<6>Z0U<7>\
+  F0FKF0<6>hZ0<7>KF000A<6>00k<7>00AA00<6>z00<7>A00<6>2r00z00u0<7>0A0<6>eXU<7>0\
+  A0AKK<6>mmK<7>AKMFF0<6>zz0<7>FF0F00<6>z0A<7>F00FFF<6>zzz<7>FFF0FK<6>0Um<7>0F\
+  KPF0<6>mK0<7>PF0FKA<5>NSIPUKOTJ<6>FKA
+  }
+
+h-15               {
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=hopalong
+  corners=-31.362298/30.836201/2.997787/-3.19514/-6.027665/-31.119519
+  params=-0.9/-2/-3 float=y maxiter=500 inside=0
+  colors=000odE<2>SOPnpWddUVUTpGrgR__zoEyu6PEwM4jLCYKKg41OHFMIMiyIXcNCYYCeN<2>\
+  JOR7QizoRldSZUSRAmdip<2>QPY6dxl5wbAlUFaT9SPES7lhEY_e9m_CgVEbQHXIkpKXceVp<2>Q\
+  MY1GVBITkMH8rkxdudUf1weBbZjLTaKSTJSz0o<2>VFYdx2rKgfJaWJXKGHLINbbYJwy<2>LT_It\
+  rOcU<2>LOShPeakcrd7fXEWQLtmQhbRXTSif3<2>RPMHU4<2>KLMtLvkE0<2>RILllZs`HgVLWPP\
+  KxH<2>LTQiv_`hXTWUZQuSMflD3ZGGY1MRAPEpd82`xezdUhH1a<2>KFUG90IDAKGJtEf<2>UIVu\
+  dBbUKWjVQXTGjOJXQO5kNAdMFYXkG<2>OQPLeT<2>LOS2VQ9RRFNSBZm<2>JNXvn7cZInJgYgZ<2\
+  >OPTnry<2>SS_PBupf7eZEVRLoUsdQiVM`XqcDGu<2>JJZ3Z98VECRJjfj<2>kMg<2>2Q3<2>CK8\
+  rBg33yjnL<2>QUd<2>Q6MXJDbV5LNwCIf4DRUX_rog<2>q_a45v<2>jyMD0Z<3>yxx<3>gRbfBa<\
+  3>s6U<2>nNIJqXYeWkVVf`_beddLUf1KR4HC7EECJGGOIjkJo`JsQJwF<3>FSR
+  }
+
+h-16               {
+                   { (c) July 1992 Dick Sherry 76264,752
+  reset type=hopalong
+  corners=-31.362298/30.836201/2.997787/-3.19514/-6.027665/-31.119519
+  params=-0.09/-0.599/-9 float=y maxiter=500 inside=0
+  colors=000`BOVDJPGEAUZEOMTP8PM8MK8AWNFSLHNF_BkVBaRCSNFIbB8YB8TB8OE8A_7<10>1C\
+  4uC5<7>sm8<2>Bc8A`8HbM`ca<2>NYhY_Vh`H<4>TB8<2>eBXVBTKBPAEL<6>DBniCZ<6>SFOPTN\
+  CTDAT8AI8<2>QBQiBn<2>TCSOIGJO8FU8FZ9FcOFhaA`X<2>AEI<4>RFP<2>LSR<2>JKDpjM<2>R\
+  PCeBk<2>OHIVXT<2>MLE<2>NRLAc8AW8BP8AZaDTSGNImm8<2>QQ8<5>Z`Mcg_homafbWZTPQJ<2\
+  >AH8CI8<2>BDVABbBB_<4>HCHpVf<2>RLH<2>AB8<4>AM8<2>Dr8Fh8G_8IR8<5>LZ8Ab_<7>KFK\
+  Xu8<6>JNCghEZ_C<2>eB8YB8QB8YB8UB8QB8ME8Aj9A`AAU9EO9KB9<3>zENGW8IP8AT8AP8BL8<\
+  5>BjQAoTBZJBSNALSABTBBMFBFfH_ZIRRIIkHfXIQfD8ZF8RH8<2>PPQaBlSBTA_nAU`BONfBU
+  }
+
+h-17               {
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=hopalong
+  corners=-31.362298/30.836201/2.997787/-3.19514/-6.027665/-31.119519
+  params=-0.0999999/-0.599/-5 float=y maxiter=500 inside=0
+  colors=U05sr4<72>EB1DA0DB0<49>yx3zz4zz4<4>zz5<2>zzF<44>IG1HE0HE0<63>ut3vu4vv\
+  4vv4<4>ss4
+  }
+
+h-18               {
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=hopalong
+  corners=-31.54511/30.326734/4.044585/-4.882638/-5.028605/-31.664308
+  params=-0.9999999/-0.099/-2 float=y maxiter=500 inside=0
+  colors=000PZK<3>UnRMPI<11>QcmTDN_2UOQJ<13>ttzOQG<11>nsRPQI<8>omdLRG<9>5uCPOI\
+  <6>jM`MOG<8>QLKUSD<2>tc4MVG<3>JwERPM<2>fVfMPHMRJMTLSUMMUN<6>Kf`<2>5uF<13>Yjn\
+  `iq`kr<5>Ywx<4>aMu<2>_MfZM`XMb<8>7It<5>hnhNnq1mz<4>jhK<2>_IW<8>ekIejG5F0OPH<\
+  10>jhXLQL<4>DclTPJ<2>pVVsKEMNG<10>P8FQ6EPTG<4>fsJaOEqPBOOH<10>mJaJHZG9rRHSXA\
+  cb2oLRF<7>Bu2NRHOVJ
+  }
+
+h-19               {
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=hopalong
+  corners=-31.54511/30.326734/4.044585/-4.882638/-5.028605/-31.664308
+  params=-1.9191919191919/-0.0919191919191/1.9 float=y maxiter=500
+  inside=0
+  colors=000EpaPHg<4>rN3LGn<5>_IdJJm<6>JeZW0AGGrDGu9GxcvWNJo<5>kakETj9fd3tZe5c\
+  IIo<5>BYmd3ZHHj<5>0PEJabJwPA9q01sPUGNGo<5>oLoTA_b3JJ2wIGl<5>AEQLFi<3>U8IOGj<\
+  5>qKFOKgUOZ_SQDCfdWIj_9pd0<6>tC2hIWXOz<3>D23<5>yt3<5>WR`OThGVq<6>lSfqRdtRSxS\
+  F<3>ymEoJV<6>6LD<7>tGv<3>VVs<2>MiL<4>YoB<2>pHgHBsG8uOIo<6>w_kUAQd30LGl<4>WGY\
+  ZHVaFcuDRJKl<4>GhWKHm<6>RVWLJnONlQRkTViUDd<2>z27OLi<5>sq7OLl<6>zwLQLf<3>te3B\
+  Eg3C_TGbbHQJKl<5>KlUKKj<5>TkBOXcUnSLCoN8oP3oIPlHYhGfe
+  }
+
+h-20               {
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=hopalong
+  corners=-31.54511/30.326734/4.044585/-4.882638/-5.028605/-31.664308
+  params=-1.7070707070707/-0.7070707070707/7.07070707070707 float=y
+  maxiter=500 inside=0
+  colors=000TRH<52>TgSTgSUfS<66>wFTwFTwFS<60>t85s74s86<14>sZfs`is`i<49>ejQ
+  }
+
+h-21               {
+                   ; (c) July 1992 Dick Sherry 76264,752
+  reset type=hopalong
+  corners=-31.362298/30.836201/2.997787/-3.19514/-6.027665/-31.119519
+  params=-0.52/26/0.071549235751 float=y maxiter=500 inside=0
+  colors=000oDJzENGW8IP8AT8AP8BL8<5>BjQAoTBZJBSNALSABTBBMFBFfH_ZIRRIIkHfXIQfD8\
+  ZF8RH8<2>PPQaBlSBTA_nAU`BONfBU`BOVDJPGEAUZEOMTP8PM8MK8AWNFSLHNF_BkVBaRCSNFIb\
+  B8YB8TB8OE8A_7<10>1C4uC5<7>sm8<2>Bc8A`8HbM`ca<2>NYhY_Vh`H<4>TB8<2>eBXVBTKBPA\
+  EL<6>DBniCZ<6>SFOPTNCTDAT8AI8<2>QBQiBn<2>TCSOIGJO8FU8FZ9FcOFhaA`X<2>AEI<4>RF\
+  P<2>LSR<2>JKDpjM<2>RPCeBk<2>OHIVXT<2>MLE<2>NRLAc8AW8BP8AZaDTSGNImm8<2>QQ8<5>\
+  Z`Mcg_homafbWZTPQJ<2>AH8CI8<2>BDVABbBB_<4>HCHpVf<2>RLH<2>AB8<4>AM8<2>Dr8Fh8G\
+  _8IR8<5>LZ8Ab_<7>KFKXu8<6>JNCghEZ_C<2>eB8YB8QB8YB8UB8QB8ME8Aj9A`AAU9EO9KB9UB\
+  CdCG
+  }
+

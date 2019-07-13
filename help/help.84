@@ -1,0 +1,28 @@
+
+mandelfn
+
+      z(0) = c = pixel
+      z(n+1) = c*fn(z(n)).
+
+    Parameters: real & imaginary perturbations of z(0), and fn
+
+
+Function=[sin|cos|sinh|cosh|exp|log|sqr|...]) is specified with this type.
+
+Prior to version 14, these types were mandelsine, mandelcos, mandelsinh,
+mandelcos, and mandelexp.
+
+These are "pseudo-Mandelbrot" mappings for the LambdaFn Julia functions.
+They map to their corresponding Julia sets via the spacebar command in
+exactly the same fashion as the original M/J sets. In general, they are
+interesting mainly because of that property (the function=exp set in
+particular is rather boring). Generate the appropriate "Mandelfn" set,
+zoom on a likely spot where the colors are changing rapidly, and hit the
+spacebar key to plot the Julia set for that particular point.
+
+Try "xmfract type=mandelfn corners=4.68/4.76/-.03/.03 function=cos" for a
+graphic demonstration that we're not taking Mandelbrot's name in vain
+here. We didn't even know these little buggers were here until Mark
+Peterson found this a few hours before the version incorporating Mandelfns
+was released.
+

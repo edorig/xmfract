@@ -1,0 +1,41 @@
+
+newtbasin
+
+    Based on the Newton formula for finding the roots of z^p - 1.
+    Pixels are colored according to which root captures the orbit.
+
+      z(0) = pixel
+      z(n+1) = ((p-1)*z(n)^p + 1)/(p*z(n)^(p - 1)).
+
+    Two parameters: the polynomial degree p, and a flag to turn
+    on color stripes to show alternate iterations.
+
+
+The Newton formula is an algorithm used to find the roots of polynomial
+equations by successive "guesses" that converge on the correct value as
+you feed the results of each approximation back into the formula. It works
+very well -- unless you are unlucky enough to pick a value that is on a
+line BETWEEN two actual roots. In that case, the sequence explodes into
+chaos, with results that diverge more and more wildly as you continue the
+iteration.
+
+This fractal type shows the results for the polynomial Z^n - 1, which has
+n roots in the complex plane. Use the <t>ype command and enter "newtbasin"
+in response to the prompt. You will be asked for a parameter, the "order"
+of the equation (an integer from 3 through 10 -- 3 for x^3-1, 7 for x^7-1,
+etc.). A second parameter is a flag to turn on alternating shades showing
+changes in the number of iterations needed to attract an orbit. Some
+people like stripes and some don't; as always, xmfract gives you a choice!
+
+The coloring of the plot shows the "basins of attraction" for each root of
+the polynomial -- i.e., an initial guess within any area of a given color
+would lead you to one of the roots. As you can see, things get a bit weird
+along certain radial lines or "spokes," those being the lines between
+actual roots. By "weird," we mean infinitely complex in the good old
+fractal sense. Zoom in and see for yourself.
+
+This fractal type is symmetric about the origin, with the number of
+"spokes" depending on the order you select.
+
+See also: Newton
+

@@ -1,0 +1,130 @@
+Vulcan_swell_Two   { ; (c) 1992 Peter Moreland, A rough sea, another planet
+                     ; Where is the life boat?
+  reset type=lambda corners=0.022491/0.158129/-0.400258/-0.29853
+  params=2/0.66 float=y maxiter=20000 outside=imag distest=256/100
+  finattract=y periodicity=0
+  colors=000xE2<21>336<17>RQkLXs<13>YMiqBu<2>OScHGa<10>FeWXFx<3>FgW<13>la`vWg<\
+  6>eiTfhB<9>_onenw<6>Npb5lg<4>WsWp0Z<4>bkU`tU_rV<4>VhZXdU<7>OnkKrp<14>faUtce<\
+  12>FV0<19>gDBv8UqANlCHi61<12>e_ejWi<16>ZiheyyKuM<8>dp_fp`hmY<10>wH4
+  }
+
+True_Blue          { ; (c) 1992 Peter Moreland, Blue with bad bits removed!
+                     ; Don't know why, but this one really gets to me..........
+  reset type=julfn+zsqrd function=cosxx
+  corners=-2.0/1.996094/-1.496094/1.5 params=-0.5/0.5 maxiter=2250
+  bailout=30 decomp=256 biomorph=0
+  colors=H`g<2>JbeJceJddJddKec<19>PsWPsVPtVQuUPrTNoR<4>DZIBVGBVG<15>B_KCOj<27>\
+  02FDQm<38>V`bDQl<33>Vt5HTi<8>sxADQm<62>VelMT_<2>DQm<5>FUjFVjFVjFWjFXj<7>Haf
+  }
+
+Storm_Trooper...   { ; (c) 1992 Peter Moreland, From hell...
+                     ; Monster Time
+  reset type=manfn+zsqrd function=cos
+  corners=3.329904/-1.838162/-2.348273/4.544728/-1.838162/4.544728 float=y
+  maxiter=32000 inside=0 potential=255/300/150 decomp=265 biomorph=0
+  colors=000_99<15>x11z00z10<29>zx0zz0zz1<29>zzxzzzzzz<61>zV1zU0zU0zT0<28>z10z\
+  00z00y00<30>c00b11a11`22_22<23>GEEFFFFFFFFF<12>Z99
+  }
+
+Crystal_Drill_Bit  { ; (c) 1992 Peter Moreland, Diamond Dentist Horrors.
+                     ; See The Teardrop Explodes
+  reset type=lambda
+  corners=-22.271371/23.28961/2.259037/-2.232316/-3.714023/-22.484842
+  params=8/0.777 maxiter=20 inside=zmag outside=summ decomp=256
+  colors=LSU<22>FMUFLUFLUEKUEKUDJV<2>BLSAMR9MQ8MP6KM<58>inujovinu<158>LSU
+  }
+
+Alien_Eyes         { ; (c) 1992 Peter Moreland, The Teardrop Explodes.........
+                     ; See Crystal Drill Bit
+  reset type=lambda
+  corners=-0.629905/1.648144/0.125645/-0.098923/0.297962/-1.111549
+  params=8/0.777 maxiter=20 inside=zmag outside=summ decomp=256
+  colors=LSU<22>FMUFLUFLUEKUEKUDJV<2>BLSAMR9MQ8MP6KM<58>inujovinu<158>LSU
+  }
+
+Grin!              { ; Terminator type smile...
+                     ; Blantyre House, Cossack Sq, Nailsworth, Gloucs, UIK.
+  reset type=lyapunov corners=3.558858/3.974858/3.315041/3.604287
+  params=0/0.5 float=y maxiter=10
+  colors=000VZ2<26>i3P<4>HZ3<3>9mQ7qW7pX<13>1_p1Zq2Zp<29>hMA<8>Q7_O6aN8_<12>IO\
+  G<2>wRZ<4>iDT<19>ph5pj4ni6<4>cfGHZcaeI<8>J__ny1<6>LbYvkD<14>J_`i8F<21>IZ`bC6\
+  <2>PRQLWWF9_<20>HYaHZaGXk<18>H_aOHJ<3>JUW
+  }
+
+wibble_wobble      { ; dibble dobble ibble obble (c)1992 Peter Moreland
+  reset type=fn+fn function=cosxx/sin corners=-4.0/4.007797/-3.003891/3.0
+  params=1.5/0.25/1.75/0.5 maxiter=32000 inside=0 potential=255/256/32000
+  decomp=256 colors=@royal.map
+  }
+
+Scanning....       { ; Suggests a distortion of the warp field around the hull
+                     ; (c) 1992 Peter Moreland 100012,3213
+  reset type=tim's_error function=sin
+  corners=-0.1426628/-0.094736/0.3707376/0.4055737 maxiter=25 bailout=10
+  outside=real decomp=256 biomorph=256
+  colors=000fCX<5>VBMbFa_BdY6gV2j<7>J6OODIH7L<4>A96ZO3<8>BA40mW<16>9B5YPaalD<1\
+  3>CE5AB47Rl<21>995tbi<2>LGEztm<14>CC61Rt<11>9A8WRpOL_GFKQiB<8>AC4t2b<10>D96Z\
+  jK<14>AB5mnD<15>BB45`C<14>9A4bJq<12>B97oqj<2>JKET`z<14>AA70z3<2>7M4elU<13>BB\
+  5hDZ
+  }
+
+Meta_Hot!          { ; (c)1992 Peter Moreland 100012,3213
+  reset type=fn*z+z function=tan
+  corners=21.315763/-31.989983/-22.868427/22.868451/-19.828226/31.989997
+  params=5/5/5/100 maxiter=32000 inside=0 potential=255/200/32000
+  colors=000gVP<7>nYKt`GnYJ<5>s`Gt`FsRh<5>t_JaAb<4>eEZeFZfGYfHXgIW<6>kNRlOQlPQ\
+  mQPmQOnRO<11>t`Foac<74>t`Ft`Ft`Ft_Ft_FtZF<25>rVFrVFrWF<9>s_Fs_FsZL<4>tWo<54>\
+  t`FnLd<9>qSUqTTpTRrXFgUQ
+  }
+
+Vulcan_Towers      { ; (c)1992 Peter Moreland 100012,3213
+  reset type=fn*z+z function=exp
+  corners=5.384155/2.190108/-23.701432/-18.729729/2.190108/-18.729729
+  params=5/5/5/100 maxiter=32000 inside=0 potential=255/200/32000
+  colors=000nYKt`GnYJ<5>s`Gt`FsRh<5>t_JaAb<4>eEZeFZfGYfHXgIW<18>qWIrXHrYHsZGs_\
+  Gt`F<19>q`WpaXpaXpaX<50>t`Ft`Ft`Ft`Ft`F<4>sYFsYFsYFsYFsYF<19>rVFrVFrWF<9>s_F\
+  s_FsZL<4>tWo<54>t`FnLd<9>qSUqTTpTRlTRgUQ<7>mYL
+  }
+
+The_Dolphin        { ; Maths mimics nature (c)1992 Peter Moreland
+                     ; Blantyre House, Cossack Sq, Nailsworth, Gloucs, UIK.
+  reset type=mandel corners=-0.8385749/-0.9254041/-0.8120587/-0.8771594
+  params=0.8 maxiter=9 inside=bof60 outside=0
+  colors=000MrU<61>QCjQCkQBkQBkRCi<17>UQGUREUQF<14>U3W<4>WSIXXGXaDXeBWfC<21>Og\
+  VOgVQfW<29>v`rw`sx`ty`tx_sw_s<45>UU`UU`VTa<35>kLdMrT
+  }
+
+*INSIGNIA*         { ; PETER MORELAND 100012,3213
+  reset type=manfn+zsqrd function=cos
+  corners=3.654803/-4.4203/-5.346063/5.424251/-4.4203/5.424251 float=y
+  maxiter=32000 inside=0 potential=255/300/150 decomp=265 biomorph=0
+  colors=000WMD<15>K6HJ5II4IH3JG2JF0K<14>I0NI0OI0OI0PI0P<38>S0_T0`T0`T0aT0aT0b\
+  T0b<64>zzzzzzzzy<60>zz1zz0zy0yx0<37>XNC
+  }
+
+Alienesque         { ; Structures that would look at home in the films!
+  reset type=mandel
+  corners=-0.83952538/-0.82181601/-0.18884401/-0.19216813/-0.83155495/-0.19947\
+  281 maxiter=32767
+  }
+
+*GONZO*            { ; Muppet monster eyes! Peter Moreland 100012,3213
+                     ; Look into my eyes, cycle!, Cycle!!!!
+  reset type=mandel
+  corners=-1.860573960053322/-1.860573960010119/-0.0000009343731507/-0.0000009\
+  343850622/-1.860573960031925/-0.0000009344012104 float=y maxiter=1500
+  inside=0
+  colors=000RWh<2>_fzILS<3>WWsFJP<7>HKnKIK<6>u61GKM<22>gzgFJM<15>QRYFKMRRZ<4>V\
+  Ub<2>q1P<11>p1m<5>3YS<14>ulv<22>sSD<6>IRU<2>pVX<10>9_S<14>__waZzb_x<11>ouS<2\
+  >t1v<9>ymV<15>0Em<3>UdK<19>s6U<2>ikK<15>qq5
+  }
+
+Misty!             { ; Play it for me.... (c)1992 Peter Moreland 100012,3213
+  reset type=magnet1m
+  corners=-11.1601714/-11.184285/-11.5039249/-11.542591/-11.1396539/-11.529146\
+  6 params=1.76/4 maxiter=32000 bailout=500 inside=0 potential=255/511/0
+  decomp=256
+  colors=000mJj<2>mJlmJllIllIlkIl<47>QDlQDlPFl<18>Awh<12>vcF<76>fhefhefhefhefi\
+  e<9>gomgomgpngpnfoo<69>T1w
+  }
+

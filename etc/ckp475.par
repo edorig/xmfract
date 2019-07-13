@@ -1,0 +1,339 @@
+;; ckp475.par (images 451 through 475), 10 July 1993
+;;
+;; Here are my current contributions to PARs for Tomorrow (V18.0)...
+;; Any duplications are entirely unintentional...  With any luck, a
+;; few of these will find their way into the postcard/poster world
+;; before spring of '93...  Comments pro and con will be sent to
+;; their appropriate locations...
+
+;; A few images here were inspirations from other creations, and
+;; have been (I hope) accorded appropriate acknowledgement...
+;; Among those PARs I used here are BOB8:Megacyte and BOB8:Lambda_S,
+;; each of which made for numerous beautiful images!
+;; My thanx to their creators...
+
+;; Time listed on the first line reflects creation on a 486-50
+;; running 1024x768x256 colors...   ALL of these images look best
+;; when created with a 256-color or better video and 1024x768 or
+;; better resolution...  I have no idea how they will look at
+;; lower resolutions or lower color densities...  Happy viewing!
+
+;; caren park
+;; park computer services
+;; 23808 southeast 24th street
+;; issaquah, washington  98027
+;; CIS:  75430,1474
+
+;; PS:  Please do not use these images commercially without
+;; dropping me a quick message requesting inclusion in your
+;; fine product BEFORE you go to market...
+
+2D0454             { ; for "Nautilus MRI Scan" - ckp0454 - 2D
+                     ; 00:05:03.18 .. 17 june 1993 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=0.47427450099/0.48003633093/-0.3511169585/-0.3570463917/0.480998\
+  65966/-0.3608825897 params=0.124234234/0.55432499999999996 float=y
+  maxiter=500 inside=maxiter decomp=127 periodicity=-1
+  colors=000Nqw<28>1BR09P19Q<13>MMiONkQPk<13>wwyzzzzwx<14>z0N<3>m2Kj2Jh3I<\
+  13>4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<16>yyvzzzyyywwwuuuttt<20>GGGEEECCE<4\
+  >22E00F00G<23>00x00z01z<27>OszPuzOty cyclerange=0/255
+  }
+
+ckp0451            { ; "Almost Giger"
+                     ; 00:06:03.10 .. 17 june 1993 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=0.500767961/0.479182549/-0.38477828/-0.3928425478/0.489877612/-0\
+  .3772895169 params=0.124234234/0.55432499999999996 float=y
+  maxiter=500 inside=maxiter decomp=127 periodicity=-1
+  colors=Puz<31>1BR09P19Q<13>MMiONkQPk<13>wwyzzzzwx<14>z0N<3>m2Kj2Jh3I<13>\
+  4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<16>yyvzzzyyywwwuuu000sss<19>GGGEEECCE<4\
+  >22E00F00G<23>00x00z01z<27>Osz cyclerange=0/255
+  }
+
+ckp0452            { ; "Elephant Trunk with Baobob"
+                     ; 00:06:01.57 .. 17 june 1993 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=0.485815539/0.472604113/-0.330685812/-0.38425777/0.502121126/-0.\
+  372840475 params=0.124234234/0.55432499999999996 float=y maxiter=500
+  inside=maxiter decomp=127 periodicity=-1
+  colors=Mov<27>1BR09P19Q<13>MMiONkQPk<13>wwyzzzzwx<14>z0N<3>m2Kj2Jh3I<13>\
+  4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<16>yyvzzzyyywwwuuu000sss<19>GGGEEECCE<4\
+  >22E00F00G<23>00x00z01z<27>OszPuzOtyOrxNqw cyclerange=0/255
+  }
+
+ckp0453            { ; "The Beach"
+                     ; 00:18:12.62 .. 17 june 1993 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=0.4706038539/0.463145791/-0.3417019105/-0.3719441447/0.479808620\
+  7/-0.3654988977 params=0.124234234/0.55432499999999996 float=y
+  maxiter=500 inside=maxiter decomp=127 periodicity=-1
+  colors=Puz<31>1BR09P19Q<13>MMiONkQPk<13>wwyzzzzwx<14>z0N<3>m2Kj2Jh3I<13>\
+  4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<16>yyvzzzyyywwwuuu000sss<19>GGGEEECCE<4\
+  >22E00F00G<23>00x00z01z<27>Osz cyclerange=0/255
+  }
+
+ckp0454            { ; "Nautilus MRI Scan"
+                     ; 00:02:57.57 .. 17 june 1993 .. caren park
+                     ; requires 2D0454
+  3d=yes filename=2D0454.gif scalexyz=95/95 roughness=95 waterline=0
+  filltype=2 ambient=20 rotation=55/0/0 perspective=0 xyshift=0/0
+  colors=000Nqw<28>1BR09P19Q<13>MMiONkQPk<13>wwyzzzzwx<14>z0N<3>m2Kj2Jh3I<\
+  13>4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<16>yyvzzzyyywwwuuuttt<20>GGGEEECCE<4\
+  >22E00F00G<23>00x00z01z<27>OszPuzOty cyclerange=0/255
+  }
+
+ckp0455            { ; "Jungle of Colors"
+                     ; 00:09:08.00 .. 18 june 1993 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=0.1237212749/0.1177215098/0.551208793/0.5467089692
+  params=0.124234234/0.55432499999999996 float=y maxiter=500
+  inside=maxiter decomp=127 periodicity=-1
+  colors=wyw<14>0c0<14>030000002<14>00c<15>zzz<15>00c<14>003000000<15>0cc<\
+  15>zzz<15>0cc<14>033000200<13>`00c00d44<13>zzz<15>c00<14>300000020<14>0c\
+  0<15>zzz cyclerange=0/255
+  }
+
+
+ckp0456            { ; "Rib Eyes"
+                     ; 00:07:40.61 .. 18 june 1993 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=0.4885208034/0.4793893512/-0.3869717397/-0.3759013005/0.47707389\
+  79/-0.369886927 params=0.124234234/0.55432499999999996 float=y
+  maxiter=500 inside=maxiter decomp=127 periodicity=-1
+  colors=Puz<31>1BR09P19Q<13>MMiONkQPk<13>wwyzzzzwx<14>z0N<3>m2Kj2Jh3I<13>\
+  4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<16>yyvzzzyyywwwuuu000sss<19>GGGEEECCE<4\
+  >22E00F00G<23>00x00z01z<27>Osz cyclerange=0/255
+  }
+
+ckp0457            { ; "Antennae"
+                     ; 01:03:57.12 .. 18 june 1993 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=-0.372780525/-0.358549206/-1.002407381/-0.9977746833
+  params=0.124234234/1.554325/-4 float=y maxiter=500 inside=maxiter
+  decomp=127 periodicity=-1
+  colors=Hen<20>1BR09P19Q<13>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXL\
+  CYLA_K<14>zyyzzz<19>uu0<16>yyvzzzyyywwwuuu000sss<19>GGGEEECCE<4>22E00F00\
+  G<23>00x00z01z<28>Puz<9>Igo cyclerange=0/255
+  }
+
+ckp0458            { ; "Graphic Breakwater"
+                     ; 00:30:43.31 .. 18 june 1993 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=0.4901393604/0.48977711163/-0.3987480051/-0.40021691362/0.490586\
+  44907/-0.39990385876 params=0.124234234/0.55432499999999996 float=y
+  maxiter=500 inside=maxiter decomp=127 periodicity=-1
+  colors=bbq<5>zzz<15>00c<14>003000000<15>0cc<15>zzz<15>0cc<14>033000200<1\
+  3>`00c00d44<13>zzz<15>c00<14>300000020<14>0c0<15>zzz<15>0c0<14>030000002\
+  <14>00c<8>ZZo cyclerange=0/255
+  }
+
+ckp0459            { ; "Window Blinds"
+                     ; 00:16:35.52 .. 19 june 1993 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=0.4807832956/0.482113865/-0.3888633313/-0.3826371387/0.478748725\
+  8/-0.3838194353 params=0.124234234/0.55432499999999996 float=y
+  maxiter=500 inside=maxiter decomp=127 periodicity=-1
+  colors=Puz<31>1BR09P19Q<13>MMiONkQPk<13>wwyzzzzwx<14>z0N<3>m2Kj2Jh3I<13>\
+  4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<16>yyvzzzyyywwwuuu000sss<19>GGGEEECCE<4\
+  >22E00F00G<23>00x00z01z<27>Osz cyclerange=0/255
+  }
+
+ckp0460            { ; "This and That"
+                     ; 0:09:03.92 .. 20 june 1993 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=0.48993532316/0.48956389915/-0.39216663542/-0.39057667364/0.4893\
+  0341992/-0.39024466233 params=0.124234234/0.55432499999999996
+  float=y maxiter=500 inside=maxiter decomp=127 periodicity=-1
+  colors=Puz<31>1BR09P19Q<13>MMiONkQPk<13>wwyzzzzwx<14>z0N<3>m2Kj2Jh3I<13>\
+  4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<16>yyvzzzyyywwwuuu000sss<19>GGGEEECCE<4\
+  >22E00F00G<23>00x00z01z<27>Osz cyclerange=0/255
+  }
+
+ckp0461            { ; "Turbulence"
+                     ; 0:13:06.30 .. 20 june 1993 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=0.488916247513/0.487883843775/-0.39321928631/-0.39246308283/0.48\
+  7856048143/-0.39176376295 params=0.124234234/0.55432499999999996
+  float=y maxiter=500 inside=maxiter decomp=127 periodicity=-1
+  colors=Puz<31>1BR09P19Q<13>MMiONkQPk<13>wwyzzzzwx<14>z0N<3>m2Kj2Jh3I<13>\
+  4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<16>yyvzzzyyywwwuuu000sss<19>GGGEEECCE<4\
+  >22E00F00G<23>00x00z01z<27>Osz cyclerange=0/255
+  }
+
+ckp0462            { ; "Turbulence, v2"
+                     ; 0:13:06.30 .. 20 june 1993 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=0.488916247513/0.487883843775/-0.39321928631/-0.39246308283/0.48\
+  7856048143/-0.39176376295 params=0.124234234/0.55432499999999996
+  float=y maxiter=500 inside=maxiter decomp=127 periodicity=-1
+  colors=K6R<8>304101000OUY<10>579456234111000zVW<12>733311000e3L<11>70350\
+  2201000kmx<12>567223000_mj<12>4651220000OJ<11>043021011000ohh<12>6552220\
+  00www<12>777333000jQU<12>523211000i0w<12>507203000CWn<5>6HS5FP4DL3BH28E1\
+  6A146013000iXc<14>000_mj<12>465122000000zb0<12>740310000`QV<12>423111000\
+  S8`<2>M6T cyclerange=0/255
+  }
+
+ckp0463            { ; "Rainbow Ladder to Elsewhere"
+                     ; 0:06:20.08 .. 20 june 1993 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=0.48530463769/0.48449408838/-0.37680135977/-0.37984312857/0.4860\
+  5903902/-0.37968636219 params=0.124234234/0.55432499999999996
+  float=y maxiter=500 inside=maxiter decomp=127 periodicity=-1
+  colors=MJW<11>qSd<2>zhE<7>v70<3>PATP9TQ7UQ6U<3>RDD<3>CBB8AA4C50F0<4>7GJ8\
+  GNAFR<4>EHQEHQFHQFIQGKQ<6>MYO<9>UONVMMWMMWMM<8>z0K<5>z2Lz2Lz3Lz4L<3>z9L0\
+  00zzzavzarz9iz<6>RRzzOL<27>zwLuxL<7>YhKUfJPdI<2>DXH<6>AOE9MD9ND<14>CWECX\
+  ECXD<46>JyBKzAMzC<18>zzzZCnZEn9FT<3>JIW cyclerange=0/255
+  }
+
+ckp0464            { ; "What's Wrong With My Eyes?"
+                     ; 00:10:44.33 .. 22 june 1993 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=0.48977387957/0.489807194456/-0.3910439842276/-0.3905836500261/0\
+  .489699170721/-0.3905906409079
+  params=0.124234234/0.55432499999999996 float=y maxiter=500
+  inside=maxiter decomp=127 periodicity=-1
+  colors=o0B<67>10y10y00z00z11y<77>vv4ww3xx2yy2yy1zz0<56>zL0000zK0<25>z10z\
+  00z00y01<11>p0A cyclerange=0/255
+  }
+
+ckp0465            { ; "The End of the Rainbow?"
+                     ; 00:01:35.08 .. 22 june 1993 .. caren park
+  reset=1800 type=manfn+exp function=sin passes=t
+  corners=-2.135898/0.04010166/-1.003744/0.6282555
+  params=0.93570932569999998/0.30957832950000003 float=y maxiter=500
+  inside=maxiter decomp=256 periodicity=-1
+  colors=_4G<10>4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<16>yyvzzzyyywwwuuuttt<20>\
+  GGGEEECCE<4>22E00F00G<23>00x00z01z<28>Puz<31>1BR09P19Q<13>MMiONkQPk<13>w\
+  wyzzzzwx<14>z0Nv0M<6>b4H cyclerange=0/255
+  }
+
+;; the next three images are "just" color variations on the same
+;; basic calculation...  even so, each has its own flavour...
+
+ckp0466            { ; "Tile"
+                     ; 00:23:15.00 .. 25 june 1993 .. caren park
+  reset=1800 type=popcornjul passes=t corners=-3/3/-2.2/2.2
+  params=0.14999999999999999 float=y maxiter=500 bailout=12
+  inside=maxiter logmap=yes periodicity=-1
+  colors=000sss<19>GGGEEECCE<4>22E00F00G<23>00x00z01z<28>Puz<31>1BR09P19Q<\
+  13>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<\
+  16>yyvzzzyyywwwuuu cyclerange=0/255
+  }
+
+ckp0467            { ; "Brushstrokes in Red"
+                     ; 00:23:15.00 .. 25 june 1993 .. caren park
+  reset=1800 type=popcornjul passes=t corners=-3/3/-2.2/2.2
+  params=0.14999999999999999 float=y maxiter=500 bailout=12
+  inside=maxiter logmap=yes periodicity=-1
+  colors=300<83>w00z99<2>yF9xG9xI9xJ8xL8<5>xU5xW5xX4xY4<6>xi3xk3ym3yn3yo2y\
+  q2<3>yx1zz0zz0zy0zx0zx0<15>bq2`p3Yp3<4>Jo7Fn8En9<4>9nE7nF7nH000kkk7oO<8>\
+  7rg6sj6sk<12>8rx8ry8px<11>9QjANhALh<7>C5dD2cD2c<18>V0_V0_W0_W0_X0_<3>_0`\
+  <15>303000000<2>200 cyclerange=0/255
+  }
+
+ckp0468            { ; "Brushstrokes in Rainbow"
+                     ; 00:23:15.00 .. 25 june 1993 .. caren park
+  reset=1800 type=popcornjul passes=t corners=-3/3/-2.2/2.2
+  params=0.14999999999999999 float=y maxiter=500 bailout=12
+  inside=maxiter logmap=yes periodicity=-1
+  colors=WMZ<7>qSd<2>zhE<7>v70<3>PATP9TQ7UQ6U<3>RDD<3>CBB8AA4C50F0<4>7GJ8G\
+  NAFR<4>EHQEHQFHQFIQGKQ<6>MYO<9>UONVMMWMMWMM<8>z0K<5>z2Lz2Lz3Lz4L<3>z9L00\
+  0zzzavzarz9iz<6>RRzzOL<27>zwLuxL<7>YhKUfJPdI<2>DXH<6>AOE9MD9ND<14>CWECXE\
+  CXD<46>JyBKzAMzC<18>zzzZCnZEn9FT<7>ULY cyclerange=0/255
+  }
+
+ckp0469            { ; "Blue Ice Trophy"
+                     ; 00:00:51.96 .. 25 june 1993 .. caren park
+  reset=1800 type=tim's_error function=conj passes=b
+  corners=-1.635081/2.489919/2.666667/-2.666667/2.489919/-2.666667
+  params=0.39593257320956998/0.443192475453/0/0/0.123 float=y
+  maxiter=500 bailout=512 inside=maxiter logmap=yes periodicity=-1
+  colors=AAE<3>22E00F00G<23>00x00z01z<28>Puz<31>1BR09P19Q<13>MMiONkQPk<13>\
+  wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<16>yyvzzzyyywwwu\
+  uu000sss<19>GGGEEECCE cyclerange=0/255
+  }
+
+ckp0470            { ; "Forest Moon"
+                     ; 00:04:22.33 .. 26 june 1993 .. caren park
+  reset=1800 type=tim's_error function=sin passes=b
+  corners=-1.0725215/-0.59952151/-0.55270404/-0.20870404
+  params=1.39593257320957/0.443192475453/0/0/0.123 float=y maxiter=500
+  bailout=256 inside=maxiter logmap=yes periodicity=-1
+  colors=CCE<4>22E00F00G<23>00x00z01z<28>Puz<31>1BR09P19Q<13>MMiONkQPk<13>\
+  wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<16>yyvzzzyyywwwu\
+  uu000sss<20>EEE cyclerange=0/255
+  }
+
+ckp0471            { ; "Aurora Borealis"
+                     ; 00:06:05.14 .. 26 june 1993 .. caren park
+  reset=1800 type=tim's_error function=conj passes=b
+  corners=0.17701613/0.45201613/-0.37118644/-0.17118644
+  params=1/1/0/0/0.123 float=y maxiter=500 bailout=512 inside=maxiter
+  logmap=yes periodicity=-1
+  colors=AAp<65>vv4ww3xx2yy2yy1zz0<56>zL0zL0zK0zK0zJ0<23>z10z00z00y01<80>1\
+  0y10y00z00z11y<10>99q cyclerange=0/255
+  }
+
+ckp0472            { ; "Shell Quilt"
+                     ; 08:43:39.28 .. 29 june 1993 .. caren park
+  reset=1800 type=popcorn passes=t corners=-3/3/-2.2/2.2
+  params=0.050000000000000003/0/0/0/0.123 float=y maxiter=500
+  bailout=24 inside=maxiter logmap=yes periodicity=-1
+  colors=09P<14>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXLCYLA_K<14>zyy\
+  zzz<19>uu0<16>yyvzzzyyywwwuuu000sss<19>GGGEEECCE<4>22E00F00G<23>00x00z01\
+  z<28>Puz<31>1BR cyclerange=0/255
+  }
+
+ckp0473            { ; "Into the Abyss"
+                     ; 00:03:02.90 .. 10 july 1993 .. caren park
+                     ; inspired by BOB8:Lambda_S
+  reset=1800 type=lambda(fn||fn) function=sinh/sqr passes=b
+  corners=-1.841263/1.827026/-1.407257/1.354767
+  params=1/0.20000000000000001/1 float=y maxiter=1000
+  colors=00000555500666600777700888800999900AAAA00AAAA00BBBB00CCCC00DDDD00\
+  EEEE00FFFF00FFFF00GGGG00HHHH00IIII00JJJJ00KKKK00LLLL00LLLL00MMMM00NNNN00\
+  OOOO00PPPP00QQQQ00QQQQ00RRRR00SSSS00TTTT00UUUU00VVVV00VVVV00WWWW00XXXX00\
+  YYYY00ZZZZ00____00____00````00aaaa00bbbb00cccc00dddd00eeee00eeee00ffff00\
+  gggg00hhhh00iiii00jjjj00jjjj00kkkk00llll00mmmm00nnnn00oooo00oooo00pppp00\
+  qqqq00rrrr00ssss00tttt00tttt00uuuu00vvvv00wwww00xxxx00yyyy00zzzzzzz00zyy\
+  y00yxxx00xwww00wvvv00vttt00tsss00srrr00rqqq00qppp00onnn00nmmm00mlll00lkk\
+  k00jjjj00ihhh00hggg00gfff00eeee00dccc00cbbb00baaa00a```00____00ZYYY00YXX\
+  X00XWWW00VVVV00UUUU00TSSS00SRRR00QQQQ00PPPP00OOOO00NMMM00LLLL00KKKK00JJJ\
+  J00IHHH00HGGG00FFFF00EEEE00DDDD00CBBB00AAAA00999900888800777700555500444\
+  4003333002222000<3>001111002222003333004444005555
+  }
+
+ckp0474            { ; "Into the Abyss, #2"
+                     ; 00:03:02.90 .. 10 july 1993 .. caren park
+                     ; inspired by BOB8:Lambda_S
+  reset=1800 type=lambda(fn||fn) function=sinh/sqr passes=b
+  corners=-1.841263/1.827026/-1.407257/1.354767
+  params=1/0.20000000000000001/1 float=y maxiter=1000
+  colors=000<5>00000lg00E800OF00Wq0000000000f100<4>0000uv000<2>00000O000<4\
+  >00004c0000000000RQ00Rb00000<3>000z00zc0zz0AwA7Uzm0zcAAzcmwwwKKKcccKKKcc\
+  cKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcc\
+  cKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcc\
+  cKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcc\
+  cKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcc\
+  cKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKKKK000<10>0000j100X6\
+  00000<3>0000z8000<2>000006G0000000000NB00B000s90000000000CC00Oa00xd00000\
+  00000t40000<7>00000W80000000000tp00000<7>0000Wn00S2006j0000<9>000
+  }
+
+ckp0475            { ; "Into the Abyss, #3"
+                     ; 00:03:02.90 .. 10 july 1993 .. caren park
+                     ; inspired by BOB8:Lambda_S
+  reset=1800 type=lambda(fn||fn) function=sinh/sqr passes=b
+  corners=-1.841263/1.827026/-1.407257/1.354767
+  params=1/0.20000000000000001/1 float=y maxiter=1000
+  colors=000xd0000000000A40000<7>00000AM0000000000Op00000<7>0000An00HG00Kj\
+  0000<15>00000Gg00H800GF00Aq0000000000A100<4>00000v000<2>00000D000<4>0000\
+  7c0000000000EB00Rb00000<3>000z00zc0zz0AwA7Uzm0zcAAzcmwwwKKKcccKKKcccKKKc\
+  ccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKc\
+  ccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKc\
+  ccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKc\
+  ccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKc\
+  ccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKcccKKKKKK000<11>00100MK00000<3>\
+  0000G8000<2>000006G0000000000FB003z009N00000000004C00Oa00
+  }
+

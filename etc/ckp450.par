@@ -1,0 +1,318 @@
+;; ckp450.par (images 426 through 450), 17 June 1993
+;;
+;; Here are my current contributions to PARs for Tomorrow (V18.0)...
+;; Any duplications are entirely unintentional...  With any luck, a
+;; few of these will find their way into the postcard/poster world
+;; before spring of '93...  Comments pro and con will be sent to
+;; their appropriate locations...
+
+;; A few images here were inspirations from other creations, and
+;; have been (I hope) accorded appropriate acknowledgement...
+
+;; Time listed on the first line reflects creation on a 486-50
+;; running 1024x768x256 colors...   ALL of these images look best
+;; when created with a 256-color or better video and 1024x768 or
+;; better resolution...  I have no idea how they will look at
+;; lower resolutions or lower color densities...  Happy viewing!
+
+;; caren park
+;; park computer services
+;; 23808 southeast 24th street
+;; issaquah, washington  98027
+;; CIS:  75430,1474
+
+;; PS:  Please do not use these images commercially without
+;; dropping me a quick message requesting inclusion in your
+;; fine product BEFORE you go to market...
+
+2D0436             { ; for "Blue Landscape" - ckp0436 - 2d
+                     ; 00:02:13.53 .. 13 june 1993 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=0.42301504/0.55184704/-0.22633855/-0.39811455/0.55184704/-0.3981\
+  1455 params=0.124234234/0.55432499999999996 float=y maxiter=500
+  inside=maxiter decomp=127 periodicity=-1
+  colors=000sss<19>GGGEEECCE<4>22E00F00G<23>00x00z01z<28>Puz<31>1BR09P19Q<\
+  13>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<\
+  16>yyvzzzyyywwwuuu cyclerange=0/255
+  }
+
+2D0443             { ; for "Blue Countryside, White Shadows" - ckp0443 - 2d
+                     ; 00:02:35.22 .. 14 june 93 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=0.35602935/0.21725687/0.57663033/0.47255097
+  params=0.124234234/0.55432499999999996 float=y maxiter=500
+  inside=maxiter decomp=127 periodicity=-1
+  colors=000sss<19>GGGEEECCE<4>22E00F00G<23>00x00z01z<28>Puz<31>1BR09P19Q<\
+  13>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<\
+  16>yyvzzzyyywwwuuu cyclerange=0/255
+  }
+
+ckp0426            { ; "Shock Wave, #3"
+                     ; 00:40:40.28 .. 10 june 93 .. caren park
+  reset=1800 type=mandel(fn||fn) function=sin/sqr passes=t
+  corners=-0.58240469/-0.18240469/-0.15/0.15 params=0/0/0.5 float=y
+  maxiter=500 inside=maxiter logmap=yes periodicity=-1
+  colors=000sss<19>GGGEEECCE<4>22E00F00G<23>00x00z01z<28>Puz<31>1BR09P19Q<\
+  13>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<\
+  16>yyvzzzyyywwwuuu cyclerange=0/255
+  }
+
+ckp0427            { ; "4D Slinky, Jester Colors"
+                     ; 00:02:29.40 .. 10 june 93 .. caren park
+  reset=1800 type=mandellambda passes=t
+  corners=0.744/1.256/0.50421904/0.88821904
+  params=-0.83523449999999999/-0.25431999999999999 float=y maxiter=500
+  inside=maxiter logmap=yes decomp=256 periodicity=-1
+  colors=yyywwwuuuttt<20>GGGEEECCE<4>22E00F00G<23>00x00z01z<28>Puz<31>1BR0\
+  9P19Q<13>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXLCYLA_K<14>zyyzzz<1\
+  9>uu0<17>zzz cyclerange=0/255
+  }
+
+ckp0428            { ; "At the Speed of Light"
+                     ; 00:46:35.01 .. 11 june 93 .. caren park
+  reset=1800 type=mandel(fn||fn) function=sin/sqr passes=t
+  corners=-0.49968563/-0.25808563/-0.0906/0.0906 params=0/0/0.5
+  float=y maxiter=500 inside=maxiter logmap=yes periodicity=-1
+  colors=000sss<19>GGGEEECCE<4>22E00F00G<23>00x00z01z<28>Puz<31>1BR09P19Q<\
+  13>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<\
+  16>yyvzzzyyywwwuuu cyclerange=0/255
+  }
+
+ckp0429            { ; "Claw, False Color Closeup"
+                     ; 00:02:32.03 .. 12 june 93 .. caren park
+  reset=1800 type=mandellambda passes=t
+  corners=0.870971/0.995899/0.580281074/0.673977074
+  params=-0.83523449999999999/-0.25431999999999999 float=y maxiter=500
+  inside=maxiter logmap=yes decomp=256 periodicity=-1
+  colors=YYY<8>GGGEEECCE<4>22E00F00G<23>00x00z01z<28>Puz<31>1BR09P19Q<13>M\
+  MiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<16>y\
+  yvzzzyyywwwuuuttt<10>___ cyclerange=0/255
+  }
+
+ckp0430            { ; "Doppler Targeting"
+                     ; 00:04:36.17 .. 12 june 93 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=-2.321208/0.3827918/-2.514/-0.486
+  params=0.82423423399999995/1.554325/-8 float=y maxiter=500
+  inside=maxiter decomp=127 periodicity=-1
+  colors=yyoyysyyvzzzyyywwwuuuttt<20>GGGEEECCE<4>22E00F00G<23>00x00z01z<28\
+  >Puz<31>1BR09P19Q<13>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXLCYLA_K\
+  <14>zyyzzz<19>uu0<13>xxl cyclerange=0/255
+  }
+
+ckp0431            { ; "Rejected Contact Lens"
+                     ; 00:00:42.73 .. 12 june 93 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=-2.470651/0.233349/-1.558224/0.4697757
+  params=1.824234234/0.55432499999999996 float=y maxiter=500
+  inside=maxiter decomp=127 periodicity=-1
+  colors=000sss<19>GGGEEECCE<4>22E00F00G<23>00x00z01z<27>OszPuzOty<30>1BR0\
+  9P19Q<13>MMiONkQPk<13>wwyzzzzwx<14>z0N<3>m2Kj2Jh3I<13>4B7<9>EXLCYLA_K<14\
+  >zyyzzz<19>uu0<16>yyvzzzyyywwwuuu cyclerange=0/255
+  }
+
+ckp0432            { ; "PigTails"
+                     ; 00:02:14.67 .. 13 june 1993 .. caren park
+  reset=1100 type=formula formulafile=fractint.frm
+  formulaname=Fzppfncs function=exp passes=b
+  corners=-1.441462/-1.42199985/1.07136496/1.08596156
+  params=0.39985325775300001/1 float=y inside=maxiter decomp=96
+  periodicity=-1
+  colors=000sss<19>GGGEEECCE<4>22E00F00G<23>00x00z01z<28>Puz<31>1BR09P19Q<\
+  13>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<\
+  16>yyvzzzyyywwwuuu cyclerange=0/255
+  }
+
+ckp0433            { ; "Bird Flock on Lake at Sunset with Headlights"
+                     ; 01:23:41.46 .. 13 june 1993 .. caren park
+  reset=1800 type=mandel(fn||fn) function=sin/sqr passes=t
+  corners=-0.34534456/-0.30378936/-0.0155832/0.0155832 params=0/0/0.5
+  float=y maxiter=500 inside=maxiter logmap=yes periodicity=-1
+  colors=000sss<19>GGGEEECCE<4>22E00F00G<23>00x00z01z<28>Puz<31>1BR09P19Q<\
+  13>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<\
+  16>yyvzzzyyywwwuuu cyclerange=0/255
+  }
+
+ckp0434            { ; "Tornado Chain"
+                     ; 00:24:22.12 .. 13 june 1993 .. caren park
+  reset=1800 type=mandel(fn||fn) function=sin/sqr passes=t
+  corners=-0.3061037928/-0.2987837928/0.1061055541/0.09634555411/-0.298783\
+  7928/0.09634555411
+  params=1.2309857/0.20938759000000001/0.69999999999999996 float=y
+  maxiter=500 inside=maxiter logmap=yes periodicity=-1
+  colors=000sss<19>GGGEEECCE<4>22E00F00G<23>00x00z01z<28>Puz<31>1BR09P19Q<\
+  13>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<\
+  16>yyvzzzyyywwwuuu cyclerange=0/255
+  }
+
+ckp0435            { ; "Moebius Flow"
+                     ; 00:03:22.84 .. 13 june 1993 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=0.49455365/0.10031365/0.67243065/0.37675065
+  params=0.124234234/0.55432499999999996 float=y maxiter=500
+  inside=maxiter decomp=127 periodicity=-1
+  colors=000sss<19>GGGEEECCE<4>22E00F00G<23>00x00z01z<28>Puz<31>1BR09P19Q<\
+  13>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<\
+  16>yyvzzzyyywwwuuu cyclerange=0/255
+  }
+
+ckp0436            { ; "Blue Landscape"
+                     ; 00:02:59.11 .. 13 june 1993 .. caren park
+  3d=yes filename=2d0436.gif scalexyz=95/95 roughness=95 waterline=0
+  filltype=2 ambient=20 rotation=55/0/0 perspective=0 xyshift=0/0
+  colors=000sss<19>GGGEEECCE<4>22E00F00G<23>00x00z01z<28>Puz<31>1BR09P19Q<\
+  13>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<\
+  16>yyvzzzyyywwwuuu cyclerange=0/255
+  }
+
+ckp0437            { ; "Ray-Traced Swamp Plants"
+                     ; 00:10:03.02 .. 13 june 1993 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=-0.41999287/0.006503132/-1.3072893/-0.98741732
+  params=0.124234234/1.554325/-4 float=y maxiter=500 inside=maxiter
+  decomp=127 periodicity=-1
+  colors=OszPuz<31>1BR09P19Q<11>JKfLLhLLhMMiONk<14>wwyzzzzwx<14>z0N<14>000\
+  <13>DUJEXLCYLA_K<14>zyyzzz<31>kKk<14>owRpzPoxP<21>O3KM0JM0K<18>40r30t00v\
+  10x00z<27>Nqz cyclerange=0/255
+  }
+
+ckp0438            { ; "Shattered Lightning"
+                     ; 00:21:16.73 .. 14 june 93 .. caren park
+  reset=1800 type=mandel(fn||fn) function=sin/sqr passes=t
+  corners=-0.4203148357/-0.4174890821/-0.0121442782/-0.010024963
+  params=0/0/0.5 float=y maxiter=500 inside=maxiter logmap=yes
+  periodicity=-1
+  colors=09z<4>02z00z00y<59>003002000000000<29>00k00m01m<29>0ky0mz1mz<30>z\
+  zz<44>5zz3zz2zz0zz0yz<39>0Az cyclerange=0/255
+  }
+
+
+ckp0439            { ; "Seismic Fault Line"
+                     ; 01:13:36.54 .. 14 june 93 .. caren park
+  reset=1800 type=mandel(fn||fn) function=sin/sqr passes=t
+  corners=-0.2656281683/-0.2587937875/-0.1085117846/-0.103385999
+  params=0.23098569999999999/0.20938759000000001/0.5 float=y
+  maxiter=500 inside=maxiter logmap=yes periodicity=-1
+  colors=9Qa<9>1BR09P19Q<13>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXLC\
+  YLA_K<14>zyyzzz<19>uu0<16>yyvzzzyyywwwuuu000sss<19>GGGEEECCE<4>22E00F00G\
+  <23>00x00z01z<28>Puz<20>ARb cyclerange=0/255
+  }
+
+ckp0440            { ; "Untitled, #440"
+                     ; 00:46:56.74 .. 14 june 93 .. caren park
+  reset=1800 type=mandel(fn||fn) function=sin/sqr passes=t
+  corners=-0.2656955984/-0.2637807184/-0.06577253632/-0.06433637632
+  params=0.23098569999999999/0.20938759000000001/0.69999999999999996
+  float=y maxiter=500 inside=maxiter logmap=yes periodicity=-1
+  colors=DUz<13>Puz<31>1BR09P19Q<13>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B\
+  7<9>EXLCYLA_K<14>zyyzzz<19>uu0<16>yyvzzzyyywwwuuu000sss<19>GGGEEECCE<4>2\
+  2E00F00G<23>00x00z01z<13>CTz cyclerange=0/255
+  }
+
+ckp0441            { ; "Aquarium Planetarium"
+                     ; 00:52:27.69 .. 14 june 93 .. caren park
+  reset=1800 type=mandel(fn||fn) function=sin/sqr passes=t
+  corners=-0.33928037537/-0.33886437537/-0.074593548892/-0.074281548892
+  params=1.2309857/0.20938759000000001/0.69999999999999996 float=y
+  maxiter=500 inside=maxiter logmap=yes periodicity=-1
+  colors=3zz2zz0zz<44>05z03z02z00z00y<59>003002000000000<29>00k00m01m<29>0\
+  ky0mz1mz<30>zzz<44>5zz cyclerange=0/255
+  }
+
+ckp0442            { ; "Windswept Waves and Underwater Object"
+                     ; 00:50:07.89 .. 14 june 93 .. caren park
+  reset=1800 type=mandel(fn||fn) function=sin/sqr passes=t
+  corners=-0.30254442129/-0.30207594129/0.10162373921/0.10099909921/-0.302\
+  07594129/0.10099909921
+  params=1.2309857/0.20938759000000001/0.69999999999999996 float=y
+  maxiter=500 inside=maxiter logmap=yes periodicity=-1
+  colors=000dpt<26>zzz000<86>01L01M01M02M02M02N<87>0Zh0_h1_h2`h<42>bps
+  cyclerange=0/255
+  }
+
+ckp0443            { ; "Blue Countryside, White Shadows"
+                     ; 00:03:02.35 .. 14 june 93 .. caren park
+  3d=yes filename=2d0443.gif scalexyz=95/95 roughness=95 waterline=0
+  filltype=2 ambient=20 rotation=55/0/0 perspective=0 xyshift=0/0
+  colors=000zzzyyywwwuuuttt<20>GGGEEECCE<4>22E00F00G<23>00x00z01z<28>Puz<3\
+  1>1BR09P19Q<13>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXLCYLA_K<14>zy\
+  yzzz<19>uu0<15>yys cyclerange=0/255
+  }
+
+ckp0444            { ; "Chaotic Gear Box"
+                     ; 00:02:35.22 .. 15 june 1993 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=0.35602935/0.21725687/0.57663033/0.47255097
+  params=0.124234234/0.55432499999999996 float=y maxiter=500
+  inside=maxiter decomp=127 periodicity=-1
+  colors=00T<16>00x00z01z<28>Puz<31>1BR09P19Q<13>MMiONkQPk<13>wwyzzzzwx<14\
+  >z0Nv0M<18>4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<16>yyvzzzyyywwwuuu000sss<19>\
+  GGGEEECCE<4>22E00F00G<5>00R cyclerange=0/255
+  }
+
+ckp0445            { ; "Penguin Snails and Brood"
+                     ; 00:02:34.06 .. 15 june 1993 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=0.26412326/0.21050662/0.632976843/0.592764363
+  params=0.124234234/0.55432499999999996 float=y maxiter=500
+  inside=maxiter decomp=127 periodicity=-1
+  colors=00A<23>00k00m01m<29>0ky0mz1mz<30>zzz<44>5zz3zz2zz0zz0yz<43>05z03z\
+  02z00z00y<59>003002000000000<4>008 cyclerange=0/255
+  }
+
+ckp0446            { ; "Knit One, Perl 805"
+                     ; 00:05:55.69 .. 15 june 1993 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=0.21196488/0.10157768/0.592970992/0.510180592
+  params=0.124234234/0.55432499999999996 float=y maxiter=500
+  inside=maxiter decomp=127 periodicity=-1
+  colors=yysyyvzzzyyywwwuuuttt<20>GGGEEECCE<4>22E00F00G<23>00x00z01z<28>Pu\
+  z<31>1BR09P19Q<13>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXLCYLA_K<14\
+  >zyyzzz<19>uu0<14>yyo cyclerange=0/255
+  }
+
+ckp0447            { ; "Untitled, #447"
+                     ; 00:04:57.21 .. 15 june 1993 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=0.494113642/0.467477703/-0.30235738/-0.410365359/0.526987809/-0.\
+  38734662 params=0.124234234/0.55432499999999996 float=y maxiter=500
+  inside=maxiter decomp=127 periodicity=-1
+  colors=Puz<31>1BR09P19Q<13>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXL\
+  CYLA_K<14>zyyzzz<19>uu0<16>yyvzzzyyywwwuuu000sss<19>GGGEEECCE<4>22E00F00\
+  G<23>00x00z01z<27>Osz cyclerange=0/255
+  }
+
+ckp0448            { ; "Crystal Ball with Fractal"
+                     ; 00:01:27.87 .. 15 june 1993 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=-1.8252682/-1.7183052/-0.39685522/-0.6555739/-1.7183052/-0.65557\
+  39 params=1.824234234/0.55432499999999996 float=y maxiter=500
+  inside=maxiter decomp=127 periodicity=-1
+  colors=yyoyysyyvzzzyyywwwuuuttt<20>GGGEEECCE<4>22E00F00G<23>00x00z01z<27\
+  >OszPuzOty<30>1BR09P19Q<13>MMiONkQPk<13>wwyzzzzwx<14>z0N<3>m2Kj2Jh3I<13>\
+  4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0uu3uu7vvAtttvvH<8>xxl
+  cyclerange=0/255
+  }
+
+ckp0449            { ; "Tracks to the Water"
+                     ; 00:49:40.93 .. 15 june 1993 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=-0.0172918428/0.00403295718/-1.01564071/-0.999647111
+  params=0.124234234/1.554325/-4 float=y maxiter=500 inside=maxiter
+  decomp=127 periodicity=-1
+  colors=000sss<19>GGGEEECCE<4>22E00F00G<23>00x00z01z<28>Puz<31>1BR09P19Q<\
+  13>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<\
+  9>wwZ000xxe<4>yyvzzzyyywwwuuu cyclerange=0/255
+  }
+
+ckp0450            { ; "Teeth"
+                     ; 00:01:55.12 .. 17 june 1993 .. caren park
+  reset=1800 type=mandphoenix passes=t
+  corners=0.4930893826/0.4904257887/-0.3990003117/-0.4098011096/0.49637679\
+  93/-0.4074992356 params=0.124234234/0.55432499999999996 float=y
+  maxiter=500 inside=maxiter decomp=127 periodicity=-1
+  colors=88E<2>22E00F00G<23>00x00z01z<28>Puz<5>LmtKlsJjqJhp<22>1BR09P19Q<1\
+  3>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<1\
+  6>yyvzzzyyywwwuuu000sss<11>WWW00ISSS<5>GGGEEECCEAAE cyclerange=0/255
+  }
+

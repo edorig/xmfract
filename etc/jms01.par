@@ -1,0 +1,238 @@
+;; As you can't help but notice all of these are done with the Royal
+;; color map. Just experimenting with parameters now, the color editor comes
+;; later.  These are all original, so if I happened on the same image as
+;; someone else, my apologies.
+
+;; A lot of these use inversions and zooming out instead of in, which I haven't
+;; seen much of in other par files.  And last, don't send any nasty notes about
+;; the swastika.  No hidden meaning there, I'm just continually amazed at what
+;; you can find in Fractint.
+
+
+Knight             {
+  reset type=marksmandelpwr function=cosxx
+  corners=-0.956012/2.043988/2.0/-2.0/2.043988/-2.0 float=y maxiter=32767
+  bailout=16 inside=-100 outside=real decomp=256
+  colors=000zzg<42>zz1zz0zy0yx0<58>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0c\
+  V1cV2d<60>zzzzzzzzy<16>zzh
+  }
+
+OppositeBalls      {
+  reset type=fn(z*z) function=log corners=-4.0/4.0/-3.0/3.0 float=y
+  maxiter=32767 inside=-100 outside=real decomp=256
+  colors=000F0K<59>T0bU0cU0cV1cV2d<60>zzzzzzzzy<60>zz1zz0zy0yx0<58>G2JF0KF0KF0\
+  KF0K
+  }
+
+TigerSkin          {
+  reset type=fn*z+z function=cosxx
+  corners=-4.716886/-1.308885/1.778973/-1.77895/-1.308885/-1.77895
+  params=1/0/1 maxiter=32767 bailout=128 outside=real logmap=yes
+  colors=000zzb<37>zz1zz0zy0yx0<58>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0c\
+  V1cV2d<60>zzzzzzzzy<21>zzc
+  }
+
+Propellor          {
+  reset type=sqr(1/fn) function=sqr corners=-4.0/4.0/-3.0/3.0 float=y
+  maxiter=32767 inside=-100 outside=real decomp=256
+  colors=000F0K<59>T0bU0cU0cV1cV2d<60>zzzzzzzzy<60>zz1zz0zy0yx0<58>G2JF0KF0KF0\
+  KF0K
+  }
+
+PurpleChromeHole   {
+  reset type=fn*fn function=cosxx/sinh corners=-4.0/4.0/-3.0/3.0 float=y
+  maxiter=32767 inside=-100 outside=real decomp=256
+  colors=000F0K<59>T0bU0cU0cV1cV2d<60>zzzzzzzzy<60>zz1zz0zy0yx0<58>G2JF0KF0KF0\
+  KF0K
+  }
+
+Backbone           {
+  reset type=manowarj corners=-3.547897/0.452099/-1.49998/1.5
+  maxiter=32767 bailout=16 outside=real logmap=yes invert=2/0/0
+  colors=000cW9<29>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1zz0zy0yx0<27>cX9
+  }
+
+Swirl              {
+  reset type=barnsleyj3 corners=-4.0/4.0/-3.0/3.0 params=0.1/0.36
+  maxiter=32767 bailout=16 outside=real logmap=yes invert=1/0/0
+  colors=000cX9<30>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1zz0zy0yx0<26>dY9
+  }
+
+PigSnoutFace       {
+  reset type=barnsleym3 corners=3.320626/-2.679374/-4.4/4.4/-2.679374/4.4
+  maxiter=32767 bailout=16 outside=real logmap=yes invert=1/0/0
+  colors=000dY9<31>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1zz0zy0yx0<25>eZ9
+  }
+
+PsuedoSphere       { ; Not a spherical Projection, just a regular fractal
+  reset type=mandelfn function=ident
+  corners=-1.552978/1.551022/-1.155134/1.172866 float=y maxiter=32767
+  outside=real logmap=yes invert=1/0/0 finattract=y
+  colors=000bVA<28>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1zz0zy0yx0<28>cW9
+  }
+
+Swastika           { ; No message, just amazed at what you can find in Fractint
+  reset type=julia4 corners=-4.0/4.0/-3.0/3.0 params=0.6/0.55
+  maxiter=32767 bailout=16 outside=real logmap=yes invert=1/0/0
+  colors=000f`8<34>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1zz0zy0yx0<22>ga8
+  }
+
+3D                 {
+  reset type=sqr(fn) function=log corners=1.064477/3.424477/-0.88/0.88
+  float=y maxiter=32767 outside=real logmap=yes invert=0.2/0/0
+  colors=000bVA<28>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1zz0zy0yx0<28>cW9
+  }
+
+Cloverleaf         {
+  reset type=fn+fn function=cosxx/sqr
+  corners=-0.374528/0.374528/-0.280896/0.280896 params=1/0/1 maxiter=32767
+  bailout=128 outside=real logmap=yes invert=0.1/0/0
+  colors=000ic7<37>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1zz0zy0yx0<19>id7
+  }
+
+StarCross          {
+  reset type=formula formulafile=fractint.frm formulaname=Richard10
+  corners=-31.99/31.99/-23.9925/23.9925 params=8/2/4/6 maxiter=500
+  inside=0 potential=256/250/32000
+  colors=000G0M<54>T0bU0cU0cV1cV2d<60>zzzzzzzzy<60>zz1zz0zy0yx0<58>G2JF0KF0K<6\
+  >G0L
+  }
+
+SunsImpacting      {
+  reset type=fn*fn function=cosxx/cotan
+  corners=-4.0/4.007797/-3.003891/3.0 maxiter=32767 inside=0 outside=real
+  logmap=yes invert=1/0/0
+  colors=000zzK<18>zz1zz0zy0yx0<58>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0c\
+  V1cV2d<60>zzzzzzzzy<40>zzL
+  }
+
+MickeyMouseFace    {
+  reset type=fn+fn function=cosxx/cotan
+  corners=1.635732/-1.126958/-1.843139/1.839248/-1.126958/1.839248
+  params=1/0/1 maxiter=32767 inside=0 outside=real logmap=yes
+  invert=0.5/0/0
+  colors=000zzp<51>zz1zz0zy0yx0<58>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0c\
+  V1cV2d<60>zzzzzzzzy<7>zzq
+  }
+
+SolarRadiation     {
+  reset type=popcornjul corners=-3.0/2.994141/-2.200516/2.199997
+  params=0.06 float=y bailout=4 invert=0.36987/0/0
+  colors=000zz1zz0<60>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<17>cKj
+  }
+
+Splattt!!!         {
+  reset type=manowarj corners=-2.358569/3.625431/-2.244/2.244 float=y
+  maxiter=32767 bailout=32 inside=0 outside=real logmap=yes invert=0.3/0/0
+  finattract=y
+  colors=000vt1<54>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1zz0zy0yx0<2>wu1
+  }
+
+CoatofArms         {
+  reset type=magnet2j corners=-0.453224/2.298776/-1.032/1.032
+  params=1.10000002384191/-2.43138842392909e-014 float=y maxiter=32767
+  inside=255 outside=mult logmap=yes invert=0.5/0/0 finattract=y
+  periodicity=0
+  colors=000UKD<17>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1zz0zy0yx0<39>VLD
+  }
+
+RabbitFace         {
+  reset type=tim's_error function=sqr
+  corners=-1.312672/0.436328/1.130667/-1.130667/0.436328/-1.130667 float=y
+  maxiter=32767 inside=0 outside=real logmap=yes finattract=y
+  colors=000ga8<35>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1zz0zy0yx0<21>hb7
+  }
+
+PurpleFaze         {
+;  reset type=julfn+exp function=cosxx passes=b
+  reset type=julfn+exp function=cosxx passes=g
+  corners=-5.243507/-1.403609/1.84/-1.84/-1.403609/-1.84 float=y
+  maxiter=32000 fillcolor=200 inside=bof61 logmap=4 decomp=128
+  distest=3000/71
+  colors=000F0K<58>T0bU0cU0cV1cV2d<60>zzzzzzzzy<60>zz1zz0zy0yx0<58>G2JF0KF0K<2\
+  >F0K
+  }
+
+CandleFlame        {
+  reset type=marksmandelpwr function=ident
+  corners=-1.063808/1.612177/1.784007/-1.783978/1.612177/-1.783978
+  maxiter=24000 inside=maxiter outside=real logmap=2 decomp=256 biomorph=1
+  colors=000wux<4>zzzzzzzzy<60>zz1zz0zy0yx0<58>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<\
+  52>T0bU0cU0cV1cV2d<54>vtw
+  }
+
+MeltingStar        {
+  reset type=fn(z)+fn(pix) function=cos/sqr
+  corners=-8.0/7.999985/-6.00001/6.0 params=2118/-115/56/12 maxiter=32000
+  inside=0 potential=255/200/32000
+  colors=000tr2<52>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1zz0zy0yx0<4>us2
+  }
+
+DiamondCross       {
+  reset type=fn*z+z function=ident corners=-4.0/3.999992/-3.000005/3.0
+  params=150/-99/100/-10 maxiter=32000 inside=0 potential=255/200/32000
+  colors=000vt1<54>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1zz0zy0yx0<2>wu1
+  }
+
+DoubleStar         {
+  reset type=fn*z+z function=sqr corners=-8.0/7.999985/-6.00001/6.0
+  params=13/-100/200/-1 maxiter=32000 inside=0 potential=255/200/32000
+  colors=000sp3<50>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1zz0zy0yx0<6>tq2
+  }
+
+Spikey             {
+  reset type=fn(z)+fn(pix) function=cosh/cosxx
+  corners=-15.069397/0.930588/-5.749684/6.250326
+  params=25000/5000/1000/-150 maxiter=32000 inside=0
+  potential=255/200/32000
+  colors=000mi5<43>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1zz0zy0yx0<13>nj5
+  }
+
+Corners            {
+  reset type=fn(z)+fn(pix) function=sqr/sqr
+  corners=-31.99/13.556664/-13.563782/31.99 params=800/1000/500/12
+  maxiter=32000 inside=0 potential=255/200/32000
+  colors=000zz0<60>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1
+  }
+
+SunThruTheWindow   {
+  reset type=fn(z)+fn(pix) function=ident/ident
+  corners=-31.989985/31.990015/-31.990015/31.99
+  params=115/-90000/8000000/-150 maxiter=32000 inside=0
+  potential=255/200/32000
+  colors=000zz0<60>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1
+  }
+
+NoName             {
+  reset type=fn*z+z function=exp
+  corners=-11.391996/11.392007/-8.544014/8.543997
+  params=2000/-100/200/-1000 maxiter=32000 inside=0
+  potential=255/200/32000
+  colors=000nj5<44>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>zzzzzz\
+  zzy<60>zz1zz0zy0yx0<12>ok4
+  }
+
+OctoStar           {
+  reset type=fn*z+z function=sqr corners=-8.0/7.999985/-6.00001/6.0
+  params=7/400/5000/900000 maxiter=32000 inside=0 potential=255/200/32000
+  colors=000zz2zz1zz0<60>G2JF0KF0K<4>F0LG0LG0LG0MG0MH0M<52>T0bU0cU0cV1cV2d<60>\
+  zzzzzzzzy<58>zz3
+  }
+
+

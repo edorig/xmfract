@@ -1,0 +1,74 @@
+Curley_Locks       { ; From "EVIL" By Dick Sherry, via SMOKIE by Peter Moreland
+                     ; Dan Farmer
+  reset type=manzzpwr
+  corners=-1.064217/-0.929381/0.07449821/-0.073240224/-0.929381/-0.072946387
+  params=0/0/2 float=y
+  colors=000n86CH98E2QNP_QZiThMVJTfM_rQGQLFXREcXHOP<2>KapBaA6t3VbSiucGVRFeaEql\
+  RTTbaenjsGMGGOGGQGFTHHQKJWOZBEq2CHII<2>M9OmTcMMO<2>cTnQSJHLGJMGKNGMOFPUF<2>q\
+  wANNH<2>gXNRUTacfmntVTGiaFxkE8KV0LjHUQIc`JmjLxuKEFO8EGTD<2>Fu3QBG`2HIISKGcMD\
+  oKGCOB7GNMGQSFTYc7jLME<2>aT5XG9nB1DTU9bgArQDKLALR7MXbQHLZZQnrFMQ<2>BUsJXqVWC\
+  ig8xs3ZK_rLt`THubJVKRiKaxJlEVPCeY9qfTWFehDruBq6NLJEQICWG9TPNeUUr_aIMSKOdNQqQ\
+  NL<2>sW_8bD0uAHo`8PqKTGPaGUjFIKH<2>PJMEPSBVc8`pORE
+  }
+
+Alian I            { ; From "EVIL" By Dick Sherry, via SMOKIE by Peter Moreland
+                     ; Dan Farmer
+  reset type=manzzpwr
+  corners=-1.064217/-0.929381/0.07449821/-0.073240224/-0.929381/-0.072946387
+  params=0/0/2 potential=255/1500/256
+  colors=CCCIHQ<15>OJyGH7<35>bU0KJ9<7>w_TYK_HH7<29>wj5GH7<30>WfGGH8<21>XJ`ccc<\
+  103>ccc
+  }
+
+Alian_II           { ; From "EVIL" By Dick Sherry, via SMOKIE by Peter Moreland
+                     ; Dan Farmer
+  reset type=manzzpwr
+  corners=-1.0537768/-0.9578774/0.053147318/-0.051928681/-0.9578774/-0.0517196\
+  95 params=0/0/2 float=y maxiter=32000 inside=0 potential=255/1400/256
+  colors=CCCPSP<45>t5JPRP<23>428RUQ<11>rrhPSP<30>roUPSP<38>gVrPSP<32>HCNPSP<27\
+  >IYUPSPIYU<11>F`XF`XF`W<9>JbSj`9<7>qc3
+  }
+
+Alian_III          { ; From "EVIL" By Dick Sherry, via SMOKIE by Peter Moreland
+                     ; Dan Farmer
+  reset type=manzzpwr
+  corners=-1.0537768/-0.9578774/0.053147318/-0.051928681/-0.9578774/-0.0517196\
+  95 params=0/0/2 float=y maxiter=32000 inside=0 potential=255/1400/256
+  colors=CCC76B<2>428RUQ<11>rrhPSP<30>roUPSP<38>gVrPSP<32>HCNPSP<27>IYUPSPIYU<\
+  11>F`XF`XF`W<9>JbSj`9<7>qc3PSP<45>t5JPRP<19>87B
+  }
+
+Another_Face       { ; From "EVIL" By Dick Sherry, via SMOKIE by Peter Moreland
+                     ; Dan Farmer
+  reset type=manzzpwr
+  corners=-0.9355677/-0.8806354/0.030391691/-0.029797105/-0.8806354/-0.0296773\
+  96 params=0/0/2 maxiter=32000 inside=0 potential=255/1600/256
+  colors=CCCISX<10>4Tf_VJ<7>KxEcSJ<8>vTAaSJyU9<11>dk5bm4am4<11>Pw5Nx6Ov6<19>uB\
+  4<20>_DjYEmYEm<62>ud1<14>5S7<24>HNoIMqIMq<45>pK`
+  }
+
+OKeefe_II          { ; From "EVIL" By Dick Sherry, via SMOKIE by Peter Moreland
+                     ; Dan Farmer
+  reset type=manzzpwr
+  corners=-1.1668447/-1.0710598/-0.000017656/-0.104968137/-1.0710598/-0.104759\
+  401 params=0.1/0/2 maxiter=32000 inside=0 decomp=255
+  colors=000rMh<46>NK2MJ1MK1<16>``IabJ`bK<17>Aam8`o8_m<10>FENGCKGCK<2>ICLTNN<1\
+  9>YELYELYEM<71>VOkVOkUPlUQl<14>_eZ`gY`gY<34>rMh
+  }
+
+CutPaperI          { ; From "EVIL" By Dick Sherry, via SMOKIE by Peter Moreland
+                     ; Dan Farmer
+  reset type=manzzpwr
+  corners=-1.1503476/-1.0993901/-0.002827848/-0.058661504/-1.0993901/-0.058550\
+  457 params=0.1/0/2 float=y maxiter=32000 inside=0 decomp=255
+  colors=000<126>00y00z00y<125>000
+  }
+
+CutPaperII         { ; From "EVIL" By Dick Sherry, via SMOKIE by Peter Moreland
+                     ; Dan Farmer
+  reset type=manzzpwr
+  corners=-1.14255886/-1.1331044/-0.0313120643/-0.0416712175/-1.1331044/-0.041\
+  6506142 params=0.1/0/2 maxiter=32000 inside=0 decomp=255
+  colors=000<126>00y00z00y<125>000
+  }
+

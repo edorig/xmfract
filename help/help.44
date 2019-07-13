@@ -1,0 +1,24 @@
+
+complexnewton and complexbasin
+
+    Newton fractal types extended to complex degrees. Complexnewton
+    colors pixels according to the number of iterations required to
+    escape to a root. Complexbasin colors pixels according to which
+    root captures the orbit. The equation is based on the newton
+    formula for solving the equation z^p = r
+
+      z(0) = pixel
+      z(n+1) = ((p - 1) * z(n)^p + r)/(p * z(n)^(p - 1)).
+
+    Four parameters: real & imaginary parts of degree p and root r
+
+
+Well, hey, "Z^n - 1" is so boring when you can use "Z^a - b" where "a" and
+"b" are complex numbers!  The new "complexnewton" and "complexbasin"
+fractal types are just the old "newton" and "newtbasin" fractal types with
+this little added twist. When you select these fractal types, you are
+prompted for four values (the real and imaginary portions of "a" and "b").
+If "a" has a complex portion, the fractal has a discontinuity along the
+negative axis - relax, we finally figured out that it's *supposed* to be
+there!
+

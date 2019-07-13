@@ -1,0 +1,83 @@
+
+Formula Fractal Types
+
+formulas: formula
+
+
+This is a "roll-your-own" fractal interpreter - you don't even need a
+compiler!
+
+To run a "type=formula" fractal, you first need a text file containing
+formulas (there's a sample file - fractint.frm - included with this
+distribution). When you select the "formula" fractal type, xmfract
+prompts for a formula file name, them scans the formula file for
+formulas. Select any of these, then enter any desired parameters.
+The formula is parsed for syntax errors and then the fractal is generated.
+
+The following documentation is supplied by Mark Peterson, who wrote the
+formula interpreter:
+
+Formula fractals allow you to create your own fractal formulas. The
+general format is:
+
+   Mandelbrot(XAXIS) { z = Pixel:  z = sqr(z) + pixel, |z| <= 4 }
+      |         |          |                |              |
+     Name     Symmetry    Initial         Iteration       Bailout
+                          Condition                       Criteria
+
+Initial conditions are set, then the iterations performed until the
+bailout criteria is True or 'z' turns into a periodic loop.
+
+All variables are created automatically by their usage and treated as
+complex. If you declare 'v = 2' then the variable 'v' is treated as a
+complex with an imaginary value of zero.
+
+
+          Predefined Variables (x, y)
+          --------------------------------------------
+          z              used for periodicity checking
+          p1             parameters 1 and 2
+          p2             parameters 3 and 4
+          pixel          screen coordinates
+          LastSqr        Modulus from the last sqr() function
+          rand           Complex random number
+
+          Precedence
+          --------------------------------------------
+          1              sin(), cos(), sinh(), cosh(), cosxx(),
+                         tan(), cotan(), tanh(), cotanh(),
+                         sqr, log(), exp(), abs(), conj(), real(),
+                         imag(), flip(), fn1(), fn2(), fn3(), fn4(),
+                         srand()
+          2              - (negation), ^ (power)
+          3              * (multiplication), / (division)
+          4              + (addition), - (subtraction)
+          5              = (assignment)
+          6              < (less than), <= (less than or equal to)
+                         > (greater than), >= (greater than or equal to)
+                         == (equal to), != (not equal to)
+          7              && (logical AND), || (logical OR)
+
+
+Precedence may be overridden by use of parenthesis. Note the modulus
+squared operator |z| is also parenthetic and always sets the imaginary
+component to zero. This means 'c * |z - 4|' first subtracts 4 from z,
+calculates the modulus squared then multiplies times 'c'. Nested modulus
+squared operators require overriding parenthesis:
+
+          c * |z + (|pixel|)|
+
+The functions fn1(...) to fn4(...) are variable functions - when used,
+the user is prompted at run time (on the <Z> screen) to specify one of
+sin, cos, sinh, cosh, exp, log, sqr, etc. for each required variable
+function.
+
+The 'rand' predefined variable is changed with each iteration to a new
+random number with the real and imaginary components containing a value
+between zero and 1. Use the srand() function to initialize the random
+numbers to a consistent random number sequence. If a formula does not
+contain the srand() function, then the formula compiler will use the system
+time to initialize the sequence. This could cause a different fractal to be
+generated each time the formula is used depending on how the formula is
+written.
+

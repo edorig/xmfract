@@ -1,0 +1,22 @@
+
+Rossler Attractors
+
+formulas: rossler3D
+
+
+This fractal is named after the German Otto Rossler, a non-practicing
+medical doctor who approached chaos with a bemusedly philosophical
+attitude. He would see strange attractors as philosophical objects. His
+fractal namesake looks like a band of ribbon with a fold in it. All we can
+say is we used the same calculus-teacher-defeating trick of multiplying
+the equations by "dt" to solve the differential equation and generate the
+orbit. This time we will skip straight to the orbit generator - if you
+followed what we did above with type Lorenz you can easily reverse
+engineer the differential equations.
+
+             xnew = x - y*dt -   z*dt
+             ynew = y + x*dt + a*y*dt
+             znew = z + b*dt + x*z*dt - c*z*dt
+
+Default parameters are dt = .04, a = .2, b = .2, c = 5.7
+

@@ -1,0 +1,296 @@
+;; ckp150.par (images 126 through 150), 30 december 1992
+;;
+;; Here are my current contributions to PARs for Tomorrow (V18.0)...
+;; A few of these images are color map changes for PARs already
+;; uploaded by others (RHS, JMS, etc), but most are completely
+;; original (to my knowledge)...  Any duplications are entirely
+;; unintentional...  With any luck, a few of these will find
+;; their way into the postcard/poster world before spring of
+;; '93...  Comments pro and con will be sent to their appropriate
+;; locations...
+
+;; This particular file uses FLIP.FRM extensively, available
+;; on Compuserve...  I'm having quite a bit of fun with it, and
+;; as you can see, some of these images look almost lifelike in
+;; "bugness."  Sorry to say, though, they (like Lyapunovs) take
+;; quite a bit of time to generate...
+
+;; Time listed on the first line reflects creation on a 486-50
+;; running 1024x768x256 colors...   ALL of these images look best
+;; when created with a 256-color or better video and 1024x768 or
+;; better resolution...  I have no idea how they will look at
+;; lower resolutions or lower color densities...  Happy viewing!
+
+;; caren park
+;; park computer services
+;; 23808 southeast 24th street
+;; issaquah, washington  98027
+
+;; PS:  Please do not use these images commercially without
+;; dropping me a quick message requesting inclusion in your
+;; fine product BEFORE you go to market...
+
+;; These next two have their equations in common, yet they don't
+;; look too much alike...  You might try loading both and saving
+;; their appropriate MAPs, then "doing" one of them...  When
+;; done, save, then take a look at it with the second MAP...
+;; Like it?  I do...
+
+Icarus             { ; 03:17:00.15
+                     ; 23 dec 92 .. caren park
+  reset type=formula formulafile=flip.frm formulaname=phoenix_m
+  passes=t corners=-0.2/0.2/-1.280378/-0.980378 float=y maxiter=500
+  inside=zmag periodicity=-1
+  colors=00000I<13>01L01M01M02M02M02N<87>0Zh0_h1_h2`h<71>zzz000<70>00I
+  }
+
+Icarus2            { ; 03:17:00.15
+                     ; 23 dec 92 .. caren park
+  reset type=formula formulafile=flip.frm formulaname=phoenix_m
+  passes=t corners=-0.2/0.2/-1.280378/-0.980378 float=y maxiter=500
+  inside=zmag periodicity=-1
+  colors=00000T<27>001000000000000<28>00j00l01l<29>0kx0my1my<30>zzy<46>2zy0zy0\
+  yy<45>02y00y00x<30>00U
+  }
+
+Firebird           { ; 03:17:00.15
+                     ; 23 dec 92 .. caren park
+  reset type=formula formulafile=flip.frm formulaname=phoenix_m
+  passes=t corners=-0.2/0.2/-1.280378/-0.980378 float=y maxiter=500
+  inside=zmag periodicity=-1
+  colors=000zP0<17>zx0zz0zz0<29>zzwzzyzzy<60>zW1zV0zU0zU0<29>z10z00z00y00<30>c\
+  00b10a10`21_21<23>GEDFFEFFEFFE<29>x10z00z10<10>zN0
+  }
+
+SailboatAndTsunami { ; 06:53:07.39
+                     ; 23 dec 92 .. caren park
+  reset type=formula formulafile=flip.frm formulaname=phoenix_m
+  passes=t corners=-1.347269/-0.803269/-1.052761/-0.644761 float=y
+  maxiter=500 inside=zmag periodicity=-1
+  colors=0Ff4Gg<39>o_q<15>PAP<4>ePX<9>AKU<19>WYaXZaYZaZ_a__b<7>geeiffiff<13>og\
+  `ph_ogY<11>ZP7XO5WM3UK0UK0VL0<24>s`DtaDtaDtaD<2>taDubEtaE<10>iV8gU7fT7eS6dR6\
+  cR5<9>UK0UFFUFFVFFVFFXGGXGHYGHZFF_HI<21>pORqPSrPSrPSqPSpPS<17>bJK1Ff2Ff3Gf
+  }
+
+SabreAndPixieDust  { ; 04:07:55.17
+                     ; 23 dec 92 .. caren park
+  reset type=formula formulafile=flip.frm formulaname=phoenix_m
+  corners=-2.051445/-0.779445/1.043567/-0.652433/-0.779445/-0.652433
+  float=y maxiter=256 inside=zmag periodicity=-1
+  colors=000K0A<4>000<15>p0w<15>000<15>zzz<15>000L00<13>z00<2>p00l00h00d00a00<\
+  9>000<15>zX0<15>000<15>ut0<15>000GA4<12>2v10z00w0<14>000<15>00z<14>000<16>z0\
+  X<9>O0C
+  }
+
+MeltedMirror       { ; 04:21:06.86
+                     ; 26 dec 92 .. caren park
+  reset type=formula formulafile=flip.frm formulaname=phoenix_m
+  corners=-1.098478/-0.973358/-1.0339865/-0.9401465 float=y maxiter=256
+  inside=zmag periodicity=-1
+  colors=WPJQIQSKP<3>_VZ`Y`b`cdcf<4>nru<15>OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWga\
+  VcZT`WSYUR<6>AAK<3>ALQAOSARUBUWBXY<6>DqlDtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0\
+  <8>SDF<3>N3JL0KL1KM2KN3KO4J<12>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C4130\
+  00<15>svcsvcsvcsvc<4>jiWhfUfdTebS<3>ZUMYRKUMHSJF<6>EAb<6>7Nu5Px5Nu<5>A5cB5`<\
+  3>G8SH9QIAQ<2>OGQ
+  }
+
+Ribbons            { ; 02:51:46.88
+                     ; 26 dec 92 .. caren park
+  reset type=formula formulafile=flip.frm formulaname=phoenix_m
+  corners=-1.621025/-1.402241/-0.144332/-0.436044/-1.402241/-0.436044
+  float=y maxiter=256 inside=zmag periodicity=-1
+  colors=000840420000<15>ut0<15>000GA4<12>2v10z00w0<14>000<15>00z<14>000<16>z0\
+  X<15>000<15>p0w<15>000<15>zzz<15>000L00<13>z00<2>p00l00h00d00a00<9>000<15>zX\
+  0<12>C60
+  }
+
+Untitled.004       { ; 02:50:41.66
+                     ; 26 dec 92 .. caren park
+  reset type=formula formulafile=flip.frm formulaname=phoenix_m
+  passes=t corners=-0.323762/0.042238/1.237481/0.749481/0.042238/0.749481
+  float=y maxiter=256 inside=zmag periodicity=-1
+  colors=WPJAOS<6>CheCkhCnjDqlDtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<8>SDF<3>N3J\
+  L0KL1KM2KN3KO4J<12>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvc\
+  svcsvc<4>jiWhfUfdTebS<3>ZUMYRKUMHSJF<6>EAb<6>7Nu5Px5Nu<5>A5cB5`<3>G8SH9QIAQ<\
+  4>SKP<3>_VZ`Y`b`cdcf<4>nru<15>OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<\
+  6>AAK<3>ALQ
+  }
+
+WrappingPaper      { ; 07:25:46.37
+                     ; 26 dec 92 .. caren park
+  reset type=formula formulafile=flip.frm formulaname=phoenix_m
+  corners=-1.435604/-1.262612/0.12853/-0.102126/-1.262612/-0.102126
+  float=y maxiter=256 inside=zmag periodicity=-1
+  colors=000K0A<4>000<15>p0w<15>000<15>zzz<15>000L00<13>z00<2>p00l00h00d00a00<\
+  9>000<15>zX0<15>000<15>ut0<15>000GA4<12>2v10z00w0<14>000<15>00z<14>000<16>z0\
+  X<9>O0C
+  }
+
+MeltingMirror      { ; 01:03:55.88
+                     ; 30 dec 92 .. caren park
+  reset type=formula formulafile=flip.frm formulaname=non-conformal
+  corners=-0.78422/-0.240196/-1.240466/-0.83249 maxiter=50 inside=zmag
+  periodicity=-1
+  colors=000EDLAAK<4>AOSARUBUWBXYB__Bba<5>DtnDqm<14>14RC6QO8O<5>VHI<7>zH0<7>WE\
+  DSDFRAG<3>L0KB8D1H5<19>Q`5Sa6R`6<16>2I6IIAZJE<6>wgF<9>UHD<7>AB7000HIC<10>svc\
+  svc<20>200pdJ<5>zjF<13>RCCEEE<13>kki<18>005SNC<17>zpa<12>UPFMJI
+  }
+
+ScreenMelt         { ; 08:13:20.26
+                     ; 30 dec 92 .. caren park
+  reset type=formula formulafile=flip.frm formulaname=phoenix_m
+  corners=-0.0220608/0.0197074/-1.0514235/-1.0200618 maxiter=256
+  inside=zmag periodicity=-1
+  colors=WPJAHm<2>7Nu5Px5Nu<5>A5cB5`<3>G8SH9QIAQ<4>SKP<3>_VZ`Y`b`cdcf<4>nru<15\
+  >OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARUBUWBXY<6>Dql\
+  DtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN3KO4J<12>zz0<7>``9\
+  YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<4>jiWhfUfdTebS<3>ZUMY\
+  RKUMHSJF<6>EAb<2>BGj
+  }
+
+HorseHooves        { ; 10:56:36.58
+                     ; 30 dec 92 .. caren park
+  reset type=formula formulafile=flip.frm formulaname=phoenix_m
+  corners=-1.5449752/-1.4573939/0.205546/0.08479/-1.4573939/0.08479
+  float=y maxiter=256 inside=zmag periodicity=-1
+  colors=000wH0<14>MF0<15>ww0<15>MF0OF1<14>wEa<14>PE1<15>zp_<14>SL4PI1MF0LG2<1\
+  3>7Or5Pv6Ps<10>IHEJHAKG6LG2MF0OH1<13>kml<13>QK5OI2MF0<3>LN0KP1KR1JT2JV3<7>Fk\
+  8<9>KR2KP1KN1LL1LJ0MH0MF0LI1<13>EqiDtlEqi<12>KL5LI2MF0<15>zH0
+  }
+
+FilmRoll           { ; 02:50:18.78
+                     ; 30 dec 92 .. caren park
+  reset type=formula formulafile=flip.frm formulaname=phoenix_m
+  corners=-1.8150939/-1.7505373/-0.4689604/-0.5550358/-1.7505373/-0.5550358
+  float=y maxiter=256 inside=zmag periodicity=-1
+  colors=000N0Q<6>000<15>zzz<15>000L00<13>z00<2>p00l00h00d00a00<9>000<15>zX0<1\
+  5>000<15>ut0<15>000GA4<12>2v10z00w0<14>000<15>00z<14>000<16>z0X<15>000<15>p0\
+  w<7>R0U
+  }
+
+;; These next two have their equations in common, yet they don't
+;; look too much alike...  Kinda neat...
+
+ForestFog          { ; 00:18:55.15
+                     ; 28 dec 92 .. caren park
+  reset type=fn(z)+fn(pix) function=sin/cosh passes=t
+  corners=-1.646502/-1.801686/0.364497/0.571409/-1.801686/0.571409
+  params=0.4/0.333/1 float=y maxiter=100 bailout=50 inside=bof60
+  colors=0000EU<57>0Zh0_h1_h2`h<71>zzz000<85>01L01M01M02M02M02N<28>0DU
+  }
+
+Untitled.005       { ; 00:18:55.15
+                     ; 28 dec 92 .. caren park
+  reset type=fn(z)+fn(pix) function=sin/cosh passes=t
+  corners=-1.646502/-1.801686/0.364497/0.571409/-1.801686/0.571409
+  params=0.4/0.333/1 float=y maxiter=100 bailout=50 inside=bof60
+  colors=000S0E<6>000<15>p0w<15>000<15>zzz<15>000L00<13>z00<2>p00l00h00d00a00<\
+  9>000<15>zX0<15>000<15>ut0<15>000GA4<12>2v10z00w0<14>000<15>00z<14>000<16>z0\
+  X<7>W0H
+  }
+
+EggsOnLeaf         { ; 00:16:32.89
+                     ; 28 dec 92 .. caren park
+  reset type=fn(z)+fn(pix) function=sin/cosh passes=t
+  corners=-0.571705/-0.403833/0.808401/0.934305 params=0.7/0.333/0.5/0.5
+  float=y maxiter=100 bailout=50 inside=bof60
+  colors=ddd<16>000PFF<29>xeDzfCyfC<30>PFF0A0<70>_UI`UIaVJbWK<19>xo`zpaypa<29>\
+  UPF000<29>nnnpppooo<13>TTT
+  }
+
+TakeMyWife,Please! { ; 00:26:24.05
+                     ; 30 dec 92 .. caren park
+  reset type=fn(z)+fn(pix) function=sin/cosh
+  corners=-0.535393/-0.191841/0.701969/0.959633 params=0.4/0.333/1/0.5
+  float=y maxiter=100 bailout=50 inside=bof60
+  colors=`P8<46>K9BGAB<29>zz0<22>8da<24>C8AD79D79<56>m_8n`7n`7o`7<21>pd6pd6oc6\
+  <42>`Q8 cyclerange=0/255
+  }
+
+PeterMaxxPeas      { ; 00:16:52.60
+                     ; 30 dec 92 .. caren park
+  reset type=fn(z)+fn(pix) function=sin/cosh passes=t
+  corners=0.0336248/0.050412/1.2883202/1.3009106 params=0.7/0.333/0.5/0.5
+  float=y maxiter=100 bailout=50 inside=bof60
+  colors=000U0R<5>F0FKF0<6>hZ0<7>KF000A<6>00k<7>00AA00<6>z00<7>A00<6>2r00z00u0\
+  <7>0A0<6>eXU<7>0A0AKK<6>mmK<7>AKMFF0<6>zz0<7>FF0F00<6>z0A<7>F00FFF<6>zzz<7>F\
+  FF0FK<6>0Um<7>0FKPF0<6>mK0<7>PF0FKA<5>NSIPUKOTJ<6>FKA00K<4>57j79p78l<6>00K0D\
+  1<6>1aA<7>1F0KF1<6>hZ0<6>OI0KF0F0F<6>Z0UX0T
+  }
+
+FrondsByLampLight  { ; 00:16:09.94
+                     ; 30 dec 92 .. caren park
+  reset type=fn(z)+fn(pix) function=sin/cosh passes=t
+  corners=-2.046217/-1.952649/1.2178403/1.2880163 params=0.7/0.333/0.5/0.5
+  float=y maxiter=100 bailout=50 inside=bof60
+  colors=00000B<103>00z000<125>z00000<21>00B
+  }
+
+ForestEclipse      { ; 00:20:43.41
+                     ; 30 dec 92 .. caren park
+  reset type=fn(z)+fn(pix) function=sin/cosh passes=t
+  corners=-2.075256/-1.872248/0.315006/0.467262 params=0.7/0.333/0.5/0.5
+  float=y maxiter=100 bailout=50 inside=bof60
+  colors=CCCQ0`<16>x02z00z00<30>zy0zz0xz0<21>Hz0Gz0Fy2<19>2jW1iY0gZ<7>0Nk0Km0G\
+  p<4>03x00z20x<28>x02z00z00<30>zy0zz0xz0<21>Hz0Gz0Fy2<19>2jW1iY0gZ<7>0Nk0Km0I\
+  n0Gp<4>03x00z20x<10>O0b
+  }
+
+NodulesAndLint     { ; 00:17:51.88
+                     ; 30 dec 92 .. caren park
+  reset type=fn(z)+fn(pix) function=sin/cosh passes=t
+  corners=-1.6258267/-1.5546489/1.426999/1.4803823
+  params=0.7/0.333/0.5/0.5 float=y maxiter=100 bailout=50 inside=bof60
+  colors=2z00z0<60>020000000000000<29>0k00m01m0<29>ky0mz0mz1<30>zzz<46>zz2zz0y\
+  z0<44>3z0 cyclerange=0/255
+  }
+
+PartyBrassiere     { ; 00:24:18.60
+                     ; 30 dec 92 .. caren park
+  reset type=fn(z)+fn(pix) function=sin/cosh passes=t
+  corners=-1.6757971/-1.6408797/1.4389551/1.4651431
+  params=0.7/0.333/0.5/0.5 float=y maxiter=100 bailout=50 inside=bof60
+  colors=Hz0zzyEx4zzyBuAzzy9qGzzy6nMzzy3kSzzy0gYzzy0Ydzzy0Njzzy0Epzzy03wzzy60s\
+  zzyE0kzzyM0czzyU0Wzzyb0Nzzyj0Fzzyr07zzyz00zzyz60zzyzE0zzyzM0zzyzU0zzyza0zzyz\
+  i0zzyzq0zzyzy0zzytz0zzylz0zzydz0zzyXz0zzyPz0zzyHz0zzyEx4zzyBuAzzy9qGzzy6nMzz\
+  y3kSzzy0gYzzy0bazzy0Sgzzy0Jmzzy08tzzy20wzzyA0ozzyI0gzzyQ0_zzyZ0Rzzyf0Jzzyn0B\
+  zzyv03zzyz20zzyzA0zzyzI0zzyzQ0zzyzY0zzyze0zzyzm0zzyzu0zzyxz0zzypz0zzyhz0zzy`\
+  z0zzyTz0zzyLz0zzyFy1zzyDv7zzyAsDzzy7pJzzy4mPzzy2jVzzy0bazzy0Sgzzy0Jmzzy08tzz\
+  y20wzzyA0ozzyI0gzzyQ0_zzyZ0Rzzyf0Jzzyn0Bzzyv03zzyz20zzyzA0zzyzI0zzyzQ0zzyzY0\
+  zzyze0zzyzm0zzyzu0zzyxz0zzypz0zzyhz0zzy`z0zzyTz0zzyLz0zzyFy1zzyDv7zzyAsDzzy7\
+  pJzzy4mPzzy2jVzzy0bazzy0Sgzzy0Epzzy03wzzy60szzyE0kzzyM0czzyU0Wzzyb0Nzzyj0Fzz\
+  yr07zzyz00zzyz60zzyzE0zzyzM0zzyzU0zzyza0zzyzi0zzyzq0zzyzy0zzytz0zzylz0zzydz0\
+  zzyXz0zzyPz0zzy
+  }
+
+ExplodingC'Copia   { ; 00:28:32.07
+                     ; 30 dec 92 .. caren park
+  reset type=fn(z)+fn(pix) function=sin/cosh passes=t
+  corners=-1.7100256/-1.6811516/1.4748724/1.4965279
+  params=0.7/0.333/0.5/0.5 float=y maxiter=100 bailout=50 inside=bof60
+  colors=WPJB__<5>DqlDtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2K\
+  N3KO4J<12>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<4>\
+  jiWhfUfdTebS<3>ZUMYRKUMHSJF<6>EAb<6>7Nu5Px5Nu<5>A5cB5`<3>G8SH9QIAQ<4>SKP<3>_\
+  VZ`Y`b`cdcf<4>nru<15>OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>A\
+  LQAOSARUBUWBXY
+  }
+
+OrientalDragon     { ; 00:25:29.34
+                     ; 30 dec 92 .. caren park
+  reset type=fn(z)+fn(pix) function=sin/cosh passes=t
+  corners=-1.9576254/-1.9446329/0.45038033/0.46012472
+  params=0.7/0.333/0.5/0.5 float=y maxiter=100 bailout=50 inside=bof60
+  colors=CCC6oM<6>2jW1iY0gZ<7>0Nk0Km0Gp<4>03x00z20x<28>x02z00z00<30>zy0zz0xz0<\
+  21>Hz0Gz0Fy2<19>2jW1iY0gZ<7>0Nk0Km0In0Gp<4>03x00z20x<28>x02z00z00<30>zy0zz0x\
+  z0<21>Hz0Gz0Fy2<11>7pK
+  }
+
+MoonChromeBramble  { ; 00:23:13.29
+                     ; 30 dec 92 .. caren park
+  reset type=fn(z)+fn(pix) function=sin/cosh passes=t
+  corners=-2.075256/-1.872248/0.315006/0.467262 params=0.7/0.333/0.5/0.5
+  float=y maxiter=100 bailout=50 inside=bof60 decomp=256
+  colors=aos<29>zzz000<86>01L01M01M02M02M02N<87>0Zh0_h1_h2`h<40>`os
+  cyclerange=0/255
+  }
+

@@ -1,0 +1,199 @@
+ Jewelry_1          {  ; Delicate Halley
+                       ; By Dan Farmer??
+                       ; Halley example
+   reset type=halley passes=b corners=-1.352/1.352/-0.773344/0.773344
+   params=6/2/0.0001 float=y maxiter=256 inside=maxiter outside=real
+   periodicity=0
+   colors=000333222000PFF<27>vcDwdDxeDzfCyfCxeC<29>PFF0A0<15>Zc0<14>0A0<15>\
+   Zc0<15>0A0SNC<29>xo`zpaypa<29>UPF000<4>888000BBB<23>ppp<28>555
+   }
+
+ Jewelry_2          { ; Closeup of Jewelry_1
+                      ; By Dan Farmer??
+                       ; Halley example
+   reset type=halley passes=b corners=-2.0/2.0/-1.144/1.144
+   params=6/2/0.0001 float=y maxiter=256 inside=maxiter outside=real
+   periodicity=0
+   colors=000000BBB<23>ppp<31>000PFF<27>vcDwdDxeDzfCyfCxeC<29>PFF0A0<15>Zc0\
+   <14>0A0<15>Zc0<15>0A0SNC<29>xo`zpaypa<29>UPF000<4>888
+   }
+
+ Jewelry_3          { ; Another intricate filligree
+                      ; By Dan Farmer??
+                       ; Halley example
+   reset type=halley corners=-1.529194/1.529194/-1.000963/1.000963
+   params=6/2/0.0001 float=y maxiter=256 inside=maxiter outside=real
+   periodicity=0
+   colors=000000UPE<4>_UI0A0aWK<20>xo`zpaypa<29>UPF000<4>888000BBB<23>ppp<3\
+   1>000PFF<27>vcDwdDxeDzfCyfCxeC<29>PFF0A0<15>Zc0<14>0A0<15>Zc0<15>0A0SNC
+   cyclerange=8/8
+   }
+
+ Splats             { ; Splats of paint?
+                      ; By Dan Farmer??
+                       ; Halley example
+   reset type=halley corners=0.143515/0.428951/0.9444/1.129933
+   params=12/2/0.0001 float=y maxiter=16 bailout=4 inside=0
+   periodicity=0
+   colors=000SWWK`YCe_fPM<2>g_1IuW`J`UGiDfweONdQIbSD_LSTKS
+   }
+
+ QuatJ1             { ; Julia Quaternion in blue-greens
+                      ; By Dan Farmer??
+                      ; Quaternion example
+   reset type=quatjul corners=-1.388288/1.388288/-1.041216/1.041216
+   params=-0.745/0/0.113/0.05 float=y inside=0 periodicity=0
+   colors=000143<146>Ioh000000
+   }
+
+ Crown              { ; DelicaTe filigree  (This *may* not be mine!)
+                      ; By Dan Farmer??
+                      ; Formula Halley Example
+   reset type=formula formulafile=fractint.frm formulaname=halley
+   corners=-0.251262/0.251266/0.596968/0.973864
+   params=0.5/-0.5/0.5/-0.5 float=y maxiter=32767 inside=0
+   colors=000HMxINz001<50>Afy000<62>u4v110<43>vwL000<57>ARA001ARA<7>BVB57J<\
+   21>GLv
+   }
+
+ Garden_1           { ; Very complex cluster of flowers, petals and spikes
+                      ; By Dan Farmer
+                      ; Uses Sterlin2 from fractint.frm
+   reset type=formula formulafile=fractint.frm formulaname=Sterling2
+   corners=-0.2569616/-0.3434347/-0.057631/0.057667/-0.3434347/0.057667
+   maxiter=20000 inside=0 outside=summ potential=255/1500/1000
+colors=000555<2>000PFF<27>vcDwdDxeDzfCyfCxeC<29>PFF0A0<15>Zc0<14>0A0<15>Zc0<\
+   15>0A0SNC<29>xo`zpaypa<29>UPF000<4>888000BBB<23>ppp<27>777
+   }
+
+ Hempleaf_1         { ; Familiar Icon of the Sixties
+                      ; By Dan Farmer
+                      ; Manowar Example
+   reset type=manowar passes=1
+   corners=-0.128913/0.048139/0.118047/-0.118025/0.048139/-0.118025
+   maxiter=32767 inside=-102
+colors=000ZZZ<20>000PFF<27>vcDwdDxeDzfCyfCxeC<29>PFF0A0<15>Zc0<14>0A0<15>Zc0\
+   <15>0A0SNC<29>xo`zpaypa<29>UPF000<4>888000BBB<23>ppp<9>___
+   }
+
+ Pinon_I            { ; Gnarled_Wood
+                      ; By Dan Farmer
+                      ; Frothy Basin Example
+   reset=1732 type=frothybasin
+   corners=-0.238241/0.388428/-0.573647/-0.103645 params=3 float=y
+   maxiter=32767 inside=zmag outside=0 logmap=yes
+   colors=0A0`QB<23>fSCfSCeRB<70>0000A0<155>`QB
+   }
+
+ Pinon_II           { ;
+                      ; By Dan Farmer
+                      ; Frothy Basin Example
+   reset=1732 type=frothybasin
+   corners=0.1458444/0.1650429/-1.3288604/-1.3144609 params=3 inside=0
+   colors=0004E0<13>Zc0<14>0A0<15>Zc0<15>0A0SNC<29>xo`zpaypa<29>UPF000<4>88\
+   8000BBB<23>ppp<31>000PFF<27>vcDwdDxeDzfCyfCXeC<29>PFF0A02C0
+   }
+
+ Sin_Waves          { ; Dynamical System Fractal
+                      ; By Dan Farmer
+                      ; "Dynamic"  Example
+   reset type=dynamic function=log passes=1
+   corners=-31.99/-6.208486/5.823209/31.604723 params=200/0.001/10/5
+   float=y maxiter=25 inside=0 outside=summ
+   colors=000rT3LPb<10>ksMJNc<40>JAYI9XJNb<25>Gk3JNc<54>kA3JOb<25>UmBJNc<11\
+   >MPkJNc<40>J9`I8_JNb<19>XI5LOcNQbMN`PSa<7>fgV
+   }
+
+ Crossed_Waves      { ; DYnamical System Fractal Exposed
+                      ; By Dan Farmer
+                      ; "Dynamic"  Example
+                      ; Be sure to try color cycling!
+   reset type=dynamic function=log passes=1
+   corners=-31.99/-6.208486/5.823209/31.604723 params=200/0.001/10/5
+   float=y maxiter=25 inside=0 outside=summ
+   colors=000CEA<2>aN14BE<3>1AK7FE<8>_nQAGE<6>suR4BD<13>0N55DC<6>GX09ED<7>q\
+   iL5BE<5>FEO4DE<12>4gb3jd5BE<12>T1U4DD<12>4mG5pH4CG<4>3HZ6BD<8>W75BBC<6>x\
+   B19BF<7>s5W4FF<7>CkW6EE<13>YsZ5CF<14>NVuGDTSFidHz5FI<3>CXc6BH<5>OEf5DH<7\
+   >EXp5GHFZtHay76v<2>rYd<3>sURF8A<3>N678DD<10>rgI4CE<8>ALVEJD<2>hhA4EE<4>5\
+   XJ
+   }
+
+ Knot               { ; Another Dynamical System Fractal
+                      ; By Dan Farmer
+                      ; Pseudo-3D
+                      ; "Dynamic"  Example
+   reset type=dynamic function=sin passes=1
+   corners=-5.98766/-0.600335/6.473241/11.860565 params=500/0.1/1/3
+   float=y maxiter=20 inside=0 outside=summ
+   colors=00000W<2>00k<7>00AA00<6>z00<7>A00<6>2r00z00u0<7>0A0<6>eXU<7>0A0AK\
+   K<6>mmK<7>AKMFF0<6>zz0<7>FF0F00<6>z0A<7>F00FFF<6>zzz<7>FFF0FK<6>0Um<7>0F\
+   KPF0<6>mK0<7>PF0FKA<5>NSIPUKOTJ<6>FKA00K<4>57j79p78l<6>00K0D1<6>1aA<7>1F\
+   0KF1<6>hZ0<6>OI0KF0F0F<6>Z0U<7>F0FKF0<6>hZ0<7>KF000A<2>00Q
+   }
+
+ Dynamation_I       { ; Dynamical System "Animation"
+                      ; By Dan Farmer
+                      ; Hundreds of wriggling snakes when cycled.
+                      ; "Dynamic"  Example
+   reset type=dynamic function=flip passes=1
+   corners=-15.86704/15.86704/-15.867031/15.867043
+   params=200/0.005/0.05/0.001 float=y maxiter=75 inside=0 outside=mult
+   colors=000ccc<224>cccz0zc0cz00c00zz0cc00z00c000z00c0zz0cc000000zzzccc<12\
+   >ccc
+   }
+
+ Dynamation_II      { ; Dynamical System "Animation"
+                      ; By Dan Farmer
+                      ; Color cycle and watch the fun!
+                      ; "Dynamic"  Example
+   reset type=dynamic function=cos passes=1
+   corners=-31.99/31.99/-31.989988/31.99 params=-50/-0.05/1/1 float=y
+   inside=0 outside=mult
+   colors=000ccc<138>cccz0zc0cz00c00zz0cc00z00c000z00c0zz0cc000000zzzccc<98\
+   >ccc
+   }
+
+ TimeWarp_I         { ;
+                      ; By Dan Farmer
+                      ; Bificurcated Lambda Example
+   reset type=biflambda function=log
+   corners=-0.048221/-0.02579/0.1484122/0.2029667 params=1/0.35
+   maxiter=2000 inside=0
+   colors=000iMElK9oI3`5dN_K8gBQMQEGNcST<5>vYYZST<5>KMZLWY4`bXVU<6>1tfKgV3w\
+   XZRS<6>EJJZLUXDVYVR<5>FmBWRU<3>8JYaYT<3>eyTZUS<6>JmEXOO<3>E52ZXT<5>IzZbV\
+   X<6>qrxPXhDaydZO<3>vz4_OT<5>O0Z_QU<5>SDe`PR<2>`EIaAF`EQ`0MaQS<6>h9F921MO\
+   W7KZZWW<6>Jzr`NV<2>a5`YRV<3>MJfVRM<2>BM0cNIfI6QTUEVV2XWbOQ<4>l18bO`<2>hA\
+   x_VV<5>SqgROTHKTXSS<5>4PKbSV<3>jOcQRKFQB4P1ZYGbORWc3TwG<3>0RiEToSWu<2>Rx\
+   iL_e`h2PkA<4>tPLvla<4>bjDYi7VlASpD<7>`cl<3>uj4jHF<2>q96LiKbXV<5>nzhXRY<3\
+   >EKr_VQ<4>Vl6cQOfOJ
+   }
+
+ TimeWarp_II        { ;
+                      ; By Dan Farmer
+                      ; BifLambda Example
+   reset type=biflambda function=log
+   corners=-0.04484177/-0.04198432/0.18899268/0.19606191 params=1/0.35
+   maxiter=500 inside=0
+   colors=000V9a<4>b2J`LZjVPteFSEg<11>HpNTDg<12>ldQSBg<12>SIORFe<10>5z9ZAZ<\
+   2>u75TCg<19>o`FRDh<11>9aiSBh<22>XGjTCh<18>udhP9c<2>E1NSBh<15>a4oPCh<5>1J\
+   d1xCSBh<9>KKgRBfJLg<2>HOgGPfIPf<18>vAp<17>P1PN0NN2O<21>EolDrnDrmDsk
+   }
+
+ TimeWarp_III       {
+                      ; By Dan Farmer
+                      ; BifLambda Example
+   reset type=biflambda function=log
+   corners=-0.159688/0.159393/-0.710781/0.699316 params=5/0.35
+   maxiter=5000 inside=0
+   colors=000f8AeDOzF7cZ`vvXM9BND_<2>VHKLWRMpDVIddPcnWbQMY<2>erAuqmdAwchyFF\
+   a8JZ1NVOThSilWzpVCc<2>zCZLKVKSLJ`A45w622OLd<2>YlcHCc<2>4D`VBEWC`fCXqDS_G\
+   HPEe<2>aKiKBW<2>E75OBeRAgV9iTBW`ANh8DFYQ9tBQEaVGZ_IVLMWMWNNeDdPkxbsfuoJg\
+   gPCUTCIYC6TEd<2>sLcynx_KXnSOGIc<2>1bZTQg`djhsmTC_`CUiBO9YmmhpMHf<2>SWmRF\
+   c<2>kRZLGhKKlJPpysNBSU1hJCIf3PiIKTETGYNjkZqyjxMP_ObVQpPbYLus1wviOLg<2>Yl\
+   skkc6QaXEmhGwytyPLQUUByjmGYiAsoHBhCAmOUmRkvPKVTSKY`9LLc<2>OlZWEefGgqJizg\
+   fRCeYBfdAgGAgB8j66nXR8JGWGLMDQC7pvTQf`chirjmbVXM_iXUvgO_VLnm0RLTYVGLJ`LQ\
+   WLXRuYOm`sVHSdNFoT2IAi<2>81xxogNP_QbVTpPvwfPQbTc`YrYCZV2uLVVXemPUUsNDSPF\
+   ENGlPLuS9h<2>m0tOSUETlXHihNnYSWjgNxwD6rcKHf<2>GXmILWFUNCcEHKSCSF7`1RSjXg\
+   pcwwRPgYakdnoRLa<2>ilSE9`75XUMbbW`leZGQX<3>YdY<3>z3l<2>vMbeOW
+   }
+

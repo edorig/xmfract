@@ -1,0 +1,319 @@
+
+Chaotic Theory Mathematics
+
+Like new forms of life, new branches of mathematics and science don't
+appear from nowhere. The ideas of fractal geometry can be traced to the
+late nineteenth century, when mathematicians created shapes -- sets of
+points -- that seemed to have no counterpart in nature.  By a wonderful
+irony, the "abstract" mathematics descended from that work has now turned
+out to be MORE appropriate than any other for describing many natural
+shapes and processes.
+
+Perhaps we shouldn't be surprised.  The Greek geometers worked out the
+mathematics of the conic sections for its formal beauty; it was two
+thousand years before Copernicus and Brahe, Kepler and Newton overcame the
+preconception that all heavenly motions must be circular, and found the
+ellipse, parabola, and hyperbola in the paths of planets, comets, and
+projectiles.
+
+In the 17th century Newton and Leibniz created calculus, with its
+techniques for "differentiating" or finding the derivative of functions --
+in geometric terms, finding the tangent of a curve at any given point.
+True, some functions were discontinuous, with no tangent at a gap or an
+isolated point. Some had singularities: abrupt changes in direction at
+which the idea of a tangent becomes meaningless. But these were seen as
+exceptional, and attention was focused on the "well-behaved" functions
+that worked well in modeling nature.
+
+Beginning in the early 1870s, though, a 50-year crisis transformed
+mathematical thinking. Weierstrass described a function that was
+continuous but nondifferentiable -- no tangent could be described at any
+point. Cantor showed how a simple, repeated procedure could turn a line
+into a dust of scattered points, and Peano generated a convoluted curve
+that eventually touches every point on a plane. These shapes seemed to
+fall "between" the usual categories of one-dimensional lines, two-
+dimensional planes and three-dimensional volumes. Most still saw them as
+"pathological" cases, but here and there they began to find applications.
+
+In other areas of mathematics, too, strange shapes began to crop up.
+Poincare attempted to analyze the stability of the solar system in the
+1880s and found that the many-body dynamical problem resisted traditional
+methods. Instead, he developed a qualitative approach, a "state space" in
+which each point represented a different planetary orbit, and studied what
+we would now call the topology -- the "connectedness" -- of whole families
+of orbits. This approach revealed that while many initial motions quickly
+settled into the familiar curves, there were also strange, "chaotic"
+orbits that never became periodic and predictable.
+
+Other investigators trying to understand fluctuating, "noisy" phenomena --
+the flooding of the Nile, price series in economics, the jiggling of
+molecules in Brownian motion in fluids -- found that traditional models
+could not match the data. They had to introduce apparently arbitrary
+scaling features, with spikes in the data becoming rarer as they grew
+larger, but never disappearing entirely.
+
+For many years these developments seemed unrelated, but there were
+tantalizing hints of a common thread. Like the pure mathematicians' curves
+and the chaotic orbital motions, the graphs of irregular time series often
+had the property of self-similarity: a magnified small section looked very
+similar to a large one over a wide range of scales.
+
+While many pure and applied mathematicians advanced these trends, it is
+Benoit Mandelbrot above all who saw what they had in common and pulled the
+threads together into the new discipline.
+
+He was born in Warsaw in 1924, and moved to France in 1935. In a time when
+French mathematical training was strongly analytic, he visualized problems
+whenever possible, so that he could attack them in geometric terms.  He
+attended the Ecole Polytechnique, then Caltech, where he encountered the
+tangled motions of fluid turbulence.
+
+In 1958 he joined IBM, where he began a mathematical analysis of
+electronic "noise" -- and began to perceive a structure in it, a hierarchy
+of fluctuations of all sizes, that could not be explained by existing
+statistical methods. Through the years that followed, one seemingly
+unrelated problem after another was drawn into the growing body of ideas
+he would come to call fractal geometry.
+
+As computers gained more graphic capabilities, the skills of his mind's
+eye were reinforced by visualization on display screens and plotters.
+Again and again, fractal models produced results -- series of flood
+heights, or cotton prices -- that experts said looked like "the real
+thing."
+
+Visualization was extended to the physical world as well. In a provocative
+essay titled "How Long Is the Coast of Britain?" Mandelbrot noted that the
+answer depends on the scale at which one measures: it grows longer and
+longer as one takes into account every bay and inlet, every stone, every
+grain of sand. And he codified the "self-similarity" characteristic of
+many fractal shapes -- the reappearance of geometrically similar features
+at all scales.
+
+First in isolated papers and lectures, then in two editions of his seminal
+book, he argued that many of science's traditional mathematical models are
+ill-suited to natural forms and processes: in fact, that many of the
+"pathological" shapes mathematicians had discovered generations before are
+useful approximations of tree bark and lung tissue, clouds and galaxies.
+
+Mandelbrot was named an IBM Fellow in 1974, and continues to work at the
+IBM Watson Research Center. He has also been a visiting professor and
+guest lecturer at many universities.
+
+The "Mandelbrot Lake" in the center of the M-set images is the traditional
+bane of plotting programs. It sucks up the most computer time because it
+always reaches the iteration limit -- and yet the most interesting areas
+are invariably right at the edge the lake.
+(See {The Mandelbrot Set} for a description of the iteration process.)
+
+Thanks to Mark Peterson for pointing out (well, he more like beat us over
+the head until we paid attention) that the iteration values in the middle
+of Mandelbrot Lake tend to decay to periodic loops (i.e., Z(n+m) == Z(n),
+a fact that is pointed out on pages 58-61 of "The Beauty of Fractals"). An
+intelligent program (like the one he wrote) would check for this
+periodicity once in a while, recognize that iterations caught in a loop
+are going to max out, and bail out early.
+
+For speed purposes, the current version of the program turns this checking
+algorithm on only if the last pixel generated was in the lake.  (The
+checking itself takes a small amount of time, and the pixels on the very
+edge of the lake tend to decay to periodic loops very slowly, so this
+compromise turned out to be the fastest generic answer).
+
+Try a full M-set plot with a 1000-iteration maximum with any other
+program, and then try it on this one for a pretty dramatic proof of the
+value of periodicity checking.
+
+You can get a visual display of the periodicity effects if you press
+<O>rbits while plotting. This toggles display of the intermediate
+iterations during the generation process.  It also gives you an idea of
+how much work your poor little PC is going through for you!  If you use
+this toggle, it's best to disable solid-guessing first using <1> or <2>
+because in its second pass, solid-guessing bypasses many of the pixel
+calculations precisely where the orbits are most interesting.
+
+Here is an *ATTEMPTED* explanation of what the inside=bof60 and
+inside=bof61 options do. This explanation is hereby dedicated to Adrian
+Mariano, who badgered it out of us! For the *REAL* explanation, see
+"Beauty of Fractals", page 62.
+
+Let p(z) be the function that is repeatedly iterated to generate a fractal
+using the escape-time algorithm.  For example, p(z) = z^2+c in the case of
+a Julia set. Then let pk(z) be the result of iterating the function p for
+k iterations. (The "k" should be shown as a superscript.) We could also
+use the notation pkc(z) when the function p has a parameter c, as it does
+in our example.  Now hold your breath and get your thinking cap on. Define
+a(c) = inf{|pck(0)|:k=1,2,3,...}. In English - a(c) is the greatest lower
+bound of the images of zero of as many iterations as you like. Put another
+way, a(c) is the closest to the origin any point in the orbit starting
+with 0 gets. Then the index (c) is the value of k (the iteration) when
+that closest point was achieved.  Since there may be more than one,
+index(c) is the least such. Got it?  Good, because the "Beauty of
+Fractals" explanation of this, is, ahhhh, *TERSE* ! Now for the punch
+line. Inside=bof60 colors the lake alternating shades according to the
+level sets of a(c).  Each band represents solid areas of the fractal where
+the closest value of the orbit to the origin is the same.  Inside=bof61
+show domains where index(c) is constant.  That is, areas where the
+iteration when the orbit swooped closest to the origin has the same value.
+Well, folks, that's the best we can do! Improved explanations will be
+accepted for the next edition!
+
+inside=zmag is similar. This option colors inside pixels according to
+the magnitude of the orbit point when maxiter was reached, using the formula
+color = (x^2 + y^2) * maxiter/2 + 1.
+
+inside=period colors pixels according to the length of their eventual cycle.
+For example, points that approach a fixed point have color=1.  Points that
+approach a 2-cycle have color=2.  Points that do not approach a cycle during
+the iterations performed have color=maxit.  This option works best with a
+fairly large number of iterations.
+
+Kenneth Hooper has written a paper entitled "A Note On Some Internal
+Structures Of The Mandelbrot Set" published in "Computers and Graphics", Vol
+15, No.2, pp. 295-297.  In that article he describes Clifford Pickover's
+"epsilon cross" method which creates some mysterious plant-like tendrils in
+the Mandelbrot set. The algorithm is this. In the escape-time calculation of a
+fractal, if the orbit comes within .01 of the Y-axis, the orbit is terminated
+and the pixel is colored green. Similarly, the pixel is colored yellow if it
+approaches the X-axis. Strictly speaking, this is not an "inside" option
+because a point destined to escape could be caught by this bailout criterion.
+
+Hooper has another coloring scheme called "star trails" that involves
+detecting clusters of points being traversed by the orbit. A table of tangents
+of each orbit point is built, and the pixel colored according to how many
+orbit points are near the first one before the orbit flies out of the cluster.
+This option looks fine with maxiter=16, which greatly speeds the calculation.
+
+Both of these options should be tried with the outside color fixed
+(outside=<nnn>) so that the "lake" structure revealed by the algorithms can be
+more clearly seen. Epsilon Cross is fun to watch with boundary tracing turned
+on - even though the result is incorrect it is interesting! Shucks - what
+does "incorrect" mean in chaos theory anyway?!
+
+The following trig identities are invaluable for coding fractals that use
+complex-valued transcendental functions.
+
+   e^(x+iy) = (e^x)cos(y) + i(e^x)sin(y)
+
+   sin(x+iy)  = sin(x)cosh(y) + icos(x)sinh(y)
+   cos(x+iy)  = cos(x)cosh(y) - isin(x)sinh(y)
+   sinh(x+iy) = sinh(x)cos(y) + icosh(x)sin(y)
+   cosh(x+iy) = cosh(x)cos(y) + isinh(x)sin(y)
+
+   cosxx(x+iy) = cos(x)cosh(y) + isin(x)sinh(y)
+     (cosxx is present in xmfract to provide compatibility with a bug
+     which was in the cos calculation before version 16 of Fractint)
+
+   ln(x+iy) = (1/2)ln(x*x + y*y) + i(arctan(y/x) + 2kPi)
+                                    (k = 0, +-1, +-2, +-....)
+
+                     sin(2x)               sinh(2y)
+   tan(x+iy) = ------------------  + i------------------
+               cos(2x) + cosh(2y)     cos(2x) + cosh(2y)
+
+                    sinh(2x)                sin(2y)
+   tanh(x+iy) = ------------------ + i------------------
+                cosh(2x) + cos(2y)    cosh(2x) + cos(2y)
+
+                 sin(2x) - i*sinh(2y)
+   cotan(x+iy) = --------------------
+                  cosh(2y) - cos(2x)
+
+                  sinh(2x) - i*sin(2y)
+   cotanh(x+iy) = --------------------
+                   cosh(2x) - cos(2y)
+
+   z^z = e^(log(z)*z)
+
+   log(x+iy) = 1/2(log(x*x + y*y) + i(arc_tan(y/x))
+
+   e^(x+iy) = (cosh(x) + sinh(x)) * (cos(y) + isin(y))
+            = e^x * (cos(y) + isin(y))
+            = (e^x * cos(y)) + i(e^x * sin(y))
+
+
+Bibliography:
+
+BARNSLEY, Michael: "Fractals Everywhere," Academic Press, 1988.
+
+DEWDNEY, A. K., "Computer Recreations" columns in "Scientific American" --
+   8/85, 7/87, 11/87, 12/88, 7/89.
+
+FEDER, Jens: "Fractals," Plenum, 1988.
+   Quite technical, with good coverage of applications in fluid
+   percolation, game theory, and other areas.
+
+GLEICK, James: "Chaos: Making a New Science," Viking Press, 1987.
+   The best non-technical account of the revolution in our understanding
+   of dynamical systems and its connections with fractal geometry.
+
+MANDELBROT, Benoit: "The Fractal Geometry of Nature," W. H. Freeman & Co.,
+   1982.
+   An even more revised and expanded version of the 1977 work. A rich and
+   sometimes confusing stew of formal and informal mathematics, the
+   prehistory of fractal geometry, and everything else. Best taken in
+   small doses.
+
+MANDELBROT, Benoit: "Fractals: Form, Chance, and Dimension," W. H. Freeman
+   & Co., 1977.
+   A much revised translation of "Les objets fractals: forme, hasard, et
+   dimension," Flammarion, 1975.
+
+PEITGEN, Heinz-Otto & RICHTER, Peter: "The Beauty of Fractals," Springer-
+   Verlag, 1986.
+   THE coffee-table book of fractal images, knowledgeable on computer
+   graphics as well as the mathematics they portray.
+
+PEITGEN, Heinz-Otto & SAUPE, Ditmar: "The Science of Fractal Images,"
+   Springer-Verlag, 1988.
+   A fantastic work, with a few nice pictures, but mostly filled with
+   *equations*!!!
+
+PICKOVER, Clifford: "Computers, Pattern, Chaos, and Beauty," St. Martin's
+   Press, 1990.
+
+SCHROEDER, Manfred: "Fractals, Chaos, Power Laws," W. H. Freeman
+   & Co., 1991.
+
+WEGNER, Timothy & PETERSON, Mark: "Fractal Creations," Waite Group Press,
+   1991 (second edition, by Wegner and Tyler, due in the fall of 1993).
+   If we tell you how *wonderful* this book is you might think we were
+   bragging, so let's just call it:  THE definitive companion to Fractint!
+
+WEGNER, Timothy & PETERSON, Mark & TYLER, Bert, & Branderhorst, Pieter:
+   "Fractals for Windows," Waite Group Press, 1992.
+   This book is to Winfract (the Windows version of Fractint) what
+   "Fractals for Windows" is to Fractint.
+
+
+Other Programs:
+
+WINFRACT. Bert Tyler has ported Fractint to run under Windows 3!  The same
+underlying code is used, with a Windows user interface.  Winfract has
+almost all the functionality of Fractint - the biggest difference is the
+absence of a zillion weird video modes.  Fractint for DOS will continue to
+be the definitive version.  Winfract is available from CompuServe in
+GRAPHDEV Lib 4, as WINFRA.ZIP (executable) and WINSRC.ZIP (source).
+
+PICLAB, by Lee Crocker - a freeware image manipulation utility available
+from Compuserve in PICS Lib 10, as PICLAB.EXE.  PICLAB can do very
+sophisticated resizing and color manipulation of GIF and TGA files.  It
+can be used to reduce 24 bit TGA files generated with the Fractint
+"lightname" option to GIF files.
+
+FDESIGN, by Doug Nelson (CIS ID 70431,3374) - a freeware IFS fractal
+generator available from Compuserve in GRAPHDEV Lib 4, and probably on your
+local BBS.  This program requires a VGA adapter and a Microsoft-compatible
+mouse, and a floating point coprocessor is highly recommended.  It
+generates IFS fractals in a *much* more intuitive fashion than Fractint.
+It can also (beginning with version 3.0) save its IFS formulas in
+Fractint-style .IFS files.
+
+ACROSPIN, by David Parker - An inexpensive commercial program that reads
+an object definition file and creates images that can be rapidly rotated
+in three dimensions. The Fractint "orbitsave=yes" option creates files that
+this program can read for orbit-type fractals and IFS fractals. Contact:
+   David Parker                         801-966-2580
+   P O Box 26871                        800-227-6248
+   Salt Lake City, UT  84126-0871
+
+

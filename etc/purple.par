@@ -1,0 +1,55 @@
+*APPLE*            { ; PETER MORELAND 100012,3213
+  reset type=manfn+zsqrd function=log
+  corners=-23.043369/-26.246266/-2.200676/2.071245/-26.246266/2.071245
+  params=20 float=y maxiter=32000 inside=0 potential=255/300/150
+  decomp=265 biomorph=0
+  colors=000YPC<16>L8GL7HK6HJ5II4IH3JG2JF0K<14>I0NI0OI0OI0PI0P<38>S0_T0`T0`T0a\
+  T0aT0bT0b<64>zzzzzzzzy<60>zz1zz0zy0yx0<34>ZQB
+  }
+
+*WAIST*            { ; PETER MORELAND 100012,3213
+                     ;
+  reset type=manfn+zsqrd function=log
+  corners=-3.15266/-13.230202/-6.576531/6.864572/-13.230202/6.864572
+  params=7.676 float=y maxiter=32767 inside=0 potential=255/300/150
+  decomp=265 biomorph=0
+  colors=000VLD<14>K6HJ5II4IH3JG2JF0K<12>H0NI0NI0NI0OI0OI0P<41>T0`T0aT0aT0bT0b\
+  U0c<63>zzzzzzzzy<60>zz1zz0zy0yx0<38>WMD
+  }
+
+*HEART*            { ; PETER MORELAND 100012,3213
+  reset type=manfn+zsqrd function=log
+  corners=-3.124074/1.899372/3.032708/-3.091485/1.623022/-3.298815 float=y
+  maxiter=32000 inside=0 potential=255/300/150 decomp=265 biomorph=0
+  colors=000zzP<23>zz1zz0zy0yx0<50>OAFN9GM8GL7HK6H<3>G2JF0KF0K<11>I0NI0NI0NI0O\
+  I0OI0P<37>R0ZS0_S0_T0`T0`<2>T0bT0bU1bU2c<62>zzzzzzzzy<35>zzQ
+  }
+
+*SPIRAL*           { ; PETER MORELAND 100012,3213
+                     ;
+  reset type=julia
+  corners=-2.941289/3.015974/-0.219155/0.234951/-1.01579/-2.787567
+  params=0.296665/0.000409836 maxiter=32767 inside=-100 outside=real
+  decomp=256
+  colors=hc5id7<36>I4IH3JG2JF0KF0K<9>H0MH0MH0NI0NI0NI0O<45>T0aT0bT0bU0cU0c<62>\
+  zzzzzzzzy<60>zz1zz0zy0yx0<18>je6
+  }
+
+*INSIGNIA*         { ; PETER MORELAND 100012,3213
+                     ;
+  reset type=manfn+zsqrd function=cos
+  corners=3.654803/-4.4203/-5.346063/5.424251/-4.4203/5.424251 float=y
+  maxiter=32000 inside=0 potential=255/300/150 decomp=265 biomorph=0
+  colors=000WMD<15>K6HJ5II4IH3JG2JF0K<12>H0NI0NI0NI0OI0OI0P<41>T0`T0aT0aT0bT0b\
+  U0c<63>zzzzzzzzy<60>zz1zz0zy0yx0<37>XNC
+  }
+
+*LENS*             { ;  PETER MORELAND 100012,3213
+  reset type=julfn+zsqrd function=sin
+  corners=-0.8901396/-0.8704027/0.3011365/0.3159315
+  params=-0.809364318847656/0.0420150756835938 maxiter=2250 bailout=30000
+  invert=0.5/-0.808212/0.0704803 decomp=256
+  colors=F0K<9>H0MH0MH0NI0NI0NI0O<45>T0aT0bT0bU0cU0c<62>zzzzzzzzy<60>zz1zz0zy0\
+  yx0<56>I4IH3JG2JF0KF0K
+  }
+

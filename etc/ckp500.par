@@ -1,0 +1,324 @@
+;; ckp500.par (images 476 through 500), 11 July 1993
+;;
+;; Here are my current contributions to PARs for Tomorrow (V18.0)...
+;; Any duplications are entirely unintentional...  With any luck, a
+;; few of these will find their way into the postcard/poster world
+;; before summer of '93...  Comments pro and con will be sent to
+;; their appropriate locations...
+
+;; A few images here were inspirations from other creations, and
+;; have been (I hope) accorded appropriate acknowledgement...
+;; Among those PARs I used here are BOB8:Megacyte, BOB8:Lambda_S,
+;; and REB003:Laser, each of which made for numerous beautiful images!
+;; My thanx to their creators...
+
+;; Time listed on the first line reflects creation on a 486-50
+;; running 1024x768x256 colors...   ALL of these images look best
+;; when created with a 256-color or better video and 1024x768 or
+;; better resolution...  I have no idea how they will look at
+;; lower resolutions or lower color densities...  Happy viewing!
+
+;; caren park
+;; park computer services
+;; 23808 southeast 24th street
+;; issaquah, washington  98027
+;; CIS:  75430,1474
+
+;; PS:  Please do not use these images commercially without
+;; dropping me a quick message requesting inclusion in your
+;; fine product BEFORE you go to market...
+
+ckp0476            { ; "Into the Abyss, #4"
+                     ; 00:03:02.90 .. 10 july 1993 .. caren park
+                     ; inspired by BOB8:Lambda_S
+  reset=1800 type=lambda(fn||fn) function=sinh/sqr passes=b
+  corners=-1.841263/1.827026/-1.407257/1.354767
+  params=1/0.20000000000000001/1 float=y maxiter=1000
+  colors=@aqwat.map
+  }
+
+ckp0477            { ; "Eyes, #1"
+                     ; 00:32:25.29 .. 10 july 1993 .. caren park
+                     ; inspired by BOB8:Lambda_S
+  reset=1800 type=lambda(fn||fn) function=sinh/sqr
+  corners=-1.841263/1.827026/-1.407257/1.354767
+  params=1/0.050000000000000003/1 maxiter=30000
+  colors=000WEDSDF<4>L0KB8D1H5<19>Q`5Sa6R`6<16>2I6IIAZJE<6>wgF<9>UHD<7>AB7\
+  000HIC<10>svcsvc<20>200pdJ<5>zjF<13>RCCEEE<13>kki<18>005SNC<17>zpa<12>UP\
+  FMJIEDLAAK<4>AOSARUBUWBXYB__Bba<5>DtnDqm<14>14RC6QO8O<5>VHI<7>zH0<6>_EB
+  }
+
+ckp0478            { ; "Eyes, #2"
+                     ; 00:32:25.29 .. 10 july 1993 .. caren park
+                     ; inspired by BOB8:Lambda_S
+  reset=1800 type=lambda(fn||fn) function=sinh/sqr
+  corners=-1.841263/1.827026/-1.407257/1.354767
+  params=1/0.050000000000000003/1 maxiter=30000
+  colors=000WE8<2>PE1<15>zp_<14>SL4PI1MF0LG2<13>7Or5Pv6Ps<10>IHEJHAKG6LG2M\
+  F0OH1<13>kml<13>QK5OI2MF0<3>LN0KP1KR1JT2JV3<7>Fk8<9>KR2KP1KN1LL1LJ0MH0MF\
+  0LI1<13>EqiDtlEqi<12>KL5LI2MF0<15>zH0<15>MF0<15>ww0<15>MF0OF1<14>wEa<10>\
+  YEB
+  }
+
+ckp0479            { ; "Eyes, #3"
+                     ; 00:32:25.29 .. 10 july 1993 .. caren park
+                     ; inspired by BOB8:Lambda_S
+  reset=1800 type=lambda(fn||fn) function=sinh/sqr
+  corners=-1.841263/1.827026/-1.407257/1.354767
+  params=1/0.050000000000000003/1 maxiter=30000
+  colors=000Gaz<9>Puz<31>1BR09P19Q<13>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>\
+  4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<16>yyvzzzyyy<22>GGGEEECCE<4>22E00F00G<2\
+  3>00x00z01z<17>F_z
+  }
+
+ckp0480            { ; "Feather Symbol"
+                     ; 00:13:32.24 .. 10 july 1993 .. caren park
+                     ; inspired by BOB8:Lambda_S
+  reset=1800 type=lambda(fn||fn) function=sinh/sqr
+  corners=-1.841263/1.827026/-1.407257/1.354767 params=1/0.01/1
+  maxiter=30000
+  colors=000<5>00000r<15>000<15>r00<15>000<15>0pp<12>0BB077044000222<14>hh\
+  h<15>000<27>007017037<13>4S4<13>2A2292171151131000<15>rAr<15>000<15>hh0<\
+  15>000<5>00K000000000
+  }
+
+ckp0481            { ; "Spider Netting"
+                     ; 00:04:42.09 .. 10 july 1993 .. caren park
+                     ; inspired by BOB8:Lambda_S
+  reset=1800 type=lambda(fn||fn) function=sinh/sqr passes=b
+  corners=-1.841263/1.827026/-1.407257/1.354767
+  params=1/0.10000000000000001/3 maxiter=300 inside=epsiloncross
+  colors=CCCa90<8>000zV0<14>000zj0<14>000zz0<14>000kz0<14>000Wz0<14>000Gz0\
+  <14>000BtC<14>0005nO<14>0000f_<14>0000Ml<13>00002y00z<13>000F0k<14>000W0\
+  V<14>000k0F<14>000z00<14>000zF0<4>eA0
+  }
+
+ckp0482            { ; "Liquid Bug"
+                     ; 00:04:20.84 .. 10 july 1993 .. caren park
+                     ; Inspired by BOB8:Megacyte
+  reset=1800 type=mandel(fn||fn) function=cosxx/log
+  corners=-18.49544/13.63943/21.47459/-21.37191/13.63943/-21.37191
+  params=1.5/0/8 float=y maxiter=10 inside=bof60 outside=summ
+  invert=7.35294/0/0 decomp=12 distest=9000/20
+  colors=00000c<10>00x00z01z<28>Puz<31>1BR09P19Q<13>MMiONkQPk<13>wwyzzzzwx\
+  <14>z0Nv0M<18>4B7<9>EXLCYLA_K<14>zyyzzz<19>uu0<16>yyvzzzyyy<22>GGGEEECCE\
+  <4>22E00F00G<11>00b
+  }
+
+ckp0483            { ; "Hyper Toroid"
+                     ; 00:04:19.47 .. 10 july 1993 .. caren park
+                     ; Inspired by BOB8:Megacyte
+  reset=1800 type=mandel(fn||fn) function=cosxx/log
+  corners=-18.49544/13.63943/21.47459/-21.37191/13.63943/-21.37191
+  params=1.5/0/8 float=y maxiter=10 inside=bof60 outside=summ
+  invert=7.35294/0/0 decomp=12 distest=9000/20
+  colors=rrr00rqqq00qppp00onnn00nmmm00mlll00lkkk00jjjj00ihhh00hggg00gfff00\
+  eeee00dccc00cbbb00baaa00a```00____00ZYYY00YXXX00XWWW00VVVV00UUUU00TSSS00\
+  SRRR00QQQQ00PPPP00OOOO00NMMM00LLLL00KKKK00JJJJ00IHHH00HGGG00FFFF00EEEE00\
+  DDDD00CBBB00AAAA009999008888007777005555004444003333002222000<3>00111100\
+  222200333300444400555500555500666600777700888800999900AAAA00AAAA00BBBB00\
+  CCCC00DDDD00EEEE00FFFF00FFFF00GGGG00HHHH00IIII00JJJJ00KKKK00LLLL00LLLL00\
+  MMMM00NNNN00OOOO00PPPP00QQQQ00QQQQ00RRRR00SSSS00TTTT00UUUU00VVVV00VVVV00\
+  WWWW00XXXX00YYYY00ZZZZ00____00____00````00aaaa00bbbb00cccc00dddd00eeee00\
+  eeee00ffff00gggg00hhhh00iiii00jjjj00jjjj00kkkk00llll00mmmm00nnnn00oooo00\
+  oooo00pppp00qqqq00rrrr00ssss00tttt00tttt00uuuu00vvvv00wwww00xxxx00yyyy00\
+  zzzz00zzzz00zyyy00yxxx00xwww00wvvv00vttt00tsss00s cyclerange=0/255
+  }
+
+ckp0484            { ; "Closeup of Skin"
+                     ; 00:36:03.24 .. 10 july 1993 .. caren park
+                     ; Inspired by Divide.GIF
+  reset=1720 type=julzpower passes=b
+  corners=-0.0696926711/-0.0574975612/0.4471797635/0.4554087835
+  params=-0.20000000000000001/0/1.5 float=y maxiter=250 bailout=4
+  inside=bof60
+  colors=00040w<13>w0w400<13>w00004<14>w04008<14>w0800C<14>w0C00G<14>w0G00\
+  K<14>w0K00O<14>w0O00S<14>w0S00W<14>w0W00_<14>w0_00c<14>w0c00g<14>w0g00k<\
+  14>w0k00o<14>w0o00s<14>w0s00w
+  }
+
+ckp0485            { ; "Wow, Like Crazzy, Man!"
+                     ; 00:04:55.39 .. 11 july 1993 .. caren park
+                     ; inspired by BOB8:Megacyte
+  reset=1800 type=julia(fn||fn) function=cosxx/log
+  corners=0.6685649/-3.328866/-2.758101/2.571807/-3.328866/2.571807
+  params=0/0/5 float=y maxiter=10 inside=bof60 outside=summ
+  invert=7.35294/0/0 decomp=12 distest=9000/20
+  colors=000y01<24>N2WL2XJ2YH3_F3aC3c94e<2>00z<16>O14P11S11<8>o22r33s22<2>\
+  x11z00z10<7>zH0zJ0zJ0<114>zx8zx8zw8<35>va6v`6wY5<4>zJ0ZC8f64o00<2>n00n00\
+  l00<5>i00z00 cyclerange=0/255
+  }
+
+ckp0486            { ; "Jeep"
+                     ; 00:05:08.35 .. 11 july 1993 .. caren park
+                     ; inspired by BOB8:Megacyte
+  reset=1800 type=julia(fn||fn) function=cosxx/log
+  corners=-3.385119/0.922457/2.997681/-2.745754/0.922457/-2.745754
+  params=0/0/5 float=y maxiter=10 inside=bof60 outside=summ
+  invert=7.35294/0/0 decomp=12 distest=9000/20
+  colors=000y01<24>N2WL2XJ2YH3_F3aC3c94e<2>00z<16>O14P11S11<8>o22r33s22<2>\
+  x11z00z10<7>zH0zJ0zJ0<114>zx8zx8zw8<35>va6v`6wY5<4>zJ0ZC8f64o00<2>n00n00\
+  l00<5>i00z00
+  }
+
+ckp0487            { ; "Super Chicken"
+                     ; 00:05:53.50 .. 11 july 1993 .. caren park
+                     ; inspired by BOB8:Megacyte
+  reset=1800 type=julia(fn||fn) function=cosxx/log
+  corners=-3.385119/0.922457/2.997681/-2.745754/0.922457/-2.745754
+  params=0/0/14 float=y maxiter=10 inside=bof60 outside=summ
+  invert=7.35294/0/0 decomp=12 distest=9000/20
+  colors=000zKA<15>zzU<15>9C`ADaBEc<46>xxyzzzyyz<45>DGdBEcBEc<29>BBLAAKCDK\
+  <14>kuC<15>AAK<15>z00<15>zzz<12>e5Oc0Kd1K<12>xIB
+  }
+
+ckp0488            { ; "Around a Time Corner at a Solar Eclipse"
+                     ; 00:02:54.39 .. 11 july 1993 .. caren park
+                     ; inspired by BOB8:Megacyte
+  reset=1800 type=julia(fn||fn) function=cosxx/log
+  corners=-6.879525/7.191797/-5.258507/5.294985 params=0/0/2 float=y
+  maxiter=10 inside=bof60 outside=summ invert=7.35294/0/0 decomp=12
+  distest=9000/20
+  colors=000xxl<2>yyvzzzyyy<22>GGGEEECCE<4>22E00F00G<23>00x00z01z<28>Puz<3\
+  1>1BR09P19Q<13>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXLCYLA_K<14>zy\
+  yzzz<19>uu0<12>xxh
+  }
+
+ckp0489            { ; "Belly Buttons"
+                     ; 00:05:29.50 .. 11 july 1993 .. caren park
+                     ; inspired by BOB8:Megacyte
+  reset=1800 type=julia(fn||fn) function=cosxx/log
+  corners=-6.239172/6.331364/-3.678034/5.749869 params=0.5/0/8 float=y
+  maxiter=10 inside=bof60 outside=summ invert=7.35294/0/0 decomp=12
+  distest=9000/80
+  colors=yr8<18>vf7ve7ud8<46>Z2MY1NW1O<5>N2WL2XJ2YH3_F3aC3c94e<2>00z<16>O1\
+  4P11S11<8>o22r33s22<2>x11z00z10<7>zH0zJ0zJ0<114>zx8zx8zw8<7>yr8
+  cyclerange=0/255
+  }
+
+ckp0490            { ; "Bug-Eyed"
+                     ; 00:03:19.82 .. 11 july 1993 .. caren park
+                     ; inspired by BOB8:Megacyte
+  reset=1800 type=julia(fn||fn) function=cosxx/log
+  corners=5.073521/-4.981329/-6.71203/6.694437/-4.981329/6.694437
+  params=1.5/0/8 float=y maxiter=10 inside=bof60 outside=summ
+  invert=7.35294/0/0 decomp=12 distest=9000/20
+  colors=000y01<24>N2WL2XJ2YH3_F3aC3c94e<2>00z<16>O14P11S11<8>o22r33s22<2>\
+  x11z00z10<7>zH0zJ0zJ0<114>zx8zx8zw8<35>va6v`6wY5<4>zJ0ZC8f64o00<2>n00n00\
+  l00<5>i00z00
+  }
+
+ckp0491            { ; "Vaulted Ceiling Windows"
+                     ; 00:02:32.09 .. 11 july 1993 .. caren park
+                     ; inspired by REB003:Laser
+  reset type=formula formulafile=reb003.frm formulaname=gopalsamyfn
+  function=recip/ident/recip/cosxx
+  corners=3.51771/0.0782221/-2.292992/2.292992/0.0782221/2.292992
+  params=0.0001 float=y maxiter=256 inside=0 potential=255/100/500
+  colors=OszzCV<2>z0N<14>000<14>EXLCYLA_K<14>zyyzzz<31>kKk<12>nrUotSowRpzP\
+  oxP<19>R8KP6KO3KM0JM0K<18>40r30t00v10x00z<26>MozNqzPuz<31>1BR09P19Q<11>J\
+  KfLLhLLhMMiONk<14>wwyzzzzwx<10>zGX
+  }
+
+ckp0492            { ; "Charm"
+                     ; 00:02:32.09 .. 11 july 1993 .. caren park
+                     ; inspired by REB003:Laser
+  reset type=formula formulafile=reb003.frm formulaname=gopalsamyfn
+  function=sinh/cosh/sinh/cotanh
+  corners=4.056/-4.056/-5.408/5.408/-4.056/5.408 params=0.0001 float=y
+  maxiter=256 inside=0 potential=255/100/500
+  colors=mzz<34>5zz3zz2zz0zz0yz0xz0vz0uz0rz<38>05z03z02z00z00y<59>00300200\
+  0000000<29>00k00m01m<29>0ky0mz1mz<30>zzz<9>mzz
+  }
+
+ckp0493            { ; "Untitled 0493"
+                     ; 00:03:01.96 .. 11 july 1993 .. caren park
+                     ; inspired by REB003:Laser
+  reset type=formula formulafile=reb003.frm formulaname=gopalsamyfn
+  function=cosxx/sinh/cosxx/cotan
+  corners=4.056/-4.056/-5.408/5.408/-4.056/5.408 params=0.0001 float=y
+  maxiter=256 inside=0 potential=255/100/500
+  colors=000625<70>yUrzVszXs<14>zzz<5>zrzqzz<2>pxzpwyqvy<49>y2hz0gz0g<94>0\
+  00000011<4>254
+  }
+
+ckp0494            { ; "Big Mouth"
+                     ; 00:01:31.94 .. 11 july 1993 .. caren park
+                     ; inspired by REB003:Laser
+  reset type=formula formulafile=reb003.frm formulaname=gopalsamyfn
+  function=ident/cos/ident/sinh passes=b
+  corners=4.056/-4.056/-5.408/5.408/-4.056/5.408 params=0.0001 float=y
+  maxiter=256 inside=maxiter potential=255/100/500
+  colors=000qsx<46>y2hz0gz0g<94>000000011<4>254625<70>yUrzVszXs<14>zzz<5>z\
+  rzqzz<2>pxzpwyqvyquy000 cyclerange=0/255
+  }
+
+ckp0495            { ; "Two Heads"
+                     ; 00:00:20.05 .. 11 july 1993 .. caren park
+                     ; inspired by REB003:Laser
+  reset type=formula formulafile=reb003.frm formulaname=gopalsamy4
+  corners=-2.757801/2.757801/0.517608/-0.517608/-0.2752808/-2.792419
+  params=0.94999999999999996/0.5 float=y maxiter=256 inside=0
+  potential=255/800/500
+  colors=00000009z<4>02z00z00y<24>00`00d<9>00W00Q<23>002000000000<29>00k00\
+  m01m<29>0ky0mz1mz<30>zzz<42>8zz6zz5zz3zz2zz0zz<2>0vz0uz0rz<33>0Bz
+  }
+
+ckp0496            { ; "Star Sapphire"
+                     ; 00:04:14.47 .. 11 july 1993 .. caren park
+                     ; inspired by REB003:Laser
+  reset type=formula formulafile=reb003.frm formulaname=gopalsamyfn
+  function=cosxx/sinh/cosxx/cotan
+  corners=1.641371/-1.641371/-1.738348/1.738348/-1.641371/1.738348
+  params=0.0001 float=y maxiter=256 inside=0 potential=255/100/500
+  colors=hc5fOl<38>zzzzzzzzy<60>zz1zz0zy0yx0<16>lg5kf6je6id7hc7<33>K6HJ5II\
+  4IH3JG2JF0K<12>H0NI0NI0NI0OI0OI0P<41>T0`T0aT0aT0bT0bU0c<23>eNk
+  }
+
+ckp0497            { ; "Window"
+                     ; 00:01:15.85 .. 12 july 1993 .. caren park
+  reset=1800 type=formula formulafile=liar.frm formulaname=f'liar1
+  function=sqr
+  corners=-2.280435/3.083344/0.7752169/0.0089626937/0.0183277/-2.2898001
+  params=0.3928750345/0.83466854325341999 float=y maxiter=250
+  fillcolor=253 inside=253 potential=253/500/0
+  colors=0005XE<23>Lw94WE<17>3uNGZJSbPdfV8WE<11>sh67YE<7>`uA5UF<8>ECQ8XH<1\
+  1>zyy5UG<15>Q2v4VE<15>6hO6iP7iQ7iQ<62>0003OU<9>0Gl4VE<25>HGM5WF<22>kvq4W\
+  E
+  }
+
+ckp0498            { ; "Diamond Jubilee"
+                     ; 00:02:01.87 .. 12 july 1993 .. caren park
+  reset=1800 type=formula formulafile=liar.frm formulaname=f'liar1
+  function=log
+  corners=-0.40633198/1.4407973/0.56707693/0.30320131/0.38529486/-0.488425\
+  52 params=0.037592387499999998 float=y maxiter=300 fillcolor=253
+  inside=maxiter potential=253/500/0
+  colors=AFI<32>004004015<64>EoyFpzHpzIpz<21>xyzzzzyzz<12>hzzgzzgzz<112>BF\
+  I cyclerange=0/255
+  }
+
+ckp0499            { ; "Pointing the Finger"
+                     ; 00:00:26.14 .. 12 july 1993 .. caren park
+  reset=1800 type=formula formulafile=liar.frm formulaname=f'liar1
+  function=tanh
+  corners=0.79886205/1.1830649/0.0301222086/-0.0247639193/0.96352044/-0.18\
+  9422301 params=0.32300000000000001/0.095753453449999998 float=y
+  maxiter=250 fillcolor=253 inside=253 potential=253/500/0
+  colors=000BUe<12>1BR09P19Q<13>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B7<9>\
+  EXLCYLA_K<14>zyyzzz<19>uu0<16>yyvzzzyyy<22>GGGEEECCE<4>22E00F00G<23>00x0\
+  0z01z<28>Puz<17>CWf
+  }
+
+ckp0500            { ; "Open Wide"
+                     ; 00:01:44.81 .. 14 july 1993 .. caren park
+  reset=1800 type=formula formulafile=fractint.frm formulaname=jm_19
+  function=sinh/cos/log
+  corners=4.055792/-1.857808/-3.9424/3.9424/-1.857808/3.9424
+  params=3.14167/0/2.2153999999999998 float=y maxiter=256
+  fillcolor=253 inside=253 potential=253/250/0 invert=1/0/0
+  colors=0000009B69B7<2>9DAAECAFDBGEBHF<32>PmtQnvQowRpySqx<29>YqsYqsXpr<21\
+  >6CS5AR48Q26O39S4CX<3>AQo8Rt<11>26C2J8<12>ISIKSJLTKNULMWL<16>AtR<2>euZ<9\
+  >0`LUfPwmT<22>pX6pX5oW6<45>dHc<7>7D2<2>8C5
+  }
+

@@ -1,0 +1,164 @@
+Three-dimensional Images
+Three-dimensional Fill Type
+Three-dimensional Fractal Parameters
+Three-dimensional Stereo Viewing
+Three-dimensional Light Source Parameters
+Three-dimensional Mode Selection
+Three-dimensional Overlay Mode
+Rectangular Coordinate Transformation
+Color Palette Maps
+Command Line Parameters
+Image Coordinates Screen
+Color Cycling Commands
+Summary of Fractal Types
+About the Main Menu Bar
+About Help
+Popup Menus and Tear-Off Menus
+Parameter Save/Restore Commands
+Image Save/Restore Commands
+Starfields
+New Fractal Types
+View Windows Mode
+Color Editor Commands
+Basic Options Screen
+Extended Options Screen
+Zoom Box Commands
+Julia Toggle Commands
+Orbits Window Mode
+barnsleyj1
+barnsleyj2
+barnsleyj3
+barnsleym1
+barnsleym2
+barnsleym3
+bif=sinpi
+biflambda
+bifmay
+bif+sinpi
+bifstewart
+bifurcation
+cellular
+circle
+cmplxmarksjul
+cmplxmarksmand
+complexnewton / complexbasin
+diffusion
+dynamic
+fn+fn
+fn+fn(pix)
+fn*fn
+fn*z+z
+fn(z*z)
+frothybasin
+gingerbread
+halley
+henon
+hopalong
+hypercomplex
+hypercomplexj
+icon / icon3d
+julia_inverse
+julfn+exp
+julfn+zsqrd
+julia
+julia4
+julia(fn||fn)
+julzpower
+julzzpwr
+kamtorus / kamtorus3d
+lambda
+lambdafn
+lambda(fn||fn)
+lorenz / lorenz3d
+lorenz3d1
+lorenz3d3
+lorenz3d4
+magnet1j
+magnet2j
+magnet1m
+magnet2m
+mandel
+mandel4
+mandelcloud
+mandel(fn||fn)
+mandelfn
+manfn+exp
+manfn+zsqrd
+mandphoenix
+manlam(fn||fn)
+manowar
+manowarj
+manzpower
+manzzpwr
+marksjulia
+marksmandel
+marksmandelpwr
+martin
+mandellambda
+newton
+newtbasin
+phoenix
+pickover
+plasma
+popcornjul
+popcorn
+quat
+quatjul
+rossler3D
+sierpinski
+spider
+sqr(fn)
+sqr(1/fn)
+test
+tetrate
+tim's_error
+unity
+Barnsley Mandelbrot/Julia Sets
+Bifurcation Sets
+Cellular Automata Fractals
+Circle Fractal Types
+Diffusion Limited Aggregation
+Dynamic System Fractal Type
+Fn||Fn Fractal Types
+Formula Fractal Types
+Frothy Basins
+Gingerbreadman Fractal Type
+Halley Map Sets
+Henon Attractors
+HyperComplex Fractals
+Icon Fractal Type
+Barnsley IFS Fractals
+Inverse Julia Sets
+Julia Sets
+Julibrot Fractal Type
+Kam Torus Fractal Type
+Lambda Sets
+Lambda(function) Sets
+Lorenz Attractors
+L-Systems Fractal Types
+Lyapunov Fractals
+Magnetic Fractals
+Mandelbrot Set
+Mandelcloud Fractal Type
+Mandelbrot(function) Fractal Type
+Quartic Mandelbrot/Julia
+Peterson Variations
+Martin Attractors
+Mandellambda Sets
+Newton Sets
+Newton domains of attraction
+Complex Newton
+Phoenix Fractal Type
+Pickover Attractors
+Pickover Mandelbrot/Julia Types
+Plasma Clouds
+Pickover Popcorn
+Quaternions
+Rossler Attractors
+Scott Taylor / Lee Skinner Variations
+Sierpinski Gasket
+Try This At Home
+Unity Fractal Type
+Xmfract General Information
+GNU General Public License
+Chaotic Theory Mathematics

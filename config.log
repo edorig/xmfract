@@ -1,0 +1,27 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+/usr/lib/gcc/i486-slackware-linux/4.3.3/../../../crt1.o: In function `_start':
+/glibc-tmp-6e7c722fc8c0dc081e4af06ac41901ef/glibc-2.9-20090316/csu/../sysdeps/i386/elf/start.S:115: undefined reference to `main'
+collect2: ld returned 1 exit status
+/usr/lib/gcc/i486-slackware-linux/4.3.3/../../../../i486-slackware-linux/bin/ld: cannot find -ldnet
+collect2: ld returned 1 exit status
+/usr/lib/gcc/i486-slackware-linux/4.3.3/../../../../i486-slackware-linux/bin/ld: cannot find -ldnet_stub
+collect2: ld returned 1 exit status
+/tmp/cciV4Tjl.o: In function `t':
+/home/edmond/software/xmfract_1.4/configure:1046: undefined reference to `t_accept'
+collect2: ld returned 1 exit status
+/usr/lib/gcc/i486-slackware-linux/4.3.3/../../../../i486-slackware-linux/bin/ld: cannot find -lsocket
+collect2: ld returned 1 exit status
+/usr/lib/gcc/i486-slackware-linux/4.3.3/../../../../i486-slackware-linux/bin/ld: cannot find -lgen
+collect2: ld returned 1 exit status
+configure: In function 'main':
+configure:1629: warning: incompatible implicit declaration of built-in function 'exit'
+configure: In function 'main':
+configure:1943: warning: incompatible implicit declaration of built-in function 'exit'
+configure:1970: warning: conflicting types for built-in function 'vprintf'
+configure:2069: warning: conflicting types for built-in function 'strcasecmp'
+configure:2069: warning: conflicting types for built-in function 'hypot'
+configure:2221: warning: conflicting types for built-in function 'strcspn'
+configure:2221: warning: conflicting types for built-in function 'strspn'
+configure:2221: warning: conflicting types for built-in function 'strstr'

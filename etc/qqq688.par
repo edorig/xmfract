@@ -1,0 +1,89 @@
+qqq688             { ; (c) 1993 Richard H. Sherry, CIS76264,752
+  reset type=formula formulafile=fractint.frm
+  formulaname=M_TchebychevC2 corners=-2.0/2.000012/-1.499989/1.5
+  params=1 maxiter=130 fillcolor=0 inside=0 outside=real
+  colors=000zk0<3>zz0<12>zI0<11>zz0<6>zA0<15>zz0<15>zF0<15>uu6<14>yX1zV0yV\
+  3<13>kVvjVzkUw<14>zA0<15>zz0<14>w03<9>K0fmzmK2emzmK5cczcJ8aczcJB`UzUIEZm\
+  zcIHXzzcIKVzzcHMUzzUHPSzzUGSQzmKGVOzmKGYNzcKF`LzcUFcJzmZJfKohePiKmcmTlLc\
+  cm_oNUcmgrPPUonuRkkkvxTAAzvxT00zikNAAzXYHKKzKLAUUz774UUm966UUcz00<7>zz0<\
+  7>z70zG0<7>zg0
+  }
+
+qqq689             { ; (c) 1993 Richard H. Sherry, CIS76264,752
+  reset type=formula formulafile=fractint.frm
+  formulaname=M_TchebychevC7 corners=-12.0/11.999993/-8.00001/8.0
+  params=0.01 maxiter=128 fillcolor=0 inside=0 outside=real
+  colors=000deb<9>OI5<5>bVHeYJg_LiaN<6>zpa<4>jdWgaVcZT`WSYUR<6>AAK<4>AOSAR\
+  UBUWBXYB__Bba<5>Dtn<6>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<7>WEDSDFRAG<2>N3JL0KL1\
+  KM2KN3KO4J<12>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvcs\
+  vcsvc<13>UMHSJFQIJ<5>EAb<6>7Nu5Px5Nu<5>A5cB5`<6>KBLMCIOEK<3>WQUYSX_VZ`Y`\
+  <6>nru<4>fge
+  }
+
+qqq690             { ; (c) 1993 Richard H. Sherry, CIS:76264,752
+  reset type=formula formulafile=fractint.frm
+  formulaname=M_TchebychevT4
+  corners=-1.928/1.928003/-0.032463/0.664048 params=2 maxiter=130
+  fillcolor=0 inside=0 outside=real
+  colors=0009`Y<21>C8AD79D79<51>jX8jX8iW8<29>KAAKAALBA<28>cT8dU7dT7<57>K9B\
+  GAB<29>zz0<8>LVY<11>9da8da9b_9aZ
+  }
+
+qqq691             { ; (c) 1993 Richard H. Sherry, CIS:76264,752
+  reset type=formula formulafile=fractint.frm
+  formulaname=M_TchebychevT6
+  corners=-1.632003/1.632008/-2.411318/-0.235314 params=0.1
+  maxiter=128 fillcolor=0 inside=0 outside=real
+  colors=000RG3<14>zp_<14>SL4PI1MF0LG2<13>7Or5Pv6Ps<10>IHEJHAKG6LG2MF0OH1<\
+  13>kml<13>QK5OI2MF0<3>LN0KP1KR1JT2JV3<7>Fk8<9>KR2KP1KN1LL1LJ0MH0MF0LI1<1\
+  3>EqiDtlEqi<12>KL5LI2MF0<15>zH0<15>MF0<15>ww0<15>MF0OF1<14>wEa<14>PE1
+  }
+
+qqq692             { ; (c) 1993 Richard H. Sherry, CIS:76264,752
+  reset type=formula formulafile=fractint.frm
+  formulaname=M_TchebychevT7
+  corners=1.917537/1.232109/-0.406185/0.406181/1.232109/0.406181
+  params=0.2 maxiter=128 fillcolor=0 inside=0 outside=real
+  colors=000zzcIKVzzcHMUzzUHPSzzUGSQzmKGVOzmKGYNzcKF`LzcUFcJzmZJfKohePiKmc\
+  mTlLccm_oNUcmgrPPUonuRkkkvxTAAzvxT00zikNAAzXYHKKzKLAUUz774UUm966UUcRKK<3\
+  >zkk<7>z00<49>zU0gMO<12>VR_TR`TR`zzzURazzzVRazzzWRazzz000zzz000zz0zzz0z0\
+  LLLz00zA0zL0zV0zcK<5>ZRkUUc<6>zz0hhhmmmssszzzzz0<6>z0Gz00<3>zz0nx6buCP0Z\
+  FpP<3>0zz<2>0GzVVz<3>zVz<3>zVV<3>zzV<3>VzV<3>Vzz<2>Vbzhhz<3>zhz<3>zhh<3>\
+  zzh<3>hzh<3>hzz<2>hlzz00w03000o0B<7>K0fmzmK2emzmK5cczcJ8aczcJB`UzUIEZmzc\
+  IHX
+  }
+
+qqq693             { ; (c) 1993 Richard H. Sherry, CIS:76264,752
+  reset type=formula formulafile=fractint.frm
+  formulaname=M_TchebychevU2 corners=-12.0/11.999993/-8.00001/8.0
+  params=1 maxiter=128 fillcolor=0 inside=0 outside=real
+  colors=000aa`<6>aSi<20>K9AK88I82J76<2>G41Ls6<37>G50kKP<41>G40xqU<37>H50M\
+  ty<33>G51e9P<15>H41h0c<27>H41GBz<16>G6Q
+  }
+
+qqq694             { ; (c) 1993 Richard H. Sherry, CIS:76264,752
+  reset type=formula formulafile=fractint.frm
+  formulaname=M_TchebychevU3
+  corners=-14.807005/0.083991/3.370676/-3.370674/0.083991/-3.370674
+  params=0.5 maxiter=128 fillcolor=0 inside=0 outside=real
+  colors=000_gG<3>el6<10>`d8G8E_c8<44>G8EeSu<14>H9Gz81<26>H8E5G_<37>G8ExrY\
+  <29>H9Elzy<57>G8EBB0<17>E97
+  }
+
+qqq695             { ; (c) 1993 Richard H. Sherry, CIS:76264,752
+  reset type=formula formulafile=fractint.frm
+  formulaname=M_TchebychevU4
+  corners=-2.064003/2.063982/-1.376015/1.375996 params=1 maxiter=128
+  fillcolor=0 inside=0 outside=real
+  colors=0008H0<11>Zc0<15>0A0SNC<29>xo`zpaypa<29>UPF000<29>nnnpppooo<30>00\
+  0PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<14>0A0<2>6F0
+  }
+
+qqq696             { ; (c) 1993 Richard H. Sherry, CIS:76264,752
+  reset type=formula formulafile=fractint.frm
+  formulaname=M_TchebychevU5 corners=-12.0/11.999993/-8.00001/8.0
+  params=0.5 maxiter=128 fillcolor=0 inside=0 outside=real
+  colors=000lXE<5>saD300vcDwdDxeDzfC<31>PFF0A0<15>Zc0<14>0A0<15>Zc0<15>0A0\
+  SNC<29>xo`zpaypa<29>UPF000<29>nnnpppooo<30>000PFF<18>kWE
+  }
+

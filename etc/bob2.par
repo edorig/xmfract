@@ -1,0 +1,59 @@
+eggs over easy     { ; Yet another Barnsley manipulation
+                     ; BG Dodson 1992 71636,1075
+  reset type=barnsleyj2 corners=-1.514667/1.621334/-1.175999/1.176
+  params=0.0106725095/0.9751392915 maxiter=20 inside=bof60 outside=summ
+  invert=0.5/0.0533337/0
+  colors=000oZK<6>xE2<21>336<17>RQkLXs<13>YMiqBu<2>OScHGa<10>FeWXFx<3>FgW<13>l\
+  a`vWg<6>eiTfhB<9>_onenw<6>Npb5lg<4>WsWp0Z<4>bkU`tU_rV<4>VhZXdU<6>PmiOnkKrp<1\
+  4>faUtce<12>FV0<19>gDBv8UqANlCHi61<12>e_ejWi<16>ZiheyyKuM<8>dp_fp`hmY<3>maN
+  }
+
+
+Doppler Raceway    { ; Lyapunov. Try this at 1024x768x256
+                     ; BG Dodson 1992 71636,1075
+  reset type=lyapunov corners=2.0/4.0/2.5/4.0 params=0/0.75 float=y
+  maxiter=6 inside=bof60 outside=real
+  colors=000<141>ussvttvrr<16>xJJxHHxHH<12>xHHxIIxIIxJJxKK<57>wuuvvvvvvvvv<6>v\
+  vv<6>MMM
+  }
+
+Newton's Headache  { ; A thoroughly freaked out Newton
+                     ; BG Dodson 1992 71636,1075
+  reset type=newton corners=-2.0/2.0/-1.5/1.5 params=2 float=y maxiter=400
+  inside=bof60 outside=mult finattract=y
+  colors=000rD3<19>336<17>RQkLXs<13>YMiqBu<2>OScHGa<10>FeWXFx<3>FgW<13>la`vWg<\
+  6>eiTfhB<9>_onenw<6>Npb5lg<4>WsWp0Z<4>bkU`tU_rV<4>VhZXdU<6>PmiOnkKrp<14>faUt\
+  ce<12>FV0<19>gDBv8UqANlCHi61<12>e_ejWi<16>ZiheyyKuM<8>dp_fp`hmY<11>xE2uD3
+  }
+
+Anatomy by Dali    { ; Muscle tissue by Salvadore Dali?
+                     ; BG Dodson 1992 71636,1075
+  reset type=barnsleyj3
+  corners=-0.191513/0.234155/-0.782097/0.739473/-0.768633/-0.012616
+  params=0.10000035/0.36000034 maxiter=20 inside=bof60 outside=real
+  colors=000rD3<19>336<17>RQkLXs<13>YMiqBu<2>OScHGa<10>FeWXFx<3>FgW<13>la`vWg<\
+  6>eiTfhB<9>_onenw<6>Npb5lg<4>WsWp0Z<4>bkU`tU_rV<4>VhZXdU<6>PmiOnkKrp<14>faUt\
+  ce<12>FV0<19>gDBv8UqANlCHi61<12>e_ejWi<16>ZiheyyKuM<8>dp_fp`hmY<11>xE2uD3
+  }
+
+Nodule Mandelbrot  { ; The "set" from my "Nodule" period
+                     ; BG Dodson 1992 71636,1075
+  reset type=mandel corners=0.929333/-2.206666/1.160014/-1.191986
+  maxiter=9 inside=bof60 outside=0
+  colors=000oZK<6>xE2<8>`94Y90W84<10>336559000<27>000WO0000000000gHoYMiOScHGa<\
+  6>FXY000000FcXFeWXFx<3>FgW<13>la`vWg<6>eiTfhB<9>_onenw<6>Npb5lg<4>WsWp0Z<4>b\
+  kU`tU_rV<4>VhZXdU<6>PmiOnkKrp<14>faUtce<12>FV0<19>gDBv8UqANlCHi61<12>e_ejWi<\
+  16>ZiheyyKuM<8>dp_fp`hmY<3>maN
+  }
+
+Alien Sex Organs?  { ; Another "Nodule" presentation
+                     ; BG Dodson 1992 71636,1075
+  reset type=mandel
+  corners=-1.896086/0.779914/1.823211/-1.74479/0.779914/-1.74479 maxiter=9
+  inside=bof60 outside=0 invert=0.5/-0.5/0
+  colors=000oZK<6>xE2<8>`94Y90W84<10>336559000<27>000WO0000000000gHoYMiOScHGa<\
+  6>FXY000000FcXFeWXFx<3>FgW<13>la`vWg<6>eiTfhB<9>_onenw<6>Npb5lg<4>WsWp0Z<4>b\
+  kU`tU_rV<4>VhZXdU<6>PmiOnkKrp<14>faUtce<12>FV0<19>gDBv8UqANlCHi61<12>e_ejWi<\
+  16>ZiheyyKuM<8>dp_fp`hmY<3>maN
+  }
+

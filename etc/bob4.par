@@ -1,0 +1,100 @@
+;[FRACTINT 17.1 PARAMETER FILE]
+;[BOB4.PAR...COMPILED SEPT 1992]
+;All images created using 640 X 480 X 256C minimum.
+;Lotsa time_intensive fractals in this batch...
+
+
+Well,_I_don't_know { ; Quite what to call this Newton perversion...
+                     ; BG Dodson 1992  71636,1075
+  reset type=newton passes=b corners=-0.992/0.992/-0.744/0.744 params=10
+  float=y maxiter=600 invert=0.5/0/0 finattract=y
+  colors=000zzz<37>I5kG3jE3l<5>21x00z00z<70>PzzQ`0<13>`Q0000<116>jQ010y00z
+  }
+
+Fractal_War_Droid  { ; Fractal Early Warning Defence Station?
+                     ; BG Dodson 1991 71636,1075
+  reset type=sqr(1/fn) function=exp
+  corners=0.434698/-1.461302/0.326814/2.854814/-1.461302/2.854814 float=y
+  maxiter=1000 inside=bof60 outside=real logmap=2 potential=255/300/0
+  decomp=256 finattract=y periodicity=0
+  colors=000<7>X50j60<20>E4HC3IB3G<6>314212212<5>545545545655766<59>jiXjjYjiY<\
+  37>n10z00<50>850000740<8>110000000000<35>00010y00z
+  }
+
+Symmetrization     { ; Not very "GEE WHIZ" - but symmetrical as all get out.
+                     ; BG Dodson 1992
+  reset type=newton passes=b corners=-2.0/2.0/-1.5/1.5 params=2 float=y
+  maxiter=1000 fillcolor=2 inside=-100 outside=summ potential=200/200/0
+  invert=0.5/0/0 biomorph=2 finattract=y
+  colors=000<78>ppnuud<7>yyazzMzze<4>zzzGez<23>PzzQ`0<13>`Q0jQ0<37>WI0KKKccf<8\
+  >MPSKNQILOHJMHIKGGIFEG<61>Zo010y00z
+  }
+
+Stars_Like_Jewels  { ; (Well...WHAT would you call it????)
+                     ; BG Dodson 1992 71636,1075
+  reset type=formula formulafile=fractint.frm formulaname=Jm_14
+  function=sin/sqr/sinh passes=b
+  corners=2.828701/0.84579/-1.28/1.28/0.84579/1.28 float=y fillcolor=200
+  logmap=4 decomp=128
+  colors=000<78>ppnuud<7>yyazzMzze<4>zzzGez<23>PzzQ`0<13>`Q0jQ0<13>eN0
+  }
+
+TESLA_BROADCASTS   { ; Takes +30 min to generate
+                     ; BG Dodson 1992  71636,1075
+  reset type=formula formulafile=fractint.frm formulaname=Fzppfnth
+  function=exp passes=b
+  corners=-2.041434/0.526581/1.724527/-1.699489/0.526581/-1.699489
+  params=0/0/1/-2 maxiter=1000 fillcolor=200 inside=bof60 outside=mult
+  decomp=64
+  colors=000kFN<6>zKU<30>211000000<14>000010030<29>0z0<30>020000000<14>0001103\
+  30<29>zz0<30>220000000<29>000000200<21>iEM
+  }
+
+Gothem_Neon        { ; Takes about 20 min to generate
+                     ; BG Dodson 1992 71636,1075
+  reset type=formula formulafile=fractint.frm formulaname=fzppfnsr
+  function=sin passes=b
+  corners=1.749952/-0.494041/-1.502277/1.489752/-0.494041/1.489752
+  params=0/0/0.4/-1 maxiter=1000 fillcolor=200 inside=bof60 outside=mult
+  decomp=64
+  colors=000151131000<15>rAr<15>000<15>hh0<14>330000003<14>00r<15>000<15>r00<1\
+  5>000<15>0pp<14>044000222<14>hhh<14>333000000<26>007017037<13>4S4<15>171
+  }
+
+SYSTEM_BUSS        { ; Of a CRAY 2020 Molecular Computing Engine
+                     ; BG Dodson 71636,1075  Map stolen from Ron Lewin
+  reset type=newton corners=-7.630526/-5.180585/4.495094/6.332549 params=3
+  float=y maxiter=32767 bailout=1270 inside=zmag outside=imag
+  distest=20/71 finattract=y
+  colors=000703<14>z0X<15>000<15>p0w<15>000<15>zzz<15>000L00<13>z00<2>p00l00h0\
+  0d00a00<9>000<15>zX0<15>000<15>ut0<15>000GA4<12>2v10z00w0<14>000<15>00z<14>0\
+  00301
+  }
+
+Tin_Pan-Alley      { ; Takes about 2 hours on my 386/387
+                     ; Very interesting.  BG Dodson 71636,1075
+  reset type=formula formulafile=fractint.frm formulaname=Fzppfnpo
+  passes=b corners=-2.0/1.999996/-1.49998/1.5 params=0.666/-1/0.666/-0.5
+  maxiter=1000 fillcolor=200 inside=bof60 outside=mult decomp=64
+  colors=000151131000<15>rAr<15>000<15>hh0<14>330000003<14>00r<15>000<15>r00<1\
+  5>000<15>0pp<14>044000222<14>hhh<14>333000000<26>007017037<13>4S4<15>171
+  }
+
+Uh...yeah...       { ; Interesting
+                     ; BG Dodson 1992 71636,1075
+  reset type=fn*fn function=cosxx/sqr passes=b corners=-4.0/4.0/-3.0/3.0
+  float=y maxiter=32000 fillcolor=200 inside=bof61 logmap=4 decomp=128
+  distest=3000/71
+  colors=000151131000<15>rAr<15>000<15>hh0<14>330000003<14>00r<15>000<15>r00<1\
+  5>000<15>0pp<14>044000222<14>hhh<14>333000000<26>007017037<13>4S4<15>171
+  }
+
+Uh...yeah...II     { ; Interesting
+                     ; BG Dodson 1992 71636,1075
+  reset type=fn(z*z) function=cotan passes=b corners=-4.0/4.0/-3.0/3.0
+  float=y maxiter=32000 fillcolor=200 inside=bof61 logmap=4
+  potential=253/3000/1 decomp=128
+  colors=000151131000<15>rAr<15>000<15>hh0<14>330000003<14>00r<15>000<15>r00<1\
+  5>000<15>0pp<14>044000222<14>hhh<14>333000000<26>007017037<13>4S4<15>171
+  }
+

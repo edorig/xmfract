@@ -1,0 +1,363 @@
+;; ckp400.par (images 376 through 400), 01 May 1993
+;;
+;; Here are my current contributions to PARs for Tomorrow (V18.0)...
+;; Any duplications are entirely
+;; unintentional...  With any luck, a few of these will find
+;; their way into the postcard/poster world before spring of
+;; '93...  Comments pro and con will be sent to their appropriate
+;; locations...
+
+;; A few images here were inspirations from other creations, and
+;; have been (I hope) accorded appropriate acknowledgement...
+
+;; Time listed on the first line reflects creation on a 486-50
+;; running 1024x768x256 colors...   ALL of these images look best
+;; when created with a 256-color or better video and 1024x768 or
+;; better resolution...  I have no idea how they will look at
+;; lower resolutions or lower color densities...  Happy viewing!
+
+;; caren park
+;; park computer services
+;; 23808 southeast 24th street
+;; issaquah, washington  98027
+;; CIS:  75430,1474
+
+;; PS:  Please do not use these images commercially without
+;; dropping me a quick message requesting inclusion in your
+;; fine product BEFORE you go to market...
+
+ckp0376            { ; "Claw Fastener"
+                     ; 00:01:37.77 .. 06 june 93 .. caren park
+  reset type=mandelfn function=sinh passes=b
+  corners=-1.636816/-0.3633969/-0.47753232/0.47753232 params=9/6
+  float=y maxiter=100 bailout=4 fillcolor=253 inside=253 outside=imag
+  potential=255/250/0 invert=10/0/0
+  colors=000qp0<14>000GA4<12>2v10z00w0<14>000<15>00z<14>000<16>z0X<15>000<\
+  15>p0w<15>000<15>zzz<15>000L00<13>z00<2>p00l00h00d00a00<9>000<15>zX0<15>\
+  000<15>ut0
+  }
+
+ckp0377            { ; "Scorpion Tail"
+                     ; 00:00:50.86 .. 07 june 93 .. caren park
+  reset type=mandelfn function=sin
+  corners=-0.24046921/0.55953079/-0.58161669/0.018383312
+  params=9.0909089999999999/7.0707069999999996 maxiter=100
+  fillcolor=253 inside=period outside=imag potential=255/100/0
+  invert=0.9/0/0
+  colors=000xxa<11>uu0<16>yyvzzzyyy<22>GGGEEECCE<4>22E00F00G<23>00x00z01z<\
+  28>Puz<31>1BR09P19Q<13>MMiONkQPk<13>wwyzzzzwx<14>z0Nv0M<18>4B7<9>EXLCYLA\
+  _K<14>zyyzzz<6>yyd
+  }
+
+ckp0378            { ; "Bullet in Flight"
+                     ; 00:14:47.39 .. 09 apr 93 .. caren park
+  reset=1733 type=formula formulafile=fractint.frm
+  formulaname=halleySin passes=t
+  corners=-0.9562297048/-0.9483177048/-0.002967/0.002967
+  params=0.21532945000000000557/0.14024233999999999312 float=y
+  maxiter=256 inside=maxiter periodicity=-1
+  colors=zuKzsK000zpK<18>z07<15>0j0<28>Bzs<2>FttHqtJouLmuMkv<7>_UyaRzbQw<1\
+  3>q4Bs27r28<29>MDdKEfKEf<75>`A2`A2`A1a90aA0bB0<37>yrHztIzwJzzLzxL
+  cyclerange=0/255
+  }
+
+ckp0379            { ; "Snail-Eyed Fish Head"
+                     ; 00:14:23.42 .. 10 apr 93 .. caren park
+  reset=1733 type=mandelfn function=cosxx passes=t
+  corners=-3.34199726/-3.30094093/0.08309389946/0.08804037563/-3.32959129/\
+  0.06655260896 params=1.2039857000000000475/-0.098734500000000002817
+  float=y maxiter=500 inside=bof61 periodicity=-1
+  colors=iaN<6>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARUBUWBXY<6>DqlDtnCql<5\
+  >8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN3KO4J<12>zz0<7>``9YYAX\
+  VB<6>KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<4>jiWhfUfdTebS<4>YRKW\
+  PJUMHSJF<6>EAb<6>7Nu5Px5Nu<5>A5cB5`<3>G8SH9QIAQ<4>SKP<3>_VZ`Y`b`cdcf<4>n\
+  ru<15>OI5<7>g_L cyclerange=0/255
+  }
+
+ckp0380            { ; "Speedy"
+                     ; 00:14:58.09 .. 10 apr 93 .. caren park
+  reset=1733 type=mandelfn function=cosxx passes=t
+  corners=-3.2414941/-3.20841152/0.13002262/0.154834556
+  params=1.2039857000000000475/-0.098734500000000002817 float=y
+  maxiter=500 inside=bof61 periodicity=-1
+  colors=O8O<5>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN3KO4J<12>zz0<7>``9YYAXVB<6>K\
+  AJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<4>jiWhfUfdTebS<4>YRKWPJUMHS\
+  JF<6>EAb<6>7Nu5Px5Nu<5>A5cB5`<3>G8SH9QIAQ<4>SKP<3>_VZ`Y`b`cdcf<4>nru<15>\
+  OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARUBUWBXY<6>\
+  DqlDtnCql<5>8Xc7Ta9Q`<5>L4RM5QN7P cyclerange=0/255
+  }
+
+ckp0381            { ; "XRay of a Fart"
+                     ; 00:07:24.29 .. 11 apr 93 .. caren park
+  reset=1733 type=mandelfn function=cosxx passes=t
+  corners=-3.0610351/-2.6249551/0.37971087/-0.20172913/-2.6249551/-0.20172\
+  913 params=1.2039857000000000475/-0.098734500000000002817 float=y
+  maxiter=500 inside=bof61 periodicity=-1
+  colors=_EBWEDSDF<3>N3JL0KL1KM2KN3KO4J<12>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>\
+  ziF<13>K8C413000<15>svcsvcsvcsvc<4>jiWhfUfdTebS<4>YRKWPJUMHSJF<6>EAb<6>7\
+  Nu5Px5Nu<5>A5cB5`<3>G8SH9QIAQ<4>SKP<3>_VZ`Y`b`cdcf<4>nru<15>OI5<6>eYJg_L\
+  iaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARUBUWBXY<6>DqlDtnCql<5>\
+  8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<5>cFA cyclerange=0/255
+  }
+
+ckp0382            { ; "Hurricane"
+                     ; 00:15:04.57 .. 11 apr 93 .. caren park
+  reset=1733 type=mandelfn function=cosxx passes=t
+  corners=-3.2346168/-3.20809303/0.135603102/0.155495934
+  params=1.2039857000000000475/-0.098734500000000002817 float=y
+  maxiter=500 inside=bof61 periodicity=-1
+  colors=TEKUGJVHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN3KO4J<12>zz0<7>``9YYAXVB<6>K\
+  AJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<4>jiWhfUfdTebS<4>YRKWPJUMHS\
+  JF<6>EAb<6>7Nu5Px5Nu<5>A5cB5`<3>G8SH9QIAQ<4>SKP<3>_VZ`Y`b`cdcf<4>nru<15>\
+  OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARUBUWBXY<6>\
+  DqlDtnCql<5>8Xc7Ta9Q`<5>L4R<5>SDL cyclerange=0/255
+  }
+
+ckp0383            { ; "Fossil Skeleton Under Microscope"
+                     ; 00:04:03.16 .. 11 apr 93 .. caren park
+  reset=1733 type=formula formulafile=fractint.frm formulaname=Halley
+  passes=b corners=-2/2/-1.5/1.5
+  params=0.099999999990000004724/0.023365469999999999295 float=y
+  maxiter=256 inside=maxiter periodicity=-1
+  colors=KW2<4>0j0<28>Bzs<2>FttHqtJouLmuMkv<7>_UyaRzbQw<13>q4Bs27r28<29>MD\
+  dKEfKEf<75>`A2`A2`A1a90aA0bB0<37>yrHztIzwJzzL<2>zsK000zpK<18>z07<9>OT3
+  cyclerange=0/255
+  }
+
+ckp0384            { ; "Hurricane Collision"
+                     ; 00:21:50.45 .. 11 apr 93 .. caren park
+  reset=1733 type=mandelfn function=cosxx passes=t
+  corners=-3.324395955/-3.320865111/0.080574965126/0.081000362077/-3.32332\
+  9042/0.079152414143
+  params=1.2039857000000000475/-0.098734500000000002817 float=y
+  maxiter=500 inside=bof61 periodicity=-1
+  colors=gF8<3>SDF<3>N3JL0KL1KM2KN3KO4J<12>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>\
+  ziF<13>K8C413000<15>svcsvcsvcsvc<4>jiWhfUfdTebS<4>YRKWPJUMHSJF<6>EAb<6>7\
+  Nu5Px5Nu<5>A5cB5`<3>G8SH9QIAQ<4>SKP<3>_VZ`Y`b`cdcf<4>nru<15>OI5<6>eYJg_L\
+  iaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARUBUWBXY<6>DqlDtnCql<5>\
+  8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<3>kG7 cyclerange=0/255
+  }
+
+ckp0385            { ; "Hurricane in False Colors"
+                     ; 00:23:11.98 .. 11 apr 93 .. caren park
+  reset=1733 type=mandelfn function=cosxx passes=t
+  corners=-3.324478025/-3.304114089/0.09034945592/0.0928029081/-3.31832466\
+  5/0.08214497584
+  params=1.2039857000000000475/-0.098734500000000002817 float=y
+  maxiter=500 inside=bof61 periodicity=-1
+  colors=mfX<5>VRQROPOLOKJNHGMDDLAAK<3>ALQAOSARUBUWBXY<6>DqlDtnCql<5>8Xc7T\
+  a9Q`<5>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN3KO4J<12>zz0<7>``9YYAXVB<6>K\
+  AJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<4>jiWhfUfdTebS<4>YRKWPJUMHS\
+  JF<6>EAb<6>7Nu5Px5Nu<5>A5cB5`<3>G8SH9QIAQ<4>SKP<3>_VZ`Y`b`cdcf<4>nru<15>\
+  OI5<6>eYJg_LiaNkcPneR<4>zpa<2>piY cyclerange=0/255
+  }
+
+ckp0386            { ; "Brushstrokes of Shore, Sky and Night"
+                     ; 00:41:18.08 .. 11 apr 93 .. caren park
+  reset=1733 type=mandelfn function=cosxx passes=t
+  corners=-3.317117099/-3.311533439/0.084499273809/0.085171994569/-3.31542\
+  9888/0.082249658302
+  params=1.2039857000000000475/-0.098734500000000002817 float=y
+  maxiter=500 inside=bof61 periodicity=-1
+  colors=bfU<54>FNUFNUEMUDLT<3>8HQ6GP5FO3EN2DM0BL<4>3ER4FS5GU6GV6HW7IX<19>\
+  NXuOYwPZxQ_zSZz<34>z0zz0zz1y<63>zzU600yyU<50>cgU cyclerange=0/255
+  }
+
+ckp0387            { ; "Now, Where Have I Seen THIS Before?"
+                     ; 00:48:08.04 .. 12 apr 93 .. caren park
+  reset=1733 type=mandelfn function=cosxx passes=t
+  corners=-3.81404894/-3.80070563/-0.038078643/-0.0280711606
+  params=0.20398569999999999203/0.098734500000000002817 float=y
+  maxiter=500 inside=bof61 periodicity=-1
+  colors=OC0KA0zzzC60<2>000<15>ut0<15>000GA4<12>2v10z00w0<14>000<15>00z<14\
+  >000301000703<14>z0X<15>000<15>p0w<15>000<15>zzz<15>000L00<13>z00<2>p00l\
+  00h00d00a00<4>J00zzzB00<2>000<15>zX0<8>SE0 cyclerange=0/255
+  }
+
+ckp0388            { ; "Lace Propeller"
+                     ; 00:40:35.01 .. 12 apr 93 .. caren park
+  reset=1733 type=formula formulafile=fractint.frm formulaname=Halley
+  passes=t
+  corners=-0.116205083/-0.0990050831/-0.756215319/-0.743315319
+  params=0.099999999990000004724/0.023365469999999999295 float=y
+  maxiter=256 inside=epsiloncross periodicity=-1
+  colors=ulW<12>SL4PI1MF0LG2<13>7Or5Pv6Ps<10>IHEJHAKG6LG2MF0OH1<13>kml<13>\
+  QK5OI2MF0<3>LN0KP1KR1JT2JV3<7>Fk8<10>KP1000KN1<2>MH0MF0LI1<13>EqiDtlEqi<\
+  12>KL5LI2MF0<15>zH0<15>MF0<15>ww0<15>MF0OF1<14>wEa<14>PE1<15>zp_xnY
+  cyclerange=0/255
+  }
+
+ckp0389            { ; "Sinister"
+                     ; 00:50:16.34 .. 12 apr 93 .. caren park
+  reset=1733 type=mandelfn function=cosxx passes=t
+  corners=-3.3296524643/-3.3289712577/0.0757724324812/0.0758545044139/-3.3\
+  294466244/0.0754979793893
+  params=1.2039857000000000475/-0.098734500000000002817 float=y
+  maxiter=500 inside=bof61 periodicity=-1
+  colors=tk_<2>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARUBUWBXY<6>DqlDtnCql<5>8Xc7T\
+  a9Q`<5>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN3KO4J<12>zz0<7>``9YYAXVB<6>K\
+  AJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<4>jiWhfUfdTebS<4>YRKWPJUMHS\
+  JF<6>EAb<6>7Nu5Px5Nu<5>A5cB5`<3>G8SH9QIAQ<4>SKP<3>_VZ`Y`b`cdcf<4>nru<15>\
+  OI5<6>eYJg_LiaNkcPneR<4>zpawn` cyclerange=0/255
+  }
+
+ckp0390            { ; "Oh, WOW!"
+                     ; 00:51:32.68 .. 12 apr 93 .. caren park
+  reset=1733 type=mandelfn function=cosxx passes=t
+  corners=-3.3283561563/-3.3287430902/0.076652652588/0.076362452187
+  params=1.2039857000000000475/-0.098734500000000002817 float=y
+  maxiter=500 inside=bof61 periodicity=-1
+  colors=HBUJ8TL4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN3KO4J<12>zz0<7>``9YYAX\
+  VB<6>KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<4>jiWhfUfdTebS<4>YRKW\
+  PJUMHSJF<6>EAb<6>7Nu5Px5Nu<5>A5cB5`<3>G8SH9QIAQ<4>SKP<3>_VZ`Y`b`cdcf<4>n\
+  ru<15>OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARUBUW\
+  BXY<6>DqlDtnCql<5>8Xc7Ta9Q`<2>FFW cyclerange=0/255
+  }
+
+ckp0391            { ; "The Eyes of the World"
+                     ; 00:47:34.63 .. 12 apr 93 .. caren park
+  reset=1733 type=mandelfn function=cosxx passes=t
+  corners=-3.211676028/-3.210392556/0.1413187335/0.1396074378/-3.210392556\
+  /0.1396074378 params=1.2039857000000000475/-0.098734500000000002817
+  float=y maxiter=500 inside=bof61 periodicity=-1
+  colors=ziF<13>K8C413000<15>svcsvcsvcsvc<4>jiWhfUfdTebS<4>YRKWPJUMHSJF<6>\
+  EAb<6>7Nu5Px5Nu<5>A5cB5`<3>G8SH9QIAQ<4>SKP<3>_VZ`Y`b`cdcf<4>nru<15>OI5<6\
+  >eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARUBUWBXY<6>DqlDt\
+  nCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN3KO4J<12>zz0<7>`\
+  `9YYAXVB<6>KAJMAKOAM<11>wfG cyclerange=0/255
+  }
+
+ckp0392            { ; "Mama Crab and Kids"
+                     ; 00:18:35.65 .. 12 apr 93 .. caren park
+  reset=1733 type=mandelfn function=cosxx passes=t
+  corners=-3.2108945544/-3.2104162795/0.14256917105/0.14193147122/-3.21041\
+  62795/0.14193147122
+  params=1.2039857000000000475/-0.098734500000000002817 float=y
+  maxiter=500 inside=bof61 periodicity=-1
+  colors=WPB<3>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARUBU\
+  WBXY<6>DqlDtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM2KN3KO4\
+  J<12>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<4>j\
+  iWhfUfdTebS<4>YRKWPJUMHSJF<6>EAb<6>7Nu5Px5Nu<5>A5cB5`<3>G8SH9QIAQ<4>SKP<\
+  3>_VZ`Y`b`cdcf<4>nru<15>OI5RK7TM9 cyclerange=0/255
+  }
+
+ckp0393            { ; "Black Holes"
+                     ; 00:52:27.94 .. 12 apr 93 .. caren park
+  reset=1733 type=mandelfn function=cosxx passes=t
+  corners=-3.2102093741/-3.2099490473/0.14000143836/0.13965433592/-3.20994\
+  90473/0.13965433592
+  params=1.2039857000000000475/-0.098734500000000002817 float=y
+  maxiter=500 inside=bof61 periodicity=-1
+  colors=QJG<2>KAJMAKOAM<12>ziF<13>K8C413000<15>svcsvcsvcsvc<4>jiWhfUfdTeb\
+  S<4>YRKWPJUMHSJF<6>EAb<6>7Nu5Px5Nu<5>A5cB5`<3>G8SH9QIAQ<4>SKP<3>_VZ`Y`b`\
+  cdcf<4>nru<15>OI5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQA\
+  OSARUBUWBXY<6>DqlDtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<8>SDF<3>N3JL0KL1KM\
+  2KN3KO4J<12>zz0<7>``9YYAXVB<2>RME cyclerange=0/255
+  }
+
+ckp0394            { ; "Constellation of the Dragon"
+                     ; 00:31:15.04 .. 12 apr 93 .. caren park
+  reset=1733 type=mandelfn function=cosxx passes=t
+  corners=-2.307042594/-2.304521903/0.05105372673/0.05294424525
+  params=1.2039857000000000475/-0.098734500000000002817 float=y
+  maxiter=500 inside=bof61 periodicity=-1
+  colors=qsa<2>lkWjiVhfTfdSebR<4>YRJWPIUMGSJE<6>EAa<6>7Nt5Pw5Nt<5>A5bB5_<3\
+  >G8RH9PIAP<4>SKO<3>_VY`Y_b`bdce<4>nrt<15>OI4<6>eYIg_KiaMkcOneQ<4>zp`<4>j\
+  dVgaUcZS`WRYUQ<6>AAJ<3>ALPAORARTBUVBXX<6>DqkDtmCqk<5>8Xb7T`9Q_<5>L4Q<8>V\
+  HH<5>rH4vH1zH0vH1<7>SDE<3>N3IL0JL1JM2JN3JO4I<10>tq2wu0zz0ww0<6>``8YY9XVA\
+  <6>KAIMAJOAL<12>ziE<13>K8B412000<15>svb<2>svb cyclerange=0/255
+  }
+
+ckp0395            { ; "Manta Ray with Swimming Lights"
+                     ; 00:07:49.11 .. 13 apr 93 .. caren park
+  reset=1733 type=formula formulafile=fractint.frm formulaname=Halley
+  passes=b corners=-0.100002784/-0.028450784/0.849246227/0.902910227
+  params=0.099999999990000004724/0.023365469999999999295 float=y
+  maxiter=256 inside=maxiter periodicity=-1
+  colors=pbB<13>yrHztIzwJzzLzxLzuKzsKzrK<4>zeHzbHz_GzXFzVFzSE<5>zBA08T<5>P\
+  EDUFAYG7bI4ZL4<8>0j0<28>Bzs<2>FttHqtJouLmuMkv<7>_UyaRzbQw<13>q4Bs27r28<2\
+  9>MDdKEfKEf<75>`A2`A2`A1a90aA0bB0<22>paA cyclerange=0/255
+  }
+
+ckp0396            { ; "Frazzled"
+                     ; 00:22:57.26 .. 13 apr 93 .. caren park
+  reset=1733 type=mandelfn function=cosxx passes=t
+  corners=-3.3229373832/-3.3221058408/0.084930628058/0.083453063399/-3.321\
+  9287969/0.083585846306
+  params=1.2039857000000000475/-0.098734500000000002817 float=y
+  maxiter=500 inside=bof61 periodicity=-1
+  colors=gF8<3>SDF<3>N3JL0KL1KM2KN3KO4J<12>zz0<7>``9YYAXVB<6>KAJMAKOAM<12>\
+  ziF<13>K8C413000<15>svcsvcsvcsvc<4>jiWhfUfdTebS<4>YRKWPJUMHSJF<6>EAb<6>7\
+  Nu5Px5Nu<5>A5cB5`<3>G8SH9QIAQ<4>SKP<3>_VZ`Y`b`cdcf<4>nru<15>OI5<6>eYJg_L\
+  iaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARUBUWBXY<6>DqlDtnCql<5>\
+  8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0<3>kG7 cyclerange=0/255
+  }
+
+ckp0397            { ; "Purgatory"
+                     ; 00:14:09.30 .. 13 apr 93 .. caren park
+  reset=1733 type=mandelfn function=cosxx passes=t
+  corners=-3.32534338912/-3.32509294555/0.0794419164436/0.0794720899483/-3\
+  .32526771272/0.0793410145716
+  params=1.2039857000000000475/-0.098734500000000002817 float=y
+  maxiter=500 inside=bof61 periodicity=-1
+  colors=nG5<4>WEDSDFRAG<2>N3JL0KL1KM2KN3KO4J<12>zz0<7>``9YYAXVB<6>KAJMAKO\
+  AMRDLUGL<21>TGD<2>K8C413000<15>svcsvcsvcsvc<4>jiWhfUfdTebS<4>YRKWPJUMHSJ\
+  F<6>EAb<6>7Nu5Px5Nu<5>A5cB5`<3>G8SH9QIAQ<4>SKP<3>_VZ`Y`b`cdcf<4>nru<15>O\
+  I5<6>eYJg_LiaNkcPneR<4>zpa<4>jdWgaVcZT`WSYUR<6>AAK<3>ALQAOSARUBUWBXY<6>D\
+  qlDtnCql<5>8Xc7Ta9Q`<5>L4R<8>VHI<7>zH0vH2rG3 cyclerange=0/255
+  }
+
+ckp0398            { ; "Event Horizon"
+                     ; 00:02:48.18 .. 18 apr 93 .. caren park
+  reset type=fn*fn function=cosxx/ident passes=t
+  corners=-1.879566/1.837618/-1.393944/1.393944 float=y maxiter=255
+  bailout=24 fillcolor=254 inside=epsiloncross logmap=yes
+  potential=255/250/0
+  colors=6008HQ<3>2DM0BL0BM<28>NXuOYwPZxQ_zSZz<34>z0zz0zz1y<62>zzUzzUyyU<1\
+  06>FNUFNUEMUDLT<2>9IR
+  }
+
+birds01            { ; Red and Blue Birds flying under clouds, over lakes
+                     ; Copyright Lee H. Skinner, 1993
+  reset=1720 type=fn+fn function=log/sin passes=1
+  corners=2.996874/6.194994/0.002655/2.399994 params=1/0/1 float=y
+  maxiter=1023 bailout=100 inside=maxiter logmap=yes
+  potential=255/511/0
+  colors=000vvk<4>rskqrlpqloploolnol<20>VYnUXoTWnSVnRUm<7>MkC<9>98F<4>k3L<\
+  4>g3Q<2>nk2<12>OHC<7>8Qj5So5So<12>4_e4Ye5Ve6Sf<5>0CT<2>CFdGHiIHh<2>RHc<7\
+  >toN<11>TTI<8>mZW<2>Ygw<3>2WP<14>7iO<12>qgxgieYlM<9>3LJKZA`l0<4>47c<8>Qb\
+  GSeDWbL<4>nLz<5>jExiCwjJlkQamYQ<11>fSm_Sj<4>TLrleV<6>deh
+  }
+
+ckp0399            { ; "Skull Islands of No Return"
+                     ; 00:00:58.28 .. 21 apr 93 .. caren park
+                     ; need LHS001:Birds01 to create 3D image
+  3d=yes filename=birds01.gif scalexyz=95/95 roughness=95 waterline=0
+  filltype=1 ambient=20 rotation=55/0/0 perspective=0 xyshift=0/0
+  colors=000zxw<58>zV1zU0zU0zT0<28>z10z00z00y00<30>c00b11a11`22_22<23>GEEF\
+  FFFFFFFF<29>x11z00z10<29>zx0zz0zz1<29>zzxzzzzzzzyyzyx
+  }
+
+bofmp06            { ; Another View of "The Beauty of Fractals" Map 6
+                     ; Copyright Lee H. Skinner, 1993
+  reset=1611 type=magnet1j passes=1 corners=-2.1/-0.3/-0.64375/0.70625
+  params=1.21/0.01 float=y maxiter=1023 inside=0 logmap=yes
+  periodicity=0
+  colors=000CogAoh<16>ALQbUyOKbD8K<4>ABHhPK<10>CCHkpW<9>DEILW0<8>BDGKwA<2>\
+  CNGWQs<14>BBJbAeTBXJBPBHu<14>ABJUxn<9>BFKe31<12>CBGyCj<3>KBNOeA<9>BDHcV2\
+  dVP<10>CCHm7tXdD<8>CEH6_V8NOwqp<12>GGLDDJ8lL<5>AGHqzp<2>LOQ4py<3>9JQS6f<\
+  7>CBJ`Ya<2>GGMgHZ<2>ICLqOsmtD<8>EFH_Fx<13>BBJrhzPc`RkWTsS<10>Dpe
+  }
+
+ckp0400            { ; "Scorpion Tail Bay"
+                     ; 00:00:58.22 .. 01 may 1993 .. caren park
+                     ; original 3D image made from LHS002:BOFMP06
+                     ; by Lee Skinner
+  3d=yes filename=bofmp06.gif scalexyz=95/95 roughness=95 waterline=0
+  filltype=1 ambient=20 rotation=55/0/0 perspective=0 xyshift=0/0
+  colors=000zzzavzarz9iz<6>RRzzOL<27>zwLuxL<7>YhKUfJPdI<2>DXH<6>AOE9MD9ND<\
+  14>CWECXECXD<46>JyBKzAMzC<18>zzzZCnZEn9FT<16>qSd<2>zhE<7>v70<3>PATP9TQ7U\
+  Q6U<3>RDD<3>CBB8AA4C50F0<4>7GJ8GNAFR<4>EHQEHQFHQFIQGKQ<6>MYO<9>UONVMMWMM\
+  WMM<8>z0K<5>z2Lz2Lz3Lz4L<3>z9L cyclerange=0/255
+  }
+

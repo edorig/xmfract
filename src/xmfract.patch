@@ -1,0 +1,75 @@
+*** resize_window.c.OLD	2015-04-10 21:07:19.000000000 +0200
+--- resize_window.c	2015-04-11 21:03:52.000000000 +0200
+***************
+*** 60,69 ****
+        XFree((void *) image);
+        }
+  
+      image = XCreateImage(display,
+        visual,
+        XDefaultDepth(display, screen_number),
+!       ZPixmap, 0, NULL, sxdots, sydots, 8, xdots);
+  
+      if (image == NULL)
+        {
+--- 60,71 ----
+        XFree((void *) image);
+        }
+  
++     /* The following call to XCreateImage failed, so we imitated 
++       http://pficheux.free.fr/articles/lmf/xlib-images/ and it worked for us */ 
+      image = XCreateImage(display,
+        visual,
+        XDefaultDepth(display, screen_number),
+! 			 ZPixmap, 0, NULL, sxdots, sydots, 8*sizeof(unsigned int), 0);
+  
+      if (image == NULL)
+        {
+*** util.c.OLD	2015-04-10 21:07:33.000000000 +0200
+--- util.c	2015-04-11 21:03:10.000000000 +0200
+***************
+*** 1427,1437 ****
+      XtFree(image->data);
+      XFree((void *) image);
+      }
+! 
+    image = XCreateImage(display,
+      visual,
+      XDefaultDepth(display, screen_number),
+!     ZPixmap, 0, NULL, sxdots, sydots, 8, xdots);
+  
+    if (image == NULL)
+      {
+--- 1427,1437 ----
+      XtFree(image->data);
+      XFree((void *) image);
+      }
+!   /* Borrowed from http://pficheux.free.fr/articles/lmf/xlib-images/ */
+    image = XCreateImage(display,
+      visual,
+      XDefaultDepth(display, screen_number),
+! 		       ZPixmap, 0, NULL, sxdots, sydots, 8*sizeof(unsigned int), 0);
+  
+    if (image == NULL)
+      {
+*** window_size.c.OLD	2015-04-08 22:59:26.000000000 +0200
+--- window_size.c	2015-04-08 22:59:55.000000000 +0200
+***************
+*** 28,35 ****
+  /* static variables */
+  static Widget resize_main_window_shell = NULL;
+  static Widget resize_main_window_dialog = NULL;
+! static Widget explicit_x_size_scale = NULL;
+! static Widget explicit_y_size_scale = NULL;
+  
+  /*ARGSUSED*/
+  void window_size_cb(
+--- 28,35 ----
+  /* static variables */
+  static Widget resize_main_window_shell = NULL;
+  static Widget resize_main_window_dialog = NULL;
+!  Widget explicit_x_size_scale = NULL;
+!  Widget explicit_y_size_scale = NULL;
+  
+  /*ARGSUSED*/
+  void window_size_cb(

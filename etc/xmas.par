@@ -1,0 +1,132 @@
+The_Great_Divide   { ; Bridge that gap with....(C)1992 Peter Moreland1000123213
+  reset type=mandel
+  corners=-7.079179/-3.838073/-3.277214/4.310403/-9.554437/0.02313
+  params=5/-0.555 float=y maxiter=30333 bailout=500 fillcolor=9
+  inside=256 decomp=256 periodicity=-1
+  colors=000311522343642334534356654931D31962D52964D74784A83D92FC2A95D95BC\
+  5ED54799795ACA9ADA9AD9ED9AADDBDADEEDDG31H62L72H74L75P75HA3L93ID3LF3H95LA\
+  5HD6LD6QC6HB8LB8ID9ME9HACHEDLEDPB8SB9PE9TE9QFCUFCFG6EHBJG3MG3IG6MH5NK6PI\
+  3UH3RK3TL3PI4TH6QL5TM5UO6IH9MHAIKAMLAIHEMIDILDMLEQHATHAPLAULAPIDTIDQLEUL\
+  EMPESPC37J5EJCEI4ESAEQIEIPFJHEO6GMEHKFPM6IR9KTCPUIHHLIHJLIMLHHILLILHKMML\
+  LRLILPKTPKJLQQMQLPSRRRXE6XDAYL5YQ6dP6YKDdKCZPDeRCZMHdMIYPI`PIXTIaSJXQLaQ\
+  LXTMaTLeRLYMRZTQfTQkTNlURUXJUXSYWEfXA_YMdXN`XTfYTecSmXUlfS4FW6IX8MX9OZJN\
+  XRNXMQYSTZKRdRVcYUYfUYUX`UYe_Z_eYXiYXe`Xh`YeZ`iY`ea`ia`ac_gd`Z`ffafadhgf\
+  gn`Zsa_nd`tcanbdsbdnffuffikinlitliZbkdbkafmfinaisnjlujkhlqimsllmplmnompo\
+  mmmpqnpmoqppqunprtruupnptwrtqtxutuxtuxwutvyyvwuxzzzz<24>zzz
+  }
+
+Positronic_Path    { ; Thoughts of Platinum - Iridium, thanks for the stories..
+                     ; (c)1992 Peter Moreland 100012,3213
+  reset type=lyapunov passes=1
+  corners=3.56312126/3.5126093/3.07851778/3.13487383/3.51788605/3.1388314
+  params=-17.44/0.375/2 float=y maxiter=3 inside=zmag logmap=yes
+  periodicity=-1
+  colors=000000<29>00k00m01m<29>0ky0mz1mz<30>zzz<42>8zz6zz5zz3zz2zz0zz<42>08z0\
+  6z05z03z02z00z<60>002000000
+  }
+
+Right_Angle...     { ; It's the angle of the dangle...
+                     ; (c)1992 Peter Moreland 100012,3213 Nailsworth UK
+  reset type=barnsleyj2 passes=t
+  corners=2.986571/7.641226/4.541519/2.053143/5.856715/0.714876
+  params=200/1000 maxiter=3000 fillcolor=9 inside=bof60 outside=mult
+  potential=256/256/1000
+  colors=000NCJ<14>sFLuFLwFLzGMzHMzIM<26>zoTzqTzrTztUzuU<2>zzV<19>zbVzaVz_\
+  VzYW<21>Q3J<7>m8R<15>58d<20>jlumnvopvqrv<2>wxvzzvzzr<5>zzU<8>r00<14>066<\
+  39>B2jB2kA3i<8>39Q29O1AM0BJ0BJ0BJ<4>0AI0AI2AI<8>LCJ
+  }
+
+Slither!           { ; This almost belongs in my purple collection!
+                     ; (c)1992 Peter Moreland 100012,3213
+  reset type=formula formulafile=fractint.frm formulaname=wineglass
+  corners=-2.371209/1.118991/2.12422/-2.125593/1.118991/-2.125593
+  float=y maxiter=1000 inside=zmag outside=real logmap=yes
+  colors=000312<32>X6IY7JZ9L<10>mchofjofj<139>soptpqsno<19>_AMZ7KX7J<8>D38\
+  A26825513312000<27>201
+  }
+
+Let's_Dance...     { ; "We are showroom dummies, we are showroom dummies, we.."
+                     ; (c)1992 Peter Moreland
+  reset type=fn(z*z) function=exp
+  corners=0.904388/3.249374/2.55809/1.902191/2.063034/1.012726
+  maxiter=300 potential=255/200/200
+  colors=000zzY<32>zz1zz0zy0yx0<50>OAFN9GM8GL7HK6H<3>G2JF0KF0K<11>I0NI0NI0\
+  NI0OI0OI0P<37>R0ZS0_S0_T0`T0`<2>T0bT0bU1bU2c<62>zzzzzzzzy<26>zzZ
+  }
+
+Time_Out           { ; (C)1992 Peter Moreland 100012,3213
+  reset type=barnsleyj2 passes=t
+  corners=3.451109/3.722402/-3.993381/-3.023721/3.083318/-3.503016
+  params=35.56/27 maxiter=30000 fillcolor=9 inside=bof60 outside=mult
+  potential=256/256/1000
+  colors=000wFLzGM<28>zoTzqTzrTztUzuU<2>zzV<19>zbVzaVz_VzYW<21>Q3J<7>m8R<15>58\
+  d<20>jlumnvopvqrv<2>wxvzzvzzr<5>zzU<8>r00<14>066<39>B2jB2kA3i<10>1AM0BJ0BJ<5\
+  >0AI0AI2AI<25>uFL
+  }
+
+Micro_Moster       { ; Stupid looking critter! <g>.
+                     ; (c)1992 Peter Moreland 100012,3213
+  reset type=fn(z)+fn(pix) function=sinh/sqr
+  corners=-3.176932/-3.445792/-0.247675/0.260556/-3.445792/0.260556
+  params=0/0/1 maxiter=32000 inside=bof61 potential=255/200/32000
+  colors=000Bzz<4>5zz3zz2zz0zz0yz<43>05z03z02z00z00y<59>002000000000<29>00k00m\
+  01m<29>0ky0mz1mz<30>zzz<38>Czz
+  }
+
+Hot_Silk!          { ; Fractal Flag
+                     ; (c)1992 Peter Moreland 100012,3213
+  reset type=barnsleym1 passes=t
+  corners=-1.907569/-1.35147/0.369773/-0.37169/-1.35147/-0.37169
+  bailout=12123 decomp=256 periodicity=-256
+  colors=000g0J<56>10y10y00z00z11y<77>vv4ww3xx2yy2yy1zz0<83>z10z00z00y01<22>h0\
+  I
+  }
+
+Blade_Runner       { ; (c)1992 Peter Moreland 100012,3213
+  reset type=lambda
+  corners=-5.929713/5.929715/-31.593268/31.59321/-31.990005/3.153589
+  params=3.565/2.365446 maxiter=10000 bailout=40 inside=0 decomp=256
+  colors=VVV<128>zzz333000<18>555555555666666666<99>VVV
+  }
+
+Loopy_LU           { ; Don't zoom in... Zoom out!  Wait - first inch is black!
+                     ; (c)1992 Peter Moreland 100012,3213
+  reset type=lyapunov passes=1
+  corners=4.900824/-2.873966/-4.258718/6.107671/-2.873966/6.107671
+  params=-37.44/0.375/2 float=y maxiter=3 inside=zmag logmap=yes
+  periodicity=-1
+  colors=000FF0<60>zz0zz0yy0<61>FF000F<62>00z00z00y<61>00FFF0
+  }
+
+Sorcerer's_Apprent { ; Mickey madness (c)1992 Peter Moreland
+                     ; Thanks to Jon Horner for the pallette
+  reset type=fn*z+z function=exp
+  corners=-15.748705/30.508835/31.99/-29.683902/30.508835/-29.683902
+  params=6.45/3.2/2 float=y maxiter=5000 fillcolor=9 inside=maxiter
+  invert=7.99713/0/0 decomp=64 biomorph=0
+  colors=000fdJ<7>dmednhblf<2>Yd`WbYV_WTYTRVR<7>DA8<15>`fs<4>OWiLTgJReHPc<6>0A\
+  P<4>GMVJPWNSYQVZTXZ<6>ppb<4>pbYp_XoXVoUTqOP<5>z6C<5>tQLrUNsYP<7>du`<14>EC7C8\
+  5CA8DCCEEGEFIFHK<5>KUeLWiMZmN`qObuOcwPey<16>33h<13>aihclhdnf<14>0AP<15>wwx<1\
+  5>86O<8>MQcNTdPVfQXgSZi<2>Xfn<3>Zda_cZ`cWabTbbQ<2>d_He_EeZAfZ7gY4hX0<5>gcG
+  }
+
+Ruffles            { ; (C)1992 Peter Moreland
+                     ; Thanks to Jon Horner for the pallette
+  reset type=fn*z+z function=sqr
+  corners=-12.657197/12.657197/-27.269762/31.99/-31.99/-1.493868
+  params=8.43/2/1.765 bailout=100 inside=0 invert=7.99713/0/0 decomp=64
+  colors=000dmednh<3>Yd`WbYV_WTYTRVR<7>DA8<15>`fs<4>OWiLTgJReHPc<6>0AP<4>GMVJP\
+  WNSYQVZTXZ<6>ppb<4>pbYp_XoXVoUTqOP<5>z6C<5>tQLrUNsYP<7>du`<14>EC7C85CA8DCCEE\
+  GEFIFHK<5>KUeLWiMZmN`qObuOcwPey<16>33h<3>DFh
+  }
+
+Bronze_NEW_Age     { ; (C)1992 Peter Moreland 100012,3213
+                     ; Thanks to Jon Horner of pallette
+  reset type=fn*z+z function=cotanh
+  corners=-15.619147/20.962697/2.703869/-9.273651/3.299789/-22.520227
+  params=2/4/6/-1.45 maxiter=5000 bailout=100 fillcolor=9 inside=0
+  invert=7.99713/0/0 decomp=64
+  colors=000521<28>wPF<31>000<30>_0_a0a`0`<28>101000100<30>w00<30>200000001<30\
+  >00z<30>002000100310
+  }
+

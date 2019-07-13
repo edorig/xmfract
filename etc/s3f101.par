@@ -1,0 +1,1212 @@
+            =   NOTE on timings in this file - from Jon Horner :                       =
+  =                                                                          =
+  =   These timings are not shown for macho reasons,  but in the hope that   =
+  =   others will add/contribute information about timings with  different   =
+  =   CPU/FPU combinations.  This will help pinpoint the r-e-a-l-l-y sloow   =
+  =   stuff,  where it might make more sense to distribute the .GIF rather   =
+  =   than the .PAR.  It could also be useful for finding out  the  extent   =
+  =   to which factors other than CPU/FPU influence the speed - e.g. diff-   =
+  =   erent video cards coupled with the *same* CPU/FPU.                     =
+  =                                                                          =
+  =   In order to minimize space in the .PAR set, I suggest a code - viz.:   =
+  =                                                                          =
+  =     CPU     CLOCK        FPU       RES & COLS                            =
+  =    XT = X | 8Mhz = 8 | NONE = NO | Per        | Fractint = 160 | Time    =
+  =   286 = 2 |  etc.    | AMD  = A1 | Fractint   | version  = 171 |         =
+  =   386 = 3 |          | INTEL= I1 | video      | number   = 172 |         =
+  =   486 = 4 |          | IIT  = I2 | table      | see note       |         =
+  =   SX add X           | CYRIX= CY |                                       =
+  =                      | ULSI = U1 |                                       =
+  =                                                                          =
+  =   so typical data might be:  4|33|I1|SF5|172 1m47.37s  (may drop 10ths)  =
+  =                                                                          =
+  =   Note: it's important to record the Fractint version so as to separate  =
+  =   improvements due to hardware from those due to SSG speedups.           =
+  ============================================================================
+
+
+s3f001             { ; (c) 1993, Richard H. Sherry, CIS:76264,752
+                     ; 3X|18|CI|SF5|180  15m5.95s
+  reset=1701 type=mandel
+  corners=-0.208315551/-0.209606851/0.696025472/0.700205684/-0.210788749/0\
+  .699300986 params=0.98999999999999999/-1.0900000000000001
+  maxiter=500 inside=0
+  colors=000XM9<16>SG9SG9RGAQFA<15>LAAK9BLAB<21>mk4nm4po3rq2<2>vv1<6>PRW<1\
+  5>9da8da9b_<23>C8AD79D79<56>m_8n`7n`7o`7<21>pd6pd6oc6<46>_O8_O8ZO8ZO8ZN8\
+  YN8YM8
+  }
+
+s3f101             { ; 3X|18|CY|SF5|180  00h03m46.42s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=julia passes=1 corners=-1.424/1.424/-1.068/1.068
+  params=-0.53069796557119442/0.59178288100209764 float=y
+  maxiter=10000 inside=0
+  colors=000<9>000SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<29>ppp<31>000PFF\
+  <29>xeDzfCyfC<30>PFF0A0<15>Zc0<2>TY0QW0OU0LS0JQ0<7>0A0<15>Zc0<5>MT0
+  }
+
+s3f102             { ; 3X|18|CY|SF5|180  00h11m30.34s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Cubic
+  corners=-2.345889/2.396046/3.16129/-3.16129/2.396046/-3.16129
+  params=5/0/3 float=y maxiter=256 inside=0 potential=253/250/0
+  colors=000JSj<146>B84IIp<6>HGk<3>D`VBfQBeP<12>0I0<14>5hL6jN8iQ<8>SWy<2>N\
+  _y<50>JSj
+  }
+
+s3f103             { ; 3X|18|CY|SF5|180  00h02m49.15s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=FnDog
+  function=exp passes=b
+  corners=-16.98062/1.139384/12.22433/-11.93567/1.139384/-11.93567
+  params=2 float=y maxiter=255 fillcolor=253 inside=253
+  potential=253/400/0
+  colors=000GB8<10>GCBujK<26>HDBZL7<18>GCBEdd<43>GDCGCBIV7<11>GDBYXk<36>GC\
+  BYDZ<2>WCW000VCV<28>GCBuUV<16>IDC5j0roN<13>YUG000VRFTPF8`J<17>GA6GDEGB7<\
+  4>GB8
+  }
+
+s3f104             { ; 3X|18|CY|SF5|180  00h03m22.33s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=FnDog
+  function=log
+  corners=0.763940429/2.33194328/1.15814638/-1.13444696/2.42886626/-1.0617\
+  5472 params=2 float=y maxiter=255 fillcolor=253 inside=253
+  potential=253/400/0
+  colors=000znc<38>zV1zU0zU0zT0<28>z10z00z00y00<30>c00b11a11`22_22<15>NAA0\
+  00<20>000XAA<17>x11z00z10<29>zx0zz0zz1<29>zzxzzzzzz<21>zod
+  }
+
+s3f105             { ; 3X|18|CY|SF5|180  00h05m04.87s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=FnDog
+  function=cos corners=2.661831/1.281831/-0.92/0.92/1.281831/0.92
+  float=y maxiter=255 fillcolor=253 inside=253 potential=253/400/0
+  colors=000tWg<14>l4Il3Hm6J<3>pGQpJSpKTqLU<13>ztrWvE<21>yvrtaA<21>zvq4Vp<\
+  9>utsqDs<17>ztsstt<11>zvstTO<12>ztqkM`<22>zusQM_<20>yusjAp<6>xpsBDL<11>v\
+  sqAKg<16>xtsLsD<10>wvpT8N<14>pfi
+  }
+
+s3f106             { ; 3X|18|CY|SF5|180  00h03m52.89s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=FnDog
+  function=cotanh
+  corners=4.219283/-4.146967/-5.622492/5.532508/-4.146967/5.532508
+  float=y maxiter=255 fillcolor=253 inside=253 potential=253/400/0
+  colors=000000LL0<20>PQ0PQ0OP0<42>FF3YO8<23>m_8n`7n`7o`7<21>pd6pd6oc6<27>\
+  fV7WV7<78>AA0FF0<22>KK0000KK0KL0
+  }
+
+s3f107             { ; 3X|18|CY|SF5|180  00h18m53.89s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=ZZ
+  corners=0.5318369/5.219337/3.125/-3.125/5.219337/-3.125 params=3/0/1
+  float=y maxiter=256 inside=0 potential=253/250/0
+  colors=000DH79G6D3K<4>7D88FZ<10>6F8MBE<14>7F6GGF<7>7F7z3R<8>BE8J50<2>9D5\
+  CbN<10>6H7Ap3<5>6K616H<4>5D96E78Vl<2>6JGiGW<6>BF9Lmh<2>9NF893<7>6F613V<5\
+  >6E9Dc7<3>7K6KK6eVn<9>9GAkJ7YH6KG6e56<11>8F6EuACn9sPl<8>Yk5<2>8PyKegWuQ<\
+  10>ETHDRHCQGCPFBOE6H8BNE000AMC<6>6G76F67IxHy`<11>6I8cMENIAimz<5>BKEyrSfd\
+  KOSDdgr<6>DLG9IB3jA<11>6H6CJr<7>6FBHQmDMZ9IKHI8
+  }
+
+s3f108             { ; 3X|18|CY|SF5|180  00h13m05.97s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula
+  formulaname=Richard8
+  corners=0.55743349/0.95743349/0.95229645/1.2522965 params=3/0/6
+  float=y maxiter=256 inside=0 potential=253/250/0
+  colors=000ube<6>ztrWvE<21>yvrtaA<21>zvq4Vp<9>utsqDs<17>ztsstt<11>zvstTO<\
+  12>ztqkM`<22>zusQM_<20>yusjAp<6>xpsBDL<11>vsqAKg<16>xtsLsD<10>wvpT8N<13>\
+  ndgpfitWg<14>l4Il3Hm6J<3>pGQpJSpKTqLU<5>u`d
+  }
+
+s3f109             { ; 3X|18|CY|SF5|180  05h20m37.65s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=julibrot julibrotfromto=-0.83/-0.83/0.25/-0.25
+  julibroteyes=2.5 orbitname=julia4
+  corners=-1.424/1.424/-1.13183/1.00417 float=y maxiter=256 inside=0
+  colors=000zzz<67>``1__0``0<14>zy0<31>VT0nm0<130>211102100<2>000
+  }
+
+s3f110             { ; 3X|18|CY|SF5|180  00h39m13.56s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_20
+  function=cotanh
+  corners=-0.7994975/4.360503/3.44/-3.44/4.360503/-3.44
+  params=3.1499999999999999/0/1.5 float=y maxiter=256 fillcolor=253
+  inside=253 potential=253/250/0
+  colors=000E89<55>m_8n`7n`7o`7<21>pd6pd6oc6<46>_O8_O8ZO8ZO8ZN8<17>SH9SH9S\
+  G9SG9RGA<16>LAAK9BLAB<21>mk4nm4po3rq2<2>vv1<6>PRW<15>9da8da9b_<23>C8AD79\
+  D79
+  }
+
+s3f111             { ; 3X|18|CY|SF5|180  00h22m55.61s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_20
+  function=cotanh passes=1
+  corners=1.449649/3.1670554/3.0690572/0.76393183/3.2726911/0.64960219
+  params=3.1499999999999999/0/1.5 float=y maxiter=256 fillcolor=253
+  inside=253 potential=253/250/0
+  colors=000888<25>ppp<31>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<2>TY0QW0OU0\
+  LS0JQ0<7>0A0<15>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<2>666
+  }
+
+s3f112             { ; 3X|18|CY|SF5|180  00h22m03.15s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_20
+  function=cotanh passes=1
+  corners=2.17131738/2.52853792/3.11648673/2.63702065/2.55051014/2.6132400\
+  9 params=3.1499999999999999/0/1.5 float=y maxiter=256 fillcolor=253
+  inside=253 potential=253/250/0
+  colors=000VB_<10>HC3L7z<25>GC22Qk<23>GC1Q9cUxK<4>IK3Ya0<6>IF0T1U<26>HB3X\
+  bp<15>rhc<9>GC3W33<14>HB0GC0Hcj<23>GD1ueO<15>ID1QoT<14>GE1aRx<10>HD5cs`W\
+  dOOQCyf1<16>ID0dDk<10>IC4XAb
+  }
+
+s3f113             { ; 3X|18|CY|SF5|180  00h04m12.71s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_20
+  function=exp
+  corners=-2.947272/5.306148/5.50228/-5.50228/5.306148/-5.50228
+  params=3.1499999999999999/0/1.5 float=y maxiter=256 fillcolor=253
+  inside=253 potential=253/250/0
+  colors=000000_NF<20>xeDzfCyfC<30>PFF0A0<15>Zc0<2>TY0QW0OU0LS0JQ0<7>0A0<1\
+  5>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<29>ppp<30>222000000<\
+  4>000WKFXLF
+  }
+
+s3f114             { ; 3X|18|CY|SF5|180  00h03m49.75s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_25
+  function=log/sin
+  corners=1.571875/-0.1321252/-1.136/1.136/-0.1321252/1.136
+  params=-0.31416699999999997/0/1.2154 float=y maxiter=256
+  fillcolor=253 inside=253 potential=253/250/0
+  colors=000N5E<3>J5AH58H58<39>oQMpRNoRN<2>mQMlQMlQMlPM<48>G8C3XE<24>G8Clh\
+  D<61>G8C1dH<25>1E30INCHDDGDu5o<30>O5G
+  }
+
+s3f115             { ; 3X|18|CY|SF5|180  00h03m24.43s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_25
+  function=cos/cosxx corners=-4.343817/4.967659/-3.491803/3.491803
+  params=-0.31416699999999997/0/1.2154 float=y maxiter=256
+  fillcolor=253 inside=253 potential=253/250/0
+  colors=000100000S8`<20>82B71A619517416315204203101001000kmx<27>445223111\
+  000_mj<27>244122111000ohh<25>766644433222111000www<27>333111000000iXceU`\
+  <23>646534323211101000zb0<25>960740530310110000`QVZPUYOTXNR<11>JCGICFGBD\
+  <8>534423312111
+  }
+
+s3f116             { ; 3X|18|CY|SF5|180  00h06m30.90s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_25
+  function=cos/cosxx passes=b
+  corners=-1.80616125/-1.1536608/-1.2252371/-0.52869375/-1.90560188/-1.092\
+  6496 params=-0.31416699999999997/0/1.2154 float=y maxiter=256
+  fillcolor=253 inside=253 potential=253/250/0
+  colors=000zvvzzz<12>e5Oc0Kd1K<12>xIBzKAzMB<14>zzU<15>9C`ADaBEc<46>xxyzzz\
+  yyz<45>DGdBEcBEc<29>BBLAAKCDK<14>kuC<15>AAK<15>z00<10>zff000znnzrr
+  }
+
+s3f117             { ; 3X|18|CY|SF5|180  00h09m32.49s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_20
+  function=cosxx passes=b
+  corners=-1.708888/-0.6170317/0.727904/-0.727904/-0.6170317/-0.727904
+  params=-1.0149999999999999/0/1.5 float=y maxiter=256 fillcolor=253
+  inside=253 potential=253/250/0
+  colors=000oa7<14>pd6pd6oc6<46>_O8_O8ZO8ZO8ZN8<17>SH9SH9SG9SG9RGA<16>LAAK\
+  9BLAB<21>mk4nm4po3rq2<2>vv1<6>PRW<15>9da8da9b_<23>C8AD79D79<56>m_8n`7n`7\
+  o`7<2>oa7FFFoa7oa7
+  }
+
+s3f118             { ; 3X|18|CY|SF5|180  00h10m07.03s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_20
+  function=cosxx passes=2
+  corners=-1.509322/-1.4001364/0.0727904/-0.0727904/-1.4001364/-0.0727904
+  params=-1.0149999999999999/0/1.5 float=y maxiter=256 fillcolor=253
+  inside=253 potential=253/250/0
+  colors=000HA9<50>m_8n`7n`7o`7<2>oa7FFFoa7<16>pd6pd6oc6<46>_O8_O8ZO8ZO8ZN\
+  8<17>SH9SH9SG9SG9RGA<16>LAAK9BLAB<21>mk4nm4po3rq2<2>vv1<6>PRW<15>9da8da9\
+  b_<23>C8AD79D79<4>GA9
+  }
+
+s3f119             { ; 3X|18|CY|SF5|180  00h12m46.16s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_20
+  function=cosxx passes=1
+  corners=-1.44707887/-1.42043758/0.075742569/0.0402208538/-1.42043758/0.0\
+  402208538 params=-1.0149999999999999/0/1.5 float=y maxiter=256
+  fillcolor=253 inside=253 potential=253/250/0
+  colors=000HA9<37>nb3nb3ma3<46>K9BK9BLAB<45>od4od4nc4<31>MBALABMCB<20>mk4\
+  nm4po3rq2<2>vv1rr5mm9FG0<24>Aa49b59a5<17>FG0C8AD79<5>GA9
+  }
+
+s3f120             { ; 3X|18|CY|SF5|180  00h17m00.02s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_19
+  function=sinh/cos/log
+  corners=0.79617555/-0.043824451/-0.56/0.56/-0.043824451/0.56
+  params=-3.14167/0/2.2153999999999998 float=y maxiter=256
+  fillcolor=253 inside=253 potential=253/250/0 invert=1/0/0
+  colors=000vlR<20>pX6pX5oW6<45>dHc<7>7D2<5>9B79B89C9<39>QowRpySqx<29>YqsY\
+  qsXpr<23>48Q26O39S<4>AQo8Rt<11>26C2J8<14>LTKNULMWL<16>AtR<2>euZ<9>0`L000\
+  wmTvlS
+  }
+
+s3f121             { ; 3X|18|CY|SF5|180  00h09m57.76s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_19
+  function=sinh/cos/log
+  corners=1.33749345/1.26437985/-0.0487424/0.0487424/1.26437985/0.0487424
+  params=-3.14167/0/2.2153999999999998 float=y maxiter=256
+  fillcolor=253 inside=253 potential=253/250/0 invert=1/0/0
+  colors=000001<21>007017037<13>4S4<13>1A1181171151131000313717A20<12>cAP<\
+  10>H43E30A2A<2>000<15>hh0<15>000<3>00D00H22I<10>PP`<9>33H00E00A<2>000300\
+  700A00<12>rZ0<11>400A00<2>000<15>0pp<12>0BB077044000222<14>hhh<15>000<4>\
+  001
+  }
+
+s3f122             { ; 3X|18|CY|SF5|180  00h09m58.20s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_19
+  function=sinh/cos/log passes=b
+  corners=1.304211985/1.302904129/-0.0008719040512/0.0008719040512/1.30290\
+  4129/0.0008719040512 params=-3.14167/0/2.2153999999999998 float=y
+  maxiter=256 fillcolor=253 inside=253 potential=253/250/0
+  invert=1/0/0
+  colors=000jbQ<12>xo`zpaypa<13>kcRibRibR<14>UPF111<29>ppp<31>000PFF<29>xe\
+  DzfCyfC<30>PFF0A0<15>Zc0<2>TY0QW0OU0LS0JQ0<7>0A0<15>Zc0<15>0A0SNC<12>eZM\
+  000g`OiaP
+  }
+
+s3f123             { ; 3X|18|CY|SF5|180  00h06m13.48s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_19
+  function=cosh/exp/sinh
+  corners=-3.112457/6.367543/6.32/-6.32/6.367543/-6.32
+  params=4.1500000000000004/0/-4.1500000000000004 float=y maxiter=256
+  fillcolor=253 inside=253 potential=253/250/0 invert=1/0/0
+  colors=000000MUY<12>9da8da9b_<11>BONBNMBON<10>Aca000E89<4>HA9IB9IB9IB9<4\
+  8>ld6ld6kc6<28>MCBMCBNDB<45>pd6pd6oc6<36>NDAMCBNEB<19>mk4nm4po3rq2<2>vv1\
+  <4>Z`N000PRWOSX
+  }
+
+s3f124             { ; 3X|18|CY|SF5|180  00h06m08.84s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_19
+  function=cosh/exp/sinh passes=b
+  corners=0.070259583/-0.44615685/-3.5784658/-5.4243169/0.77035821/-4.5119\
+  307 params=4.1500000000000004/0/-4.1500000000000004 float=y
+  maxiter=256 fillcolor=253 inside=253 potential=253/250/0
+  invert=1/0/0
+  colors=000000MUY<12>9da8da9b_<11>BONBNMBON<10>Aca000E89<4>HA9IB9IB9IB9<4\
+  8>ld6ld6kc6<28>MCBMCBNDB<45>pd6pd6oc6<36>NDAMCBNEB<19>mk4nm4po3rq2<2>vv1\
+  <4>Z`N000PRWOSX
+  }
+
+s3f125             { ; 3X|18|CY|SF5|180  00h06m52.80s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_19
+  function=cosh/exp/sinh passes=b
+  corners=-0.483561814/-0.664385517/-4.17642458/-4.2399959/-0.518144116/-4\
+  .13031485 params=4.1500000000000004/0/-4.1500000000000004 float=y
+  maxiter=256 fillcolor=253 inside=253 potential=253/250/0
+  invert=1/0/0
+  colors=000MF9<42>ld6ld6kc6<28>MCBMCBNDB<45>pd6pd6oc6<36>NDAMCBNEB<19>mk4\
+  nm4po3rq2<2>vv1<4>Z`NKMP<13>C`_Ba`Aca9da8da<13>BNM<8>BZXB`ZBa_Aca000E89<\
+  4>HA9IB9IB9IB9JC9JC9000LD9LE9
+  }
+
+s3f126             { ; 3X|18|CY|SF5|180  00h12m17.65s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_19
+  function=exp/tan/cosxx passes=t
+  corners=1.541527/-2.527598/-2.533692/2.891808/-2.527598/2.891808
+  params=-1.5/0/1.1000000000000001 float=y maxiter=256 fillcolor=253
+  inside=253 potential=253/250/0 invert=1/0/0
+  colors=000040UT7<68>AA0FF0<48>PQ0PQ0OP0<42>FF3YO8<23>m_8n`7n`7o`7<21>pd6\
+  pd6oc6<27>fV7WV7<4>VU7007VU7UT7
+  }
+
+s3f127             { ; 3X|18|CY|SF5|180  00h30m15.01s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_19
+  function=exp/tan/cosxx
+  corners=0.12176155/0.54156498/0.28062426/-0.27911365/0.54156498/-0.27911\
+  365 params=-1.5/0/1.1000000000000001 float=y maxiter=256
+  fillcolor=253 inside=253 potential=253/250/0 invert=1/0/0
+  colors=000DLG9IB3jA<11>6H6CJr<7>6FBHQmDMZ9IKHI8DH79G6D3K<4>7D88FZ<10>6F8\
+  MBE<14>7F6GGF<7>7F7z3R<8>BE8J50<2>9D5CbN<10>6H7Ap3<5>6K616H<4>5D96E78Vl<\
+  2>6JGiGW<6>BF9Lmh<2>9NF893<7>6F613V<5>6E9Dc7<3>7K6KK6eVn<9>9GAkJ7YH6KG6e\
+  56<11>8F6EuACn9sPl<8>Yk5<2>8PyKegWuQ<10>ETHDRHCQGCPFBOE6H8BNE000AMC<6>6G\
+  76F67IxHy`<11>6I8cMENIAimz<5>BKEyrSfdKOSDdgr<2>TYa000LRRHOM
+  }
+
+s3f128             { ; 3X|18|CY|SF5|180  00h06m14.32s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_19
+  function=log/tanh/cosh passes=t
+  corners=-0.97343911/-0.98721674/0.83869935/1.2607116/-1.18096495/1.11540\
+  05 params=-1.5/0/1.1000000000000001 float=y maxiter=256
+  fillcolor=253 inside=253 potential=253/250/0 invert=1/0/0
+  colors=000GcA<68>A506Pz<24>46K4Gz<39>00FWlGVkG<3>ZgH`eI_dI<2>X`GW_FVYEUW\
+  D<12>FA0<6>YR0<7>BA0GG0<11>KV0PM0<17>FD0KI0<31>HiBHiBHhB<5>HeA000HdAHdA
+  }
+
+s3f129             { ; 3X|18|CY|SF5|180  00h05m10.15s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_19
+  function=ident/cotan/exp passes=b corners=-2/2/-1.5/1.5 float=y
+  maxiter=256 fillcolor=253 inside=253 potential=253/250/0
+  invert=1/0/0
+  colors=0009BMB7GE3A_eo<3>`lm<2>OpJ<2>uq7<3>vGF<3>A7P<6>PegZYghQg_pr<7>P0\
+  81ev6ScBEMcsG<4>K96VkH<6>H65pZWkXA<6>K44Uod<5>I79ap3UZ4NH4o`9<5>L54cpf<5\
+  >J79RQ_<2>I6CSL0<3>I44BVk<5>G4ATEnydibKPR7mN4YJ2JyYB<6>L44S4T<2>J1AWsa<2\
+  >KECjS_<6>J38a02<5>J041u5<4>E948GQMWy<5>G4Cah`<5>J68psR<3>NB8_1u<6>I0Akf\
+  saG_<4>J29WzV<4>IA82zL<5>E96xzM<2>RF8AT9<4>F44baM<3>K77AqD<5>FD6G65IRV<5\
+  >G37chi<3>K9CTg5OT4KE4kYH<6>K45GNK<5>G363NpABS0004IY6ES
+  }
+
+s3f130             { ; 3X|18|CY|SF5|180  00h28m59.39s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_19
+  function=ident/cotan/exp
+  corners=0.82102034/1.4450203/0.416/-0.416/1.4450203/-0.416 float=y
+  maxiter=256 fillcolor=253 inside=253 potential=253/250/0
+  invert=1/0/0
+  colors=000BBB<23>ppp<31>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<2>TY0QW0OU0\
+  LS0JQ0<7>0A0<15>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<4>AAA
+  }
+
+s3f131             { ; 3X|18|CY|SF5|180  00h15m22.99s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Gamma
+  corners=-3.353686/-1.992138/0.9076983/-0.9076983/-1.992138/-0.9076983
+  params=57/0/-32 float=y maxiter=256 fillcolor=253 inside=253
+  potential=253/250/0
+  colors=000QW0<10>0A0<15>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF11\
+  1<29>ppp<31>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0000V_0TY0
+  }
+
+s3f132             { ; 3X|18|CY|SF5|180  00h13m51.88s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Gamma
+  corners=-2.5269782/-2.43513365/0.061229696/-0.061229696/-2.43513365/-0.0\
+  61229696 params=57/0/-32 float=y maxiter=256 fillcolor=253
+  inside=253 potential=253/250/0
+  colors=000nNQ<3>rPSrPSqPS<29>UFFPAP<29>o_qp`ro_q<15>PAP<4>ePX<9>AKU<30>g\
+  eeiffiff<13>og`ph_ogY<13>WM3UK0UK0<29>wcFwcFvbF<28>UK0UFF<12>cJK000<12>0\
+  00
+  }
+
+s3f133             { ; 3X|18|CY|SF5|180  00h14m21.28s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_19
+  function=sinh/cos/log
+  corners=1.307896487/1.301608717/-0.0041918464/0.0041918464/1.301608717/0\
+  .0041918464 params=-3.14167/0/2.2153999999999998 float=y maxiter=256
+  fillcolor=253 inside=253 potential=253/250/0 invert=1/0/0
+  colors=000jbQ<12>xo`zpaypa<13>kcRibRibR<14>UPF111<29>ppp<31>000PFF<29>xe\
+  DzfCyfC<30>PFF0A0<15>Zc0<2>TY0QW0OU0LS0JQ0<7>0A0<15>Zc0<15>0A0SNC<12>eZM\
+  000g`OiaP
+  }
+
+s3f134             { ; 3X|18|CY|SF5|180  00h08m06.97s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_18
+  function=sin/cosxx/conj
+  corners=-5.348837/5.348837/-4.011628/4.011628
+  params=-0.31416699999999997/0.20000000000000001/2.0145/0.299999999999999\
+  99 float=y maxiter=256 fillcolor=253 inside=253 potential=253/250/0
+  colors=000F99<2>HA9IB9IB9IB9<48>ld6ld6kc6<28>MCBMCBNDB<45>pd6pd6oc6<36>N\
+  DAMCBNEB<19>mk4nm4po3rq2<2>vv1<6>PRW<15>9da8da9b_<11>BONBNMBON<10>Aca000\
+  E89E89
+  }
+
+s3f135             { ; 3X|18|CY|SF5|180  00h09m22.55s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_18
+  function=sin/cosxx/conj
+  corners=3.4247648/3.233347/-0.15228416/0.15307026/3.233347/0.15307026
+  params=-0.31416699999999997/0.20000000000000001/2.0145/0.299999999999999\
+  99 float=y maxiter=256 fillcolor=253 inside=253 potential=253/250/0
+  colors=000FRR<22>GDCGCBIV7<11>GDBYXk<36>GCBYDZ<33>GCBuUV<16>IDC5j0roN<13\
+  >YUG000VRFTPF8`J<17>GA6GDEGB7<16>GCBujK<26>HDBZL7<18>GCBEdd<19>FSR
+  }
+
+s3f136             { ; 3X|18|CY|SF5|180  00h09m05.35s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_14
+  function=sin/sinh/log
+  corners=-0.3136238/1.405446/1.146047/-1.146047/1.405446/-1.146047
+  params=-0.30141669999999998/0.251/1.0214000000000001/-0.2014700000000000\
+  1 float=y maxiter=256 fillcolor=253 inside=253 potential=253/250/0
+  colors=CCC3kT0000gZ0bb0000Sh1110Jn22208u33320x444A0p555I0h666Q0`777Z0S88\
+  8f0K999n0CAAAv04BBBz20CCCzA0DDDzI0EEEzQ0FFFzY0GGGze0HHHzm0IIIzu0JJJxz0KK\
+  Kpz0LLLhz0MMM`z0NNNTz0OOOLz0PPPFy2QQQDv8RRRAsESSS7pKTTT4mQUUU2jWVVV0bbWW\
+  W0ShXXX0JnYYY08uZZZ20x___A0p```I0haaaQ0`bbbZ0Scccf0Kdddn0C000v04000z20gg\
+  gzA0hhhzI0iiizQ0jjjzY0kkkze0000zm0000zu0000xz0ooopz0ppphz0qqq`z0rrrTz0ss\
+  sLz0000Fy2000Dv8000AsEwww7pKxxx4mQ0002jWzzz0bbyyy0Sh0000Eq00003x00060tuu\
+  uE0ltttM0d000U0X000b0O000j0G000r08000z00000z60000zE0000zM0000zU0000za000\
+  0zi0000zq0000zy0000tz0000lz0000dz0000Xz0000Pz0000Hz0000Ex5000BuB0009qH00\
+  06nN0003kT0000gZ0000Ye0000Nk0000Eq00003x00060t000E0l000M0d000U0X000b0O00\
+  0j0G000r08F00z00000z60000zE0000zM0GGGzU000Aza0EEEzi0DDDzq0CCCzy0BBBtz0AA\
+  Alz0999dz0888Xz0777Pz0666Hz0555Ex5444BuB3339qH2226nN111
+  }
+
+s3f137             { ; 3X|18|CY|SF5|180  00h08m32.29s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Jm_14
+  function=sin/sinh/log
+  corners=0.54559454/0.79790814/-0.0946176/0.0946176
+  params=-0.30141669999999998/0.251/1.0214000000000001/-0.2014700000000000\
+  1 float=y maxiter=256 fillcolor=253 inside=253 potential=253/250/0
+  colors=000_QW<19>646534323211101000zb0<25>960740530310110000`QVZPUYOTXNR\
+  <11>JCGICFGBD<8>534423312111100000S8`<20>82B71A6195174163152042031010010\
+  00kmx<27>445223111000_mj<27>244122111000ohh<25>766644433222111000www<27>\
+  333111000000iXceU`<2>aRX
+  }
+
+s3f139             { ; 3X|18|CY|SF5|180  00h03m20.54s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=fn(z)+fn(pix) function=cosxx/log
+  corners=0.1860322/2.918742/0.1395568/4.326715/-0.8400283/1.507637
+  params=3/0/1/3 float=y maxiter=256 bailout=512 fillcolor=253
+  inside=253 potential=253/500/0
+  colors=0000A0<15>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<29>pp\
+  p<31>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<2>TY0QW0OU0LS0JQ0<6>3C0
+  }
+
+s3f140             { ; 3X|18|CY|SF5|180  00h05m15.38s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=fn(z)+fn(pix) function=cosxx/log
+  corners=1.249225/1.522496/2.5362756/2.9549914/1.1466189/2.6730836
+  params=3/0/1/3 float=y maxiter=256 bailout=512 fillcolor=253
+  inside=253 potential=253/500/0
+  colors=000G00oYB<7>wcFwcFvbF<28>UK0UFF<31>rPSrPSqPS<29>UFFPAP<29>o_qp`ro\
+  _q<15>PAP<4>ePX<9>AKU<30>geeiffiff<13>og`ph_ogY<13>WM3UK0UK0<19>mXA
+  }
+
+s3f141             { ; 3X|18|CY|SF5|180  00h19m59.96s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=fn(z)+fn(pix) function=sin/tan
+  corners=-2.4790486/2.816885/-0.9304679/1.46852/-1.7240267/-1.937164
+  params=3/0/1/3 float=y maxiter=256 bailout=512 fillcolor=253
+  inside=253 potential=253/500/0 invert=1/0/0
+  colors=000AKABBB<23>ppp<31>000PFF<13>nd1pf0oe1<13>PFF<15>zfD<14>SHE05F0F\
+  M<14>ILdKMfJMe<13>0FKAA0<15>PP0PP0OO0<13>AA0SNC<29>xo`zpaypa<28>WQG00000\
+  0<4>888
+  }
+
+s3f142             { ; 3X|18|CY|SF5|180  00h05m08.69s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=formula  formulaname=Jm_09
+  function=sin/conj/sinh/cosh
+  corners=2.083384/-0.08906003/-0.9710086/0.9438714/-0.08906003/0.9438714
+  params=-0.29999999999999999/21/4/1 float=y bailout=512 fillcolor=253
+  inside=253 potential=253/500/0
+  colors=000000J1L<13>2Sk0Um0Vm<13>0km0mm0mm<14>0cz<15>zzz<30>zd2zc0zd0<14\
+  >zz0<15>z00<14>ZZZccc<7>zzz<6>00z<15>zz0<15>z00<15>00z<15>0z0<15>z0z<11>\
+  V0V000Q0QN0N
+  }
+
+s3f145             { ; 3X|18|CY|SF5|180  00h01m38.43s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=formula  formulaname=Jm_04
+  function=cosxx/sinh/sqr/tanh
+  corners=-2.336449/2.336449/-1.752336/1.752336
+  params=-3.1539999999999999/0/5.5549999999999997 float=y bailout=512
+  fillcolor=253 inside=253 potential=253/500/0 invert=1/0/0
+  colors=000000y7C<6>t5Cs5Cr5Cq4Cp4Co3B<2>l5Ek5Fj5Gi5Hh6Ig6J<5>j7Pk8Rk8Sl9\
+  Tm9U<21>yHqzIszJr<29>zqPzsOzsP<10>zua000zvd000zvf000zwi000zwk000zxn000zx\
+  p000zxr000zyu000zyw000zzz000xzz000vzy000tzx000rzx000pzw000nzv000lzu000iz\
+  t000gzs000ezs000czr000azq000_zp000Yzo000Wzn000Uzm000Szl000Qzk000Ozk000Mz\
+  j000Kzi000Izh000Gzg000Dzf000Dxe000Duc000Esa000Ep`000EmZ000FkX000FhV000Ff\
+  T000GcS000G`Q000GZO000HWM000HUK000HRI<14>K85K64K53K32K21L00<9>9007006004\
+  00300100000<3>A12<15>M0Ar5A<2>z7C
+  }
+
+s3f149             { ; 3X|18|CY|SF5|180  00h02m59.22s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=formula  formulaname=Halley
+  corners=-2/2/-1.5/1.5
+  params=1.1124000000000001/0/2.0124499999999999/0.29999999999999999
+  float=y bailout=512 fillcolor=253 inside=253 potential=253/500/0
+  colors=000OTP<2>I79ap3UZ4NH4o`9<5>L54cpf<5>J79RQ_<2>I6CSL0<3>I44BVk<5>G4\
+  ATEnydibKPR7mN4YJ2JyYB<6>L44S4T<2>J1AWsa<2>KECjS_<6>J38a02<5>J041u5<4>E9\
+  48GQMWy<5>G4Cah`<5>J68psR<3>NB8_1u<6>I0AkfsaG_<4>J29WzV<4>IA82zL<5>E96xz\
+  M<2>RF8AT9<4>F44baM<3>K77AqD<5>FD6G65IRV<5>G37chi<3>K9CTg5OT4KE4kYH<6>K4\
+  5GNK<5>G363NpABS1Mc<4>E3A_eo<3>`lm<2>OpJ<2>uq7<3>vGF<3>A7P<6>PegZYghQg_p\
+  r<7>P081ev6ScBEMcsG<4>K96VkH<6>H65pZWkXA<3>WG7001z8ND44UodSgZQ`U
+  }
+
+s3f150             { ; 3X|18|CY|SF5|180  00h13m10.59s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=formula  formulaname=Fzppfnse
+  function=cosxx
+  corners=-1.387514/1.742905/2.111216/-2.062675/1.742905/-2.062675
+  params=-0.29999999999999999/0/6 float=y bailout=512 fillcolor=253
+  inside=253 potential=253/500/0
+  colors=000000CXE<47>JyBKzAMzC<18>zzzZCnZEn9FT<16>qSd<2>zhE<7>v70<3>PATP9\
+  TQ7UQ6U<3>RDD<3>CBB8AA4C50F0<4>7GJ8GNAFR<4>EHQEHQFHQFIQGKQ<6>MYO<9>UONVM\
+  MWMMWMM<8>z0K<5>z2Lz2Lz3Lz4L<3>z9Lzzzavzarz9iz<6>RRzzOL<27>zwLuxL<7>YhKU\
+  fJPdI<2>DXH<6>AOE9MD9ND<10>BUE000BVECVE
+  }
+
+s3f138             { ; 3X|18|CY|SF5|180  00h19m09.98s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Gamma
+  passes=b
+  corners=-1.162991787/-1.144375229/0.5750363006/0.591722336/-1.164299123/\
+  0.5767794155 params=0.31415670000000001/-5.2214 float=y maxiter=256
+  fillcolor=253 inside=253 potential=253/400/0
+  colors=0000OY<11>0du<12>zz0<25>3AA07B08D<21>0du<12>zz0<10>000<31>zzz<15>\
+  07B<23>0du<12>zz0<10>000<31>zzz<15>07B<7>0IQ0000LU0MW
+  }
+
+s3f143             { ; 3X|18|CY|SF5|180  00h10m41.46s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=fn(z)+fn(pix) function=cotan/log
+  corners=3.62928331/3.67938078/-1.753213065/-1.758151739/3.64968896/-1.78\
+  04206 params=-1.3149999999999999/0/2.222 float=y maxiter=256
+  bailout=512 fillcolor=253 inside=253 potential=253/350/0
+  colors=0000EE<2>044000222<14>hhh<15>000<27>007017037<13>4S4<13>1A1181171\
+  151131000313717A20<12>cAP<10>H43E30A2A<2>000<15>hh0<15>000<3>00D00H22I<1\
+  0>PP`<9>33H00E00A<2>000300700A00<12>rZ0<11>400A00<2>000<15>0pp<10>0HH
+  }
+
+s3f144             { ; 3X|18|CY|SF5|180  00h17m14.24s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=fn(z)+fn(pix) function=cotan/log passes=t
+  corners=3.60072036/3.78094406/-1.85729337/-1.69575873/3.58806427/-1.8404\
+  1858 params=-1.3149999999999999/0/2.222 float=y maxiter=256
+  bailout=512 fillcolor=253 inside=253 potential=253/250/0
+  colors=000f_N<15>xo`zpaypa<28>WQG000000<29>nnnpppooo<30>000PFF<13>nd1pf0\
+  oe1<13>PFF<15>zfD<14>SHE05F0FM<14>ILdKMfJMe<13>0FKAA0<15>PP0PP0OO0<13>AA\
+  0SNC<9>bWK000dYMeZM
+  }
+
+s3f146             { ; 3X|18|CY|SF5|180  00h02m08.25s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=fn(z)+fn(pix) function=exp/log
+  corners=0.38963268/-0.59706931/15.157264/15.433315/-0.098084536/15.80755\
+  4 params=1.5/0/4/3 float=y maxiter=256 bailout=512 fillcolor=253
+  inside=253 potential=253/500/0
+  colors=0000A0<15>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<29>pp\
+  p<31>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<2>TY0QW0OU0LS0JQ0<6>3C0
+  }
+
+s3f147             { ; 3X|18|CY|SF5|180  00h04m02.85s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=lambdafn function=cosxx
+  corners=-0.9509609/2.422952/-1.494625/1.035809
+  params=2.1346500000000002/-2.2221000000000002 float=y maxiter=256
+  fillcolor=253 inside=253 potential=253/750/0
+  colors=000000JJJ<10>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<2>TY0QW0OU0LS0J\
+  Q0<7>0A0<15>Zc0Xb0V`0RX0<11>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<2\
+  9>ppp<19>KKK cyclerange=2/255
+  }
+
+s3f148             { ; 3X|18|CY|SF5|180  00h04m39.68s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=lambdafn function=sin
+  corners=1.025458009/1.043693088/-1.377729831/-1.366392782/1.026580854/-1\
+  .379226958 params=-0.90300000000000002/2.1499999999999999 float=y
+  maxiter=256 fillcolor=253 inside=253 potential=253/750/0
+  colors=000F99WP8<25>ld6ld6kc6<28>MCBMCBNDB<45>pd6pd6oc6<36>NDAMCBNEB<19>\
+  mk4nm4po3rq2<2>vv1<6>PRW<15>9da8da9b_<11>BONBNMBON<10>Aca000E89E89G99GA9\
+  HA9<3>JC9JC9KD9LD9<14>UM8000VO8WO8 cyclerange=2/255
+  }
+
+s3f151             { ; 3X|18|CY|SF5|180  00h05m27.76s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=lambdafn function=exp passes=b
+  corners=-4.76575/-0.7749814/13.89274/11.5325/-2.19485/10.46883
+  params=1.98/3.3300000000000001 float=y maxiter=256 fillcolor=253
+  inside=253 potential=253/450/0
+  colors=000F99WP8<25>ld6ld6kc6<28>MCBMCBNDB<45>pd6pd6oc6<36>NDAMCBNEB<19>\
+  mk4nm4po3rq2<2>vv1<6>PRW<15>9da8da9b_<11>BONBNMBON<10>Aca000E89E89G99GA9\
+  HA9<3>JC9JC9KD9LD9<14>UM8000VO8WO8 cyclerange=2/255
+  }
+
+s3f152             { ; 3X|18|CY|SF5|180  00h26m55.90s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=formula  formulaname=Fzpcopcs
+  corners=-0.99927273/-0.45527273/1.7256482/2.1336482 params=1/0/3
+  float=y maxiter=256 fillcolor=253 inside=bof60 outside=real
+  potential=253/400/0 biomorph=0
+  colors=000888<25>ppp<31>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<2>TY0QW0OU0\
+  LS0JQ0<7>0A0<15>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<10>ZTI000<2>0001\
+  11333555666
+  }
+
+s3f153             { ; 3X|18|CY|SF5|180  00h03m14.09s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=cmplxmarksmand passes=t
+  corners=-0.46129477/0.071185227/0.16708409/0.56644409
+  params=-3.2514500000000002/2.222/1.52014/0.90000000000000002 float=y
+  maxiter=256 fillcolor=253 inside=253 potential=253/250/0
+  invert=0.5/-0.2/0.4
+  colors=0008H0<11>Zc0<2>TY0QW0OU0LS0JQ0<7>0A0<15>Zc0<15>0A0SNC<29>xo`zpay\
+  pa<13>kcRibRibR<14>UPF111<29>ppp<31>000PFF<29>xeDzfCyfC<30>PFF0A00004D06\
+  F0
+  }
+
+s3f154             { ; 3X|18|CY|SF5|180  00h21m04.62s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=fn(z)+fn(pix) function=cosh/sqr passes=b
+  corners=-1.7552232/-1.1920232/0.24550964/0.66790964
+  params=2.3149999999999999/4.6666999999999996/5.2541000000000002/-1.32539\
+  99999999999 float=y maxiter=32000 fillcolor=253 inside=epsiloncross
+  potential=253/500/128 invert=1/0/0
+  colors=000`OF000bPEcQEeRE000gTE<13>xeDzfCyfC<30>PFF0A0<15>Zc0<2>TY0QW0OU\
+  0LS0JQ0<7>0A0<15>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<29>pp\
+  p<31>000PFF<5>WKF000YMF_NF
+  }
+
+s3f155             { ; 3X|18|CY|SF5|180  00h19m28.93s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=formula  formulaname=Jm_02
+  function=tan
+  corners=0.37582449571/0.37485469841/-0.8225979709/-0.8145485413/0.371611\
+  64249/-0.8169808332 params=-0.31416699999999997 float=y bailout=512
+  fillcolor=253 inside=253 potential=253/400/0
+  colors=000UOD<27>xo`zpaypa<13>kcRibRibR<14>UPF111<29>ppp<31>000PFF<29>xe\
+  DzfCyfC<30>PFF0A0<15>Zc0<2>TY0QW0OU0LS0JQ0<7>0A0<15>Zc0<15>0A0SNCTNC
+  }
+
+s3f156             { ; 3X|18|CY|SF5|180  00h04m10.77s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=lambda(fn||fn) function=sinh/cotanh
+  corners=-0.37293233/0.37293233/-0.27969925/0.27969925 params=0.5/6/1
+  float=y maxiter=256 fillcolor=253 inside=253 potential=253/250/0
+  colors=000000aOE<18>xeDzfCyfC<30>PFF0A0<15>Zc0<2>TY0QW0OU0LS0JQ0<7>0A0<1\
+  5>Zc0Xb0V`0RX0<11>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<29>ppp<31>0\
+  00PFF<9>`OF cyclerange=2/255
+  }
+
+s3f157             { ; 3X|18|CY|SF5|180  00h04m24.67s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=lambda(fn||fn) function=sinh/cosxx
+  corners=0.001051972655/0.002916634309/-0.007647935078/-0.006249438837
+  params=0.5/6/0.20000000000000001 float=y maxiter=256 fillcolor=253
+  inside=253 potential=253/250/0
+  colors=0009KB37N<3>6E9Dc7<3>7K6KK6eVn<9>9GAkJ7YH6KG6e56<11>8F6EuACn9sPl<\
+  8>Yk5<2>8PyKegWuQ<10>ETHDRHCQGCPFBOE6H8BNE000AMC9LB8JA<3>6G76F67IxHy`<11\
+  >6I8cMENIAimz<5>BKEyrSfdKOSDdgr<6>DLG9IB3jA<11>6H6CJr<7>6FBHQmDMZ9IKHI8D\
+  H79G6D3K<4>7D88FZ<10>6F8MBE<14>7F6GGF<7>7F7z3R<8>BE8J50<2>9D5CbN<10>6H7A\
+  p3<5>6K616H<4>5D96E78Vl<2>6JGiGW<6>BF9Lmh<2>9NF893<7>6F613V25R
+  cyclerange=2/255
+  }
+
+s3f158             { ; 3X|18|CY|SF5|180  00h05m26.15s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=formula  formulaname=Jm_ducks
+  passes=t corners=-0.86995305/-0.66995305/-1.0395094/-0.88950939
+  params=1/0/6 float=y maxiter=256 fillcolor=253 inside=253
+  potential=253/400/0
+  colors=00000eGGc<5>GFFg4cUAPE_V<4>GIEhzW<14>HIC0EG<7>FFBQE1LF6xu8<10>JIB\
+  z`O<14>IGBqXVdROSLHLaiJUYHMMhuB<7>JJB17N<10>FFCGSQ<3>GJGGHDE6Q<9>GFCvwN<\
+  8>KJCvUAgPBUKBbZE<3>KJB1B0<9>EFAFFBF`s<5>5Sr<14>`I0ZH1XH2KFBVH3<7>HFBzZT\
+  <10>JGCyrwbZZQFn<3>IFJAgi<14>GGDzMb<3>PGG4jI<14>GHB8GGBFEEFCdWA<8>IGB1`K\
+  6THBMEHqn000GSOGHh cyclerange=2/255
+  }
+
+s3f159             { ; 3X|18|CY|SF5|180  00h12m13.43s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=formula  formulaname=Jm_12
+  function=cosh/exp/sinh
+  corners=0.11605865/0.96515032/-3.26619739/-3.34990197/0.46190985/-3.7273\
+  3232 params=-0.29999999999999999/0/2 float=y maxiter=256
+  fillcolor=253 inside=253 potential=253/400/0
+  colors=000000_O3<23>wcFwcFvbF<28>UK0UFF<13>cJKdJLfKL<14>rPSrPSqPS<29>UFF\
+  PAP<29>o_qp`ro_q<15>PAP<4>ePX<9>AKU<30>geeiffiff<13>og`ph_ogY<13>WM3UK0U\
+  K0VL0WL1000YN2ZN2 cyclerange=2/255
+  }
+
+s3f160             { ; 3X|18|CY|SF5|180  00h09m53.44s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula
+  formulaname=FractalFenderC function=cosh/sqr passes=b
+  corners=0.24669181/0.72654181/0.32272463/-0.31707537/0.72654181/-0.31707\
+  537 params=0/0/4 float=y maxiter=256 fillcolor=253 inside=253
+  decomp=256
+  colors=AAA4D0<13>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<29>pp\
+  p<31>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<2>TY0QW0OU0LS0JQ0<7>0A02B0
+  }
+
+s3f161             { ; 3X|18|CY|SF5|180  00h04m11.98s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=formula  formulaname=Jm_12
+  function=exp/ident/log
+  corners=-1.0096346/-0.48423361/-5.8292802/-5.5057069/-1.6243961/-6.51636\
+  73 params=-0.29999999999999999/0/2 float=y maxiter=256 fillcolor=253
+  inside=253 potential=253/400/0 invert=0.6/0/0
+  colors=000000KQ3<22>HiBHiBHhB<78>A506Pz<24>46K4Gz<39>00FWlGVkGAGRcccKF5`\
+  eI_dI<2>X`GW_FVYEUWD<12>FA0<6>YR0<7>BA0GG0<11>KV0PM0<17>FD0KI0<7>KP3
+  cyclerange=2/255
+  }
+
+s3f162             { ; 3X|18|CY|SF5|180  00h04m11.70s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=formula  formulaname=Jm_11a
+  function=exp/cos/log/cosh passes=b
+  corners=-2.0315781/-1.4966828/0.56701677/0.14715129/-1.6374803/0.0415531\
+  22 params=-0.251/0/4 float=y maxiter=256 fillcolor=253 inside=253
+  potential=253/400/0
+  colors=00007BEE0<4>000<2>111222333444444<80>zzz07B<93>0du<6>zz0<24>000<1\
+  5>zz0<13>PP0000JJ0HH0 cyclerange=2/255
+  }
+
+s3f163             { ; 3X|18|CY|SF5|180  00h08m38.35s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=formula  formulaname=Jm_11a
+  function=cos/tan/ident/exp
+  corners=-7.347802/5.059237/5.008291/-4.730601/1.7934/-7.179979
+  params=4/0/-0.84999999999999998 float=y maxiter=256 fillcolor=253
+  inside=253 potential=253/400/0
+  colors=000000GG0<11>zz0<12>SS0PP0OO0<15>885666777<77>zzz07B<93>0du<6>zz0\
+  <24>000000880CC0 cyclerange=2/255
+  }
+
+s3f164             { ; 3X|18|CY|SF5|180  00h27m19.73s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=formula  formulaname=Jm_11a
+  function=cos/tan/ident/exp
+  corners=-0.40998855/-1.1409188/2.403815/-0.2087826/0.58092348/1.082599
+  params=4/0/-0.84999999999999998 float=y maxiter=256 fillcolor=253
+  inside=253 potential=253/400/0
+  colors=000000t5n<34>J5AH58H58<39>oQMpRNoRN<2>mQMlQMlQMlPM<48>G8C3XE<24>G\
+  8ClhD<61>G8C1dH<25>1E3UUUCHDDGD cyclerange=2/255
+  }
+
+s3f165             { ; 3X|18|CY|SF5|180  00h09m46.28s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=formula  formulaname=Jm_02
+  function=tan
+  corners=0.3863486144/0.3766506414/-0.856084356/-0.775590061/0.3442200821\
+  /-0.79991298 params=-0.31416699999999997 float=y bailout=512
+  fillcolor=253 inside=253 potential=253/400/0
+  colors=000cUZ<4>fOi<2>SLC<4>0DH<10>rM8<6>tFHtEIsDP<2>qCg`6dK1a<11>gHl<13\
+  >84XRJdhYl<5>FJ3<8>eEV<3>TDJFHHPCGMCDJCAOxYLgPISGqZi<11>IDARO2<3>IE7nnL<\
+  7>JG9O4F<5>HB9WL4<11>HC83o7<8>FG8Sky<11>GECI05<10>GB85KN<7>FC9nts<4>LJG5\
+  J_<4>FDC6d6<9>GE8dtn<5>JIEGYc<5>GFCVXE<12>IE8HD8HD5kX8<12>MF8000000bWUbV\
+  X
+  }
+
+s3f166             { ; 3X|18|CY|SF5|180  00h24m39.91s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=formula  formulaname=Jm_11a
+  function=cotan/sin/cos/tanh
+  corners=5.024989/-5.024989/-6.699986/6.699986/-5.024989/6.699986
+  params=2.5/0/-1 float=y maxiter=256 fillcolor=253 inside=253
+  potential=253/250/0 invert=0.7/0/0
+  colors=000000RRR<14>ppp<31>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<2>TY0QW0\
+  OU0LS0JQ0<7>0A0<15>Zc0Xb0V`0RX0<11>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>U\
+  PF111<10>KKK007NNNPPP cyclerange=2/255
+  }
+
+s3f167             { ; 3X|18|CY|SF5|180  00h22m39.58s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=formula  formulaname=Jm_11a
+  function=cotan/sin/cos/tanh
+  corners=-1.875996/1.875996/1.801447/4.615441 params=2.5/0/-1 float=y
+  maxiter=256 fillcolor=253 inside=253 potential=253/250/0
+  invert=0.7/0/0
+  colors=000000RRR<14>ppp<31>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<2>TY0QW0\
+  OU0LS0JQ0<7>0A0<15>Zc0Xb0V`0RX0<11>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>U\
+  PF111<10>KKK007NNNPPP cyclerange=2/255
+  }
+
+s3f168             { ; 3X|18|CY|SF5|180  00h09m36.77s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=formula  formulaname=Jm_11a
+  function=cotan/sin/cos/tanh passes=1
+  corners=-0.9832685/0.06728925/2.1565153/2.9444336 params=2.5/0/-1
+  float=y maxiter=256 fillcolor=253 inside=253 potential=253/250/0
+  invert=0.7/0/0
+  colors=000000RRR<14>ppp<31>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<2>TY0QW0\
+  OU0LS0JQ0<7>0A0<15>Zc0Xb0V`0RX0<11>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>U\
+  PF111<10>KKK007NNNPPP cyclerange=2/255
+  }
+
+s3f169             { ; 3X|18|CY|SF5|180  00h03m27.48s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=formula  formulaname=Jm_11a
+  function=cotan/sin/cos/tanh passes=b
+  corners=-0.042562503/0.25159367/3.4447441/3.6653612 params=2.5/0/-1
+  float=y maxiter=256 fillcolor=253 inside=253 potential=253/250/0
+  invert=0.7/0/0
+  colors=000`G0siT<2>zp_<14>SL4PI1MF0LG2<13>7Or5Pv6Ps<10>IHEJHAKG6LG2MF0OH\
+  1<13>kml<13>QK5OI2MF0<3>LN0KP1KR1JT2JV3<7>Fk8<9>KR2KP1KN1LL1LJ0MH0MF0LI1\
+  <13>EqiDtlEqi<12>KL5LI2MF0<3>WG0ZG0cG0<8>zH0<15>MF0<15>ww0<15>MF0OF1<14>\
+  wEa<14>PE1<3>YOA_QCaSEcUGfXIi_K000ndPpfR cyclerange=2/255
+  }
+
+s3f170             { ; 3X|18|CY|SF5|180  00h13m51.88s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Gamma
+  corners=-2.5269782/-2.43513365/0.061229696/-0.061229696/-2.43513365/-0.0\
+  61229696 params=57/0/-32 float=y maxiter=256 fillcolor=253
+  inside=253 potential=253/250/0
+  colors=000ZbJSti<7>Z9Q<3>_pCXqRVrd<7>Q`jifJ<6>LTa<7>WOB<3>T4HT0IU6F<3>US\
+  4<2>tQ_<2>Ww8<6>bysbyyauu<4>ZddYYSZT8XRGrj0<6>YO4n4agAQaGFL9x<2>UIIatk<6\
+  >WP9jzL<4>YS60KSGLGKKu<5>VLBxas<3>`OEg`RxjBpc9iY7bR5Trq<5>WPBbH1_J2YK3UB\
+  P<2>WJ9XBod30a92ZF33wdN1_<4>UGDVJ8Vgi<3>WPCeUj`PP6ZZ<3>RNAtOJ<2>aL7Vx`<6\
+  >WQ85OM<4>SL7rJi<3>_LCspqlZB952<4>QH4TJ4Y3D<3>WI5BkI<3>SQ6ERJKPEQN9`Kh<6\
+  >WL9Ld2PY3TR4daK_TC5Cc<2>MIIRKBYar<3>WOEKM1<4>UL4wIE<5>_L5yac<4>`NARcVTX\
+  MVRDJBgOFUSIHScfUXUVRH
+  }
+
+s3f171             { ; 3X|18|CY|SF5|180  00h13m13.61s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Gamma
+  corners=-2.4929282958/-2.4861555351/0.0252329295/0.02866447417/-2.492137\
+  2434/0.02417819294 params=57/0/-32 float=y maxiter=256 fillcolor=253
+  inside=253 potential=253/400/0
+  colors=000X7B<2>WI5BkI<3>SQ6ERJKPEQN9`Kh<6>WL9Ld2PY3TR4daK_TC5Cc<2>MIIRK\
+  BYar<3>WOEKM1<4>UL4wIE<5>_L5yac<4>`NARcVTXMVRDJBgOFUSIHScfUXUVRHZbJSti<7\
+  >Z9Q<3>_pCXqRVrd<7>Q`jifJ<6>LTa<7>WOB<3>T4HT0IU6F<3>US4<2>tQ_<2>Ww8<6>by\
+  sbyyauu<4>ZddYYSZT8XRGrj0<6>YO4n4agAQaGFL9x<2>UIIatk<6>WP9jzL<4>YS60KSGL\
+  GKKu<5>VLBxas<3>`OEg`RxjBpc9iY7bR5Trq<5>WPBbH1_J2YK3UBP<2>WJ9XBod30a92ZF\
+  33wdN1_<4>UGDVJ8Vgi<3>WPCeUj`PP6ZZ<3>RNAtOJ<2>aL7Vx`<6>WQ85OM<4>SL7rJi<3\
+  >_LCspqlZB952<4>QH4TJ4Y3D
+  }
+
+s3f172             { ; 3X|18|CY|SF5|180  00h03m31.00s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula
+  formulaname=Fzppfnth function=exp passes=b
+  corners=-0.0254447713/0.160369633/4.859603519/4.986689954/-0.01955307499\
+  /4.851747924 params=4/0/6 float=y maxiter=256 fillcolor=253
+  inside=253 potential=253/400/0 invert=0.7/0/0
+  colors=000000ld6<29>MCBMCBNDB<45>pd6pd6oc6<36>NDAMCBNEB<19>mk4nm4po3rq2<\
+  2>vv1<6>PRW<15>9da8da9b_<11>BONBNMBON<10>Aca000E89<4>HA9IB9IB9IB9<44>ia7\
+  007jb7kc7
+  }
+
+s3f173             { ; 3X|18|CY|SF5|180  00h14m07.81s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=fn(z)+fn(pix) function=sin/tan
+  corners=1.5985795/1.872693/0.81502414/1.3277447/1.4511545/1.0115908
+  params=3/0/1/3 float=y maxiter=256 bailout=512 fillcolor=253
+  inside=253 potential=253/500/0 invert=1/0/0
+  colors=000AKABBB<23>ppp<31>000PFF<13>nd1pf0oe1<13>PFF<15>zfD<14>SHE05F0F\
+  M<14>ILdKMfJMe<13>0FKAA0<15>PP0PP0OO0<13>AA0SNC<29>xo`zpaypa<28>WQG00000\
+  0<4>888
+  }
+
+s3f174             { ; 3X|18|CY|SF5|180  00h03m21.89s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula
+  formulaname=Fzppfnth function=exp passes=b
+  corners=0.09150893412/0.108278644/4.92766395/4.95903115/0.08248977316/4.\
+  93968949 params=4/0/6 float=y maxiter=256 fillcolor=253 inside=253
+  potential=253/400/0 invert=0.7/0/0
+  colors=000E89<4>HA9IB9IB9IB9<48>kc7ld6kc6<28>MCBMCBNDB<45>pd6pd6oc6<36>N\
+  DAMCBNEB<19>mk4nm4po3rq2<2>vv1<6>PRW<15>9da8da9b_<11>BONBNMBON<8>B`Z000A\
+  ca000
+  }
+
+s3f175             { ; 3X|18|CY|SF5|180  00h05m03.71s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula
+  formulaname=Fzppfnta function=recip
+  corners=12.7826/4.759344/-5.348837/5.348837/4.759344/5.348837
+  params=-0.29999999999999999/0/2 float=y maxiter=256 fillcolor=253
+  inside=253 potential=253/400/0
+  colors=0000Ra<39>0du<6>zz0<24>000<15>zz0<22>000<2>111222333444444<80>zzz\
+  07B<50>0P_0000Q`0Qa
+  }
+
+s3f176             { ; 3X|18|CY|SF5|180  00h05m28.07s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula
+  formulaname=Fzppfnsr function=exp passes=b
+  corners=-1.3263306/-0.47937538/2.398115/4.647814/-2.101282/3.431384
+  params=4/0/6 float=y maxiter=256 fillcolor=253 inside=253
+  potential=253/400/0
+  colors=000UU0<9>330000000<86>zzz07B<94>0du<6>zz0<24>000<15>zz0<7>dd0000_\
+  _0XX0
+  }
+
+s3f177             { ; 3X|18|CY|SF5|180  00h06m08.32s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula
+  formulaname=Fzppfnsr function=exp
+  corners=-1.3263306/-0.47937538/2.398115/4.647814/-2.101282/3.431384
+  params=4/0/6 float=y maxiter=256 fillcolor=253 inside=253
+  potential=253/400/0
+  colors=000700300000<15>0pp<12>0BB077044000222<14>hhh<15>000<27>007017037\
+  <13>4S4<13>1A1181171151131000313717A20<12>cAP<10>H43E30A2A<2>000<15>hh0<\
+  15>000<3>00D00H22I<10>PP`<9>33H00E00A<2>000300700A00<12>rZ0<11>400A00
+  }
+
+s3f178             { ; 3X|18|CY|SF5|180  00h14m19.26s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=formula  formulaname=Jm_02
+  function=sqr passes=b
+  corners=0.145014264/0.298979435/-0.663625564/-0.835404028/0.282895388/-0\
+  .847467063 params=-0.31416699999999997 float=y bailout=512
+  fillcolor=253 inside=253 potential=253/400/0
+  colors=000q5k<31>J5AH58H58<39>oQMpRNoRN<2>mQMlQMlQMlPM<48>G8C3XE<24>G8Cl\
+  hD<61>G8C1dH<25>1E30INCHDDGDu5o000s5mr5l
+  }
+
+s3f179             { ; 3X|18|CY|SF5|180  00h05m09.26s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula
+  formulaname=FractalFenderC function=cosh/sqr passes=b
+  corners=-4.026667/4.026667/-3.02/3.02 params=0/0/4 float=y
+  maxiter=256 fillcolor=253 inside=253 decomp=256
+  colors=AAA0F0<44>Fx0Gz0Gy0<31>0F0F00<45>x00z00y00<30>F00ZK0<45>xpAxpAwoA\
+  <42>TN1000RL1QK0
+  }
+
+s3f180             { ; 3X|18|CY|SF5|180  00h15m11.74s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula
+  formulaname=FractalFenderC function=cosh/sqr
+  corners=-1.8396481/-1.2356481/0.40266667/-0.40266667/-1.2356481/-0.40266\
+  667 params=0/0/4 float=y maxiter=256 fillcolor=253 inside=253
+  potential=253/500/0
+  colors=000LVY<11>9da8da9b_<11>BONBNMBON<10>Aca000E89<4>HA9IB9IB9IB9<48>l\
+  d6ld6kc6<28>MCBMCBNDB<45>pd6pd6oc6<36>NDAMCBNEB<19>mk4nm4po3rq2<2>vv1<4>\
+  Z`N000<3>000
+  }
+
+s3f181             { ; 3X|18|CY|SF5|180  00h11m42.62s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula
+  formulaname=FractalFenderC function=sqr/exp
+  corners=-2.242226/0.5451301/1.881502/-1.834973/0.5451301/-1.834973
+  params=0/0/3 float=y maxiter=256 fillcolor=253 inside=253
+  potential=253/500/0
+  colors=000000ypa<28>WQG000000<29>nnnpppooo<30>000PFF<13>nd1pf0oe1<13>PFF\
+  <15>zfD<14>SHE05F0FM<14>ILdKMfJMe<13>0FKAA0<15>PP0PP0OO0<13>AA0SNC<26>ul\
+  Y000wn_xo`
+  }
+
+s3f182             { ; 3X|18|CY|SF5|180  00h05m07.83s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula
+  formulaname=FractalFenderC function=cotanh/cosxx passes=1
+  corners=-3.755578/1.778642/3.712744/-3.666216/1.778642/-3.666216
+  params=0/0/1 float=y maxiter=256 fillcolor=253 inside=253
+  potential=253/500/0
+  colors=000000ODA<4>K9BK9BLAB<45>od4od4nc4<31>MBALABMCB<20>mk4nm4po3rq2<2\
+  >vv1rr5mm9FG0<24>Aa49b59a5<17>FG0C8AD79<6>HA9HA9IB9JC9<34>nb3nb3ma3<36>R\
+  G9000QE9PE9
+  }
+
+s3f183             { ; 3X|18|CY|SF5|180  00h15m45.14s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula
+  formulaname=a---mand corners=-1.473396/-4.473396/-2/2/-4.473396/2
+  params=14/0/6 float=y maxiter=256 inside=0 potential=253/250/0
+  colors=000SHERGEPFF0A0<15>Zc0<2>TY0QW0OU0LS0JQ0<7>0A0<15>Zc0<15>0A0SNC<2\
+  9>xo`zpaypa<13>kcRibRibR<14>UPF111<29>ppp<31>000PFF<29>xeDzfCyfC<27>TIE
+  }
+
+s3f184             { ; 3X|18|CY|SF5|180  00h04m15.18s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula
+  formulaname=aa-mand-im passes=b corners=-2.5759/1.4241/-1.5/1.5
+  params=2/0/4 float=y maxiter=256 fillcolor=253 inside=253
+  potential=253/250/0
+  colors=000YYY<11>000<27>007017037<13>4S4<13>1A1181171151131000313717A20<\
+  12>cAP<10>H43E30A2A<2>000<15>hh0<15>000<3>00D00H22I<10>PP`<9>33H00E00A<2\
+  >000300700A00<12>rZ0<11>400A00<2>000<15>0pp<12>0BB077044000222<14>hhh000\
+  bbb```
+  }
+
+s3f185             { ; 3X|18|CY|SF5|180  00h01m45.31s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Element
+  passes=b corners=-0.416/0.416/-1.0447766/-0.42077662 params=2/0/4
+  float=y maxiter=256 fillcolor=253 inside=253 potential=253/250/0
+  colors=000PbR<19>fX3fX2gY5<14>kge<21>lFmlEmnDg<7>x52<20>9Cp<12>YF1<2>xR7\
+  <7>KOy<17>XvbXwaWt_VrZUoXUnXTmW<13>GHCOYl<14>GGD7TF<2>EICetBXfBOTBTDb<17\
+  >GFC82h<16>GFC`pB<14>HHBgUG<7>JGBcS7<6>WN9l`ImSHnJGGcJ000`cN000ScROcT
+  }
+
+s3f186             { ; 3X|18|CY|SF5|180  00h03m38.83s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula
+  formulaname=F'Liar1D function=sin
+  corners=-8.105135/-1.707135/-2.299073/2.499427 params=2/0/4 float=y
+  maxiter=256 fillcolor=253 inside=253 potential=253/250/0
+  colors=000CtK<15>5wL5wL6rK6mK6hJ9BG7cJ<4>8FGv8lOO7<8>9BGdmi<23>9BHOiv<16\
+  >8CIK0X<15>8AHOWb<4>ADJoQ6<18>AAGV_B<4>BEGU7Q<27>8AGI1y<10>8AJxZF<16>ABG\
+  4IW<20>8AG2kw<23>8BHsLm<9>UFWGrK<5>DsK
+  }
+
+s3f187             { ; 3X|18|CY|SF5|180  00h09m27.54s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula
+  formulaname=FractalFenderTwoC passes=b
+  corners=0.25764006/0.88164006/0.416/-0.416/0.88164006/-0.416
+  params=2/0/6 float=y maxiter=256 fillcolor=253 inside=253
+  potential=253/250/0
+  colors=000NPb<9>abX<21>5jg<17>FIEJJDGGC8F8<6>FFBxVX<29>HFB7e7<25>GGBMoQ<\
+  12>GHCvDz<6>LFHdbZWVRONJ8nD<14>GHBWz8<14>HIBzOl<2>RHKXYV<11>HGC6xz<15>GH\
+  EoGQ<7>KFCCSK<18>GFBx0`<7>PCG<3>tzG000qn5if7
+  }
+
+s3f188             { ; 3X|18|CY|SF5|180  00h04m40.07s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula
+  formulaname=FractalFenderTwoC
+  corners=0.719977165/0.773641165/0.035776/-0.035776/0.773641165/-0.035776
+  params=2/0/6 float=y maxiter=256 fillcolor=253 inside=253
+  potential=253/450/0
+  colors=000Hc6<3>Fk8<9>KR2KP1KN1LL1LJ0MH0MF0LI1<13>EqiDtlEqi<12>KL5LI2MF0\
+  <15>zH0<15>MF0<15>ww0<15>MF0OF1<14>wEa<14>PE1<3>YOA_QCaSEcUGfXI<7>zp_<14\
+  >SL4PI1MF0LG2<13>7Or5Pv6Ps<10>IHEJHAKG6LG2MF0OH1<13>kml<13>QK5OI2MF0<3>L\
+  N0KP1KR1JT2JV3<2>I`5
+  }
+
+s3f189             { ; 3X|18|CY|SF5|180  00h06m29.50s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula
+  formulaname=F'Liar1C function=sin/exp corners=-2/2/-1.5/1.5
+  params=2/0/6 float=y maxiter=256 fillcolor=253 inside=253
+  potential=253/450/0
+  colors=000n9n<28>sdfsefrdg<27>iVtiVthUr<15>fKX<10>ELq<33>GBOKAFGBN<11>G8\
+  Ckro<6>NIKJDGHg6<39>G8CoFG<20>H8CqmI<42>G8CXpyWnw
+  }
+
+s3f190             { ; 3X|18|CY|SF5|180  00h09m57.46s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula
+  formulaname=F'Liar1C function=cosh/sqr
+  corners=2.0140911/-2.1237477/4.0525254/2.1781392/1.4241745/4.8390808
+  params=2/0/6 float=y maxiter=256 fillcolor=253 inside=253
+  potential=253/450/0
+  colors=000YYY<19>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<2>TY0QW0OU0LS0JQ0<\
+  7>0A0<15>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<29>ppp<7>ccc0\
+  00```ZZZ
+  }
+
+s3f192             { ; 3X|18|CY|SF5|180  00h06m15.39s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=ULI_4
+  function=exp/cotan passes=b
+  corners=0.96787006/1.1261741/0.50934791/0.29827591/1.1261741/0.29827591
+  params=1.3149999999999999/0/3.9871400000000001 float=y maxiter=256
+  fillcolor=253 inside=253 potential=253/450/0
+  colors=000000UWRPRW<15>9da8da9b_<11>BONBNMBON<10>Aca000E89<4>HA9IB9IB9IB\
+  9<48>ld6ld6kc6<28>MCBMCBNDB<45>pd6pd6oc6<36>NDAMCBNEB<19>mk4nm4po3rq2<2>\
+  vv1rr5000hiEcdI
+  }
+
+s3f193             { ; 3X|18|CY|SF5|180  00h12m51.93s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=ULI_4
+  function=exp/cotan
+  corners=1.041874824/1.058779064/0.3792855586/0.337171017/1.06817533/0.34\
+  42182165 params=1.3149999999999999/0/3.9871400000000001 float=y
+  maxiter=256 fillcolor=253 inside=253 potential=253/450/0
+  colors=000G99GA9HA9<37>nb3nb3ma3<46>K9BK9BLAB<45>od4od4nc4<31>MBALABMCB<\
+  20>mk4nm4po3rq2<2>vv1rr5mm9FG0<24>Aa49b59a5<17>FG0C8AD79<3>F99
+  }
+
+s3f194             { ; 3X|18|CY|SF5|180  00h12m03.08s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=mandel
+  corners=-0.6795176776/-0.6777004757/0.319392341/0.352622691/-0.694814053\
+  1/0.339787508 params=0.85555550000000002/0.215 float=y maxiter=1024
+  fillcolor=253 inside=0
+  colors=0006F0<12>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<29>pp\
+  p<31>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<2>TY0QW0OU0LS0JQ0<7>0A02B04D0
+  }
+
+s3f195             { ; 3X|18|CY|SF5|180  00h09m04.41s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=mandel
+  corners=-1.20026669/-1.29150244/-0.388763149/-0.0879027383/-1.37752456/-\
+  0.152419326 params=0.51458700000000002/0.65412000000000003 float=y
+  maxiter=1024 fillcolor=253 inside=0 invert=1/0/0
+  colors=0006F0<12>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<29>pp\
+  p<31>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<2>TY0QW0OU0LS0JQ0<7>0A02B04D0
+  }
+
+s3f196             { ; 3X|18|CY|SF5|180  00h56m14.47s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=mandel
+  corners=-1.286339911/-1.277636404/-0.1597238839/-0.1415827292/-1.2919144\
+  03/-0.1522912282 params=0.51458700000000002/0.65412000000000003
+  float=y maxiter=32767 fillcolor=253 inside=0 invert=1/0/0
+  colors=000FFF<21>ppp<31>000PFF<29>xeDzfCyfC<30>PFF0A0<15>Zc0<2>TY0QW0OU0\
+  LS0JQ0<7>0A0<15>Zc0<15>0A0SNC<29>xo`zpaypa<13>kcRibRibR<14>UPF111<6>DDD
+  }
+
+s3f197             { ; 3X|18|CY|SF5|180  00h07m50.58s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula  formulaname=Leeze
+  corners=-1.516216/-1.000216/0.344/-0.344/-1.000216/-0.344
+  params=2/0/6 float=y maxiter=256 fillcolor=253 inside=0
+  potential=253/250/0
+  colors=000J9D<3>G8C3XE<24>G8ClhD<61>G8C1dH<25>1E30INCHDDGDu5o<35>J5AH58H\
+  58<39>oQMpRNoRN<2>mQMlQMlQMlPM<43>JAD
+  }
+
+s3f198             { ; 3X|18|CY|SF5|180  00h05m07.75s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula
+  formulaname=IslandOfChaosC
+  corners=-3.016912/-1.916456/-0.37620641/0.44913559 params=2/0/6
+  float=y maxiter=256 fillcolor=253 inside=0 potential=253/250/0
+  colors=000`G0<9>zH0<15>MF0<15>ww0<15>MF0OF1<14>wEa<14>PE1<3>YOA_QCaSEcUG\
+  fXI<7>zp_<14>SL4PI1MF0LG2<13>7Or5Pv6Ps<10>IHEJHAKG6LG2MF0OH1<13>kml<13>Q\
+  K5OI2MF0<3>LN0KP1KR1JT2JV3<7>Fk8<9>KR2KP1KN1LL1LJ0MH0MF0LI1<13>EqiDtlEqi\
+  <12>KL5LI2MF0<4>ZG0
+  }
+
+s3f199             { ; 3X|18|CY|SF5|180  00h06m49.74s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula
+  formulaname=ManInTheOzoneC passes=b
+  corners=-2.610893/-1.57064/0.704/-0.704/-1.57064/-0.704
+  params=1.111/0/2.222 float=y maxiter=256 fillcolor=253 inside=253
+  potential=253/250/0
+  colors=000xeD<13>SHE05F0FM<14>ILdKMfJMe<13>0FKAA0<15>PP0PP0OO0<13>AA0SNC\
+  <29>xo`zpaypa<28>WQG000000<29>nnnpppooo<30>000PFF<13>nd1pf0oe1<13>PFF<10\
+  >nYE000<3>000
+  }
+
+s3f200             { ; 3X|18|CY|SF5|180  00h06m57.14s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset=1800 type=formula
+  formulaname=ManInTheOzoneC
+  corners=-1.9799006/-1.8758753/0.0704/-0.0704/-1.8758753/-0.0704
+  params=1.111/0/2.222 float=y maxiter=256 fillcolor=253 inside=253
+  potential=253/512/0
+  colors=CCChz0MMM`z0NNNTz0OOOLz0PPPFy2QQQDv8RRRAsESSS7pKTTT4mQUUU2jWVVV0b\
+  bWWW0ShXXX0JnYYY08uZZZ20x___A0p```I0haaaQ0`bbbZ0Scccf0Kdddn0Ceeev04fffz2\
+  0gggzA0hhhzI0iiizQ0jjjzY0kkkze0lllzm0mmmzu0nnnxz0ooopz0ppphz0qqq`z0rrrTz\
+  0sssLz0tttFy2uuuDv8vvvAsEwww7pKxxx4mQzzz2jWzzz0bbyyy0Shxxx0Eqwww03xvvv60\
+  tuuuE0ltttM0dsssU0Xrrrb0Oqqqj0Gpppr08oooz00nnnz60mmmzE0lllzM0kkkzU0jjjza\
+  0iiizi0hhhzq0gggzy0ffftz0eeelz0ddddz0cccXz0bbbPz0aaaHz0```Ex5___BuBZZZ9q\
+  HYYY6nNXXX3kTWWW0gZVVV0YeUUU0NkTTT0EqSSS03xRRR60tQQQE0lPPPM0dOOOU0XNNNb0\
+  OMMMj0GLLLr08KKKz00JJJz60IIIzE0HHHzM0GGGzU0FFFza0EEEzi0DDDzq0CCCzy0BBBtz\
+  0AAAlz0999dz0888Xz0777Pz0666Hz0555Ex5444BuB3339qH2226nN1113kT0000gZ0bb00\
+  00Sh1110Jn22208u33320x444A0p555I0h666Q0`777Z0S888f0K999n0CAAAv04BBBz20CC\
+  CzA0DDDzI0EEEzQ0FFFzY0GGGze0HHHzm0IIIzu0JJJxz0KKKpz0LLL
+  }
+
+s3f191             { ; 3X|18|CY|SF5|180  00h10m32.17s
+                     ; (c) 1993 Richard H. Sherry CIS: 76264,752
+  reset type=formula  formulaname=Fzpcopch
+  passes=b
+  corners=0.7223192/1.9393/1.557979/-0.06466294/1.9393/-0.06466294
+  params=1/0/3 float=y maxiter=256 fillcolor=253 inside=bof60
+  outside=real potential=253/400/0 biomorph=0
+  colors=000000EN1<16>Aa49b59a5<17>FG0C8AD79<6>HA9HA9IB9JC9<34>nb3nb3ma3<4\
+  6>K9BK9BLAB<45>od4od4nc4<31>MBALABMCB<20>mk4nm4po3rq2<2>vv1rr5mm9000<3>0\
+  00EK0EL1
+  }
+

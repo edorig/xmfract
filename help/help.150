@@ -1,0 +1,15 @@
+
+Complex Newton
+
+formulas: complexnewton, complexbasin
+
+
+Well, hey, "Z^n - 1" is so boring when you can use "Z^a - b" where "a" and
+"b" are complex numbers!  The new "complexnewton" and "complexbasin"
+fractal types are just the old "newton" and "newtbasin" fractal types with
+this little added twist. When you select these fractal types, you are
+prompted for four values (the real and imaginary portions of "a" and "b").
+If "a" has a complex portion, the fractal has a discontinuity along the
+negative axis - relax, we finally figured out that it's *supposed* to be
+there!
+

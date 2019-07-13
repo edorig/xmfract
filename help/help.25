@@ -1,0 +1,45 @@
+
+Zoom Box Commands
+
+If the user has drawn a zoom box on the screen and presses the "d"
+key (or selects "Create image" from the "Draw" menu), the program
+assumes that the user wishes to zoom in on the selected area.
+
+Moving the zoom box means moving it around on the screen without
+changing its size or shape. Draw a zoom box, then press the left
+mouse button down when the pointer is inside the zoom box. The outline
+of the zoom box will change to a dotted line and the cursor will change
+to a cross-arrow. While holding the mouse button down, move the cursor
+around the screen and the outline of the zoom box will follow the mouse
+pointer. When the zoom box is positioned where you want it, release the
+mouse button and the outline of the zoom box will revert to a solid line.
+All done. Note that if you press the mouse button down outside the zoom
+box, the program assumes that you want to draw a different zoom box, and
+cancels the current zoom box, and any move or stretch operation that is in
+effect. Also note that if you draw a zoom box that is too small (the
+minimum size is 25 x 25 pixels), the box will not be drawn. This also is
+a short cut for cancelling a zoom box. Simply click the left mouse button
+when the pointer is outside the zoom box and the zoom box and any pending
+functions will be cancelled. If you move the zoom box so that the outside
+edge of the box is outside the visible window, the area outside of
+the visible window will not be included in the zoomed in or out image.
+
+Stretching the zoom box means changing its shape. The zoom box may be
+stretched vertically, horizontally, or diagonally. After drawing a
+zoom box on the screen some additional lines will appear on the zoom
+box. The boxes that are created by these lines are zoom box "handles".
+Press the left mouse button down in one of the handles and the cursor
+will change to the appropriate arrow (either up, down, left, right, or
+toward one of the four corners). Hold the mouse button down and move the
+cursor and the zoom box will grow and/or shrink in the desired direction.
+Experiment with changing the shape in several directions to become
+familiar with the stretching operation.
+
+Selecting Pan from the Zoom menu will draw a zoom box the full size
+of the screen. Moving this zoom box around on the screen will cause
+the program to select the area inside the zoom box and fill the
+screen with it. This effectively "pans" the image on the screen. The
+portion of the visible image that has been calculated will not be
+recalculated, just re-displayed. Any portion of the image that was
+not visible before the pan will be calculated and displayed.
+

@@ -1,0 +1,320 @@
+Smile              { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=fn(z)+fn(pix) function=sqr/cos float=yes
+  corners=-1.066106/-0.517546/2.981645/3.122173/-0.936088/2.808271
+  params=0/0/1 maxiter=32000 inside=0 potential=255/500/20
+  colors=000B7C54693607n<13>503frT<10>842qP3<11>810Kd0<15>880MdU<9>9pc7re7re<1\
+  9>5td000<60>0005Va<6>534JJN<2>845CoP<11>541H8G<19>500ja`<2>F99JGd<11>613qXY<\
+  7>Ydw000<19>000kSq<5>GAI
+  }
+
+rhs130             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=manfn+zsqrd function=cosxx float=yes
+  corners=-2.423141/-1.90564/0.332306/-0.35997/-1.90564/-0.35997
+  maxiter=500 inside=0 potential=255/300/150 decomp=265 biomorph=0
+  colors=999PmK<18>`zM<3>G3F<6>1he`in<12>OXVMVTMVT<68>_fo`gp`go<16>OYWNXVMWTLV\
+  R5K6<22>0c50c50b5<20>3I7G6H<13>UGUWHVVHV<14>G9JP00<11>d00f00f00<20>P00cErcEr
+  }
+
+rhs131             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=manfn+exp function=cos float=yes
+  corners=4.11792/4.546936/4.822723/5.145401 maxiter=500 inside=0
+  potential=255/300/150 decomp=265 biomorph=0
+  colors=000000000usp<7>d_6<8>zzz<18>`ZI_XG`YI<21>zzzKU5<10>7L15K06K0<11>KU400\
+  0KU0000KU0000KU0000KU0000KU0000<154>000
+  }
+
+rhs132             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=mandelfn function=sin corners=-8.0/8.000351/-5.999954/6.0
+  maxiter=500 inside=0 potential=255/300/150 decomp=265 biomorph=0
+  colors=999J00<95>z00000<125>zzz500<29>I00
+  }
+
+rhs133             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=mandelfn function=cos
+  corners=5.400711/7.409287/-0.756119/0.753769 maxiter=500 inside=0
+  potential=255/300/150 decomp=265 biomorph=0
+  colors=000ikinlitliZbkdbkafmfinaisnjlujkhlqimsllmplmnompommmpqnpmoqppqunprtr\
+  uupnptwrtqtxutuxtuxwutvyyvwuxzzzz<19>zzz<7>343642334534356654931D31962D52964\
+  D74784A83D92FC2A95D95BC5ED54799795ACA9ADA9AD9ED9AADDBDADEEDDG31H62L72H74L75P\
+  75HA3L93ID3LF3H95LA5HD6LD6QC6HB8LB8ID9ME9HACHEDLEDPB8SB9PE9TE9QFCUFCFG6EHBJG\
+  3MG3IG6MH5NK6PI3UH3RK3TL3PI4TH6QL5TM5UO6IH9MHAIKAMLAIHEMIDILDMLEQHATHAPLAULA\
+  PIDTIDQLEULEMPESPC37J5EJCEI4ESAEQIEIPFJHEO6GMEHKFPM6IR9KTCPUIHHLIHJLIMLHHILL\
+  ILHKMMLLRLILPKTPKJLQQMQLPSRRRXE6XDAYL5YQ6dP6YKDdKCZPDeRCZMHdMIYPI`PIXTIaSJXQ\
+  LaQLXTMaTLeRLYMRZTQfTQkTNlURUXJUXSYWEfXA_YMdXN`XTfYTecSmXUlfS4FW6IX8MX9OZJNX\
+  RNXMQYSTZKRdRVcYUYfUYUX`UYe_Z_eYXiYXe`Xh`YeZ`iY`ea`ia`ac_gd`Z`ffafadhgfgn`Zs\
+  a_nd`tcanbdsbdnffuff
+  }
+
+rhs134             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=fn*z+z function=tan
+  corners=3.926336/3.334967/-0.394243/0.394242/3.334967/0.394242
+  params=1/0/1 maxiter=500 inside=0 potential=255/300/150 decomp=265
+  biomorph=0
+  colors=000zz0<29>W85U66V76<29>xx1zz0yx0<22>V92rp3<26>Y74X55ZA5<8>st4000<124>\
+  000111000
+  }
+
+rhs135             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=fn(z)+fn(pix) function=sin/cos float=yes
+  corners=-9.46984/-18.171128/23.902543/22.207677 params=0/0/1
+  maxiter=32000 inside=0 potential=255/500/20
+  colors=000h00<89>000000000000000<124>y00z00y00<32>h00
+  }
+
+rhs136             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=formula formulafile=fractint.frm formulaname=Richard10
+  corners=-0.487996/0.487993/0.883389/1.615383 maxiter=500 inside=6
+  float=yes potential=255/600/500 colors=999666<113>zzz500<126>z00000<10>555
+  }
+
+rhs137             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=manfn+zsqrd function=log float=yes
+  corners=-23.043366/-26.245789/-2.199417/2.071243/-26.245789/2.071243
+  params=20 maxiter=32000 inside=0 potential=255/300/150 decomp=265
+  biomorph=0
+  colors=000<14>0000K0<23>070060070<10>0L0<3>mM1020<192>011011000f_8eZ8
+  }
+
+rhs138             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=fn(z)+fn(pix) function=sqr/sqr float=yes
+  corners=7.726449/8.276659/7.721397/8.271623 params=0/0/1 maxiter=32000
+  inside=0 potential=255/200/32000
+  colors=c55fe2<22>ut3vu4vv4vv4<53>SQ2k62<15>E11IF1<6>EB1DA0DB0<49>yx3zz4zz4<4\
+  >zz5<2>zzF<44>IG1HE0HE0<39>fd2
+  }
+
+rhs139             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=fn*z+z function=cos float=yes
+  corners=9.315645/9.53579/-0.082999/0.082122 params=1/0/1 maxiter=500
+  inside=0 logmap=old potential=255/2000/200 decomp=256
+  colors=000<40>E6AE6AE6AF7AF7AG7B<98>zjXG78<31>zlWEB7<14>zlZD98<15>zj_FA5<12>\
+  h_R000500oeXrgZ<13>8Ia<11>G9s
+  }
+
+rhs140             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=fn*fn function=sin/sqr float=yes
+  corners=1.5322191/1.5542222/0.2067396/0.2232694 float=y inside=bof60
+  decomp=256
+  colors=000BBBAAA999<49>qqqqqqsss<7>ttttttsss<27>UUUTTTRRR<14>DDDDDDEEEEEEFFF\
+  GGGGGG<21>TTTUUUUUUUUU<11>aaabbbbbbbbb<8>hhhiiiiiiiii<6>nnnoooooooooooo<6>kk\
+  kjjjjjjjjj<2>hhhggggggggg<7>bbbaaaaaaaaa<24>OOONNNNNNNNN<20>BBB
+  }
+
+rhs141             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=fn(z)+fn(pix) function=sqr/sqr passes=1
+  corners=14.615275/-14.81552/11.217118/-10.856071 params=5/12/-8/10
+  maxiter=500 inside=0 potential=255/200/32000 float=yes
+  colors=999333<119>zzz500<39>N00000O00<10>T00000U00<55>r00000s00<13>z00000<2>\
+  111z22222
+  }
+
+rhs142             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=fn(z)+fn(pix) function=tan/cos
+  corners=2.67966/0.446826/1.41204/0.29991 params=0/0/1 maxiter=32000
+  inside=0 potential=255/500/20
+  colors=000000x9M78J<3>xYsZa_9dGkn6<2>ducbwnYq`TlNOg9<2>pyJSlb4_uAnFsQ262FIG8\
+  TT2<2>lfM<2>3Q_D_QMhHSOpbFr<2>EK5mQktHWz9G<3>JguoWfo4c<3>nB6_QELdM<3>g0X<3>O\
+  zm<2>iYVS1AVBDXKGRVMLeR8hC<3>wtp_c`COMqfR<2>IU1FQPCNkDMdDLY<3>jeihqBmeNrUY<2\
+  >zW8t3iave<2>RHUO3QM6PK9OICO<2>c0b<2>7haCccH_e<3>_bu<2>2JnTAkr2ih4o_5t<2>Oh5\
+  PTAQDEJLQCT`91Vi5L<3>`Jn`55M7X88x<3>SpZNddITi<2>4VjAPXGKJ<2>YTW<3>a`tXZ9DWQR\
+  aIdgB<2>EcIBUH8LG<3>6_REVHMR8wLJoA_h0p<2>jB7cNWXYtjNXwD9<2>5fm<2>2bEmpOWaJFN\
+  FUGaQkupoB<2>0OZtMa<3>9s4<2>mf0<2>vC0SBS<3>jZifKOb62eYRgyn<2>nNRJVOS`Q`eSPBR\
+  ikUX9HcOMjbRz00Rvjdsb000UYQRP`<3>efh<2>QeyGNo64fZcnnfE_PSM8d<3>KCDz0CB`U6lb
+  }
+
+rhs143             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=fn(z)+fn(pix) function=sqr/cos float=yes
+  corners=-1.066106/-0.517546/2.981645/3.122173/-0.936088/2.808271
+  params=0/0/1 maxiter=32000 inside=0 potential=255/500/20
+  colors=000<20>000kSq<7>54693607n<13>503frT<10>842qP3<11>810Kd0<15>880MdU<9>9\
+  pc7re7re<19>5td000<60>0005Va<6>534JJN<2>845CoP<11>541H8G<19>500ja`<2>F99JGd<\
+  11>613qXY<7>Ydw
+  }
+
+rhs144             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=fn(z)+fn(pix) function=sqr/cos
+  corners=-1.066106/-0.517546/2.981645/3.122173/-0.936088/2.808271
+  params=0/0/1 maxiter=32000 inside=0 potential=255/500/20
+  colors=000B7C54693607n<13>503frT<10>842qP3<11>810Kd0<15>880MdU<9>9pc7re7re<1\
+  9>5td000<60>0005Va<6>534JJN<2>845CoP<11>541H8G<19>500ja`<2>F99JGd<11>613qXY<\
+  7>Ydw000<19>000kSq<5>GAI
+  }
+
+rhs145             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=fn(z)+fn(pix) function=cos/sqr float=yes
+  corners=0.5789334/0.7807247/2.9946443/3.2297775/0.5387176/3.0482713
+  params=0/0/1 maxiter=500 inside=0 potential=255/500/20
+  colors=000fb_<19>SYJSYJRXK<27>E5UE4UG6S<21>hk4il3jm4<20>spGspGtoH<50>yXy<14>\
+  JU_HUZGVX<26>Fm5Fm4El3<57>0O2
+  }
+
+rhs146             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=fn(z)+fn(pix) function=cosxx/ident float=yes
+  corners=-2.068429/-1.036422/1.814185/0.438202/-1.036422/0.438202
+  params=0/0/1 maxiter=32000 inside=0 potential=255/500/20
+  colors=000tliZbkdbkafmfinaisnjlujkhlqimsllmplmnompommmpqnpmoqppqunprtruupnpt\
+  wrtqtxutuxtuxwutvyyvwuxzzzz<19>zzz<7>343642334534356654931D31962D52964D74784\
+  A83D92FC2A95D95BC5ED54799795ACA9ADA9AD9ED9AADDBDADEEDDG31H62L72H74L75P75HA3L\
+  93ID3LF3H95LA5HD6LD6QC6HB8LB8ID9ME9HACHEDLEDPB8SB9PE9TE9QFCUFCFG6EHBJG3MG3IG\
+  6MH5NK6PI3UH3RK3TL3PI4TH6QL5TM5UO6IH9MHAIKAMLAIHEMIDILDMLEQHATHAPLAULAPIDTID\
+  QLEULEMPESPC37J5EJCEI4ESAEQIEIPFJHEO6GMEHKFPM6IR9KTCPUIHHLIHJLIMLHHILLILHKMM\
+  LLRLILPKTPKJLQQMQLPSRRRXE6XDAYL5YQ6dP6YKDdKCZPDeRCZMHdMIYPI`PIXTIaSJXQLaQLXT\
+  MaTLeRLYMRZTQfTQkTNlURUXJUXSYWEfXA_YMdXN`XTfYTecSmXUlfS4FW6IX8MX9OZJNXRNXMQY\
+  STZKRdRVcYUYfUYUX`UYe_Z_eYXiYXe`Xh`YeZ`iY`ea`ia`ac_gd`Z`ffafadhgfgn`Zsa_nd`t\
+  canbdsbdnffuffikinli
+  }
+
+rhs147             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=fn(z)+fn(pix) function=cosxx/sinh float=yes
+  corners=2.419403/-2.369344/-2.991983/2.992/-2.369344/2.992 params=0/0/1
+  maxiter=32000 inside=0 potential=255/500/20
+  colors=K0KK0Kqp4<69>EB1DA0DB0<49>yx3zz4zz4<4>zz5<2>zzF<44>IG1HE0HE0<63>ut3vu\
+  4vv4vv4<6>rr4
+  }
+
+rhs148             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=fn(z)+fn(pix) function=recip/sqr float=yes
+  corners=-1.133658/0.246355/0.852341/-0.98766/0.246355/-0.98766
+  params=0/0/1 maxiter=32000 inside=0 potential=255/500/20
+  colors=0004F164G<20>65z<11>06F0E3<17>HW8IY9HW9<7>4F1FA4<19>ZLC_MCZLB<8>HB0<2\
+  2>ppp<8>C900A0<20>A`1Bb2A`2<6>2G10D00G0<6>0f0<9>0E0<30>Ln6Mp7Mo7<23>0E0kdh<9\
+  >LDD<4>LIC_JB_KBLLBu9e
+  }
+
+rhs149             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=fn(z)+fn(pix) function=sin/sqr float=yes
+  corners=-2.331307/1.980748/1.865452/-1.832984/1.980748/-1.832984
+  params=0/0/1 maxiter=32000 inside=0 potential=255/500/20
+  colors=0K0<14>0K0PN2<19>EB1DA0DB0<49>yx3zz4zz4<4>zz5<2>zzF<44>IG1HE0HE0<63>u\
+  t3vu4vv4vv4<42>ZX2
+  }
+
+rhs150             {  ; (c) June 1992 Dick Sherry 76264,752
+                      ; no commercial use w/o permission
+  reset type=fn(z*z) function=cosh float=yes
+  corners=2.99588/-3.001053/-2.994736/2.991989/-3.001053/2.991989
+  maxiter=500 inside=0 potential=255/500/20 decomp=256
+  colors=000000ggg<8>bbbaaaaaaaaa<24>OOONNNNNNNNN<22>AAA999AAA<48>qqqqqqsss<7>\
+  ttttttsss<27>UUUTTTRRR<12>FFF000DDD<3>FFFGGGGGGGGG<20>TTTUUUUUUUUU000WWW<9>a\
+  aabbbbbbbbb<8>hhhiiiiiiiii<6>nnnoooooooooooo<6>kkkjjjjjjjjj<2>hhh
+  }
+
+rhs151             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=formula formulafile=fractint.frm formulaname=Jm_04
+  function=sin/cosxx/sin/cosxx float=yes
+  corners=-2.704002/2.703985/0.468249/4.524241 maxiter=32000 inside=0
+  potential=255/200/32000 colors=000III<88>zzzF00<126>z00000<33>HHHCH7III
+  }
+
+rhs152             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=formula formulafile=fractint.frm formulaname=DeltaLog
+  corners=1.283105/0.119106/-0.7835/0.768484/0.119106/0.768484
+  maxiter=32000 inside=0 potential=255/200/32000 float=yes
+  colors=F0AJXq<20>cWd<19>BAe<6>76O32076M<7>322Obn<3>79AU6G<22>5214200o4<22>34\
+  0kOM<15>531bkp<7>775DG5<8>4403D0<7>3N03P03O0<9>1B003C<6>5H`6K_6I`<5>34Cbof<1\
+  1>553mE6<20>520oB3<14>H83_73<14>K32J36S3K
+  }
+
+rhs153             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  3d=yes sphere=y latitude=-90/90 longitude=180/0 radius=100
+  scalexyz=90/100 roughness=10 waterline=0 filltype=2 ambient=20
+  perspective=0 xyshift=0/0
+  colors=000CLu_Z7<17>IG1HE0HE0<63>ut3vu4vv4vv4<60>OM1
+  }
+
+rhs154             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=formula formulafile=fractint.frm formulaname=Jm_27
+  function=cosxx float=yes
+  corners=-0.527286/-1.260184/-0.626961/0.626952/-1.260184/0.626952
+  params=0.131 inside=0 potential=255/2000/4
+  colors=000111F00<13>z00<15>F00<15>z00<15>F00<15>z00<15>F00<15>z00<15>F00<15>\
+  z00<15>F00<15>z00<15>F00<15>z00<15>F00<15>z00<11>F00000000111
+  }
+
+rhs155             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=formula formulafile=fractint.frm formulaname=Jm_17
+  function=sinh/sqr/cosh float=yes
+  corners=0.7431277/0.767102/1.35765159/1.39536023/0.7297383/1.36218399
+  inside=0 potential=255/2000/4
+  colors=000<111>ttt<12>500<59>W00H00<14>V00H00<14>j00M00<14>z00d00<4>j00D00<1\
+  1>z00000000111
+  }
+
+rhs156             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=formula formulafile=fractint.frm formulaname=Jm_12
+  function=cosxx/sqr/cosh corners=-0.129646/0.132547/1.299253/1.530464
+  inside=0 potential=255/2000/4 float=yes
+  colors=pa5pa505K<28>05x06z06z<93>01G00F00G<30>00z<46>00G00F00G<43>00z000000
+  }
+
+rhs157             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=formula formulafile=fractint.frm formulaname=Richard1
+  corners=0.8678018/0.8805016/0.0059942/-0.0060795/0.8805016/-0.0060795
+  params=0.999 inside=0 potential=255/2000/4  float=yes
+  colors=0I50I0MJ0<56>ut3vu4vv4vv4<78>EB1DA0DB0<49>yx3zz4zz4<4>zz5<2>zzF<44>IG\
+  1HE0HE0<4>KI0
+  }
+
+rhs158             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=formula formulafile=fractint.frm formulaname=LeeMandel2 float=yes
+  corners=-1.135997/1.13599/-0.851996/0.852002 params=0.777 inside=0
+  potential=255/2000/4 colors=5F05F0z00<117>F00F00G00<130>z005F15F1
+  }
+
+rhs159             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=formula formulafile=fractint.frm formulaname=LeeMandel3
+  corners=-1.157785/-0.278032/0.584539/-0.588476/-0.278032/-0.588476
+  params=0.6789 inside=0 potential=255/2000/4 float=yes
+  colors=000001zz1<28>HC1FA0GB0<30>zz0<30>HC0FA0GB0<30>zz0<30>HC0FA0GB0<30>zz0\
+  <30>HC0FA0GB0<27>zz0YW1YW1
+  }
+
+rhs160             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=formula formulafile=fractint.frm formulaname=LeeMandel3
+  corners=-0.8735763/-0.7450866/0.3840181/0.6010133/-0.9314861/0.4612212
+  params=0.6789 inside=0 potential=255/2000/4 float=yes
+  colors=F5A<2>F7BE8BEAA<30>1k20m10l1<24>0A0<30>0x00z00y0<30>0F0<23>0z0<38>0H0\
+  0F00G0<29>Bn9CpACoA<27>AH39F2At1YW1
+  }
+
+rhs161             { ; (c) June 1992 Dick Sherry 76264,752
+                     ; no commercial use w/o permission
+  reset type=formula formulafile=fractint.frm formulaname=Richard6
+  corners=1.665198/1.446401/-0.145854/0.145857/1.446401/0.145857 inside=0
+  potential=255/2000/4 float=yes
+  colors=000111F00<13>z00<14>I000F0<31>Fw0FFF<30>rmmIF0<30>mm03A0<30>FcKI0F<30\
+  >UFhI00<14>z00<14>I00FA0<18>VN0H4F<3>_Rz77FN6bb4zcU0UAP000111
+  }
+
+

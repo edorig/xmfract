@@ -1,0 +1,9 @@
+
+Tear-Off Menus
+
+Xmfract supports tear-off menus, if the user has not specifically
+prevented it by an entry in the resource file. Menus may be "torn off",
+or posted in windows of their own (seperate from the main window), by
+selecting the dashed line at the top of the menu. To dismiss any torn-off
+menu, press the 'Esc' key while the pointer is in the menu window.
+

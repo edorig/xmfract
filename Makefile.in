@@ -1,0 +1,135 @@
+# Master Makefile for xmfract
+# Copyright (C) 1995 Thomas Winder
+
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2, or (at your option)
+# any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+# This directory's subdirectories are mostly independent; you can cd
+# into them and run `make' without going through this Makefile.
+# To change the values of `make' variables: instead of editing Makefiles,
+# (1) if the variable is set in `config.status', edit `config.status'
+#     (which will cause the Makefiles to be regenerated when you run `make');
+# (2) otherwise, pass the desired values on the `make' command line.
+#
+# $Id: Makefile.in,v 1.2 1995/03/26 16:42:49 tom Exp $
+# $Log: Makefile.in,v $
+# Revision 1.2  1995/03/26  16:42:49  tom
+# *** empty log message ***
+#
+# Revision 1.1  1995/03/14  12:25:25  tom
+# Initial revision
+#
+#
+srcdir = @srcdir@
+VPATH = @srcdir@
+@SET_MAKE@
+
+SHELL = /bin/sh
+
+DISTFILES = Makefile.in config.h.in configure install.sh readme \
+configure.in manifest
+
+# Redundant stuff for making only selected programs.
+PROGS = xmfract
+
+# Subdirectories to run make in for the primary targets.
+SUBDIRS = lib src etc help
+
+.SUFFIXES:
+
+all install uninstall: config.h Makefile
+	for subdir in $(SUBDIRS); do \
+	  echo making $@ in $$subdir; \
+	  (cd $$subdir && $(MAKE) $@) || exit 1; \
+	done
+
+check:
+installcheck:
+
+$(PROGS):
+	cd lib && $(MAKE) all
+	cd src && $(MAKE) $@
+
+mostlyclean: mostlyclean-recursive mostlyclean-local
+
+clean: clean-recursive clean-local
+
+distclean: distclean-recursive distclean-local
+	rm config.status
+
+realclean: realclean-recursive realclean-local
+	rm config.status
+
+TAGS clean-recursive distclean-recursive \
+	    mostlyclean-recursive realclean-recursive:
+	for subdir in $(SUBDIRS); do \
+	  target=`echo $@|sed 's/-recursive//'`; \
+	  echo making $$target in $$subdir; \
+	  (cd $$subdir && $(MAKE) $$target) || exit 1; \
+	done
+
+mostlyclean-local:
+
+clean-local: mostlyclean-local
+
+distclean-local: clean-local
+	rm -f Makefile config.cache config.h config.log stamp-h distname
+
+realclean-local: distclean-local
+
+distname: src/version.c
+	echo sh-utils-`sed -e '/version_string/!d' \
+	    -e 's/[^0-9.]*\([0-9.a-z]*\).*/\1/' -e q src/version.c` > $@-tmp
+	mv $@-tmp $@
+
+distdir = `cat distname`
+dist: $(DISTFILES) distname
+	rm -rf $(distdir)
+	mkdir $(distdir)
+	for file in $(DISTFILES); do \
+	  ln $$file $(distdir) \
+	    || { echo copying $$file instead; cp -p $$file $(distdir);}; \
+	done
+	for subdir in $(SUBDIRS); do \
+	  mkdir $(distdir)/$$subdir || exit 1; \
+	  (cd $$subdir && $(MAKE) $@) || exit 1; \
+	done
+	tar --gzip -chvf $(distdir).tar.gz $(distdir)
+	rm -rf $(distdir) distname
+
+# For the justification of the following Makefile rules, see node
+# `Automatic Remaking' in GNU Autoconf documentation.
+
+Makefile: config.status Makefile.in
+	CONFIG_FILES=$@ CONFIG_HEADERS= ./config.status
+
+config.h: stamp-h
+stamp-h: config.status $(srcdir)/config.h.in
+	CONFIG_FILES= CONFIG_HEADERS=config.h ./config.status
+	date > stamp-h
+
+config.status: configure
+	./config.status --recheck
+configure: configure.in
+	cd $(srcdir) && autoconf
+config.h.in: stamp-h.in
+stamp-h.in: configure.in
+	cd $(srcdir) && autoheader
+# Use echo instead of date to avoid spurious conflicts for
+# people who use CVS, since stamp-h.in is distributed.
+	echo > $(srcdir)/$@
+
+# Tell versions [3.59,3.63) of GNU make not to export all variables.
+# Otherwise a system limit (for SysV at least) may be exceeded.
+.NOEXPORT:

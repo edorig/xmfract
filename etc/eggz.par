@@ -1,0 +1,102 @@
+Eggzactly!         { ; You must be yoking... (C)1993 Peter Moreland 100012,3213
+  reset type=tim's_error function=sqr
+  corners=-1.207252452/-1.087561701/-0.0635867674/-0.2180058723/-1.0877397\
+  04/-0.218058332 float=y maxiter=25 bailout=10 outside=real
+  decomp=256 biomorph=256
+  colors=000310521342641333533355653930D30961D51963D73783A82D91FC1A94D94BC\
+  4ED44789785ABA99DA8AD8ED8AACDBCADDEDCG30H61L71H73L74P74HA2L92ID2LF2H94LA\
+  4HD5LD5QC5HB7LB7ID8ME8HABHECLECPB7SB8PE8TE8QFBUFBFG5EHAJG2MG2IG5MH4NK5PI\
+  2UH2RK2TL2PI3TH5QL4TM4UO5IH8MH9IK9ML9IHDMICILCMLDQH9TH9PL9UL9PICTICQLDUL\
+  DMPDSPB37I5EICEH4ERAEPIEHPFIHEN6GLEHJFPL6IQ9KSCPTIHGLIGJLHMLGHIKLIKHKLML\
+  KRLHLPJTPJJLPQMPLPRRRQXE5XD9YL4YQ5dP5YKCdKBZPCeRBZMGdMHYPH`PHXTHaSIXQKaQ\
+  KXTLaTKeRKYMQZTPfTPkTMlUQUXIUXRYWDfX9_YLdXM`XSfYSecRmXTlfR4FV6IW8MW9OYJN\
+  WRNWMQXSTYKRcRVbYUXfUXUX_UYd_ZZeYWiYWe`Wh`XeZ_iY_ea_ia_acZgd_Z`efaeadggf\
+  fn`YsaZnd_tc`nbcsbcnfeufeikhnlhtlhZbjdbjaflfimairnjkujjhlpimrlllpllnolpo\
+  lmmoqnomoppppunortquuonpswrsqtwuttxttxwttvxyvvuxyzzy<24>zzy
+  }
+
+Vortex......       { ; "They are moving right into the vortex!" (C)1993 PGM
+                     ; (c)1993  Peter Moreland 100012,3213
+  reset type=julia(fn||fn) function=recip/conj
+  corners=-7.395582/-7.086847/-0.432864/-0.201313 params=1/-0.33/0.25
+  float=y maxiter=20000 bailout=500 decomp=256
+  colors=000QEF<11>G2JF0KF0K<11>I0NI0NI0NI0OI0OI0P<33>Q0XR0YR0YR0ZR0Z<6>T0\
+  bT0bU1bU2c<62>zzzzzzzzy<60>zz1zz0zy0yx0<45>QFF
+  }
+
+Unt_now_ze_spore.. { ; Is almost sepurayted from ze Mudder podz (C)1993 PGM
+  reset type=mandelcloud
+  corners=-1.000177/0.310754/-0.898242/0.930816/-1.406189/-0.356892
+  params=100 float=y outside=summ finattract=y
+  colors=000QQQ<145>yyy000<106>QQQ
+  }
+
+In_the_Abyss       { ; Extra-terrestrial Jelly-fish! (C)1993 Peter Moreland
+                     ; Data 486 | 33 | Y | SF7 | 17.31(5) | 0:2:22.91
+                     ; Produced 31.1.93
+                     ; Map = Joe
+  reset type=mandelcloud
+  corners=-0.833158/-1.151253/0.437465/-0.407465/-0.542105/0.049396
+  params=350 float=y maxiter=55 outside=summ
+  colors=0004FW6IX8MX9OZJNXRNXMQYSTZKRdRVcYUYfUYUX`UYe_Z_eYXiYXe`Xh`YeZ`iY\
+  `ea`ia`hb`gd`Z`ffafadhgfgn`Zsa_nd`tcanbdsbdnffuff<2>tliZbkdbkafmfinaisnj\
+  lujkhlqimsllmplmnompommmpqnpmoqppqunprtruupnptwrtqtxutuxtuxwutvyyvwuxzzz\
+  z<24>zzz311522343642334534356654931D31962D52964D74784A83D92FC2A95D95BC5E\
+  D54799795ACA9ADA9AD9ED9AADDBDADEEDDG31H62L72H74L75P75HA3L93ID3LF3H95LA5H\
+  D6LD6QC6HB8LB8ID9ME9HACHEDLEDPB8SB9PE9TE9QFCUFCFG6EHBJG3MG3IG6MH5NK6PI3U\
+  H3RK3TL3PI4TH6QL5TM5UO6IH9MHAIKAMLAIHEMIDILDMLEQHATHAPLAULAPIDTIDQLEULEM\
+  PESPC37J5EJCEI4ESAEQIEIPFJHEO6GMEHKFPM6IR9KTCPUIHHLIHJLIMLHHILLILHKMMLLR\
+  LILPKTPKJLQQMQLPSRRRXE6XDAYL5YQ6dP6YKDdKCZPDeRCZMHdMIYPI`PIXTIaSJXQLaQLX\
+  TMaTLeRLYMRZTQfTQkTNlURUXJUXSYWEfXA_YMdXN`XTfYTecSmXUlfS
+  }
+
+Those_who_wait..   { ; Lets go another cycle (C)1993 Peter Moreland 100012,3213
+  reset type=manzpower
+  corners=-5.882403/-2.387035/2.927974/1.783493/-4.074716/0.517733
+  params=5/-1.87/6/3.5 float=y maxiter=32000 bailout=500 inside=bof61
+  potential=255/50/0 decomp=256 biomorph=0 finattract=y
+  colors=000_Bg<51>zzzzzzzzy<60>zz1zz0zy0yx0<2>wu1R0`<57>F0KF0KF0L<22>L0RM\
+  0RM0RM0SM0SN0S<25>T0_T0`T0`T0aT0aT0bT0b<2>V2dW2eW3eW4e<5>ZAf
+  }
+
+Dr_Strange         { ; Opens the portal to the "other" side...
+                     ; (C)1993 Peter Moreland 100012,3213
+  reset type=fn(z)+fn(pix) function=cosxx/cosxx
+  corners=-2.63207014/-2.637028/-3.2676404/-3.26625333/-2.63452077/-3.2643\
+  729 params=0.7/5/1/0.5 float=y maxiter=500 bailout=500
+  colors=000BEd<3>9GbV0z<19>fFofGngHngHn<2>iKkjKkjLjkMjkMi<20>xaYxbYycXycX\
+  ybXyaX<41>hHmgGngGngGn<67>00B00B00C<65>G9jHAkHAj<9>CEe
+  }
+
+The_Final_Curtain  { ; Regrets, I have a few, but then again, Sid Lives! <g>.
+                     ; (c)1993 Peter Moreland,  CIS Address 100012,3213
+                     ;
+  reset type=manlam(fn||fn) function=sqr/conj
+  corners=-1.078314/-0.623828/0.775666/0.47905/-0.772323/0.367679
+  params=1.76/0/10 float=y maxiter=500 bailout=90
+  colors=LSU6KM<58>inujovinu<164>JRTIRTIRTHRTHRT<23>8MP
+  }
+
+Who_pulled_the.... { ; Plug!  Oh well, there goes the galaxy...
+                     ; (C)1993 Peter Moreland 100012,3213
+                     ;
+  reset type=frothybasin
+  corners=0.4968056/0.6382582/0.3680705/0.5064456/0.4813085/0.3887334
+  params=6 float=y maxiter=5000 decomp=256 distest=5/71 finattract=y
+  colors=@froth6.map
+  }
+
+Gee_is_that....    { ; Some kind of Mother ship? (C)1993 Peter Moreland
+  reset type=mandelcloud
+  corners=-1.601102/0.713485/1.694544/-1.689638/0.856557/-1.582334
+  params=100 float=y
+  colors=0000GzVVz<3>zVz<2>zVzzVr<3>zzr<3>VzrVzz<2>Vzz<2>Vbzhhz<3>zhz<3>zh\
+  z<3>zzz<3>hzz<3>hzz<2>hlz00o<3>S0o<3>S0O<3>SSO<3>0SO<3>0So<2>07oEEo<3>SE\
+  o<3>SEa<3>SSa<3>ESa<3>ESo<2>EHoKKo<2>QKoSKoSKmSKkSKiSKg<2>SQgSSgQSgOSgMS\
+  gKSg<2>KSmKSoKQoKOoKMo00c<3>G0c<3>G0O<3>GGO<3>0GO<3>0Gc<2>04c88c<2>E8cG8\
+  cG8aG8_G8YG8W<2>GEWGGWEGWCGWAGW8GW<2>8Ga8Gc8Ec8Cc8AcBBc<2>FBcGBcGBbGB`GB\
+  _GBZ<2>GFZGGZFGZDGZCGZBGZ<2>BGbBGcBFcBDcBCc8Gz<2>8Gz8Gz8Ez8Cz8Az00z0eO0e\
+  ze0Oe0zeLOeezLLhLLzLzhLzzzLhzLzzzhzzz00O55T<3>HHdKKgOOkSSo<2>cczhhzmmzss\
+  zzzz00z<3>z0zz0zz0rz0cz0O<3>zzO<3>0zO0zc0zr0zz0zz0jz0Vz
+  }
+
